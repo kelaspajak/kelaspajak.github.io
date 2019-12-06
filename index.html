@@ -6,17 +6,16 @@ layout: default
     <div class="pb-0 pt-md-4 py-lg-6">
       <div class="d-md-flex flex-md-items-center flex-md-row-reverse flex-md-justify-center gutter-md-spacious">
         <div class="col-md-8 text-center text-md-left">
-          <h1 class="alt-h2 text-uppercase lh-condensed text-brand-blue">Probot</h1>
-          <h2 class="alt-h2 lh-condensed">
-            GitHub Apps to automate <br>and improve your workflow
+          <h1 class="alt-h2 text-uppercase lh-condensed text-brand-blue">{{ site.title }}</h1>
+          <h2 class="alt-lead lh-condensed">
+            Resume <br>Tanya Jawab <br> Aspek Perpajakan
           </h2>
           <p class="alt-lead text-gray-light mt-2 lh-condensed" style="opacity: 0.6">
-            Use pre-built apps to extend GitHub,<br>
-            and easily build and share your own.
+            {{ site.description }}
           </p>
         </div>
         <div class="col-3 mx-auto mx-md-0 offset-md-1 text-center text-md-right">
-          <img src="/assets/logo.png" class="width-fit" alt="Probot logo">
+          <img src="/assets/undraw_resume_folder_2_arse.png" class="width-fit" alt="{{ site.title }} logo">
         </div>
       </div>
     </div>
@@ -27,13 +26,13 @@ layout: default
   <div class="container-lg px-3 page-section">
     <h2 class="alt-h1 text-center">Explore</h2>
     <p class="lead text-center col-md-7 col-sm-10 mx-auto">
-      Check out these hosted apps that extend your project on GitHub. They're all open source and free to use on any project.
+      Cek feature dibawah ini
     </p>
 
     <div class="d-md-flex flex-wrap gutter flex-auto">
-      {% assign apps = site.apps | sort: 'installations' | reverse %}
-      {% for app in apps limit:6 %}
-        {% include app.html app=app %}
+      {% assign aplikasis = site.aplikasis | sort: 'installations' | reverse %}
+      {% for aplikasi in aplikasis  limit:3 %}
+        {% include aplikasi.html aplikasi=aplikasi %}
       {% endfor %}
     </div>
 

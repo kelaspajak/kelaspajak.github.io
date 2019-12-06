@@ -1,5 +1,5 @@
-title: Probot
-description: GitHub Apps to automate and improve your workflow
+title: KelasPajakWithLess
+description: Mudahnya belajar perpajakan Indonesia
 permalink: pretty
 
 exclude:
@@ -23,19 +23,11 @@ sass:
     - node_modules/**/*/node_modules
 
 collections:
-  apps:
-    output: true
-    permalink: /apps/:name/
   aplikasis:
     output: true
     permalink: /aplikasi/:name/
 
 defaults:
-  - scope:
-      path: ""
-      type: apps
-    values:
-      layout: app
   - scope:
       path: "docs"
     values:
