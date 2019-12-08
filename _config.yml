@@ -25,7 +25,7 @@ sass:
 collections:
   features:
     output: true
-    permalink: /:collection/:path/
+    permalink: /feature/:path/
   docs:
     output: true
     permalink: /:collection/:path/

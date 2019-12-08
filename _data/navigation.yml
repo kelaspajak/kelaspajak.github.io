@@ -1,10 +1,10 @@
 docs:
   - title: Resume
     children:
-      - title: Resume KUP"
-        url: /resume-kup/
+      - title: "Resume KUP"
+        url: /features/resume-kup/
       - title: "PPh"
-        url: /resume-ppn/
+        url: /features/resume-ppn/
  
   - title: TanyaJawab
     children:
