@@ -2,9 +2,9 @@ docs:
   - title: Resume
     children:
       - title: "Resume KUP"
-        url: /features/resume-kup/
+        url: /feature/resume-kup/
       - title: "PPh"
-        url: /features/resume-ppn/
+        url: /feature/resume-ppn/
  
   - title: TanyaJawab
     children:
