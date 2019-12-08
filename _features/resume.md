@@ -14,6 +14,7 @@ installations: 100
 organizations:
 - Eugeny
 - bootstrap-vue
+svg-images: undraw_live_collaboration_2r4y.png
 ---
 
 ✨ Resume UU perpajakan yang disusun dari aturan perpajakan tertinggi hingga aturan pelaksanaan

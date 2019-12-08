@@ -1,10 +1,10 @@
-Getting Started:
+Resume:
   - docs/README.md
   - docs/hello-world.md
   - docs/development.md
   - docs/webhooks.md
   - docs/github-api.md
-Advanced:
+TanyaJawab:
   - docs/http.md
   - docs/simulating-webhooks.md
   - docs/testing.md
@@ -15,12 +15,29 @@ Advanced:
   - docs/deployment.md
   - docs/persistence.md
   - docs/best-practices.md
-Reference:
-  - title: Application
-    url: "https://probot.github.io/api/latest/classes/application.html"
-  - title: context
-    url: "https://probot.github.io/api/latest/classes/context.html"
-  - title: context.github
-    url: "http://octokit.github.io/rest.js/"
-  - title: GitHub Webhook Events
-    url: "https://developer.github.com/webhooks/#events"
+Resume:
+  - title: KUP
+    url: "resume-kup" 
+  - title: PPh
+    url: "resume-pph"
+  - title: PPN & PTLL
+    url: "resume-ppn"
+  - title: PBB
+    url: "resume-pbb"
+  - title: Bea Meterai
+    url: "resume-bea-meterai"
+  - title: Pengampunan Pajak
+    url: "resume-pengampunan-pajak"
+TanyaJawab:
+  - title: KUP
+    url: "tanya-jawab-kup" 
+  - title: PPh
+    url: "tanya-jawab-pph"
+  - title: PPN & PTLL
+    url: "tanya-jawab-ppn"
+  - title: PBB
+    url: "tanya-jawab-pbb"
+  - title: Bea Meterai
+    url: "tanya-jawab-bea-meterai"
+  - title: Pengampunan Pajak
+    url: "tanya-jawab-pengampunan-pajak"
