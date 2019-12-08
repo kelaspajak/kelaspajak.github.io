@@ -27,3 +27,8 @@ figure {
 .Container-max-400{
   width: 250px;
 }
+
+.toc-wrap li.active a {
+  color: #EF4136;
+  cursor: default;
+}
