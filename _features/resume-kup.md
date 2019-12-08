@@ -1,5 +1,5 @@
 ---
-title: Resume KUP
+title: KUP
 description: Kumpulan resume perpajakan dari A sampai R
 slug: resume-kup
 icon:
@@ -16,7 +16,8 @@ organizations:
 - testing-library
 - virgili0
 svg-images: undraw_Design_process_68d0.png
-layout: pages
+fitur : 2
+categories: "resume"
 ---
 
 ✨ Resume UU perpajakan yang disusun dari aturan perpajakan tertinggi hingga aturan pelaksanaan

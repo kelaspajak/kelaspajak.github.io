@@ -23,12 +23,12 @@ sass:
     - node_modules/**/*/node_modules
 
 collections:
-  aplikasis:
-    output: true
-    permalink: /aplikasi/:name/
   features:
     output: true
-    permalink: /feature/:name/
+    permalink: /:collection/:path/
+  docs:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   - scope:
@@ -37,14 +37,9 @@ defaults:
       layout: docs
   - scope:
       path: ""
-      type: aplikasis
-    values:
-      layout: aplikasi
-  - scope:
-      path: ""
       type: features
     values:
-      layout: feature
+      layout: pages
 
 plugins:
   - jekyll-mentions

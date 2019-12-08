@@ -30,8 +30,10 @@ layout: default
       </p>
       <div class="d-md-flex flex-wrap gutter flex-auto">
         {% assign features = site.features | sort: 'installations' %}
-        {% for feature in features  limit:3 %}
+        {% for feature in features %}
+          {% if feature.fitur == 1 %}
           {% include feature.html feature=feature %}
+          {% endif %}
         {% endfor %}
       </div>
     </div>

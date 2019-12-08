@@ -11,6 +11,7 @@ stars:
 updated: 2019-12-07 10:13:02 UTC
 host: https://gkioebvccg.execute-api.us-east-1.amazonaws.com/prod
 installations: 300
+fitur : 1
 organizations:
 - nuxt-community
 - testing-library
