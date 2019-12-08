@@ -259,7 +259,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
+  github-pages (= 203)
   html-proofer
   jekyll (~> 3.8)
   jekyll-mentions
