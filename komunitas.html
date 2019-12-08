@@ -1,0 +1,68 @@
+---
+layout: default
+title: Komunitas
+office_hours_link: https://github.zoom.us/j/221410810
+redirect_from:
+  - /contribute/
+links:
+- octicon: unmute
+  pretext: "Listen to the podcast with @hiimbex & @bdougie"
+  title: "Frontsize 105: Automating GitHub with Probot"
+  href: https://frontside.io/podcast/105-automating-github-with-probot/
+- octicon: unmute
+  pretext: "Listen to the podcast with @bkeepers & @hiimbex"
+  title: "The Changelog #264: Automating GitHub with Probot"
+  href: https://changelog.com/podcast/264
+- octicon: device-camera-video
+  pretext: "Watch the talk at GitHub Universe from @jbjonesjr"
+  title: "Extending with GitHub: easy integrations with Probot"
+  href: https://www.youtube.com/watch?v=AJXDdkd9U7M
+- octicon: device-camera-video
+  pretext: "Watch the talk at Node Summit from @hiimbex"
+  title: "Automating your Workflow with Probot"
+  href: https://vimeo.com/287507595
+---
+
+<div class="container-lg px-3 featurette">
+  <h1 class="alt-h2 text-center">Gabung bersama komunitas</h1>
+  <p class="alt-lead col-md-8 text-center text-gray mx-auto">
+    komunitas perpajakan terbesar, kami mengajak anda untuk bergabung bersama kami.
+  </p>
+
+  <div class="text-center mt-6">
+    <a class="btn btn-outline d-inline-block mb-1 mb-md-0 mr-0 mr-md-3" href="https://t.me/diskusipajak">
+      Grup DiskusiPajak
+    </a>
+
+    <a class="btn btn-outline d-inline-block mb-1 mb-md-0 mr-0 mr-md-3" href="https://t.me/tutorialpajak">
+      Channel DiskusiPajak
+    </a>
+
+    <a class="btn btn-outline d-inline-block mb-1 mb-md-0 mr-0 mr-md-3" href="https://facebook.com/diskusipajak">
+      Pages DiskusiPajak
+    </a>
+
+    <a class="btn btn-outline d-inline-block mb-1" href="https://facebook.com/group/diskusipajak">
+      Grup DiskusiPajak
+    </a>
+  </div>
+
+ 
+  {% comment %}
+  <div class="mt-6 border-top container-md py-4">
+    <div class="d-flex gutter flex-wrap">
+      {% for link in page.links %}
+      <div class="col-md-6 col-12 mb-4">
+        {{ link.pretext }}:<br>
+        {% octicon {{ link.octicon }} class:"mr-2 text-gray" %}
+        <a href="{{ link.href }}">{{ link.title }}</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+
+<script src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async></script>
+{% endcomment %}

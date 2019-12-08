@@ -26,6 +26,9 @@ collections:
   aplikasis:
     output: true
     permalink: /aplikasi/:name/
+  features:
+    output: true
+    permalink: /feature/:name/
 
 defaults:
   - scope:
@@ -37,6 +40,11 @@ defaults:
       type: aplikasis
     values:
       layout: aplikasi
+  - scope:
+      path: ""
+      type: features
+    values:
+      layout: feature
 
 plugins:
   - jekyll-mentions
