@@ -1,6 +1,5 @@
 ---
-title: Aspek Pajak
-description: Aspek Perpajakan per Industri, pohon industri, proses bisnis
+title: Saat Dimulainya Kewajiban Perpajakan
 filetipe: 
 - word
 - pdf

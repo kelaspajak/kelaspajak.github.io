@@ -28,13 +28,13 @@ collections:
     permalink: /feature/:path/
   docs:
     output: true
-    permalink: /:collection/:path/
+    permalink: /docs/:path/
 
 defaults:
   - scope:
       path: "docs"
     values:
-      layout: docs
+      layout: pages
   - scope:
       path: ""
       type: features

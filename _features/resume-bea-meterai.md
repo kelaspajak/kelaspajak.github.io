@@ -1,7 +1,7 @@
 ---
-title: KUP
-description: Kumpulan resume perpajakan dari A sampai R
-slug: resume-kup
+title: Bea Meterai
+description: Kumpulan resume UU Bea Meterai dari A sampai R
+slug: resume-bea-meterai
 icon:
 - https://raw.githubusercontent.com/all-contributors/all-contributors/master/docs/assets/bot-usage.png
 authors:
@@ -21,12 +21,3 @@ categories: "resume"
 ---
 
 ✨ Resume UU perpajakan yang disusun dari aturan perpajakan tertinggi hingga aturan pelaksanaan
-
-{% for docs in site.docs %}
-  <h2>
-    <a href="{{ docs.url }}">
-      {{ docs.title }} - {{ docs.categories }}
-    </a>
-  </h2>
-  <p>{{ docs.content | markdownify }}</p>
-{% endfor %}

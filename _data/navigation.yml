@@ -1,22 +1,32 @@
 docs:
   - title: Resume
     children:
-      - title: "Resume KUP"
+      - title: "KUP"
         url: /feature/resume-kup/
       - title: "PPh"
         url: /feature/resume-pph/
+      - title: "PPN & PPn BM"
+        url: /feature/resume-ppn/
+      - title: "PBB"
+        url: /feature/resume-pbb/
+      - title: "Bea Meterai"
+        url: /feature/resume-bea-meterai/
+      - title: "Pengampunan Pajak"
+        url: /feature/resume-pengampunan-pajak/
  
   - title: TanyaJawab
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
+      - title: "KUP"
+        url: /docs/resume-kup/
+      - title: "PPh"
+        url: /docs/resume-pph/
+      - title: "PPN & PPn BM"
+        url: /docs/resume-ppn/
+      - title: "PBB"
+        url: /docs/resume-pbb/
+      - title: "Bea Meterai"
+        url: /docs/resume-bea-meterai/
+      - title: "Pengampunan Pajak"
+        url: /docs/resume-pengampunan-pajak/
 
   - title: Aspek Pajak
