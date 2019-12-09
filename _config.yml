@@ -32,7 +32,8 @@ collections:
 
 defaults:
   - scope:
-      path: "docs"
+      path: ""
+      type: docs
     values:
       layout: pages
   - scope:

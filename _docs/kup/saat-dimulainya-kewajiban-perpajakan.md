@@ -7,6 +7,8 @@ categories:
 - resume
 tagging:
 - kup
+topik:
+- 00-umum
 authors:
 - lesssummer
 updated: 2019-12-07 10:13:02 UTC

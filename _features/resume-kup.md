@@ -21,10 +21,11 @@ categories: "resume"
 ---
 
 ✨ Resume UU perpajakan yang disusun dari aturan perpajakan tertinggi hingga aturan pelaksanaan
-
-{% for docs in site.docs %}
+{% assign docs = site.docs | where: "tagging","kup" %}
+{% assign docs = site.docs | sort: 'topik' | reverse %}
+{% for docs in docs %}
   <h2>
-    <a href="{{ docs.url }}">
+    <a href="{{ docs.link }}">
       {{ docs.title }} - {{ docs.categories }}
     </a>
   </h2>

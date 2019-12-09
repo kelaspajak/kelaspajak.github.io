@@ -8,12 +8,10 @@ categories:
 tagging:
 - kup
 topik:
-- umum
+- 00-umum
 authors:
 - lesssummer
 updated: 2019-12-07 10:13:02 UTC
-link: https://gkioebvccg.execute-api.us-east-1.amazonaws.com/prod
+link: https://docs.google.com/document/d/1DI_KPxDC9qVNyBL8zCwHF__0uNqU1PNpPJGkplcgWMA/edit?usp=sharing
 urutan: 2
 ---
-
-Kisah Singkat Sahabat Rasul Yang Dijamin Masuk Surga - Ust.Abu Humairoh
