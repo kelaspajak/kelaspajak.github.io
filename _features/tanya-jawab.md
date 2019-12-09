@@ -16,7 +16,7 @@ organizations:
 - i0natan
 - kentcdodds
 - react-boilerplate
-svg-images: undraw_instant_support_elxh.png
+svg-images: messages.png
 ---
 
 ✨ Resume UU perpajakan yang disusun dari aturan perpajakan tertinggi hingga aturan pelaksanaan

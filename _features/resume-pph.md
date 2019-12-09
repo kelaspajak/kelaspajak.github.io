@@ -15,7 +15,7 @@ organizations:
 - nuxt-community
 - testing-library
 - virgili0
-svg-images: undraw_Design_process_68d0.png
+svg-images: bug.png
 fitur : 2
 categories: "resume"
 ---

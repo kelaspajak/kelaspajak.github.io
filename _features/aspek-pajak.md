@@ -16,7 +16,7 @@ organizations:
 - nuxt-community
 - testing-library
 - virgili0
-svg-images: undraw_Design_process_68d0.png
+svg-images: factory.png
 ---
 
 ✨ Resume UU perpajakan yang disusun dari aturan perpajakan tertinggi hingga aturan pelaksanaan
