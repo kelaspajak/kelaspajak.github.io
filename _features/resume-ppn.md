@@ -19,11 +19,11 @@ svg-images: bug.png
 fitur : 2
 categories: "resume"
 ---
-{% for entry in site.data.toc-resume-ppn.ppn %}
+{% for entry in site.data.resume.ppn %}
 
   <div>
     <div>
-      <h4>{{entry.title}}</h4>
+      <h4><a href="{{entry.url}}">{{entry.title}}</a></h4>
     </div>
     <div>
       <ul class=" no-underline" class="reading-list {{entry.year}}">
