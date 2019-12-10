@@ -28,3 +28,24 @@ Let’s divert a bit before we get into Jekyll. I believe you can remove all the
 The core idea is that of an object: some unit of content that holds together across a site. For example, a blog post or a person would be an object on a site.
 Objects have attributes that define them. A blog post could have a title, a body of content, an author. A person could have a name, a photo, a bio.
 Objects have relationships that determine where they end up on a site, and layouts have logic that defines which attributes of an object are used and where. Our example blog post object is connected to a person object because its author is a person. We output the author’s name and a link to their profile on the post page, and we output their full bio on their profile page.
+
+
+{% for entry in site.data.toc-resume-pph.list %}
+
+  <div class="year-container">
+    <div class="year">
+      <h4>{{entry.year}}</h4>
+      <div class="number">{{entry.books | size}} books</div>
+    </div>
+    <div class="books">
+      <ul class="reading-list {{entry.year}}">
+        {% for book in entry.books %}
+          <li>
+            <a href="{{book.link}}" alt="_blank" rel="nofollow noopener">{{book.title}}</a> <span class="author">by {{book.author}}</span>{% if book.star %}<span class="star">★</span>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  
+{% endfor %}
