@@ -18,4 +18,24 @@ organizations:
 svg-images: file.png
 ---
 
-✨ Resume UU perpajakan yang disusun dari aturan perpajakan tertinggi hingga aturan pelaksanaan
+### Halo dis is the baik
+
+{% for entry in site.data.resume.ppn %}
+
+  <div>
+    <div>
+      <h4><a href="{{entry.url}}">{{entry.title}}</a></h4>
+    </div>
+    <div>
+      <ul class=" no-underline">
+        {% for subfolderitems in entry.subfolderitems %}
+          <li>
+            <a href="{{subfolderitems.url}}" alt="_blank" rel="nofollow noopener">{{subfolderitems.page}}</a> {% if subfolderitems.icon %}<span class="star">★</span>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+  
+{% endfor %}

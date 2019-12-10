@@ -3,10 +3,13 @@ docs:
     children:
       - title: "KUP"
         url: /feature/resume-kup/
+        sluggish: resume.kup
       - title: "PPh"
         url: /feature/resume-pph/
+        sluggish: resume.pph
       - title: "PPN & PPn BM"
         url: /feature/resume-ppn/
+        sluggish: resume.ppn
       - title: "PBB"
         url: /feature/resume-pbb/
       - title: "Bea Meterai"

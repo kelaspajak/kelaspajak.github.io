@@ -17,7 +17,27 @@ organizations:
 - virgili0
 svg-images: bug.png
 fitur : 2
+topik: ppn
 categories: "resume"
 ---
 
-✨ Resume UU perpajakan yang disusun dari aturan perpajakan tertinggi hingga aturan pelaksanaan
+✨ halaman ini berdasarkan navigation.yml
+{% for entry in site.data.resume.[page.topik] %}
+
+  <div>
+    <div>
+      <h4><a href="{{entry.url}}">{{entry.title}}</a></h4>
+    </div>
+    <div>
+      <ul class="no-underline" class="reading-list {{entry.year}}">
+        {% for subfolderitems in entry.subfolderitems %}
+          <li>
+            <a href="{{subfolderitems.url}}" alt="_blank" rel="nofollow noopener">{{subfolderitems.page}}</a> {% if subfolderitems.icon %}<span class="star">★</span>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+  
+{% endfor %}
