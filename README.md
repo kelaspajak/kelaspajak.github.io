@@ -14,3 +14,34 @@ Type `ideos Webcasts Whitepapers`
 
 #### icon
 - https://www.flaticon.com/free-icon/file_595496?term=file&page=1&position=29 file
+
+
+{% assign topiks = site.data.resum.kup | group_by: 'topik' %}
+{% for topiks in topiks %}
+    <h4>{{ topiks.name }}</h4>    
+{% endfor %}
+
+<--berhasil untuk subtopik -->
+{% assign subtopik = site.data.resum.kup | group_by: 'subtopik' %}
+{% for subtopik in subtopik %}
+<h4>{{ subtopik.name }}</h4>
+    <ul>
+        {% assign titles = site.data.resum.kup | where: "subtopik", subtopik.name %}
+        {% for titles in titles %}
+            <li><a href="{{ titles.url }}">{{ titles.title }}</a></li>
+        {% endfor %}
+    </ul>
+{% endfor %}
+
+<--bisa tapi gak sorting-->
+
+{% assign topiks = site.data.resum.kup | group_by: 'topik' %}
+{% for topiks in topiks %}
+<h4>{{ topiks.name }}</h4> 
+    <ul>
+        {% assign subtopiks = site.data.resum.kup | where: "subtopik", topiks.name %}
+            {% for subtopik in subtopiks %}
+            <li>{{ subtopik.subtopik }}</li>
+            {% endfor %}
+    </ul> 
+{% endfor %}

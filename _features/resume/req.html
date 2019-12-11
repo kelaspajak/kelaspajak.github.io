@@ -1,0 +1,14 @@
+---
+title: Resume KUP
+layout: pages
+---
+{% assign topik = site.data.resum.kup | group_by: 'topik' %}
+{% for topik in topik %}
+    <h4>{{ topik.name }}</h4>
+        <ul>
+            {% assign subtopiks = site.data.resum.kup | where: "subtopik", topik.name %}
+            {% for subtopiks in subtopiks %}
+                <li><a href="{{ subtopiks.url }}">{{ subtopiks.subtopik }}</a></li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
