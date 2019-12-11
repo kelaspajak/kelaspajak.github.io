@@ -45,3 +45,28 @@ Type `ideos Webcasts Whitepapers`
             {% endfor %}
     </ul> 
 {% endfor %}
+
+
+
+{% assign subtopik = site.data.resum.kup | group_by: 'subtopik' %}
+{% for subtopik in subtopik %}
+    {% if subtopik.name %}
+        <h4>-----{{ subtopik.name }}----</h4>
+        <ul>
+            {% assign titles = site.data.resum.kup | where: "subtopik", subtopik.name %}
+            {% for titles in titles %}
+                <li><a href="{{ titles.url }}">{{ titles.title }}</a></li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endfor %}
+
+<!-- bisa jalan topik dan title -->
+{% assign topik = site.data.resum.kup | group_by: 'topik' %}
+{% for topik in topik %}
+    <h3>###{{ topik.name }}</h3>
+    {% assign titles = site.data.resum.kup | where: "topik", topik.name %}
+    {% for titles in titles %}
+        <li><a href="{{ titles.url }}">{{ titles.title }}</a></li>
+    {% endfor %}
+{% endfor %}
