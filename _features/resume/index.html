@@ -1,0 +1,17 @@
+---
+title: PPN & PPn BM
+description: Kumpulan resume perpajakan PPN & PPn BM
+slug: resume
+---
+{% assign doclist = site.data.navigation.docs | where: 'title', 'Resume'  %}
+{% for item in doclist %}
+<div class="alt-h2">{{ item.title }}</div>
+<div class="tex-gray mb-4">{{ item.description }}</div>
+<div class="mb-4">
+    <ul>
+        {% for entry in item.children %}
+        <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+{% endfor %}

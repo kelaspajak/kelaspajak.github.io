@@ -11,3 +11,6 @@ Find resources by:
 Topic `AWS CI Data Science DevOps Enterprise Cloud Enterprise Server InnerSource Open Source Security`
 Industry `Automotive Federal Financial Services`
 Type `ideos Webcasts Whitepapers`
+
+#### icon
+- https://www.flaticon.com/free-icon/file_595496?term=file&page=1&position=29 file

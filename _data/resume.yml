@@ -1,31 +1,59 @@
+kup:
+  - title: Umum
+    url: /feature/resume-kup/
+  - title: Dokumen yang Wajib Disimpan oleh Wajib Pajak yang Melakukan Transaksi dengan Pihak Afiliasi
+    url: /feature/resume-kup/
+  - title: Umum
+    children:
+    - title: Kode Klasifikasi Lapangan Usaha (KLU)
+      url: /feature/resume-kup/
+    - title: Layanan unggulan bidang perpajakan
+      url: /feature/resume-kup/
+    - title: Surat Keterangan Fiskal (SKF)
+      url: /feature/resume-kup/
+    - title: Permintaan Penjelasan atas Data dan/atau Keterangan dan Kunjungan (Visit) kepada Wajib Pajak.
+      url: /feature/resume-kup/
+    - title: Tindak Lanjut Surat Himbauan
+      url: /feature/resume-kup/
+    - title: Surat Kuasa Khusus
+      url: /feature/resume-kup/
+    - title: Penentuan SPDN dan SPLN
+      url: /feature/resume-kup/
+    - title: Jenis Pelayanan Kepada WP yang Diberikan oleh KPP dan Kanwil DJP
+      url: /feature/resume-kup/
+    - title: Tata cara verifikasi
+      url: /feature/resume-kup/
+    - title: DJP Online
+      url: /feature/resume-kup/
+    - title: Konfirmasi Status Wajib Pajak
+      url: /feature/resume-kup/
+
 ppn:
   - title: Umum
     url: /feature/resume-kup/
   - title: Dokumen yang Wajib Disimpan oleh Wajib Pajak yang Melakukan Transaksi dengan Pihak Afiliasi
     url: /feature/resume-kup/
   - title: Umum
-    subfolderitems:
-    - page: Kode Klasifikasi Lapangan Usaha (KLU)
-      url: https://github.com/features
-      icon: 1
-    - page: Layanan unggulan bidang perpajakan
-      url: https://help.github.com/en/actions/automating-your-workflow-with-github-actions
-    - page: Surat Keterangan Fiskal (SKF)
-      url: https://help.github.com/en/actions/automating-your-workflow-with-github-actions
-    - page: Permintaan Penjelasan atas Data dan/atau Keterangan dan Kunjungan (Visit) kepada Wajib Pajak.
+    children:
+    - title: Kode Klasifikasi Lapangan Usaha (KLU)
       url: /feature/resume-kup/
-    - page: Tindak Lanjut Surat Himbauan
+    - title: Layanan unggulan bidang perpajakan
       url: /feature/resume-kup/
-    - page: Surat Kuasa Khusus
+    - title: Surat Keterangan Fiskal (SKF)
       url: /feature/resume-kup/
-    - page: Penentuan SPDN dan SPLN
+    - title: Permintaan Penjelasan atas Data dan/atau Keterangan dan Kunjungan (Visit) kepada Wajib Pajak.
       url: /feature/resume-kup/
-    - page: Jenis Pelayanan Kepada WP yang Diberikan oleh KPP dan Kanwil DJP
+    - title: Tindak Lanjut Surat Himbauan
       url: /feature/resume-kup/
-    - page: Tata cara verifikasi
+    - title: Surat Kuasa Khusus
       url: /feature/resume-kup/
-    - page: DJP Online
+    - title: Penentuan SPDN dan SPLN
       url: /feature/resume-kup/
-      icon: 1
-    - page: Konfirmasi Status Wajib Pajak
+    - title: Jenis Pelayanan Kepada WP yang Diberikan oleh KPP dan Kanwil DJP
+      url: /feature/resume-kup/
+    - title: Tata cara verifikasi
+      url: /feature/resume-kup/
+    - title: DJP Online
+      url: /feature/resume-kup/
+    - title: Konfirmasi Status Wajib Pajak
       url: /feature/resume-kup/

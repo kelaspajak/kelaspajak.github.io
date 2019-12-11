@@ -6,7 +6,7 @@ layout: default
   <div class="bg-gray py-6">
     <div class="container-lg mx-auto d-flex flex-column flex-sm-row flex-items-center text-center text-sm-left gutter-sm-spacious p-responsive mb-6">
       <div class="col-4 mb-4 m-sm-0">
-        <img class="mx-md-3" src="/assets/google-docs.png" alt="">
+        <img class="width-full" src="/assets/google-docs.png" alt="">
       </div>
       <div class="col-sm-8">
         <h1 class="col-md-10 alt-h3 mb-1 lh-condensed text-uppercase">{{ site.title }}</h1>
@@ -18,6 +18,7 @@ layout: default
   </div>
 </div>
 
+{% comment %}
 <div id="feature"
   class="container-lg pb-6 pt-6 p-responsive d-md-flex gutter-md mx-auto flex-justify-center text-center">
   <div class="container-lg px-3 page-section">
@@ -26,15 +27,52 @@ layout: default
       Cek feature dibawah ini
     </p>
     <div class="d-md-flex flex-wrap gutter flex-auto">
-      {% assign features = site.features | sort: 'installations' %}
-      {% for feature in features %}
-      {% if feature.fitur == 1 %}
-      {% include feature.html feature=feature %}
-      {% endif %}
+      {% for feature in site.data.navigation.docs %}
+        <div class="col-12 col-md-6 Container-max-400 mx-auto">
+          <a href="/feature/{{ feature.id }}/index" class="no-underline muted-link" style="height:100%" feature-id="{{ feature.id }}">
+            <img class="mr-2 mt-n2 p-3 width-fit" style="height: 100px;" src="{{ feature.image}}" alt="{{ site.title }}">
+            <h3 class="f2 text-normal my-2 lh-condensed">{{ feature.title }}</h3>
+            <p style="opacity: 0.6">{{ feature.description }}</p>
+          </a>
+        </div>
       {% endfor %}
     </div>
   </div>
 </div>
+{% endcomment %}
+
+<div class="py-7 py-md-8 py-lg-9 mt-6" id="feature">
+  <div class="container-lg p-responsive">
+    <h6 class="h4 text-mono text-normal text-gray text-center">
+      Secure development
+    </h6>
+
+    <h2 class="h00-mktg my-2 lh-condensed text-center">
+      Securing software, together
+    </h2>
+    <p class="lead-mktg text-normal text-center mb-4 col-md-8 mx-auto text-gray">
+      We all play a role in securing the world’s code—developers, maintainers, researchers, and security teams. On GitHub, development teams everywhere can work together to secure the world’s software supply chain, from fork to finish.
+    </p>
+
+    <div class="d-md-flex text-md-center mt-9 flex-auto">
+      {% for feature in site.data.navigation.docs %}
+      <div class="col-md-4 px-md-3 mb-5 mx-auto">
+        <a href="/feature/{{ feature.id }}/index" class="no-underline muted-link" style="height:100%" feature-id="{{ feature.id }}">
+          <img src="{{ feature.image}}" height="64" class="d-block mx-md-auto mb-3 mx-auto" alt="{{ feature.title }}">
+          <h3 class="h3-mktg text-normal mb-1">
+            {{ feature.title }}
+          </h3>
+          <p class="mb-4 text-gray">
+            {{ feature.description }}
+          </p>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>
+
 <hr class="mx-auto my-2" style="width:200px">
 <div id="description" class="container-lg p-responsive mx-auto pt-5 mb-8">
   <div class="col-md-6 mx-auto text-center mt-6">

@@ -4,26 +4,26 @@ kup:
   - title: Dokumen yang Wajib Disimpan oleh Wajib Pajak yang Melakukan Transaksi dengan Pihak Afiliasi
     url: /feature/resume-kup/
   - title: Umum
-    subfolderitems:
-    - page: Kode Klasifikasi Lapangan Usaha (KLU)
+    children:
+    - title: Kode Klasifikasi Lapangan Usaha (KLU)
       url: /feature/resume-kup/
-    - page: Layanan unggulan bidang perpajakan
+    - title: Layanan unggulan bidang perpajakan
       url: /feature/resume-kup/
-    - page: Surat Keterangan Fiskal (SKF)
+    - title: Surat Keterangan Fiskal (SKF)
       url: /feature/resume-kup/
-    - page: Permintaan Penjelasan atas Data dan/atau Keterangan dan Kunjungan (Visit) kepada Wajib Pajak.
+    - title: Permintaan Penjelasan atas Data dan/atau Keterangan dan Kunjungan (Visit) kepada Wajib Pajak.
       url: /feature/resume-kup/
-    - page: Tindak Lanjut Surat Himbauan
+    - title: Tindak Lanjut Surat Himbauan
       url: /feature/resume-kup/
-    - page: Surat Kuasa Khusus
+    - title: Surat Kuasa Khusus
       url: /feature/resume-kup/
-    - page: Penentuan SPDN dan SPLN
+    - title: Penentuan SPDN dan SPLN
       url: /feature/resume-kup/
-    - page: Jenis Pelayanan Kepada WP yang Diberikan oleh KPP dan Kanwil DJP
+    - title: Jenis Pelayanan Kepada WP yang Diberikan oleh KPP dan Kanwil DJP
       url: /feature/resume-kup/
-    - page: Tata cara verifikasi
+    - title: Tata cara verifikasi
       url: /feature/resume-kup/
-    - page: DJP Online
+    - title: DJP Online
       url: /feature/resume-kup/
-    - page: Konfirmasi Status Wajib Pajak
+    - title: Konfirmasi Status Wajib Pajak
       url: /feature/resume-kup/

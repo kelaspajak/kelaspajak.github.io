@@ -1,0 +1,14 @@
+---
+title: Resume KUP
+layout: pages
+---
+{% for item in site.data.resume.kup %}
+<div class="text-emphasized no-underline"><a href="{{ item.url }}">{{ item.title }}</a></div>
+<div class="mb-4">
+    <ul>
+        {% for entry in item.children %}
+        <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+{% endfor %}
