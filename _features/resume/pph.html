@@ -1,14 +1,14 @@
 ---
-title: Resume KUP
+title: Resume PPh
 layout: pages
 ---
-{% for item in site.data.resume.pph %}
-<div class="text-emphasized no-underline"><a href="{{ item.url }}">{{ item.title }}</a></div>
-<div class="mb-4">
+{% assign topik = site.data.pph.pph | group_by: 'topik' %}
+{% for topik in topik %}
+    <h3>{{ topik.name }} </h3>
     <ul>
-        {% for entry in item.children %}
-        <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+        {% assign titles = site.data.pph.pph | where: "topik", topik.name %}
+        {% for titles in titles %}<li class="text-normal"><a href="{{ titles.url }}">{{ titles.title }}</a> <i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>
+                {% if titles.subtopik %}<span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>{% endif %}</li>
         {% endfor %}
     </ul>
-</div>
 {% endfor %}
