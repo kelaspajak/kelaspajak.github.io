@@ -5,8 +5,10 @@ layout: pages
 {% assign topik = site.data.resum.kup | group_by: 'topik' %}
 {% for topik in topik %}
     <h3>{{ topik.name }} </h3>
-    {% assign titles = site.data.resum.kup | where: "topik", topik.name %}
-    {% for titles in titles %}
-        <li class="text-normal"><a href="{{ titles.url }}">{{ titles.title }}{% if titles.subtopik %}<span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>{% endif %}</a></li>
-    {% endfor %}
+    <ul>
+        {% assign titles = site.data.resum.kup | where: "topik", topik.name %}
+        {% for titles in titles %}<li class="text-normal"><a href="{{ titles.url }}">{{ titles.title }}</a> <i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>
+                {% if titles.subtopik %}<span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>{% endif %}</li>
+        {% endfor %}
+    </ul>
 {% endfor %}
