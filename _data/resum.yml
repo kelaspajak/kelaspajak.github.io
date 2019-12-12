@@ -4,7 +4,6 @@ kup:
     fitur: resume
     category: kup
     topik: Umum
-    subtopik: 
     icon: 
     tgl: 11 Desember 2019
   - id: 2
@@ -12,15 +11,13 @@ kup:
     fitur: resume
     category: kup
     topik: Umum
-    subtopik: 
     icon: 
     tgl: 11 Desember 2019
   - id: 3
     title: Kode Klasifikasi Lapangan Usaha (KLU)
     fitur: resume
     category: kup
-    topik: Umum
-    subtopik: 
+    topik: Umum 
     icon: 
     tgl: 11 Desember 2019
   - id: 4
@@ -28,23 +25,20 @@ kup:
     fitur: resume
     category: kup
     topik: Umum
-    subtopik: 
     icon: 
     tgl: 11 Desember 2019
   - id: 5
     title: Surat Keterangan Fiskal (SKF)
     fitur: resume
     category: kup
-    topik: Umum
-    subtopik: 
+    topik: Umum 
     icon: 
     tgl: 11 Desember 2019
   - id: 6
     title: Permintaan Penjelasan atas Data dan/atau Keterangan dan Kunjungan (Visit) kepada Wajib Pajak.
     fitur: resume
     category: kup
-    topik: Umum
-    subtopik: 
+    topik: Umum 
     icon: 
     tgl: 11 Desember 2019
   - id: 7
@@ -52,7 +46,6 @@ kup:
     fitur: resume
     category: kup
     topik: Umum
-    subtopik: 
     icon: 
     tgl: 11 Desember 2019
   - id: 8
@@ -60,7 +53,6 @@ kup:
     fitur: resume
     category: kup
     topik: Umum
-    subtopik: 
     icon: 
     tgl: 11 Desember 2019
   - id: 9
@@ -68,7 +60,6 @@ kup:
     fitur: resume
     category: kup
     topik: Umum
-    subtopik: 
     icon: 
     tgl: 11 Desember 2019
   - id: 10
@@ -76,7 +67,6 @@ kup:
     fitur: resume
     category: kup
     topik: Umum
-    subtopik: 
     icon: 
     tgl: 11 Desember 2019
   - id: 11
@@ -84,7 +74,6 @@ kup:
     fitur: resume
     category: kup
     topik: Umum
-    subtopik: 
     icon: 
     tgl: 11 Desember 2019
   - id: 12
@@ -92,7 +81,6 @@ kup:
     fitur: resume
     category: kup
     topik: Umum
-    subtopik: 
     icon: 
     tgl: 11 Desember 2019
   - id: 13
@@ -100,7 +88,6 @@ kup:
     fitur: resume
     category: kup
     topik: Umum
-    subtopik: 
     icon: 
     tgl: 11 Desember 2019
   - id: 14
@@ -108,7 +95,6 @@ kup:
     fitur: resume
     category: kup
     topik: NPWP dan PKP
-    subtopik: 
     icon: 
     tgl: 11 Desember 2019
   - id: 15
@@ -116,7 +102,6 @@ kup:
     fitur: resume
     category: kup
     topik: NPWP dan PKP
-    subtopik: 
     icon: 
     tgl: 11 Desember 2019
   - id: 16

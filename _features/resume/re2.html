@@ -2,9 +2,12 @@
 title: Resume KUP
 layout: pages
 ---
+### listing title dan subtopik
+
 {% assign topik = site.data.resum.kup | group_by: 'topik' %}
 {% for topik in topik %}
-    <h3>{{ topik.name }} </h3>
+    <h3>{{ topik.name }} </h3> <span class="diffstat-block-added"></span><span class="diffstat-block-added"></span><span class="diffstat-block-deleted"></span><span class="diffstat-block-deleted"></span><span class="diffstat-block-neutral"></span>
+</span>
     {% assign titles = site.data.resum.kup | where: "topik", topik.name %}
     {% for titles in titles %}
         <li class="text-normal"><a href="{{ titles.url }}">{{ titles.title }}{% if titles.subtopik %}<span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>{% endif %}</a></li>
