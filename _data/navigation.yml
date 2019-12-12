@@ -6,39 +6,39 @@ docs:
     description: Resume UU Perpajakan sampai dengan aturan pelaksanaannya
     children:
       - title: "KUP"
-        url: /feature/resume/kup/
+        url: /fitur/resume/kup/
         sluggish: resume.kup
       - title: "PPh"
-        url: /feature/resume/pph/
+        url: /fitur/resume/pph/
         sluggish: resume.pph
       - title: "PPN & PPn BM"
-        url: /feature/resume/ppn/
+        url: /fitur/resume/ppn/
         sluggish: resume.ppn
       - title: "PBB"
-        url: /feature/resume/pbb/
+        url: /fitur/resume/pbb/
       - title: "Bea Meterai"
-        url: /feature/resume/bea-meterai/
+        url: /fitur/resume/bea-meterai/
       - title: "Pengampunan Pajak"
-        url: /feature/resume/pengampunan-pajak/
+        url: /fitur/resume/pengampunan-pajak/
  
-  - title: Tanya Jawab
-    image: https://ghicons.github.com/assets/images/light/Collection.png
-    images: messages-128.png
-    id: tanyajawab
-    description: Merupakan kumpulan tanya jawab yang sering ditanyakan
-    children:
-      - title: "KUP"
-        url: /docs/resume-kup/
-      - title: "PPh"
-        url: /docs/resume-pph/
-      - title: "PPN & PPn BM"
-        url: /docs/resume-ppn/
-      - title: "PBB"
-        url: /docs/resume-pbb/
-      - title: "Bea Meterai"
-        url: /docs/resume-bea-meterai/
-      - title: "Pengampunan Pajak"
-        url: /docs/resume-pengampunan-pajak/
+ # - title: Tanya Jawab
+ #   image: https://ghicons.github.com/assets/images/light/Collection.png
+ #   images: messages-128.png
+ #   id: tanyajawab
+ #   description: Merupakan kumpulan tanya jawab yang sering ditanyakan
+ #   children:
+ #     - title: "KUP"
+ #       url: /docs/resume-kup/
+ #     - title: "PPh"
+ #       url: /docs/resume-pph/
+ #     - title: "PPN & PPn BM"
+ #       url: /docs/resume-ppn/
+ #     - title: "PBB"
+ #       url: /docs/resume-pbb/
+ #     - title: "Bea Meterai"
+ #       url: /docs/resume-bea-meterai/
+ #     - title: "Pengampunan Pajak"
+ #       url: /docs/resume-pengampunan-pajak/
 
   - title: Aspek Pajak
     image: https://ghicons.github.com/assets/images/light/Marketplace.png

@@ -18,29 +18,6 @@ layout: default
   </div>
 </div>
 
-{% comment %}
-<div id="feature"
-  class="container-lg pb-6 pt-6 p-responsive d-md-flex gutter-md mx-auto flex-justify-center text-center">
-  <div class="container-lg px-3 page-section">
-    <h2 class="alt-h1 text-center">Explore</h2>
-    <p class="lead text-center col-md-7 col-sm-10 mx-auto">
-      Cek feature dibawah ini
-    </p>
-    <div class="d-md-flex flex-wrap gutter flex-auto">
-      {% for feature in site.data.navigation.docs %}
-        <div class="col-12 col-md-6 Container-max-400 mx-auto">
-          <a href="/feature/{{ feature.id }}/index" class="no-underline muted-link" style="height:100%" feature-id="{{ feature.id }}">
-            <img class="mr-2 mt-n2 p-3 width-fit" style="height: 100px;" src="{{ feature.image}}" alt="{{ site.title }}">
-            <h3 class="f2 text-normal my-2 lh-condensed">{{ feature.title }}</h3>
-            <p style="opacity: 0.6">{{ feature.description }}</p>
-          </a>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-{% endcomment %}
-
 <div class="py-7 py-md-8 py-lg-9 mt-6" id="feature">
   <div class="container-lg p-responsive">
     <h6 class="h4 text-mono text-normal text-gray text-center">
@@ -55,15 +32,15 @@ layout: default
     </p>
 
     <div class="d-md-flex text-md-center mt-9 flex-auto">
-      {% for feature in site.data.navigation.docs %}
+      {% for fitur in site.data.navigation.docs %}
       <div class="col-md-4 px-md-3 mb-5 mx-auto">
-        <a href="/feature/{{ feature.id }}/index" class="no-underline muted-link" style="height:100%" feature-id="{{ feature.id }}">
-          <img src="{{ feature.image}}" height="64" class="d-block mx-md-auto mb-3 mx-auto" alt="{{ feature.title }}">
-          <h3 class="h3-mktg text-normal mb-1">
-            {{ feature.title }}
+        <a href="/fitur/{{ fitur.id }}/" class="no-underline muted-link" style="height:100%">
+          <img src="{{ fitur.image}}" height="64" class="d-block mx-md-auto mb-3 mx-auto" alt="{{ fitur.title }}">
+          <h3 class="h3-mktg text-normal mb-1 text-center">
+            {{ fitur.title }}
           </h3>
-          <p class="mb-4 text-gray">
-            {{ feature.description }}
+          <p class="mb-4 text-gray text-center" style="opacity: 70%;">
+            {{ fitur.description }}
           </p>
         </a>
       </div>
