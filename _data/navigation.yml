@@ -4,6 +4,7 @@ docs:
     images: file-128.png
     id: resume
     description: Resume UU Perpajakan sampai dengan aturan pelaksanaannya
+    url: /fitur/resume/index
     children:
       - title: "KUP"
         id: kup
@@ -30,13 +31,15 @@ docs:
     images: factory-128.png
     id: aspekpajak
     description: Aspek Perpajakan per Industri, pohon industri, proses bisnis
+    url: /fitur/aspekpajak/index
 
   - title: Tanya Jawab
     image: https://ghicons.github.com/assets/images/light/Collection.png
     images: messages-128.png
-    id: 404
-    style: " style='opacity: 30%;'"
-    description: Merupakan kumpulan tanya jawab yang sering ditanyakan
+    id: tanyajawab
+ #   style: " style='opacity: 30%;'"
+    description: Merupakan kumpulan tanya jawab yang sering ditanyakan untuk sementara menggunakan trello
+    url: https://trello.com/invite/b/xz52ztAa/afa00f9acd10cefd8a7c9b587276ef48/faq-pajak-indonesia
     children:
       - title: "KUP"
         url: /docs/resume-kup/
