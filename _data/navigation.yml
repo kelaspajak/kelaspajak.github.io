@@ -6,12 +6,15 @@ docs:
     description: Resume UU Perpajakan sampai dengan aturan pelaksanaannya
     children:
       - title: "KUP"
+        id: kup
         url: /fitur/resume/kup/
         description: "Ketentuan Umum dan Tatacara Perpajakan"
       - title: "PPh"
+        id: pph
         url: /fitur/resume/pph/
         description: "Pajak Penghasilan"
       - title: "PPN & PPn BM"
+        id: ppn
         url: /fitur/resume/ppn/
         description: "Pajak Pertambahan Nilai dan Pajak Penjualan Barang Mewah"
 #      - title: "PBB"
