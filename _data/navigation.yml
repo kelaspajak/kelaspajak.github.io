@@ -7,19 +7,19 @@ docs:
     children:
       - title: "KUP"
         url: /fitur/resume/kup/
-        sluggish: resume.kup
+        description: "Ketentuan Umum dan Tatacara Perpajakan"
       - title: "PPh"
         url: /fitur/resume/pph/
-        sluggish: resume.pph
+        description: "Pajak Penghasilan"
       - title: "PPN & PPn BM"
         url: /fitur/resume/ppn/
-        sluggish: resume.ppn
-      - title: "PBB"
-        url: /fitur/resume/pbb/
-      - title: "Bea Meterai"
-        url: /fitur/resume/bea-meterai/
-      - title: "Pengampunan Pajak"
-        url: /fitur/resume/pengampunan-pajak/
+        description: "Pajak Pertambahan Nilai dan Pajak Penjualan Barang Mewah"
+#      - title: "PBB"
+#        url: /fitur/resume/pbb/
+#      - title: "Bea Meterai"
+#        url: /fitur/resume/bea-meterai/
+#      - title: "Pengampunan Pajak"
+#        url: /fitur/resume/pengampunan-pajak/
  
  # - title: Tanya Jawab
  #   image: https://ghicons.github.com/assets/images/light/Collection.png

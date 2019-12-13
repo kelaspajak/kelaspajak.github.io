@@ -7,9 +7,9 @@ title: Feature
   <div class="container-lg px-3 page-section">
     <h1 class="alt-h2">{{ page.title }}</h1>
     <div class="d-md-flex flex-wrap gutter flex-auto">
-      {% assign features = site.features | sort: 'installations' | reverse %}
-      {% for feature in features %}
-        {% include feature.html feature=feature%}
+      {% assign fiturs = site.fiturs | sort: 'installations' | reverse %}
+      {% for fitur in fiturs %}
+        {% include fitur.html fitur=fitur%}
       {% endfor %}
 
       <div class="col-lg-4 col-md-6 mb-3 mt-3 d-flex flex-column">

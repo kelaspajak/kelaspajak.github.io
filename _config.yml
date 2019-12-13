@@ -23,13 +23,13 @@ sass:
     - node_modules/**/*/node_modules
 
 collections:
-  features:
+  fiturs:
     output: true
     permalink: /fitur/:path/
 defaults:
   - scope:
       path: ""
-      type: features
+      type: fiturs
     values:
       layout: pages
 
