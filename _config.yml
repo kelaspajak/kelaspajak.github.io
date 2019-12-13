@@ -26,16 +26,7 @@ collections:
   features:
     output: true
     permalink: /fitur/:path/
-  docs:
-    output: true
-    permalink: /docs/:path/
-
 defaults:
-  - scope:
-      path: ""
-      type: docs
-    values:
-      layout: pages
   - scope:
       path: ""
       type: features
