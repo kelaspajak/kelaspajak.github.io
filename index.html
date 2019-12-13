@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-<div id="header" class="Site-content ">
+<div id="header" class="Site-content bg-lollypop-image">
 
-  <div class=" bg-gray py-1">
+  <div class="py-1">
     <div class="container-lg mx-auto d-flex flex-column flex-sm-row flex-items-center text-center text-sm-left gutter-sm-spacious p-responsive my-6">
       <div class="col-4 mb-4 m-sm-0">
-        <img class="width-full" src="assets/undraw_mind_map_cwng.png" alt="">
+        <img class="width-full" src="assets/undraw_teaching_f1cm.svg" alt="">
       </div>
       <div class="col-sm-8">
         <h1 class="col-md-10 alt-h3 mb-1 lh-condensed text-uppercase">{{ site.title }}</h1>
@@ -32,7 +32,7 @@ layout: default
     <div class="d-md-flex text-md-center mt-9 flex-auto">
       {% for fitur in site.data.navigation.docs %}
       <div class="col-md-4 px-md-3 mb-5 mx-auto" {{ fitur.style }}>
-        <a href="/fitur/{{ fitur.id }}/index" class="no-underline muted-link" style="height:100%">
+        <a href="/fitur/{{ fitur.id }}/index" class="no-underline muted-link bg-snowagain-gradient" style="height:100%">
           <img src="{{ fitur.image}}" height="64" class="d-block mx-md-auto mb-3 mx-auto" alt="{{ fitur.title }}">
           <h3 class="h3-mktg text-normal mb-1 text-center">
             {{ fitur.title }}
