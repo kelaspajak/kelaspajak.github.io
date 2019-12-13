@@ -7,8 +7,8 @@ layout: pages
     <h3>{{ topik.name }} </h3>
     <ul>
         {% assign titles = site.data.ppn.ppn | where: "topik", topik.name %}
-        {% for titles in titles %}<li class="text-normal"><a href="{{ titles.url }}">{{ titles.title }}</a> <i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>
-                {% if titles.subtopik %}<span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>{% endif %}</li>
+        {% for titles in titles %}<li class="text-normal"><a href="{{ titles.url }}" class="no-underline">{{ titles.title }} <i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>
+                {% if titles.subtopik %}<span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>{% endif %}</a></li>
         {% endfor %}
     </ul>
 {% endfor %}

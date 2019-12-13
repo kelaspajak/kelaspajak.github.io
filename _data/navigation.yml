@@ -24,27 +24,29 @@ docs:
 #      - title: "Pengampunan Pajak"
 #        url: /fitur/resume/pengampunan-pajak/
  
- # - title: Tanya Jawab
- #   image: https://ghicons.github.com/assets/images/light/Collection.png
- #   images: messages-128.png
- #   id: tanyajawab
- #   description: Merupakan kumpulan tanya jawab yang sering ditanyakan
- #   children:
- #     - title: "KUP"
- #       url: /docs/resume-kup/
- #     - title: "PPh"
- #       url: /docs/resume-pph/
- #     - title: "PPN & PPn BM"
- #       url: /docs/resume-ppn/
- #     - title: "PBB"
- #       url: /docs/resume-pbb/
- #     - title: "Bea Meterai"
- #       url: /docs/resume-bea-meterai/
- #     - title: "Pengampunan Pajak"
- #       url: /docs/resume-pengampunan-pajak/
 
   - title: Aspek Pajak
     image: https://ghicons.github.com/assets/images/light/Marketplace.png
     images: factory-128.png
     id: aspekpajak
     description: Aspek Perpajakan per Industri, pohon industri, proses bisnis
+
+  - title: Tanya Jawab
+    image: https://ghicons.github.com/assets/images/light/Collection.png
+    images: messages-128.png
+    id: 404
+    style: " style='opacity: 30%;'"
+    description: Merupakan kumpulan tanya jawab yang sering ditanyakan
+    children:
+      - title: "KUP"
+        url: /docs/resume-kup/
+      - title: "PPh"
+        url: /docs/resume-pph/
+      - title: "PPN & PPn BM"
+        url: /docs/resume-ppn/
+      - title: "PBB"
+        url: /docs/resume-pbb/
+      - title: "Bea Meterai"
+        url: /docs/resume-bea-meterai/
+      - title: "Pengampunan Pajak"
+        url: /docs/resume-pengampunan-pajak/
