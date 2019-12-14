@@ -2,15 +2,16 @@
 layout: default
 title: Komunitas
 permalink: /komunitas
-homepage: false
 ---
-
-<div class="container-lg px-3 featurette">
+<div class="px-sm-2 px-lg-4 site-header bg-lollypop-image">
   <h1 class="alt-h2 text-center">Gabung bersama komunitas</h1>
   <p class="alt-lead col-md-8 text-center text-gray mx-auto">
     komunitas perpajakan terbesar, kami mengajak anda untuk bergabung bersama kami.
   </p>
+</div>
 
+{%comment%}
+<div class="container-lg px-3 p-responsive">
   <div class="text-center my-6 pt-6">
     <a class="btn btn-outline d-inline-block mb-1 mb-md-0 mr-0 mr-md-3" href="https://t.me/diskusipajak">
       <i class="fab fa-telegram-plane"></i>
@@ -32,19 +33,30 @@ homepage: false
       Grup DiskusiPajak
     </a>
   </div>
+  {% endcomment %}
 
- 
-  {% comment %}
-  <div class="mt-6 border-top container-md py-4">
-    <div class="d-flex gutter flex-wrap">
-      {% for link in page.links %}
-      <div class="col-md-6 col-12 mb-4">
-        {{ link.pretext }}:<br>
-        {% octicon {{ link.octicon }} class:"mr-2 text-gray" %}
-        <a href="{{ link.href }}">{{ link.title }}</a>
-      </div>
+  <div class="container-lg px-3 p-responsive mt-6 pt-6">
+    <div class="container-narrow">
+      {% assign titles = site.data.komunitas.data%}
+      {% for titles in titles %}
+      <p class="mb-4"><i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i> <a
+          href="{{ titles.url }}"><b>{{ titles.title }}</b></a> {{ titles.description }}</p>
       {% endfor %}
     </div>
-  </div>
-</div>
-{% endcomment %}
+
+    <table class="table table-ruled table-full-width table-with-spacious-first-column mb-7">
+        <tbody>
+            {% assign titles = site.data.komunitas.data %}
+            {% for titles in titles %}
+          <tr>
+          <td>
+              <i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i> <a
+              href="{{ titles.url }}"><b>{{ titles.title }}</b></a>
+          </td>
+          <td>
+              {{ titles.description }}
+          </td>
+        </tr>
+        {% endfor %}
+        </tbody></table>
+  </div>  
