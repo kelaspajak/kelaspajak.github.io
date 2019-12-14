@@ -1,36 +1,36 @@
 data:
   - title: Grup Telegram Diskusi Pajak
-    icon: fad fa-telegram
+    icon: fab fa-telegram
     id: 1
     description: diskusi langsung bersama praktisi pajak dengan jumlah anggota > 6K
     url: https://t.me/diskusipajak
   - title: Channel Telegram Akuntansi dan Pajak
-    icon: fad fa-telegram
+    icon: fab fa-telegram
     id: 2
     description: Channel satu arah yang berisi informasi penting terkait perpajakan
     url: https://t.me/tutorialpajak
   - title: Grup Facebook Diskusi Pajak
-    icon: fad fa-facebook
+    icon: fab fa-facebook
     id: 3
     description: diskusi langsung bersama praktisi pajak menggunakan aplikasi facebook dengan jumlah anggota > 6K
     url: https://t.me/diskusipajak
   - title: Facebook Pages Diskusi Pajak
-    icon: fad fa-facebook
+    icon: fab fa-facebook
     id: 4
     description: Halaman Facebook yang berisi informasi penting terkait perpajakan> 6K
     url: https://t.me/diskusipajak
   - title: Trello Team Diskusi Pajak
-    icon: fad fa-trello
+    icon: fab fa-trello
     id: 5
     description: ada 4 board FAQ Pajak Indonesia, Timeline pengerjaan perpajakan di perusahaan, Transfer Pricing, Belajar menemukan kesalahan laporan keuangan
     url: https://s.id/trello-invite
   - title: Classroom 
-    icon: classroom
+    icon: fas fa-user-graduate
     id: 6
     description: sudah ada 4 kelas, dan sudah penuh semua
     url: 404
   - title: Instagram kelaspajakwithless
-    icon: fad fa-instagram
+    icon: fab fa-instagram
     id: 7
     description: isi storynya adalah pekerjaan hari ini 
     url: https://instagram.com/kelaspajakwithless
