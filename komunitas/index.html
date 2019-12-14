@@ -12,7 +12,7 @@ permalink: /komunitas
 
 {%comment%}
 <div class="container-lg px-3 p-responsive">
-  <div class="text-center my-6 pt-6">
+  <div class="text-center my-6 py-6">
     <a class="btn btn-outline d-inline-block mb-1 mb-md-0 mr-0 mr-md-3" href="https://t.me/diskusipajak">
       <i class="fab fa-telegram-plane"></i>
       Grup DiskusiPajak
@@ -43,20 +43,4 @@ permalink: /komunitas
           href="{{ titles.url }}"><b>{{ titles.title }}</b></a> {{ titles.description }}</p>
       {% endfor %}
     </div>
-
-    <table class="table table-ruled table-full-width table-with-spacious-first-column mb-7">
-        <tbody>
-            {% assign titles = site.data.komunitas.data %}
-            {% for titles in titles %}
-          <tr>
-          <td>
-              <i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i> <a
-              href="{{ titles.url }}"><b>{{ titles.title }}</b></a>
-          </td>
-          <td>
-              {{ titles.description }}
-          </td>
-        </tr>
-        {% endfor %}
-        </tbody></table>
   </div>  
