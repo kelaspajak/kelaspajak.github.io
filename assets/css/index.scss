@@ -51,6 +51,15 @@ body {
   flex: 1;
 }
 
+.site-header {
+  text-align: center;
+  color: #74b1be !important;
+  border-bottom: 1px solid #e8e8e8;
+  -webkit-font-smoothing: antialiased;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 .logobanner {
   margin-top: 0;
   color: #234766;
