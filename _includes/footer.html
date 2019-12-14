@@ -1,25 +1,17 @@
-<div class="text-black bg-text-gray">
-  <div class="container-lg px-3 page-section d-md-flex flex-md-row-reverse">
-    <div class="col-md-12">
-      <p> total
-        <span class="mr-2 d-inline-block">
-          {% assign file_kup = site.data.kup.kup | group_by: 'title' %}
-          {% assign file_pph = site.data.pph.pph | group_by: 'title' %}
-          {% assign file_ppn = site.data.ppn.ppn | group_by: 'title' %}
-          {{file_kup.size | plus:file_pph.size | plus:file_ppn.size}} file & folder tanggal efektif 12 Desember 2019
-        </span>
-      </p>
-      <p>{% octicon code %} with {% octicon heart %} 2019</p>
-      {% comment %}
-      <p style="opacity: 0.5">
-        <span class="mr-2">Code licensed <a class="text-inherit" href="https://github.com/probot/probot/blob/master/LICENSE">ISC</a></span>
-        <span>Docs licensed <a class="text-inherit" href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a></span>
-      </p>
-      {% endcomment %}
-    </div>
-  </div>
-  <div class="text-center">
-  </div>
+<div class="text-center">
+    <div class="border-top text-gray py-5">
+        <div>
+            <p> total
+                <span class="mr-2 d-inline-block">
+                  {% assign file_kup = site.data.kup.kup | group_by: 'title' %}
+                  {% assign file_pph = site.data.pph.pph | group_by: 'title' %}
+                  {% assign file_ppn = site.data.ppn.ppn | group_by: 'title' %}
+                  {{file_kup.size | plus:file_pph.size | plus:file_ppn.size}} file & folder tanggal efektif 12 Desember 2019
+                </span>
+              </p>
+              <p>{% octicon code %} with {% octicon heart %} 2019</p>
+           </div>
+      </div>
 </div>
 {% if jekyll.environment != 'development' %}
 <script>
