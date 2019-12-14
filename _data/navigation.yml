@@ -40,16 +40,16 @@ docs:
  #   style: " style='opacity: 30%;'"
     description: Merupakan kumpulan tanya jawab yang sering ditanyakan untuk sementara menggunakan trello
     url: https://trello.com/invite/b/xz52ztAa/afa00f9acd10cefd8a7c9b587276ef48/faq-pajak-indonesia
-    children:
-      - title: "KUP"
-        url: /docs/resume-kup/
-      - title: "PPh"
-        url: /docs/resume-pph/
-      - title: "PPN & PPn BM"
-        url: /docs/resume-ppn/
-      - title: "PBB"
-        url: /docs/resume-pbb/
-      - title: "Bea Meterai"
-        url: /docs/resume-bea-meterai/
-      - title: "Pengampunan Pajak"
-        url: /docs/resume-pengampunan-pajak/
+#    children:
+#      - title: "KUP"
+#        url: /docs/resume-kup/
+#      - title: "PPh"
+#        url: /docs/resume-pph/
+#      - title: "PPN & PPn BM"
+#        url: /docs/resume-ppn/
+#      - title: "PBB"
+#        url: /docs/resume-pbb/
+#      - title: "Bea Meterai"
+#        url: /docs/resume-bea-meterai/
+#      - title: "Pengampunan Pajak"
+#        url: /docs/resume-pengampunan-pajak/
