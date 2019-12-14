@@ -106,3 +106,7 @@ Type `ideos Webcasts Whitepapers`
 
 ### shading photo
  <div class="position-absolute width-full z-2" style="height: 100%; background: linear-gradient(to bottom, rgba(246,248,250,0.5) 0%,rgba(246,248,250,1) 100%);"></div>
+
+
+ ### untuk halaman komunitas 
+ https://electronjs.org/community
