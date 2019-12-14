@@ -15,7 +15,7 @@
         {% comment %}<a class="text-inherit px-2 d-inline-block" href="/pricing/">Pricing</a>{% endcomment %}
         {% unless homepage %}
         {% for fitur in site.data.navigation.docs %}
-        <a class="text-inherit px-2 d-inline-block" {{ fitur.style }} href="/fitur/{{ fitur.id }}/index" >{{ fitur.title }}
+        <a class="text-inherit px-2 d-inline-block" {{ fitur.style }} href="{{ fitur.url }}" >{{ fitur.title }}
         </a>
         {% endfor %}
         {%endunless%}
@@ -25,4 +25,3 @@
     </div>
   </div>
 </div>
-
