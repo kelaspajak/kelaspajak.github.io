@@ -1,7 +1,7 @@
 kup:
   - id: 1
     title: Saat Dimulainya Kewajiban Perpajakan
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1gp-QtAI9GY7F2GbUOGzmtPhkIow3fjt2qbsLZrpuOvA/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Umum
@@ -9,7 +9,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 2
     title: Dokumen yang Wajib Disimpan oleh Wajib Pajak yang Melakukan Transaksi dengan Pihak Afiliasi
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: 
     fitur: resume
     category: kup
     topik: Umum

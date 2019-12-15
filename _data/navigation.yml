@@ -32,6 +32,10 @@ docs:
     id: aspekpajak
     description: Aspek Perpajakan per Industri, pohon industri, proses bisnis
     url: /fitur/aspekpajak/index
+    active: true
+    price: 
+    - rupiah: Rp25M
+      masa: alltime
 
   - title: Tanya Jawab
     image: https://ghicons.github.com/assets/images/light/Collection.png
@@ -40,6 +44,9 @@ docs:
  #   style: " style='opacity: 30%;'"
     description: Merupakan kumpulan tanya jawab yang sering ditanyakan untuk sementara menggunakan trello
     url: https://trello.com/invite/b/xz52ztAa/afa00f9acd10cefd8a7c9b587276ef48/faq-pajak-indonesia
+    active: true
+    price: 
+    - rupiah: Rp0
 #    children:
 #      - title: "KUP"
 #        url: /docs/resume-kup/
@@ -53,3 +60,51 @@ docs:
 #        url: /docs/resume-bea-meterai/
 #      - title: "Pengampunan Pajak"
 #        url: /docs/resume-pengampunan-pajak/
+
+pricing:
+  - title: Tanya Jawab
+    id: tanyajawab
+  #   style: " style='opacity: 30%;'"
+    description: Merupakan kumpulan tanya jawab yang sering ditanyakan untuk sementara menggunakan trello
+    status: free
+    price: 
+    - rupiah: Rp0
+  - title: "KUP"
+    id: "kup"
+    description: "Ketentuan Umum dan Tatacara Perpajakan"
+    longdescription: "Langganan materi perpajakan Bab Ketentuan Umum dan Tatacara Perpajakan"
+    active: true
+    status: "open / buka pendaftaran"
+    price:
+      - rupiah: "Rp400K"
+        masa: "tahun"
+        description:
+    layanan:
+      - id: "Hanya untuk satu akun gmail personal"
+      - id: "Materi berupa file docs "
+      - id: "Menggunakan layanan google"
+      - id: "Resume selalu update"
+      - id: "Layanan untuk 1 (satu) tahun"
+  - title: "PPh"
+    id: pph
+    description: "Pajak Penghasilan" 
+    status: tutup
+    price:
+      - rupiah: Rp400K
+        masa: tahun
+        description:
+  - title: "PPN & PPn BM"
+    id: ppn
+    description: "Pajak Pertambahan Nilai dan Pajak Penjualan Barang Mewah"
+    status: tutup
+    price:
+      - rupiah: Rp400K
+        masa: tahun
+        description:
+  - title: Aspek Pajak
+    id: aspekpajak
+    description: Aspek Perpajakan per Industri, pohon industri, proses bisnis
+    status: tutup
+    price: 
+    - rupiah: Rp25M
+      masa: sekali bayar 

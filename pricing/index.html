@@ -3,3 +3,35 @@ title: Pricing
 layout: default
 permalink: /pricing
 ---
+<div id="pricing" class="py-6 my-0 bg-gray">
+  <div class="container-lg p-responsive">
+    <h2 class="f1 mb-4">Pricing</h2>
+    <div id="marketplace-plans-container" class="clearfix" data-pjax-container="">
+      <div class="col-md-6 float-md-left pr-md-6 mb-4 mb-md-0">
+        <ul class="filter-list ml-md-n3 mr-md-n3">
+          {% for fitur in site.data.navigation.pricing %}
+          <li>
+            <div class="filter-item ws-normal d-flex flex-justify-between p-2 p-md-3 mb-0 {% if fitur.active %}selected{% endif %}">
+            <div class="flex-auto flex-self-center">
+                <h4 class="f3 d-inline-block marketplace-plan-emphasis">{{ fitur.title }}
+                  <span class="ml-2 Label Label--outline Label--outline-white {% if fitur.active %}text-white{% endif %}"">{{ fitur.status }}</span>
+                </h4>
+                <p class="text-small mb-0 pr-2">{{ fitur.description }}</p>
+              </div>
+              <div class="text-small text-right lh-condensed flex-self-center">
+                  {% for entry in fitur.price %}
+                    <span class="f3 marketplace-plan-emphasis">{{ entry.rupiah }}</span>
+                    {% unless fitur.status == "free" %}
+                    <span class="marketplace-plan-per-time d-block">/&nbsp;{{ entry.masa }}</span>{% endunless %}
+                  {% endfor %}
+              </div>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+    <!-- left -->
+    {% include detil-price.html %}
+  </div>
+</div>
