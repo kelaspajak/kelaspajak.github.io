@@ -9,7 +9,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 2
     title: Dokumen yang Wajib Disimpan oleh Wajib Pajak yang Melakukan Transaksi dengan Pihak Afiliasi
-    url: 
+    url: https://docs.google.com/document/d/1fGJWBf8D5IPg7pBOA2pz42VikmJRaBdFKP81kOzPcoU/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Umum
@@ -17,7 +17,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 3
     title: Kode Klasifikasi Lapangan Usaha (KLU)
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1vVdZltkHFWXiuDjQw9G2037QnRdez24KVVZA1xxS-2w/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Umum
@@ -25,7 +25,8 @@ kup:
     tgl: 11 Desember 2019
   - id: 4
     title: Layanan unggulan bidang perpajakan
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: 404
+    active: false
     fitur: resume
     category: kup
     topik: Umum
@@ -33,7 +34,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 5
     title: Surat Keterangan Fiskal (SKF)
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1DEfVqH2Nm6lnKtHWGx2EmoEkMeWZort71U-eub76MJY/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Umum
@@ -41,7 +42,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 6
     title: Permintaan Penjelasan atas Data dan/atau Keterangan dan Kunjungan (Visit) kepada Wajib Pajak.
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1thbc500v81416_XEItJ8aYSVPur5JT0NqM1ItmQ8gtA/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Umum
@@ -49,7 +50,8 @@ kup:
     tgl: 11 Desember 2019
   - id: 7
     title: Tindak Lanjut Surat Himbauan
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: 
+    active: false
     fitur: resume
     category: kup
     topik: Umum
@@ -57,7 +59,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 8
     title: Surat Kuasa Khusus
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1gZYcl5u5L_7_q6goWXp73LGT7YteIrqlsZ6ZpxnxQWs/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Umum
@@ -73,7 +75,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 10
     title: Jenis Pelayanan Kepada WP yang Diberikan oleh KPP dan Kanwil DJP
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1PwEwaBBY317k-aD-AXA0ejKho7RRcS6lfLaxhO9iHH4/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Umum
@@ -81,7 +83,8 @@ kup:
     tgl: 11 Desember 2019
   - id: 11
     title: Tata cara verifikasi
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: 
+    active: false
     fitur: resume
     category: kup
     topik: Umum
@@ -89,7 +92,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 12
     title: DJP Online
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/12SmyXD3dlmcGJWUJGnDNlpno-DNjOj9CqUgxYOOq-9I/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Umum
@@ -97,7 +100,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 13
     title: Konfirmasi Status Wajib Pajak
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1syQ3aPNPKp3jC69jyQr7C8jPaPd9Y6c7sQ4lnUZmUVU/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Umum
@@ -105,7 +108,8 @@ kup:
     tgl: 11 Desember 2019
   - id: 14
     title: Tata cara ekstensifikasi
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: 
+    active: false
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -113,7 +117,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 15
     title: Ketentuan Umum terkait NPWP
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1Vml1ZuwQ6vZKz62UuAwiIqBlfs-H4nZe2fIe9IVrsRQ/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -121,7 +125,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 16
     title: NPWP bagi Wanita Kawin
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1JzezgnLTuYTjLZ989WPwgV2rgN8Y_uMoZWhVDNVjzDc/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -130,7 +134,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 17
     title: Pendaftaran NPWP
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1UOalegf-mE2IGWUETv-HUX-yXLdmtIGk6gwXQQLh3UM/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -139,7 +143,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 18
     title: Penghapusan NPWP
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1uwDqP47itoDlBB_gSJ-dzELm4fryebbwi1RsLgUio6Y/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -148,7 +152,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 19
     title: Pengukuhan PKP
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1-CPRvsI9xvKqHKhHgihGZ-2fmsknEjkXCF9d4LBcJCM/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -157,7 +161,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 20
     title: Pencabutan Pengukuhan PKP
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1iRSeDFaVT-yjEBMsHpAnHOIWoovrkUQnDz_bBq1AJMs/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -166,7 +170,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 21
     title: Perubahan Data WP Dan/Atau PKP
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/10ygKIu6B3QnnIZjVtWA0PPy64eEn46xy6OqxGgi6RCc/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -175,7 +179,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 22
     title: Pemindahan WP
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1MTkEpRrhvKQntMLP9JIEPqHnnOxmabsZq_-d7HRxGzU/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: NPWP dan PKP
