@@ -207,6 +207,7 @@ kup:
   - id: 25
     title: Tempat Pendaftaran NPWP WP KPP WP Besar, KPP Madya, KPP PMA, KPP Badora (Sejak 1 Januari 2013)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: false
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -216,6 +217,7 @@ kup:
   - id: 26
     title: Tempat Pendaftaran NPWP WP KPP WP Besar, KPP Madya, KPP PMA, KPP Badora Tertentu (Sejak 30 Maret 2012)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: false
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -225,6 +227,7 @@ kup:
   - id: 27
     title: Tempat Pendaftaran NPWP WP KPP WP Besar, KPP Madya, KPP PMA, KPP Badora (sebelum 30 Maret 2012)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: false
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -234,6 +237,7 @@ kup:
   - id: 28
     title: Pelaksanaan Hak dan Kewajiban sehubungan dengan Pemindahan WP KPP WP Besar, KPP Madya, KPP PMA, KPP Badora
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: false
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -243,6 +247,7 @@ kup:
   - id: 29
     title: Tempat Pendaftaran/Pelaporan PKP bagi WP yang Usahanya di Bidang Pengalihan Tanah/Bangunan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: false
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -422,7 +427,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 49
     title: SPT Masa PPN sejak Masa Juli 2015
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1gIsszdI9ABNp0EGj3Ag2zCtwV4PVqlR62PtTQjmet7Q/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: SPT
@@ -432,6 +437,7 @@ kup:
   - id: 50
     title: Perbedaan SPT masa PPN 1107, 1108, 1111
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: false
     fitur: resume
     category: kup
     topik: SPT
@@ -440,7 +446,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 51
     title: Kewajiban E-SPT bagi WP di KPP Madya dan KPP di Wilayah Kanwil Jakarta Khusus dan Kanwil WP Besar
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1L5-F0MDAuWpz_8phxXLOzmEhRfhsxYZECRH6zCCuif4/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: SPT
@@ -449,7 +455,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 52
     title: SPT 1111 Sejak Masa Juni 2013
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1COCBA16mUu-DoI8YE0bsq2TgfMt7sk_SUEIX33ECXbU/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: SPT
@@ -458,7 +464,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 53
     title: SPT 1111 DM sejak Masa Juni 2013
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1MCPSDHMmmpu2gG7vekOd7GhWNxBXY6s3R1J4XvmRjsc/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: SPT
@@ -468,6 +474,7 @@ kup:
   - id: 54
     title: SPT 1111 DM Masa Januari 2011 s/d Mei 2013
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: false
     fitur: resume
     category: kup
     topik: SPT
@@ -477,6 +484,7 @@ kup:
   - id: 55
     title: SPT 1111 Sejak Masa Januari 2011 s/d Mei 2013
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: false
     fitur: resume
     category: kup
     topik: SPT
@@ -486,6 +494,7 @@ kup:
   - id: 56
     title: Petunjuk Umum Pengisian,Pencetakan,dan Pelaporan SPT Masa PPN 1111 Masa Januari 2011 s/d Mei 2013
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: false
     fitur: resume
     category: kup
     topik: SPT
