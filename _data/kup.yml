@@ -1138,7 +1138,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 130
     title: Surat Ketetapan Pajak (SKP)
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1MyGDCWTztRzAQ_Pt1bh37F4TeURcz2rb0b-0LCHkRg8/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Sanksi, Penetapan dan Ketetapan Pajak
@@ -1146,7 +1146,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 131
     title: SKPKB
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1uDwJFsXx89Qx1tUs-i5Q-62C3tM9upFRGE65U2HbnEM/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Sanksi, Penetapan dan Ketetapan Pajak
@@ -1154,7 +1154,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 132
     title: Surat Tagihan Pajak (STP)
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1TFtX5maQsbWUktgZj2yttKwPDtDnzZ6Amj3DmpY664c/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Sanksi, Penetapan dan Ketetapan Pajak
@@ -1162,15 +1162,15 @@ kup:
     tgl: 11 Desember 2019
   - id: 133
     title: SKPKBT
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1DF1xymzGqvRHe2AnMcv4ZKEdFz3Wi0-uWxs4rB3rLvA/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Sanksi, Penetapan dan Ketetapan Pajak
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 134
-    title: Tata Cara Pengembalian Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang (ketentuan lama)
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    title: Pengembalian Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang
+    url: https://docs.google.com/document/d/1EVdtvtqy7utfehX1lTyM1QGLYBXsVoXFiShxZ7lLU5M/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1179,7 +1179,8 @@ kup:
     tgl: 11 Desember 2019
   - id: 135
     title: Untuk PPh yang Dibayar Sendiri oleh WP (Ketentuan sebelum 1 Februari 2013)
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: 404
+    active: false
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1188,7 +1189,8 @@ kup:
     tgl: 11 Desember 2019
   - id: 136
     title: Untuk PPh yang Dipotong/Dipungut oleh Pihak Lain (Ketentuan sebelum 1 Februari 2013)
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: 404
+    active: false
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1197,7 +1199,8 @@ kup:
     tgl: 11 Desember 2019
   - id: 137
     title: Pengembalian Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang bagi WPLN (Ketentuan sebelum 1 Februari 2013)
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: 404
+    active: false
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1206,7 +1209,8 @@ kup:
     tgl: 11 Desember 2019
   - id: 138
     title: Tata Cara Pengembalian Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang sejak 30 September 2015
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: 404
+    active: false
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1214,8 +1218,8 @@ kup:
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 139
-    title: Tata Cara Penghitungan Kelebihan Pembayaran PPh,PPN,dan/atau PPnBM
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    title: Penghitungan Kelebihan Pembayaran PPh,PPN,dan/atau PPnBM
+    url: https://docs.google.com/document/d/154aYv7BX97X5HzrmvmmV_etSO9p_scQtUKU75Aft0Eo/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1224,7 +1228,8 @@ kup:
     tgl: 11 Desember 2019
   - id: 140
     title: Pengembalian Pendahuluan Kelebihan Pajak untuk WP Dengan Kriteria Tertentu (tidak berlaku)
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: 404
+    active: false
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1233,7 +1238,8 @@ kup:
     tgl: 11 Desember 2019
   - id: 141
     title: Pengembalian Pendahuluan Kelebihan Pajak untuk WP dengan Persyaratan Tertentu (tidak berlaku)
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: 404
+    active: false
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1242,7 +1248,8 @@ kup:
     tgl: 11 Desember 2019
   - id: 142
     title: Pengembalian Pendahuluan Kelebihan Pajak untuk WP dengan Persyaratan Tertentu (Ketentuan sejak 1 Januari 2014)
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: 404
+    active: false
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1250,8 +1257,8 @@ kup:
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 143
-    title: PPKP Wajib Pajak Kriteria Tertentu
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    title: PKP Kriteria Tertentu
+    url: https://docs.google.com/document/d/1H89_E_edZj4F2tHx3r46D7GxfPapJ2TLr2hlPT9S8ik/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1259,8 +1266,8 @@ kup:
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 144
-    title: PPKP Wajib Pajak Persyaratan Tertentu
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    title: PKP Persyaratan Tertentu
+    url: https://docs.google.com/document/d/1n-mnOr2fv1TeNRT4048_23rEyvJ9BVuGEkqrhaLiqIc/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1269,7 +1276,8 @@ kup:
     tgl: 11 Desember 2019
   - id: 145
     title: Imbalan Bunga (Sebelum 1 Januari 2014)
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: 404
+    active: false
     fitur: resume
     category: kup
     topik: Imbalan Bunga
@@ -1277,7 +1285,7 @@ kup:
     tgl: 11 Desember 2019
   - id: 146
     title: Imbalan Bunga (Ketentuan Sejak 1 Januari 2014)
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: https://docs.google.com/document/d/1MqFomImB_r_kkOGI30WCp2Aa4iYoXgN79HRTaxddYzQ/edit?usp=drivesdk
     fitur: resume
     category: kup
     topik: Imbalan Bunga
@@ -1285,8 +1293,9 @@ kup:
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 147
-    title: Tata Cara Pemberian Imbalan Bunga
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    title: Cara Pemberian Imbalan Bunga
+    url: 404
+    active: false
     fitur: resume
     category: kup
     topik: Imbalan Bunga
@@ -1295,7 +1304,8 @@ kup:
     tgl: 11 Desember 2019
   - id: 148
     title: Penyebab Diberikan Imbalan Bunga Dan Penghitungan Imbalan Bunganya
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: 404
+    active: false
     fitur: resume
     category: kup
     topik: Imbalan Bunga
@@ -1304,7 +1314,8 @@ kup:
     tgl: 11 Desember 2019
   - id: 149
     title: Sunset Policy
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: 404
+    active: false
     fitur: resume
     category: kup
     topik: Sunset policy
@@ -1312,7 +1323,8 @@ kup:
     tgl: 11 Desember 2019
   - id: 150
     title: Pendaftaran Lembaga Keuangan
-    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    url: 
+    active: false
     fitur: resume
     category: kup
     topik: Akses Informasi Keuangan
