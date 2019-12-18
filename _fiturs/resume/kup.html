@@ -8,7 +8,7 @@ layout: pages
     <ul>
         {% assign titles = site.data.kup.kup | where: "topik", topik.name %}
         {% for titles in titles %}
-        <li class="text-normal" {%unless titles.active==true %} style="opacity: 0.6"{%endunless%}><a href="{{ titles.url }}" class="no-underline">{{ titles.title }} <i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>
+        <li class="text-normal" {%if titles.active==false %} style="opacity: 0.6"{%endif%}><a href="{{ titles.url }}" class="no-underline">{{ titles.title }} <i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>
                 {% if titles.subtopik %}<span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>{% endif %}</a></li>
         {% endfor %}
     </ul>
