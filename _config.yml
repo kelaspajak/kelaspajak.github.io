@@ -17,10 +17,9 @@ markdown: kramdown
 
 sass:
   style: :compressed
-  sass_dir: 
-    - _sass
-    - assets/css/
+  sass_dir: _sass
   load_paths:
+    - assets/css/
     - node_modules
     - node_modules/**/*/node_modules
 
