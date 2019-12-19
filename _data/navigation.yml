@@ -74,7 +74,7 @@ pricing:
     description: "Ketentuan Umum dan Tatacara Perpajakan"
     longdescription: "Langganan materi perpajakan Bab Ketentuan Umum dan Tatacara Perpajakan"
     active: true
-    status: "open / buka pendaftaran"
+    status: "bukan layanan langganan"
     price:
       - rupiah: "Rp400K"
         masa: "tahun"
@@ -85,6 +85,7 @@ pricing:
       - id: "Menggunakan layanan google"
       - id: "Resume selalu update"
       - id: "Layanan untuk 1 (satu) tahun"
+      - id: "Tutup, jika kuota terpenuhi"
   - title: "PPh"
     id: pph
     description: "Pajak Penghasilan" 

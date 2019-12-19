@@ -85,3 +85,12 @@ body {
   background-image: url("../perfume.jpg");
   background-color: #999999;
  }
+
+ .bg-orange {
+  background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+ }
+
+ .bg-biru-linear {
+  color: #fff;
+  background: linear-gradient(90deg,#257bf9,#2426ca);
+}
