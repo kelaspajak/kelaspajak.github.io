@@ -7,8 +7,23 @@ layout: pages
     <h3>{{ topik.name }} </h3>
     <ul>
         {% assign titles = site.data.pph.pph | where: "topik", topik.name %}
-        {% for titles in titles %}<li class="text-normal"><a href="{{ titles.url }}" class="no-underline">{{ titles.title }} <i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>
-                {% if titles.subtopik %}<span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>{% endif %}</a></li>
+        {% for titles in titles %}
+        <li class="text-normal">
+                {% if titles.active == "tidak" %}
+                    <span class="text-gray" style="opacity: 0.6">
+                {% else %}
+                    <a href="{{ titles.url }}" class="link-gray">
+                {%endif%}               
+                {{ titles.title }} <i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>
+                {% if titles.subtopik %}
+                <span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>
+                {% endif %}
+                {% if titles.active == "tidak" %}
+                    </a>
+                {% else %}
+                </a>
+                {%endif%}         
+            </li>
         {% endfor %}
     </ul>
 {% endfor %}

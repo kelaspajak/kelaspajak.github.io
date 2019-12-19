@@ -110,3 +110,9 @@ Type `ideos Webcasts Whitepapers`
 
  ### untuk halaman komunitas 
  https://electronjs.org/community
+
+ {% if titles.active %}
+                    <a href="{{ titles.url }}" class="link-gray-dark">
+                {% elsif %}
+                    <a href="{{ titles.url }}" class="muted-link">
+                {% endif %}

@@ -2,6 +2,7 @@ pph:
   - id: 1
     title: Penentuan SPDN dan SPLN
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Subjek Pajak
@@ -10,6 +11,7 @@ pph:
   - id: 2
     title: Subjek Pajak dan Bukan Subjek Pajak
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Subjek Pajak
@@ -18,6 +20,7 @@ pph:
   - id: 3
     title: Sisa Lebih yang Diterima oleh Badan atau Lembaga Nirlaba di Bidang Pendidikan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan
@@ -26,6 +29,7 @@ pph:
   - id: 4
     title: Hibah, Bantuan, Sumbangan yang tidak termasuk Objek pajak
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan
@@ -34,6 +38,7 @@ pph:
   - id: 5
     title: Beasiswa tidak termasuk Objek Pajak
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan
@@ -42,6 +47,7 @@ pph:
   - id: 6
     title: Bantuan atau Santunan yang Dibayarkan oleh Badan Penyelenggara Jaminan Sosial (BPJS)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan
@@ -50,6 +56,7 @@ pph:
   - id: 7
     title: Bantuan, Sumbangan, Zakat yang tidak termasuk Objek Pajak
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan
@@ -58,6 +65,7 @@ pph:
   - id: 8
     title: Keuntungan karena Pembebasan Utang
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan
@@ -66,6 +74,7 @@ pph:
   - id: 9
     title: Hubungan Usaha, Pekerjaan,Kepemilikan atau Penguasaan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan
@@ -74,6 +83,7 @@ pph:
   - id: 10
     title: Objek PPh
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan
@@ -82,6 +92,7 @@ pph:
   - id: 11
     title: Bukan objek PPh
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan
@@ -90,6 +101,7 @@ pph:
   - id: 12
     title: Zakat Atau Sumbangan Keagamaan yang Sifatnya Wajib
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -98,6 +110,7 @@ pph:
   - id: 13
     title: BIAYA FISKAL (PASAL 6 DAN 9 UU PPH)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -106,6 +119,7 @@ pph:
   - id: 14
     title: Natura/Kenikmatan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -114,6 +128,7 @@ pph:
   - id: 15
     title: Biaya Promosi
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -122,6 +137,7 @@ pph:
   - id: 16
     title: Piutang yang Nyata-Nyata Tidak Dapat Ditagih
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -130,6 +146,7 @@ pph:
   - id: 17
     title: Biaya SDM (deductible/nondeductible, objek pph 21/bukan objek pph 21)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -138,6 +155,7 @@ pph:
   - id: 18
     title: Biaya Bunga Pinjaman
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -146,6 +164,7 @@ pph:
   - id: 19
     title: Pajak Daerah dan Retribusi Daerah
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -154,6 +173,7 @@ pph:
   - id: 20
     title: Biaya Entertainment
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -162,6 +182,7 @@ pph:
   - id: 21
     title: Sumbangan / Biaya Pembangunan Infrastruktur yang bisa dikurangkan dari penghasilan bruto
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -170,6 +191,7 @@ pph:
   - id: 22
     title: Pajak Masukan yang Tidak dapat Dikreditkan bisa jadi Pengurang Penghasilan Bruto
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -178,6 +200,7 @@ pph:
   - id: 23
     title: JOIN COST
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -186,6 +209,7 @@ pph:
   - id: 24
     title: Daftar Rekonsiliasi Fiskal Biaya Usaha
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -194,6 +218,7 @@ pph:
   - id: 25
     title: Contoh Soal Rekonsiliasi Fiskal + Kunci Jawaban
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -202,6 +227,7 @@ pph:
   - id: 26
     title: Biaya Penyusutan Fiskal
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -211,6 +237,7 @@ pph:
   - id: 27
     title: Penyusutan Harta Berwujud
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -220,6 +247,7 @@ pph:
   - id: 28
     title: Amortisasi Harta Tidak Berwujud
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -229,6 +257,7 @@ pph:
   - id: 29
     title: Perangkat Lunak (Software) Komputer
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -238,6 +267,7 @@ pph:
   - id: 30
     title: Kendaraan milik perusahaan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -247,6 +277,7 @@ pph:
   - id: 31
     title: HP, telepon Seluler, pager
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -256,6 +287,7 @@ pph:
   - id: 32
     title: Penyusutan, Amortisasi dalam Bidang Usaha Tertentu (Tanaman Kehutanan, kayu, Tanaman Keras, Ternak)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -265,6 +297,7 @@ pph:
   - id: 33
     title: Penyusutan Harta Berwujud Bagi Kontraktor Migas
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Biaya Fiskal
@@ -274,6 +307,7 @@ pph:
   - id: 34
     title: Norma Penghitungan Penghasilan Neto
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Pencatatan, Pembukuan
@@ -282,6 +316,7 @@ pph:
   - id: 35
     title: Tax Haven Country
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Pencatatan, Pembukuan
@@ -290,6 +325,7 @@ pph:
   - id: 36
     title: Norma Penghitungan Penghasilan Neto sejak tahun pajak 2016
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Pencatatan, Pembukuan
@@ -298,6 +334,7 @@ pph:
   - id: 37
     title: J O (Pemecahan Bukti Potong)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -306,6 +343,7 @@ pph:
   - id: 38
     title: Perlakuan PPh dan PPN atas Leasing ( Sewa Guna Usaha )
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -314,6 +352,7 @@ pph:
   - id: 39
     title: Perlakuan Perpajakan untuk Pengusaha Panas Bumi
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -322,6 +361,7 @@ pph:
   - id: 40
     title: CV, Firma, Kongsi, Persekutuan, Kontrak Investasi Kolektif (KIK)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -330,6 +370,7 @@ pph:
   - id: 41
     title: Yayasan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -338,6 +379,7 @@ pph:
   - id: 42
     title: Usaha Lapangan Golf
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -346,6 +388,7 @@ pph:
   - id: 43
     title: Perlakuan PPh atas Usaha Reksadana
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -354,6 +397,7 @@ pph:
   - id: 44
     title: Built Operate and Transfer (BOT) (Bangun Guna Serah)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -362,6 +406,7 @@ pph:
   - id: 45
     title: Kegiatan Usaha Berbasis Syariah
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -370,6 +415,7 @@ pph:
   - id: 46
     title: Perusahaan Pelayaran Niaga Nasional
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -378,6 +424,7 @@ pph:
   - id: 47
     title: Penghitungan PPh Kontraktor Kontrak Kerja Sama Migas
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -386,6 +433,7 @@ pph:
   - id: 48
     title: Transaksi e-commerse
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -394,6 +442,7 @@ pph:
   - id: 49
     title: Perlakuan Perpajakan di KAPET (PPh dan PPN)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -403,6 +452,7 @@ pph:
   - id: 50
     title: Untuk Pengusaha yang Berdomisili di dalam wilayah KAPET
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -412,6 +462,7 @@ pph:
   - id: 51
     title: Untuk Pengusaha yang Tidak Berdomisili di dalam wilayah KAPET
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -421,6 +472,7 @@ pph:
   - id: 52
     title: Kawasan Pengembangan Ekonomi Terpadu (KAPET) (yang ditetapkan sebagai Kawasan Berikat)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -430,6 +482,7 @@ pph:
   - id: 53
     title: Daftar Wilayah KAPET
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
@@ -439,6 +492,7 @@ pph:
   - id: 54
     title: Tabel Tarif PPh Pasal 21
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -448,6 +502,7 @@ pph:
   - id: 55
     title: Jamsostek (JKK, JHT, JKM, JPK & JHT) dan Premi asuransi lainnya
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -457,6 +512,7 @@ pph:
   - id: 56
     title: PPh 21 Ditanggung Pemerintah
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -466,6 +522,7 @@ pph:
   - id: 57
     title: Tanda Tangan Stempel & Bukti Potong Online PPh 21
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -475,6 +532,7 @@ pph:
   - id: 58
     title: Pesangon, Uang Manfaat Pensiun, THT dan JHT
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -484,6 +542,7 @@ pph:
   - id: 59
     title: Penghasilan Tidak Kena Pajak (PTKP)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -493,6 +552,7 @@ pph:
   - id: 60
     title: Biaya Jabatan dan Biaya Pensiun
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -502,6 +562,7 @@ pph:
   - id: 61
     title: Subjek dan Bukan Subjek PPh Pasal 21/26
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -511,6 +572,7 @@ pph:
   - id: 62
     title: Objek dan Bukan Objek PPh Pasal 21/26
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -520,6 +582,7 @@ pph:
   - id: 63
     title: Pemotong dan Bukan Pemotong PPh Pasal 21/26
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -529,6 +592,7 @@ pph:
   - id: 64
     title: SKB PPh Potput (SKB PPh 21, 22, 22 impor, 23)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -538,6 +602,7 @@ pph:
   - id: 65
     title: PPh 21 bagi Pejabat Negara, PNS, Anggota TNI, POLRI, dan Pensiunannya
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -547,6 +612,7 @@ pph:
   - id: 66
     title: Unsur Penambah dan Pengurang Penghasilan dalam Penghitungan PPh Pasal 21
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -556,6 +622,7 @@ pph:
   - id: 67
     title: Pajak Penghasilan Pasal 21 atas Penghasilan Pegawai dari Pemberi Kerja yang Memenuhi Kriteria Tertentu
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -565,6 +632,7 @@ pph:
   - id: 68
     title: PPh Pasal 21 Atas Bonus dan Tunjangan Hari Raya (THR)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -574,6 +642,7 @@ pph:
   - id: 69
     title: PPh Pasal 21 Pegawai Tetap dan Penerima Pensiun Berkala
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -583,6 +652,7 @@ pph:
   - id: 70
     title: PPh Pasal 21 Pegawai Tidak Tetap
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -592,6 +662,7 @@ pph:
   - id: 71
     title: PPh 21 atas mantan pegawai, komisaris yang bukan pegawai tetap, penarikan dana pensiun oleh pegawai
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -601,6 +672,7 @@ pph:
   - id: 72
     title: PPh Pasal 21 Atas Bonus dan Tunjangan Hari Raya (THR)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -610,6 +682,7 @@ pph:
   - id: 73
     title: Penghitungan PPh 21 Pegawai Tetap dan Penerima Pensiun Berkala
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -619,6 +692,7 @@ pph:
   - id: 74
     title: PPh Pasal 21 Pegawai Tidak Tetap
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -628,6 +702,7 @@ pph:
   - id: 75
     title: PPh 21 atas mantan pegawai, komisaris yang bukan pegawai tetap, penarikan dana pensiun oleh pegawai
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -637,6 +712,7 @@ pph:
   - id: 76
     title: PPh Pasal 21 Pegawai Tetap dan Penerima Pensiun Berkala
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -646,6 +722,7 @@ pph:
   - id: 77
     title: PPh Pasal 21 Pegawai Tidak Tetap
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -655,6 +732,7 @@ pph:
   - id: 78
     title: PPh Pasal 21 Atas Bonus dan Tunjangan Hari Raya (THR)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -664,6 +742,7 @@ pph:
   - id: 79
     title: PPh Pasal 21 Pegawai Tetap dan Pemberi Pensiun
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -673,6 +752,7 @@ pph:
   - id: 80
     title: PPh Pasal 21 Pegawai Tidak Tetap
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -682,6 +762,7 @@ pph:
   - id: 81
     title: PPh Pasal 21 Atas Bonus dan Tunjangan Hari Raya (THR)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 21
@@ -691,6 +772,7 @@ pph:
   - id: 82
     title: Tabel Tarif PPh Pasal 22
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 22
@@ -699,6 +781,7 @@ pph:
   - id: 83
     title: PPh Pasal 22
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 22
@@ -707,6 +790,7 @@ pph:
   - id: 84
     title: PPh Pasal 22 yang Dipungut Bank Devisa dan DJBC
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 22
@@ -715,6 +799,7 @@ pph:
   - id: 85
     title: PPh Pasal 22 Bendaharawan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 22
@@ -723,6 +808,7 @@ pph:
   - id: 86
     title: PPh Pasal 22 Produsen atau importir bahan bakar minyak, bahan bakar gas, dan pelumas
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 22
@@ -731,6 +817,7 @@ pph:
   - id: 87
     title: PPh Pasal 22 Industri Tertentu
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 22
@@ -739,6 +826,7 @@ pph:
   - id: 88
     title: PPh Pasal 22 Industri atau eksportir sektor kehutanan, perkebunan, pertanian, peternakan, dan perikanan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 22
@@ -747,6 +835,7 @@ pph:
   - id: 89
     title: PPh Pasal 22 Penjualan Barang yang Tergolong Sangat Mewah
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 22
@@ -755,6 +844,7 @@ pph:
   - id: 90
     title: SKB PPh Potput (SKB PPh 21, 22, 22 impor, 23)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 22
@@ -763,6 +853,7 @@ pph:
   - id: 91
     title: PPh Pasal 22 atas Badan Usaha Tertentu
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 22
@@ -771,6 +862,7 @@ pph:
   - id: 92
     title: PPh Pasal 22 Industri atau badan usaha komoditas tambang batubara, mineral logam, dan mineral bukan logam
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 22
@@ -779,6 +871,7 @@ pph:
   - id: 93
     title: Dividen
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 23
@@ -787,6 +880,7 @@ pph:
   - id: 94
     title: Bunga
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 23
@@ -795,6 +889,7 @@ pph:
   - id: 95
     title: Royalti
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 23
@@ -803,6 +898,7 @@ pph:
   - id: 96
     title: Hadiah, Penghargaan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 23
@@ -811,6 +907,7 @@ pph:
   - id: 97
     title: Sewa dan Jasa
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 23
@@ -819,6 +916,7 @@ pph:
   - id: 98
     title: Tabel Tarif PPh Pasal 23
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 23
@@ -827,6 +925,7 @@ pph:
   - id: 99
     title: PPh Pasal 23
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 23
@@ -835,6 +934,7 @@ pph:
   - id: 100
     title: SKB PPh Potput (SKB PPh 21, 22, 22 impor, 23)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 23
@@ -843,6 +943,7 @@ pph:
   - id: 101
     title: Resume S-653/PJ.032/2010 Penegasan Perlakuan PPh Pasal 23 Usaha Retail
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 23
@@ -851,6 +952,7 @@ pph:
   - id: 102
     title: Stempel Tanda tangan pada Bukti Potong PPh 23/26 atas dividen
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 23
@@ -859,6 +961,7 @@ pph:
   - id: 103
     title: SUN (Obligasi Negara, SPN) dan SBSN
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -867,6 +970,7 @@ pph:
   - id: 104
     title: PPh Final atas Pengalihan hak atas Tanah dan/atau bangunan, SKB PPhTB
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -875,6 +979,7 @@ pph:
   - id: 105
     title: PPh Final atas Persewaan Tanah dan/atau Bangunan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -883,6 +988,7 @@ pph:
   - id: 106
     title: PPh Final atas Jasa Konstruksi
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -891,6 +997,7 @@ pph:
   - id: 107
     title: PPh Final atas Penjualan Saham di Bursa Efek
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -899,6 +1006,7 @@ pph:
   - id: 108
     title: Tabel Tarif PPh Pasal 4 (2)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -907,6 +1015,7 @@ pph:
   - id: 109
     title: PPh Final atas Dividen yang diterima Orang Pribadi (OP)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -915,6 +1024,7 @@ pph:
   - id: 110
     title: PPh Final atas Bunga Obligasi
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -923,6 +1033,7 @@ pph:
   - id: 111
     title: PPh Final atas Bunga deposito dan tabungan serta diskonto Sertifikat Bank Indonesia
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -931,6 +1042,7 @@ pph:
   - id: 112
     title: PPh Final atas Bunga simpanan Koperasi
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -939,6 +1051,7 @@ pph:
   - id: 113
     title: PPh Final atas Hadiah Undian
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -947,6 +1060,7 @@ pph:
   - id: 114
     title: Stempel Tanda Tangan pada Bukti Potong PPh atas Bunga Deposito, Tabungan, Jasa Giro, dan Diskonto SBI
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -955,6 +1069,7 @@ pph:
   - id: 115
     title: Stempel Tanda Tangan pada Bukti Potong PPh atas Pembayaran Bunga Kepada Nasabah SUN-ORI
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -963,6 +1078,7 @@ pph:
   - id: 116
     title: SKB terkait PP 46 Tahun 2013
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -971,6 +1087,7 @@ pph:
   - id: 117
     title: PPh Final atas Penghasilan Lain Kontraktor Dari Pengalihan Participating Interest
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -979,6 +1096,7 @@ pph:
   - id: 118
     title: PPh Final atas Penghasilan dari Pengalihan Real Estat dalam Skema Kontrak Investasi Kolektif Tertentu
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -987,6 +1105,7 @@ pph:
   - id: 119
     title: PPh Final atas penghasilan WP yang memiliki peredaran bruto tertentu PP 46 Tahun 2013 (sudah tidak berlaku sejak 1 Juli 2018)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -995,6 +1114,7 @@ pph:
   - id: 120
     title: PPh Final atas penghasilan WP yang memiliki peredaran bruto tertentu PP 23 Tahun 2018
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -1003,6 +1123,7 @@ pph:
   - id: 121
     title: Validasi SSB dan SSP
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
@@ -1011,6 +1132,7 @@ pph:
   - id: 122
     title: PPh Pasal 15 atas PELAYARAN DALAM NEGERI
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 15
@@ -1019,6 +1141,7 @@ pph:
   - id: 123
     title: PPh Pasal 15 atas Pelayaran/Penerbangan Luar Negeri
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 15
@@ -1027,6 +1150,7 @@ pph:
   - id: 124
     title: PPh Pasal 15 atas Penerbangan Dalam Negeri
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 15
@@ -1035,6 +1159,7 @@ pph:
   - id: 125
     title: Tabel Tarif PPh Pasal 15
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 15
@@ -1043,6 +1168,7 @@ pph:
   - id: 126
     title: PPh Pasal 15 atas Kantor Perwakilan Dagang Asing (representative office/liaison office) di Indonesia
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 15
@@ -1051,6 +1177,7 @@ pph:
   - id: 127
     title: PPh Pasal 15 atas WP yang melakukan kegiatan usaha jasa maklon internasional di bidang produksi mainan anak-anak
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 15
@@ -1059,6 +1186,7 @@ pph:
   - id: 128
     title: PPh PASAL 19 ATAS Revaluasi (penilaian kembali aktiva tetap)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 19
@@ -1067,6 +1195,7 @@ pph:
   - id: 129
     title: Revaluasi aktiva tetap untuk tahun 2015 dan 2016
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 19
@@ -1075,6 +1204,7 @@ pph:
   - id: 130
     title: PPH PASAL 24 ATAS penghasilan WPDN dari Luar Negeri
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 24
@@ -1083,6 +1213,7 @@ pph:
   - id: 131
     title: PPh Pasal 25 atas Orang Pribadi Pengusaha Tertentu (OPPT)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1091,6 +1222,7 @@ pph:
   - id: 132
     title: Pelaporan SPT Masa PPh 25
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1099,6 +1231,7 @@ pph:
   - id: 133
     title: Fiskal Luar Negeri
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1107,6 +1240,7 @@ pph:
   - id: 134
     title: Cara Menghitung PPh Pasal 25 untuk WP BARU
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1115,6 +1249,7 @@ pph:
   - id: 135
     title: Cara menghitung PPh Pasal 25 untuk WP Bank, WP SGU dengan Hak Opsi
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1123,6 +1258,7 @@ pph:
   - id: 136
     title: Cara Menghitung PPh Pasal 25 untuk WP BUMN, BUMD, WP Masuk Bursa
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1131,6 +1267,7 @@ pph:
   - id: 137
     title: pengurangan besarnya PPh pasal 25 bagi wajib pajak industri tertentu
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1139,6 +1276,7 @@ pph:
   - id: 138
     title: Dalam hal WP berhak atas kompensasi kerugian dan Menerima Penghasilan Tidak Teratur
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1148,6 +1286,7 @@ pph:
   - id: 139
     title: Dalam hal WP melaporkan SPT Tahunan PPh Tahun Pajak Lalu Lewat Batas Waktu
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1157,6 +1296,7 @@ pph:
   - id: 140
     title: Dalam hal WP diberikan perpanjangan jangka waktu penyampaian SPT Tahunan PPh
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1166,6 +1306,7 @@ pph:
   - id: 141
     title: Dalam hal WP membetulkan sendiri SPT Tahunan PPh
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1175,6 +1316,7 @@ pph:
   - id: 142
     title: Dalam hal WP mengalami perubahan usaha atau kegiatan WP
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1184,6 +1326,7 @@ pph:
   - id: 143
     title: Penerapan P3B, DGT dan SKD
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1193,6 +1336,7 @@ pph:
   - id: 144
     title: Surat Keterangan Domisili Bagi SPDN Indonesia Dalam Rangka P3B
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1202,6 +1346,7 @@ pph:
   - id: 145
     title: Tabel Tarif PPh Pasal 26
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1211,6 +1356,7 @@ pph:
   - id: 146
     title: PPh Pasal 26 atas Penjualan Saham yang Dilakukan oleh WPLN
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1220,6 +1366,7 @@ pph:
   - id: 147
     title: Premi Asuransi dan Reasuransi yang Dibayar kepada Perusahaan Asuransi di Luar Negeri
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1229,6 +1376,7 @@ pph:
   - id: 148
     title: Perlakuan PPh Vs Perjanjian Internasional
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1238,6 +1386,7 @@ pph:
   - id: 149
     title: Surat Keterangan Domisili (DGT 6 dan DGT 7) bagi SPDN Indonesia dalam rangka P3B (Ketentuan Sebelum 12 Mei 2017)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1247,6 +1396,7 @@ pph:
   - id: 150
     title: DGT 1 dan DGT 2 (Ketentuan ini sudah dicabut sejak 1 Agustus 2017)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1256,6 +1406,7 @@ pph:
   - id: 151
     title: Pencegahan Penyalahgunaan P3B (Ketentuan ini dicabut sejak 1 Agustus 2017)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1265,6 +1416,7 @@ pph:
   - id: 152
     title: DGT 3, DGT 4, dan DGT 5 (Ketentuan ini Sudah dicabut sejak 30 Mei 2013)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1274,6 +1426,7 @@ pph:
   - id: 153
     title: BUT dalam UU PPh
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1283,6 +1436,7 @@ pph:
   - id: 154
     title: BUT dalam P3B
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1292,6 +1446,7 @@ pph:
   - id: 155
     title: Objek Pajak BUT dan Branch Profit Tax
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1301,6 +1456,7 @@ pph:
   - id: 156
     title: Biaya BUT yang boleh / tidak boleh dikurangkan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1310,6 +1466,7 @@ pph:
   - id: 157
     title: Terjadinya Hubungan Istimewa
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1319,6 +1476,7 @@ pph:
   - id: 158
     title: Penurunan tarif PPh Bagi WPDN berbentuk Perseroan Terbuka
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1328,6 +1486,7 @@ pph:
   - id: 159
     title: Fasilitas PPh untuk Penanaman Modal di Bidang Usaha Tertentu dan/atau Daerah tertentu
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25
@@ -1337,6 +1496,7 @@ pph:
   - id: 160
     title: Fasilitas Pengurangan Pajak Penghasilan Badan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: pph
     topik: PPh Pasal 25

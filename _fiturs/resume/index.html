@@ -10,7 +10,7 @@ permalink: /fitur/resume/
 <div class="mb-4">
     <ul>
         {% for entry in item.children %}
-        <li><a href="{{ entry.url }}">{{ entry.title }}{% if entry.description %}<span class="alt-text-small" style="opacity: 0.6"> - {{ entry.description }}</span>{% endif %}</a></li>
+        <li><a class="link-gray" href="{{ entry.url }}">{{ entry.title }}{% if entry.description %}<span class="alt-text-small" style="opacity: 0.6"> - {{ entry.description }}</span>{% endif %}</a></li>
         {% endfor %}
     </ul>
 </div>

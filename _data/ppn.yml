@@ -2,6 +2,7 @@ ppn:
   - id: 1
     title: Mekanisme PPN Indonesia
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Umum
@@ -10,6 +11,7 @@ ppn:
   - id: 2
     title: Bagaimanakah mekanisme pemungutan PPN?
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Umum
@@ -18,6 +20,7 @@ ppn:
   - id: 3
     title: Lain - lain
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Umum
@@ -26,6 +29,7 @@ ppn:
   - id: 4
     title: UU PPN dan Resume
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Umum
@@ -34,6 +38,7 @@ ppn:
   - id: 5
     title: Tanggung Jawab Renteng
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Umum
@@ -42,6 +47,7 @@ ppn:
   - id: 6
     title: Branches PP 10 Tahun 2012
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Umum
@@ -50,6 +56,7 @@ ppn:
   - id: 7
     title: Subjek PPN (PKP dan Non PKP)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Subjek PPN
@@ -58,6 +65,7 @@ ppn:
   - id: 8
     title: Tempat Terutangnya PPN (KPP Tempat WP Mengajukan Permohonan PKP)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Subjek PPN
@@ -66,6 +74,7 @@ ppn:
   - id: 9
     title: Pemakaian Sendiri dan Pemberian Cuma-cuma
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
@@ -74,6 +83,7 @@ ppn:
   - id: 10
     title: Kegiatan Membangun Sendiri (KMS) (Pasal 16C UU PPN)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
@@ -82,6 +92,7 @@ ppn:
   - id: 11
     title: Pemanfaatan BKP tidak Berwujud atau JKP dari Luar Daerah Pabean
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
@@ -90,6 +101,7 @@ ppn:
   - id: 12
     title: Ekspor JKP dan/atau BKP Tidak Berwujud
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
@@ -98,6 +110,7 @@ ppn:
   - id: 13
     title: Aktiva yang Menurut Tujuan Semula Tidak Untuk Diperjualbelikan (Pasal 16D)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
@@ -106,6 +119,7 @@ ppn:
   - id: 14
     title: penyerahan BKP/JKP di dalam Daerah Pabean yang dilakukan oleh Pengusaha (Ps. 4 ayat (1) huruf a & c)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
@@ -114,6 +128,7 @@ ppn:
   - id: 15
     title: PPN atas Penyerahan Jasa Jalan Tol
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
@@ -122,6 +137,7 @@ ppn:
   - id: 16
     title: Penyerahan hak atas BKP karena suatu Perjanjian
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
@@ -131,6 +147,7 @@ ppn:
   - id: 17
     title: pengalihan BKP karena suatu perjanjian sewa beli dan/atau perjanjian sewa guna usaha (leasing)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
@@ -140,6 +157,7 @@ ppn:
   - id: 18
     title: penyerahan BKP kepada pedagang perantara (komisioner), melalui juru lelang, makelar
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
@@ -149,6 +167,7 @@ ppn:
   - id: 19
     title: Penyerahan BKP secara Konsinyasi
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
@@ -158,6 +177,7 @@ ppn:
   - id: 20
     title: Yang Termasuk Pengertian Penyerahan BKP
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
@@ -167,6 +187,7 @@ ppn:
   - id: 21
     title: Perbandingan Ketentuan Bukan Objek PPN Sebelum dan Sesudah berlakunya UU 42 Tahun 2009
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Bukan Objek PPN
@@ -175,6 +196,7 @@ ppn:
   - id: 22
     title: Jasa Angkutan Umum
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Bukan Objek PPN
@@ -183,6 +205,7 @@ ppn:
   - id: 23
     title: Jasa Perhotelan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Bukan Objek PPN
@@ -191,6 +214,7 @@ ppn:
   - id: 24
     title: Bukan Objek PPN (Bukan BKP dan Bukan JKP) SEBELUM 1 April 2010
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Bukan Objek PPN
@@ -199,6 +223,7 @@ ppn:
   - id: 25
     title: Bukan Objek PPN (Bukan BKP dan Bukan JKP) SEJAK 1 April 2010
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Bukan Objek PPN
@@ -207,6 +232,7 @@ ppn:
   - id: 26
     title: Jasa tenaga kerja
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Bukan Objek PPN
@@ -215,6 +241,7 @@ ppn:
   - id: 27
     title: Jasa Penyediaan Tempat Parkir
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Bukan Objek PPN
@@ -223,6 +250,7 @@ ppn:
   - id: 28
     title: jasa yang disediakan oleh Pemerintah dalam rangka menjalankan pemerintahan secara umum
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Bukan Objek PPN
@@ -231,6 +259,7 @@ ppn:
   - id: 29
     title: Jasa Penyiaran yang Tidak Bersifat Iklan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Bukan Objek PPN
@@ -239,6 +268,7 @@ ppn:
   - id: 30
     title: Jasa Pendidikan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Bukan Objek PPN
@@ -247,6 +277,7 @@ ppn:
   - id: 31
     title: Jasa Boga atau Katering
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Bukan Objek PPN
@@ -255,6 +286,7 @@ ppn:
   - id: 32
     title: Jasa Kesenian dan Hiburan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Bukan Objek PPN
@@ -263,6 +295,7 @@ ppn:
   - id: 33
     title: Pemusatan tempat terutang PPN (lama) (Ketentuan sebelum 1 April 2010)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Pemusatan PPN
@@ -271,6 +304,7 @@ ppn:
   - id: 34
     title: Pemusatan tempat terutang PPN (Ketentuan Sejak 1 April 2010)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Pemusatan PPN
@@ -279,6 +313,7 @@ ppn:
   - id: 35
     title: Pemusatan Tempat PPN terutang (ketentuan sejak 1 Januari 2013 (Masih menggunakan PER-19/PJ/2010))
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Pemusatan PPN
@@ -287,6 +322,7 @@ ppn:
   - id: 36
     title: FP sebelum 1 April Vs setelah 1 April 2010
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -295,6 +331,7 @@ ppn:
   - id: 37
     title: Nota Retur dan Nota Pembatalan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -304,6 +341,7 @@ ppn:
   - id: 38
     title: Dokumen Tertentu yang Dipersamakan dengan Faktur Pajak
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -313,6 +351,7 @@ ppn:
   - id: 39
     title: FP bagi PKP Toko Retail (VAT Refund for tourist)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -322,6 +361,7 @@ ppn:
   - id: 40
     title: FP PKP PE
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -331,6 +371,7 @@ ppn:
   - id: 41
     title: Larangan Penggunaan Metode Q.Q Pada FP
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -340,6 +381,7 @@ ppn:
   - id: 42
     title: Saat Penyerahan BKP/JKP
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -349,6 +391,7 @@ ppn:
   - id: 43
     title: Kode dan Nomor Seri FP
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -358,6 +401,7 @@ ppn:
   - id: 44
     title: FP Pengganti
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -367,6 +411,7 @@ ppn:
   - id: 45
     title: FP Hilang
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -376,6 +421,7 @@ ppn:
   - id: 46
     title: FP Batal
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -385,6 +431,7 @@ ppn:
   - id: 47
     title: saat lain sebagai saat pembuatan faktur pajak atas penyerahan BKP dengan karakteristik tertentu
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -394,6 +441,7 @@ ppn:
   - id: 48
     title: FP Tidak Lengkap (Ketentuan Sejak 1 April 2013)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -403,6 +451,7 @@ ppn:
   - id: 49
     title: Faktur Pajak sejak 1 Juli 2014
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -412,6 +461,7 @@ ppn:
   - id: 50
     title: Faktur Pajak elektronik (e-Faktur)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -421,6 +471,7 @@ ppn:
   - id: 51
     title: Sertifikat Elektronik
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -430,6 +481,7 @@ ppn:
   - id: 52
     title: Yang baru tentang FP Menurut PER-24/PJ/2012 (sudah ada perubahan)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -439,6 +491,7 @@ ppn:
   - id: 53
     title: FP sejak 1 April 2013 (sudah tidak berlaku)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -448,6 +501,7 @@ ppn:
   - id: 54
     title: FP Pengganti (Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -457,6 +511,7 @@ ppn:
   - id: 55
     title: Pembatalan FP (Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -466,6 +521,7 @@ ppn:
   - id: 56
     title: FP (Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -475,6 +531,7 @@ ppn:
   - id: 57
     title: Kode dan Nomor Seri FP (Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -484,6 +541,7 @@ ppn:
   - id: 58
     title: FP Hilang (Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -493,6 +551,7 @@ ppn:
   - id: 59
     title: FP Cacat (Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -502,6 +561,7 @@ ppn:
   - id: 60
     title: Tata Cara Pembuatan Nota Retur (berlaku mulai 1 Januari 1995 sampai 31 Maret 2010)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Faktur Pajak dan Nota Retur
@@ -511,6 +571,7 @@ ppn:
   - id: 61
     title: Wajib Pungut (WAPU) PPN
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Wajib Pungut (Wapu) PPN
@@ -519,6 +580,7 @@ ppn:
   - id: 62
     title: Bendaharawan Pemerintah dan KPKN
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Wajib Pungut (Wapu) PPN
@@ -527,6 +589,7 @@ ppn:
   - id: 63
     title: Kontraktor Kontrak Kerja Sama
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Wajib Pungut (Wapu) PPN
@@ -535,6 +598,7 @@ ppn:
   - id: 64
     title: Badan Usaha Milik Negara
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Wajib Pungut (Wapu) PPN
@@ -543,6 +607,7 @@ ppn:
   - id: 65
     title: Badan Usaha Tertentu (Mulai tanggal 1 April 2015)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Wajib Pungut (Wapu) PPN
@@ -551,6 +616,7 @@ ppn:
   - id: 66
     title: Jenis-jenis Fasilitas Pembebasan PPN
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas Pembebasan PPN
@@ -559,6 +625,7 @@ ppn:
   - id: 67
     title: Pembebasan PPN kepada perwakilan Negara asing dan Badan Internasional serta Pejabatnya
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas Pembebasan PPN
@@ -567,6 +634,7 @@ ppn:
   - id: 68
     title: Pembebasan PPN atas penyerahan jasa kebandarudaraan tertentu
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas Pembebasan PPN
@@ -575,6 +643,7 @@ ppn:
   - id: 69
     title: Pembebasan PPN atas Penyerahan Air Bersih
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas Pembebasan PPN
@@ -583,6 +652,7 @@ ppn:
   - id: 70
     title: Pembebasan PPN atas Penyerahan Jasa Ke Pelabuhan Tertentu
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas Pembebasan PPN
@@ -591,6 +661,7 @@ ppn:
   - id: 71
     title: BKP Strategis bebas PPN
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas Pembebasan PPN
@@ -600,6 +671,7 @@ ppn:
   - id: 72
     title: Mesin dan Peralatan Pabrik
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas Pembebasan PPN
@@ -609,6 +681,7 @@ ppn:
   - id: 73
     title: RUSUNAMI
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas Pembebasan PPN
@@ -618,6 +691,7 @@ ppn:
   - id: 74
     title: BKP Strategis Bebas PPN (Ketentuan Baru)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas Pembebasan PPN
@@ -627,6 +701,7 @@ ppn:
   - id: 75
     title: BKP dan atau JKP Tertentu Bebas PPN
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas Pembebasan PPN
@@ -636,6 +711,7 @@ ppn:
   - id: 76
     title: Batasan Buku Pelajaran Umum, kitab suci dan buku-buku pelajaran agama yang Mendapatkan Pembebasan PPN
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas Pembebasan PPN
@@ -645,6 +721,7 @@ ppn:
   - id: 77
     title: Batas Rumah Sederhana, RSS, dll yang Memperoleh Pembebasan PPN
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas Pembebasan PPN
@@ -654,6 +731,7 @@ ppn:
   - id: 78
     title: JKP Tertentu yang dibebaskan PPN
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas Pembebasan PPN
@@ -663,6 +741,7 @@ ppn:
   - id: 79
     title: Jenis-Jenis PPN tidak dipungut
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -671,6 +750,7 @@ ppn:
   - id: 80
     title: Kawasan Berikat
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -679,6 +759,7 @@ ppn:
   - id: 81
     title: BKP Tertentu Bersifat Strategis Yang Tidak Dipungut PPN
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -687,6 +768,7 @@ ppn:
   - id: 82
     title: Kawasan Pengembangan Ekonomi Terpadu (KAPET) (yang ditetapkan sebagai Kawasan Berikat)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -695,6 +777,7 @@ ppn:
   - id: 83
     title: Kemudahan Impor untuk Tujuan Ekspor (KITE)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -703,6 +786,7 @@ ppn:
   - id: 84
     title: Proyek pemerintah yang dibiayai dengan hibah atau dana pinjaman Luar Negeri
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -711,6 +795,7 @@ ppn:
   - id: 85
     title: Toko Bebas Bea
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -719,6 +804,7 @@ ppn:
   - id: 86
     title: PPN Tidak Dipungut atas Sebagian impor BKP yang dibebaskan dari pungutan bea masuk
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -727,6 +813,7 @@ ppn:
   - id: 87
     title: Alat Angkutan Tertentu dan JKP terkait Yang impor/penyerahannya Tidak Dipungut PPN
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -735,6 +822,7 @@ ppn:
   - id: 88
     title: penyerahan minyak goreng kemasan sederhana
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -744,6 +832,7 @@ ppn:
   - id: 89
     title: Penyerahan Minyak Goreng Sawit Curah
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -753,6 +842,7 @@ ppn:
   - id: 90
     title: Impor Barang Untuk Kegiatan Usaha Eksplorasi Hulu Minyak dan Gas Bumi Serta Panas Bumi
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -762,6 +852,7 @@ ppn:
   - id: 91
     title: PPN DTP atas subsidi BBM Jenis Tertentu dan LPG Tabung 3 kg
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -771,6 +862,7 @@ ppn:
   - id: 92
     title: Kawasan Bebas
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -780,6 +872,7 @@ ppn:
   - id: 93
     title: I.1 Antara Kawasan Bebas dengan Luar Daerah Pabean (Terkait BKP berwujud)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -789,6 +882,7 @@ ppn:
   - id: 94
     title: I.2 Antara Kawasan Bebas dengan TLDDP (Terkait BKP berwujud)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -798,6 +892,7 @@ ppn:
   - id: 95
     title: I.3 Antara Kawasan Bebas dengan TPB atau KEK (Terkait BKP Berwujud)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -807,6 +902,7 @@ ppn:
   - id: 96
     title: I.4 Perlakuan PPN atas Penyerahan atau Perolehan/Pemanfaatan BKP TB dan Penyerahan/Perolehan JKP
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
@@ -816,6 +912,7 @@ ppn:
   - id: 97
     title: SKB PPnBM atas kendaraan bermotor
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: PPnBM
@@ -824,6 +921,7 @@ ppn:
   - id: 98
     title: PPnBM
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: PPnBM
@@ -832,6 +930,7 @@ ppn:
   - id: 99
     title: PPnBM untuk Golongan Selain Kendaraan Bermotor
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: PPnBM
@@ -840,6 +939,7 @@ ppn:
   - id: 100
     title: PPnBM atas Kendaraan Bermotor sebelum 23 Mei 2013
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: PPnBM
@@ -848,6 +948,7 @@ ppn:
   - id: 101
     title: Tatacara Pengajuan Pengembalian PPnBM atas Kendaraan Bermotor
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: PPnBM
@@ -856,6 +957,7 @@ ppn:
   - id: 102
     title: PPnBM atas Kendaraan Bermotor Sejak 23 Mei 2013
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: PPnBM
@@ -864,6 +966,7 @@ ppn:
   - id: 103
     title: Yang Menggunakan DPP Nilai Lain
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Dasar Pengenaan Pajak
@@ -872,6 +975,7 @@ ppn:
   - id: 104
     title: Dasar Pengenaan Pajak (DPP)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Dasar Pengenaan Pajak
@@ -880,6 +984,7 @@ ppn:
   - id: 105
     title: Pedoman Pengkreditan PM Bagi PKP yang peredaran Usahanya Tidak Melebihi Jumlah Tertentu
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Pengkreditan Pajak Masukan
@@ -888,6 +993,7 @@ ppn:
   - id: 106
     title: Pedoman Pengkreditan PM Bagi PKP yang Melakukan Penyerahan Terutang danTidak Terutang/dibebaskan PPN
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Pengkreditan Pajak Masukan
@@ -896,6 +1002,7 @@ ppn:
   - id: 107
     title: Pedoman Pengkreditan PM bagi PKP Usaha Tertentu (kendaraan bekas)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Pengkreditan Pajak Masukan
@@ -904,6 +1011,7 @@ ppn:
   - id: 108
     title: Pedoman Pengkreditan PM Sebelum 1 April 2010
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Pengkreditan Pajak Masukan
@@ -912,6 +1020,7 @@ ppn:
   - id: 109
     title: Jenis Pajak Masukan yang Tidak Bisa Dikreditkan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Pengkreditan Pajak Masukan
@@ -920,6 +1029,7 @@ ppn:
   - id: 110
     title: Tata Cara Restitusi PPN
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Restitusi PPN
@@ -928,6 +1038,7 @@ ppn:
   - id: 111
     title: Penetapan PKP Resiko Rendah
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Restitusi PPN
@@ -936,6 +1047,7 @@ ppn:
   - id: 112
     title: Pembayaran Kembali PM Bagi PKP yang Gagal Berproduksi
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Restitusi PPN
@@ -944,6 +1056,7 @@ ppn:
   - id: 113
     title: Penetapan PKP Resiko Rendah (Ketentuan Lama)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Restitusi PPN
@@ -952,6 +1065,7 @@ ppn:
   - id: 114
     title: Pengusaha Emas Perhiasan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
@@ -960,6 +1074,7 @@ ppn:
   - id: 115
     title: VAT Refund bagi Turis Asing
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
@@ -968,6 +1083,7 @@ ppn:
   - id: 116
     title: Penebusan Stiker Lunas PPN untuk Media Rekaman Suara/ Gambar
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
@@ -976,6 +1092,7 @@ ppn:
   - id: 117
     title: PPN atas penyerahan Obat oleh Apotik atau instalasi farmasi (kamar obat) Rumah Sakit
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
@@ -984,6 +1101,7 @@ ppn:
   - id: 118
     title: PPN atas Insentif/Bonus dari main dealer kepada dealer/distributor
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
@@ -992,6 +1110,7 @@ ppn:
   - id: 119
     title: Pengenaan PPN atas Produksi Hasil Tembakau (Rokok, dsb)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
@@ -1000,6 +1119,7 @@ ppn:
   - id: 120
     title: Kontraktor Perjanjian Karya Pengusahaan Pertambangan Batubara Generasi I (Pajak penjualan dan PPN)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
@@ -1008,6 +1128,7 @@ ppn:
   - id: 121
     title: PPN atas Penyerahan Pupuk Tertentu
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
@@ -1016,6 +1137,7 @@ ppn:
   - id: 122
     title: Impor BKP
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Impor BKP
@@ -1024,6 +1146,7 @@ ppn:
   - id: 123
     title: Impor Sementara
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Impor BKP
@@ -1032,6 +1155,7 @@ ppn:
   - id: 124
     title: Impor Atas Dasar Inden
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
     fitur: resume
     category: ppn
     topik: Impor BKP

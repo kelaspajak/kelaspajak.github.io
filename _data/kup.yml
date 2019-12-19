@@ -26,7 +26,7 @@ kup:
   - id: 4
     title: Layanan unggulan bidang perpajakan
     url: 404
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Umum
@@ -51,7 +51,7 @@ kup:
   - id: 7
     title: Tindak Lanjut Surat Himbauan
     url: 
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Umum
@@ -82,9 +82,9 @@ kup:
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 11
-    title: Tata cara verifikasi
+    title: Verifikasi
     url: 
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Umum
@@ -107,9 +107,9 @@ kup:
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 14
-    title: Tata cara ekstensifikasi
-    url: 
-    active: false
+    title: Ekstensifikasi
+    url: 404
+    active: "tidak"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -207,7 +207,7 @@ kup:
   - id: 25
     title: Tempat Pendaftaran NPWP WP KPP WP Besar, KPP Madya, KPP PMA, KPP Badora (Sejak 1 Januari 2013)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -217,7 +217,7 @@ kup:
   - id: 26
     title: Tempat Pendaftaran NPWP WP KPP WP Besar, KPP Madya, KPP PMA, KPP Badora Tertentu (Sejak 30 Maret 2012)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -227,7 +227,7 @@ kup:
   - id: 27
     title: Tempat Pendaftaran NPWP WP KPP WP Besar, KPP Madya, KPP PMA, KPP Badora (sebelum 30 Maret 2012)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -237,7 +237,7 @@ kup:
   - id: 28
     title: Pelaksanaan Hak dan Kewajiban sehubungan dengan Pemindahan WP KPP WP Besar, KPP Madya, KPP PMA, KPP Badora
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -247,7 +247,7 @@ kup:
   - id: 29
     title: Tempat Pendaftaran/Pelaporan PKP bagi WP yang Usahanya di Bidang Pengalihan Tanah/Bangunan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -437,7 +437,7 @@ kup:
   - id: 50
     title: Perbedaan SPT masa PPN 1107, 1108, 1111
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: SPT
@@ -474,7 +474,7 @@ kup:
   - id: 54
     title: SPT 1111 DM Masa Januari 2011 s/d Mei 2013
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: SPT
@@ -484,7 +484,7 @@ kup:
   - id: 55
     title: SPT 1111 Sejak Masa Januari 2011 s/d Mei 2013
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: SPT
@@ -494,7 +494,7 @@ kup:
   - id: 56
     title: Petunjuk Umum Pengisian,Pencetakan,dan Pelaporan SPT Masa PPN 1111 Masa Januari 2011 s/d Mei 2013
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: SPT
@@ -556,7 +556,7 @@ kup:
   - id: 63
     title: Tabel Kode Ketetapan per Jenis Pajak (Kode SKP, STP) lama
     url: 
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Pembayaran atau Penyetoran
@@ -693,7 +693,7 @@ kup:
   - id: 80
     title: Pengurangan/penghapusan sanksi, pengurangan/pembatalan STP/SKP,pembatalan hasil pemeriksaan (Ketentuan Sebelum 1 Maret 2013)
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
@@ -737,7 +737,7 @@ kup:
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 85
-    title: permohonan pembatalan SKP hasil pemeriksaan atau verifikasi
+    title: Pembatalan SKP Pemeriksaan atau Verifikasi
     url: https://docs.google.com/document/d/1LYkGpOCzmFGTeQLH4cic6xhf3TCm2r6TBZBtuYbXa2w/edit?usp=drivesdk
     fitur: resume
     category: kup
@@ -764,7 +764,7 @@ kup:
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 88
-    title: Pengurangan Sanksi Administrasi dalam SKP, SKP PBB, dan atau STP yang diterbitkan pada tahun 2015
+    title: Pengurangan Sanksi Administrasi khusus 2015
     url: https://docs.google.com/document/d/1Wwmccmvpoh1UW5RQNKjUUuOPKWV7K1a1Wl7SRTVDXO8/edit?usp=drivesdk
     fitur: resume
     category: kup
@@ -813,9 +813,9 @@ kup:
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 94
-    title: Tata Cara Pemeriksaan
+    title: Cara Pemeriksaan
     url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -1180,7 +1180,7 @@ kup:
   - id: 135
     title: Untuk PPh yang Dibayar Sendiri oleh WP (Ketentuan sebelum 1 Februari 2013)
     url: 404
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1190,7 +1190,7 @@ kup:
   - id: 136
     title: Untuk PPh yang Dipotong/Dipungut oleh Pihak Lain (Ketentuan sebelum 1 Februari 2013)
     url: 404
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1200,7 +1200,7 @@ kup:
   - id: 137
     title: Pengembalian Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang bagi WPLN (Ketentuan sebelum 1 Februari 2013)
     url: 404
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1210,7 +1210,7 @@ kup:
   - id: 138
     title: Tata Cara Pengembalian Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang sejak 30 September 2015
     url: 404
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1229,7 +1229,7 @@ kup:
   - id: 140
     title: Pengembalian Pendahuluan Kelebihan Pajak untuk WP Dengan Kriteria Tertentu (tidak berlaku)
     url: 404
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1239,7 +1239,7 @@ kup:
   - id: 141
     title: Pengembalian Pendahuluan Kelebihan Pajak untuk WP dengan Persyaratan Tertentu (tidak berlaku)
     url: 404
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1249,7 +1249,7 @@ kup:
   - id: 142
     title: Pengembalian Pendahuluan Kelebihan Pajak untuk WP dengan Persyaratan Tertentu (Ketentuan sejak 1 Januari 2014)
     url: 404
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1277,7 +1277,7 @@ kup:
   - id: 145
     title: Imbalan Bunga (Sebelum 1 Januari 2014)
     url: 404
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Imbalan Bunga
@@ -1295,7 +1295,7 @@ kup:
   - id: 147
     title: Cara Pemberian Imbalan Bunga
     url: 404
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Imbalan Bunga
@@ -1305,7 +1305,7 @@ kup:
   - id: 148
     title: Penyebab Diberikan Imbalan Bunga Dan Penghitungan Imbalan Bunganya
     url: 404
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Imbalan Bunga
@@ -1315,7 +1315,7 @@ kup:
   - id: 149
     title: Sunset Policy
     url: 404
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Sunset policy
@@ -1324,7 +1324,7 @@ kup:
   - id: 150
     title: Pendaftaran Lembaga Keuangan
     url: 
-    active: false
+    active: "tidak"
     fitur: resume
     category: kup
     topik: Akses Informasi Keuangan

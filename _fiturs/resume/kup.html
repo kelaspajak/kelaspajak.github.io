@@ -8,8 +8,22 @@ layout: pages
     <ul>
         {% assign titles = site.data.kup.kup | where: "topik", topik.name %}
         {% for titles in titles %}
-        <li class="text-normal">{% if titles.active==false %}<a href="{{ titles.url }}" class="link-gray-dark>{%elseif%}<a href="{{ titles.url }}" class="muted-link">{% endif%}{ titles.title }} <i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>
-                {% if titles.subtopik %}<span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>{% endif %}</a></li>
+        <li class="text-normal">
+                {% if titles.active == "tidak" %}
+                    <span class="text-gray" style="opacity: 0.6">
+                {% else %}
+                    <a href="{{ titles.url }}" class="link-gray">
+                {%endif%}               
+                {{ titles.title }} <i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>
+                {% if titles.subtopik %}
+                <span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>
+                {% endif %}
+                {% if titles.active == "tidak" %}
+                    </a>
+                {% else %}
+                </a>
+                {%endif%}         
+            </li>
         {% endfor %}
     </ul>
 {% endfor %}
