@@ -21,12 +21,11 @@ layout: pages
         {% else %}
             </a>
         {%endif%}
-        &nbsp;
         {% if titles.subtopik %}
         <span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>
         {% endif %}
         <a href="https://twitter.com/intent/tweet?text={{ titles.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}"
-            rel="nofollow" target="_blank" title="Share on Twitter" style="opacity: 0.5;"><i class="fab fa-twitter-square"></i></a>
+            rel="nofollow" target="_blank" title="Share on Twitter" class="hover-fade"><i class="fab fa-twitter-square"></i></a>
     </li>
     {% endfor %}
 </ul>
