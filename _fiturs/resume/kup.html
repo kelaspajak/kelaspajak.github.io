@@ -14,12 +14,13 @@ layout: pages
         {% else %}
             <a href="{{ titles.url }}" class="link-black" target="_blank" >
         {%endif%}
-        {{ titles.title }}<i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>&nbsp;
+        {{ titles.title }}
         {% if titles.active == "tidak" %}
             </span>
         {% else %}
             </a>
         {%endif%}
+        &nbsp;<i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>
         {% if titles.subtopik %}
         <span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>
         {% endif %}
