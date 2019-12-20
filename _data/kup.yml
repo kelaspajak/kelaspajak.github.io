@@ -1174,7 +1174,7 @@ kup:
     fitur: resume
     category: kup
     topik: Restitusi
-    subtopik: Tata Cara Pengembalian Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang
+    subtopik: Tata Cara
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 135
@@ -1184,7 +1184,7 @@ kup:
     fitur: resume
     category: kup
     topik: Restitusi
-    subtopik: Tata Cara Pengembalian Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang
+    subtopik: Tata Cara
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 136
@@ -1194,7 +1194,7 @@ kup:
     fitur: resume
     category: kup
     topik: Restitusi
-    subtopik: Tata Cara Pengembalian Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang
+    subtopik: Tata Cara
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 137
@@ -1204,7 +1204,7 @@ kup:
     fitur: resume
     category: kup
     topik: Restitusi
-    subtopik: Tata Cara Pengembalian Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang
+    subtopik: Tata Cara
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 138
@@ -1214,7 +1214,7 @@ kup:
     fitur: resume
     category: kup
     topik: Restitusi
-    subtopik: Tata Cara Pengembalian Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang
+    subtopik: Tata Cara
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 139
@@ -1289,7 +1289,7 @@ kup:
     fitur: resume
     category: kup
     topik: Imbalan Bunga
-    subtopik: Imbalan bunga sejak 1 Januari 2014
+    subtopik: sejak 1 Januari 2014
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 147
@@ -1299,17 +1299,17 @@ kup:
     fitur: resume
     category: kup
     topik: Imbalan Bunga
-    subtopik: Imbalan bunga sejak 1 Januari 2014
+    subtopik: sejak 1 Januari 2014
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 148
-    title: Penyebab Diberikan Imbalan Bunga Dan Penghitungan Imbalan Bunganya
+    title: Sebab Diberikan Imbalan Bunga Dan Penghitungan Imbalan Bunganya
     url: 404
     active: "tidak"
     fitur: resume
     category: kup
     topik: Imbalan Bunga
-    subtopik: Imbalan bunga sejak 1 Januari 2014
+    subtopik: sejak 1 Januari 2014
     icon: far fa-file-word
     tgl: 11 Desember 2019
   - id: 149
