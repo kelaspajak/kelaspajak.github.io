@@ -1,12 +1,11 @@
 {% if page.url == '/' %}{% assign homepage = true %}{% endif %}
 
-<div class="{% unless homepage %}border-bottom{% endunless %} bg-nelson-gradient">
+<div class="{% unless homepage %}border-bottom{% endunless %} bg-biru-linear">
   <div class="container-lg px-3">
     <div class="py-4 d-flex flex-justify-between">
       <h1 class="h4 lh-default">
         {% unless homepage %}
-        <a href="/" class="no-underline text-uppercase text-brand-blue-dark d-flex flex-items-center">
-          {% include logo.svg %}
+        <a href="/" class="no-underline text-uppercase text-white d-flex flex-items-center">
           <img class="mr-2 mt-n2" src="/assets/tiger-32.png" width="32" height="32" alt="{{ site.title }}">
           <span class="hide-sm">{{ site.title }}</span>
         </a>
@@ -20,8 +19,10 @@
         </a>
         {% endfor %}
         {%endunless%}
+        <a class="text-inherit px-2 d-inline-block" href="/pricing">Pricing</a>
         <a class="text-inherit px-2 d-inline-block" href="/komunitas">
-          Komunitas</a>
+          Komunitas
+        </a>        
       </nav>
     </div>
   </div>
