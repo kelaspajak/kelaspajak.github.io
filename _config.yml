@@ -1,6 +1,8 @@
 title: KelasPajakWithLess
 description: Mudahnya belajar perpajakan Indonesia
 permalink: pretty
+twitter_username: kelaspajakwith1
+instagram: kelaspajakwith
 
 exclude:
   - Gemfile*
@@ -19,9 +21,8 @@ sass:
   style: :compressed
   sass_dir: _sass
   load_paths:
-    - assets/css/
     - node_modules
-    - node_modules/**/*/node_modules
+    #- node_modules/**/*/node_modules
 
 collections:
   fiturs:

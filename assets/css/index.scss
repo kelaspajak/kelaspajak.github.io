@@ -1,7 +1,8 @@
 ---
 ---
-//@import "@primer/css/index.scss";
-@import "primer-css/index.scss"; //data lama
+$marketing-font-path: "/assets/fonts/" !default;
+@import "@primer/css/index.scss";
+//@import "primer-css/index.scss"; //data lama
 @import "pages/home.scss";
 @import "colors.scss";
 @import "markdown.scss";
@@ -96,7 +97,7 @@ body {
 }
 
 .bg-biru-muda {
-  background-image: linear-gradient(-225deg, #DFFFCD 0%, #90F9C4 48%, #39F3BB 100%);
+  background-image: url("../lollypop.jpg");
 }
 
 .link-black {

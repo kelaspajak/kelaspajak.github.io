@@ -5,7 +5,7 @@ permalink: /fitur/resume/
 ---
 {% assign doclist = site.data.navigation.docs | where: 'title', 'Resume'  %}
 {% for item in doclist %}
-<div class="alt-h2">{{ item.title }}</div>
+<div class="h3">{{ item.title }}</div>
 <div class="tex-gray mb-4">{{ item.description }}</div>
 <div class="mb-4">
     <ul>
