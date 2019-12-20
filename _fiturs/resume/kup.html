@@ -4,27 +4,30 @@ layout: pages
 ---
 {% assign topik = site.data.kup.kup | group_by: 'topik' %}
 {% for topik in topik %}
-    <h2 class="link-gray-dark d-block">{{ topik.name }} </h2>
-    <ul>
-        {% assign titles = site.data.kup.kup | where: "topik", topik.name %}
-        {% for titles in titles %}
-        <li class="text-normal">
-                {% if titles.active == "tidak" %}
-                    <span class="text-gray" style="opacity: 0.6">
-                {% else %}
-                    <a href="{{ titles.url }}" class="link-black">
-                {%endif%}               
-                {{ titles.title }} <i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>
-                {% if titles.subtopik %}
-                <span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>
-                {% endif %}
-                <a href="https://twitter.com/intent/tweet?text={{ titles.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fab fa-twitter-square"></i></a>
-                {% if titles.active == "tidak" %}
-                    </span>
-                {% else %}
-                </a>
-                {%endif%}         
-            </li>
-        {% endfor %}
-    </ul>
+<h2 class="link-gray-dark d-block">{{ topik.name }} </h2>
+<ul>
+    {% assign titles = site.data.kup.kup | where: "topik", topik.name %}
+    {% for titles in titles %}
+    <li class="text-normal">
+        <i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>&nbsp;
+        {% if titles.active == "tidak" %}
+            <span class="text-gray" style="opacity: 0.6">
+        {% else %}
+            <a href="{{ titles.url }}" class="link-black">
+        {%endif%}
+        {{ titles.title }}
+        {% if titles.active == "tidak" %}
+            </span>
+        {% else %}
+            </a>
+        {%endif%}
+        &nbsp;
+        {% if titles.subtopik %}
+        <span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>
+        {% endif %}
+        <a href="https://twitter.com/intent/tweet?text={{ titles.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}"
+            rel="nofollow" target="_blank" title="Share on Twitter" style="opacity: 0.5;"><i class="fab fa-twitter-square"></i></a>
+    </li>
+    {% endfor %}
+</ul>
 {% endfor %}
