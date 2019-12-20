@@ -12,14 +12,15 @@ layout: pages
                 {% if titles.active == "tidak" %}
                     <span class="text-gray" style="opacity: 0.6">
                 {% else %}
-                    <a href="{{ titles.url }}" class="link-gray">
+                    <a href="{{ titles.url }}" class="link-black">
                 {%endif%}               
                 {{ titles.title }} <i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>
                 {% if titles.subtopik %}
                 <span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>
                 {% endif %}
+                <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fab fa-twitter-square"></i></a>
                 {% if titles.active == "tidak" %}
-                    </a>
+                    </span>
                 {% else %}
                 </a>
                 {%endif%}         
