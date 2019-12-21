@@ -6,24 +6,25 @@ layout: default
   <p class="f4 text-gray col-md-8 mx-auto pb-3">
     {{ site.description}}
   </p>
-  <img src="/assets/ss.jpg" width="80%" style="opacity: 0.8" class="d-block width-fit mx-auto">
+  <img src="/assets/ss.jpg" width="80%" style="opacity: 0.8" class="box-shadow-large p-3 d-block width-fit mx-auto">
 </div>
 
-<hr class="mx-auto my-2" style="width:200px">
 
-<div class="py-4 py-md-4 py-lg-4 mt-6">
-  <div class="container-lg p-responsive">
-    <h2 class="h1-mktg lh-condensed text-center mb-2">
-      Ada 2 fitur penting yang kami ditampilkan
+<div class="py- py-sm-6 py-lg-8 py-xl-8 position-relative bg-gray-light" style="z-index: 5;">
+  <div class="container-lg p-responsive text-center">
+    <h2 class="h1-mktg lh-condensed mt-6 pt-md-4 mb-0">
+      Ada 3 fitur penting yang kami ditampilkan
     </h2>
-    <p class="f3 text-gray col-md-8 mx-auto text-center">fitur ini merupakan fitur utama dalam mempelajari ilmu perpajakan, yaitu resume dan aspek pajak
+    <p class="f3 text-gray col-md-8 mx-auto text-center">fitur ini merupakan fitur utama dalam mempelajari ilmu
+      perpajakan, yaitu resume, aspek pajak dan tanya jawab
     </p>
 
     <div class="d-md-flex text-md-center mt-9 flex-auto">
       {% for fitur in site.data.navigation.docs %}
       <div class="col-md-4 px-md-3 mb-5 mx-auto" {{ fitur.style }}>
         <a href="{{ fitur.url }}" class="no-underline muted-link bg-snowagain-gradient" style="height:100%">
-          <img src="{{ fitur.image}}" height="64" class="d-block mx-md-auto mb-3 mx-auto" alt="{{ fitur.title }}">
+          <img src="/assets/{{fitur.images}}" height="64" class="d-block mx-md-auto mb-3 mx-auto"
+            alt="{{ fitur.title }}">
           <h3 class="h3-mktg text-normal mb-1 text-center">
             {{ fitur.title }}
           </h3>
@@ -34,18 +35,29 @@ layout: default
       </div>
       {% endfor %}
     </div>
-
   </div>
 </div>
+
+
+<div class="container-lg p-responsive text-center pt-6 pb-6">
+  <h2 class="h1-mktg lh-condensed mt-6 pt-md-4 mb-0">Resources Perpajakan Terlengkap</h2>
+  <p class="f3 text-gray col-md-8 mx-auto">
+    kumpulan resume dan dasar hukum per alinea, pohon industri, proses produksi dan aturan lain yang berhubungan dengan
+    perpajakan
+  </p>
+</div>
+
 
 <hr class="mx-auto my-2" style="width:200px">
 <div id="description" class="container-lg p-responsive mx-auto pt-5 mb-8">
   <div class="col-md-6 mx-auto text-center mt-6">
-    <img src="https://ghicons.github.com/assets/images/light/Ideas.png" height="64" class="d-block mx-md-auto mb-3 mx-auto">
+    <img src="https://ghicons.github.com/assets/images/light/Ideas.png" height="64"
+      class="d-block mx-md-auto mb-3 mx-auto">
   </div>
 
   <h2 class="h1-mktg lh-condensed text-center mb-8">Aturan lengkap</h2>
   <p class="lead-mktg text-normal text-gray mb-4 col-md-8 mx-auto text-center">
-    Aturan perpajakan disusun sampai dengan aturan pelaksanaan berupa file docs <i class="far fa-file-word"></i> dan flow chart <i class="fas fa-sitemap"></i> untuk memudahkan memahami peraturan.
+    Aturan perpajakan disusun sampai dengan aturan pelaksanaan berupa file docs <i class="far fa-file-word"></i> dan
+    flow chart <i class="fas fa-sitemap"></i> untuk memudahkan memahami peraturan.
   </p>
 </div>

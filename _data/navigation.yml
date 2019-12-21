@@ -1,7 +1,7 @@
 docs:
   - title: Resume
     image: https://ghicons.github.com/assets/images/light/Documentation.png
-    images: file-128.png
+    images: Documentation.png
     id: resume
     description: Resume UU Perpajakan sampai dengan aturan pelaksanaannya
     url: /fitur/resume/index
@@ -28,7 +28,7 @@ docs:
 
   - title: Aspek Pajak
     image: https://ghicons.github.com/assets/images/light/Marketplace.png
-    images: factory-128.png
+    images: Marketplace.png
     id: aspekpajak
     description: Aspek Perpajakan per Industri, pohon industri, proses bisnis
     url: /fitur/aspekpajak/index
@@ -39,7 +39,7 @@ docs:
 
   - title: Tanya Jawab
     image: https://ghicons.github.com/assets/images/light/Collection.png
-    images: messages-128.png
+    images: Collection.png
     id: tanyajawab
  #   style: " style='opacity: 30%;'"
     description: Merupakan kumpulan tanya jawab yang sering ditanyakan untuk sementara menggunakan trello
@@ -76,7 +76,7 @@ pricing:
     active: true
     status: "bukan layanan langganan"
     price:
-      - rupiah: "Rp400K"
+      - rupiah: "Rp400.000"
         masa: "tahun"
         description:
     layanan:
@@ -91,7 +91,7 @@ pricing:
     description: "Pajak Penghasilan" 
     status: tutup
     price:
-      - rupiah: Rp400K
+      - rupiah: Rp400.000
         masa: tahun
         description:
   - title: "PPN & PPn BM"
@@ -99,7 +99,7 @@ pricing:
     description: "Pajak Pertambahan Nilai dan Pajak Penjualan Barang Mewah"
     status: tutup
     price:
-      - rupiah: Rp400K
+      - rupiah: Rp400.000
         masa: tahun
         description:
   - title: Aspek Pajak
@@ -107,5 +107,5 @@ pricing:
     description: Aspek Perpajakan per Industri, pohon industri, proses bisnis
     status: tutup
     price: 
-    - rupiah: Rp25M
+    - rupiah: Tutup
       masa: sekali bayar 

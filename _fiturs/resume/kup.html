@@ -2,7 +2,7 @@
 title: Resume KUP
 layout: pages
 ---
-{% assign file_kup = site.data.kup.kup | group_by: 'title' %}
+{% assign file_kup = site.data.kup.kup | where:"active","tidak" | group_by: 'title'%}
 {% assign topik = site.data.kup.kup | group_by: 'topik' %}
 <h5>Resume</h5>
 <h3>Ketentuan Umum dan Tatacara Perpajakan</h3>

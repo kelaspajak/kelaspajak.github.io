@@ -112,6 +112,12 @@ body {
   opacity: 0.6;
 }
 
-.text-header-pro {
-  font-family: 'Poppins', sans-serif;
+.text-header-light {
+  font-family: $font-mktg;
+  font-weight: $font-weight-light !important;
+}
+
+.text-header-bold {
+  font-family: $font-mktg;
+  font-weight: $font-weight-bold;
 }
