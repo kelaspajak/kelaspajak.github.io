@@ -2,11 +2,11 @@
 title: Resume KUP
 layout: pages
 ---
-{% assign file_kup = site.data.kup.kup | where:"active","tidak" | group_by: 'title'%}
+{% assign file_kup = site.data.kup.kup | where:"active","yes" | group_by: 'title'%}
 {% assign topik = site.data.kup.kup | group_by: 'topik' %}
 <h5>Resume</h5>
 <h3>Ketentuan Umum dan Tatacara Perpajakan</h3>
-<h4>total terdapat {{file_kup.size}} file </h4>
+<p>total terdapat <span class="IssueLabel bg-green text-white">{{file_kup.size}}</span> file dengan status aktif dan masih berlaku </p>
 {% for topik in topik %}
 <h2 class="link-gray-dark d-block">{{ topik.name }} </h2>
 <ul>

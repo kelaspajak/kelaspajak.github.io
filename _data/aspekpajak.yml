@@ -1,0 +1,10 @@
+data:
+  - id: 1
+    title: Penentuan SPDN dan SPLN
+    url: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
+    active: "tidak"
+    fitur: resume
+    category: pph
+    topik: Subjek Pajak
+    icon: far fa-file-word
+    tgl: 11 Desember 2019
