@@ -20,8 +20,8 @@ layout: default
           <li><a class="d-block no-underline py-1 {% if entry.url == page.url %}active {% else %}link-gray-dark {% endif %}" href="{{ entry.url }}">{{ entry.title }}</a></li>
           {% endfor %}
         </ul>
-        {% endfor %}
-      </div>
+        {% endfor %}          
+        </div>
     </div>
   </div>
 </div>
@@ -29,7 +29,7 @@ layout: default
 <script src="/assets/js/anchor.min.js"></script>
 <script type="text/javascript">
   anchors.options = {
-    placement: 'right',
+    placement: 'left',
     class: 'text-gray no-underline'
   };
 

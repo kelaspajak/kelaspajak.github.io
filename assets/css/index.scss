@@ -105,13 +105,19 @@ body {
 }
 
 .hover-fade{
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .hover-fade:hover {
   opacity: 0.6;
 }
 
-.text-header-pro {
-  font-family: 'Sue Ellen Francisco', cursive;
+.text-header-light {
+  font-family: $font-mktg;
+  font-weight: $font-weight-light !important;
+}
+
+.text-header-bold {
+  font-family: $font-mktg;
+  font-weight: $font-weight-bold;
 }
