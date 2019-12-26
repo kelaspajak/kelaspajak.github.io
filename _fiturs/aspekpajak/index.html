@@ -1,6 +1,7 @@
 ---
 title: Aspek Perpajakan
 description: Aspek Perpajakan per Industri, pohon industri, proses bisnis
+layout: pages
 permalink: /fitur/aspekpajak/
 ---
 {% assign data = site.data.aspekpajak.data | group_by: 'id' %}
@@ -22,7 +23,7 @@ permalink: /fitur/aspekpajak/
         {% else %}
         </a>
         {%endif%}
-        &nbsp;<i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>
+        &nbsp;<i class="{{ titles.FolderIcon }} alt-text-small" style="opacity: 0.6"></i>
         {% if titles.subtopik %}
         <span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>
         {% endif %}
