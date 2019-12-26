@@ -12,24 +12,24 @@ permalink: /fitur/aspekpajak/
     {% assign titles = site.data.aspekpajak.data %}
     {% for titles in titles %}
     <li class="text-normal">
-        {% if titles.active == "tidak" %}
+    {% if titles.active == "tidak" %}
         <span class="text-gray" style="opacity: 0.6">
-            {% else %}
-            <a href="{{ titles.url }}" class="link-black" target="_blank">
-                {%endif%}
-                {{ titles.title }}
-                {% if titles.active == "tidak" %}
+    {% else %}
+        <a href="{{ titles.url }}" class="link-black" target="_blank">
+    {%endif%}
+        {{ titles.title }}
+    {% if titles.active == "tidak" %}
         </span>
-        {% else %}
+    {% else %}
         </a>
-        {%endif%}
+    {%endif%}
         &nbsp;<i class="{{ titles.FolderIcon }} alt-text-small" style="opacity: 0.6"></i>
-        {% if titles.subtopik %}
+    {% if titles.subtopik %}
         <span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>
-        {% endif %}
+    {% endif %}
         <a href="https://twitter.com/intent/tweet?text=Aspek Perpajakan {{ titles.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}"
-            rel="nofollow" target="_blank" title="Share on Twitter" class="hover-fade"><i
-                class="fab fa-twitter-square"></i></a>
+            rel="nofollow" target="_blank" title="Share on Twitter" class="hover-fade"><i class="fab fa-twitter-square"></i>
+        </a>
     </li>
     {% endfor %}
 </ul>
