@@ -35,21 +35,19 @@
   <script defer src="/assets/js/office-hours.js" charset="utf-8"></script>-->
   <script src="https://kit.fontawesome.com/01f1ddb776.js" crossorigin="anonymous"></script>
   {% if jekyll.environment != 'development' %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146778045-2"></script>
   <script>
-    window.ga = window.ga || function () {
-      (ga.q = ga.q || []).push(arguments)
-    };
-    ga.l = +new Date;
-    ga('create', 'UA-146778045-2', 'auto');
-    ga('require', 'outboundFormTracker');
-    ga('require', 'outboundLinkTracker');
-    ga('require', 'socialWidgetTracker');
-    ga('require', 'eventTracker');
-    ga('require', 'pageVisibilityTracker', {
-      sendInitialPageview: true
-    });
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-146778045-2');
   </script>
-  <script async src="https://www.google-analytics.com/analytics.js"></script>
+
   <script async src="/assets/js/autotrack.js"></script>
   {% endif %}
 </head>
