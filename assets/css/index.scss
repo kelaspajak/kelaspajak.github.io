@@ -1,6 +1,7 @@
 ---
 ---
 $marketing-font-path: "/assets/fonts/" !default;
+@import "typhography-inter.scss";
 @import "@primer/css/index.scss";
 //@import "primer-css/index.scss"; //data lama
 @import "pages/home.scss";
@@ -121,3 +122,18 @@ body {
   font-family: $font-mktg;
   font-weight: $font-weight-bold;
 }
+
+.site__title {
+  color: #f35626;
+  background-image: linear-gradient(92deg, #f35626 0%,#feab3a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: hue 60s infinite linear;
+}
+
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+//halo 
