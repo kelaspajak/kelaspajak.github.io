@@ -956,3 +956,102 @@ data:
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+  - id : 88
+    title : Hotel - Versi Ringan
+    url : https://gum.co/pajakhotel/pajakresources
+    active : yes
+    fitur : aspekpajak
+    FolderIcon : fas fa-file-pdf
+    createdTime : fas fa-file-pdf
+    description : 
+    starred : ya
+    version : 1
+    modifiedTime : 27/12/2019
+  - id : 89
+    title : Distributor MLM - versi ringan
+    url : https://gumroad.com/l/distributormlm/pajakresources
+    active : yes
+    fitur : aspekpajak
+    FolderIcon : fas fa-file-pdf
+    createdTime : fas fa-file-pdf
+    description : 
+    starred : ya
+    version : 1
+    modifiedTime : 27/12/2019
+  - id : 90
+    title : Petugas Dinas Luar Asuransi - versi ringan
+    url : https://gumroad.com/l/iEmrn/pajakresources
+    active : yes
+    fitur : aspekpajak
+    FolderIcon : fas fa-file-pdf
+    createdTime : fas fa-file-pdf
+    description : 
+    starred : ya
+    version : 1
+    modifiedTime : 27/12/2019
+  - id : 91
+    title : Profesi Konsultan - versi ringan
+    url : https://gum.co/konsultan/pajakresources
+    active : yes
+    fitur : aspekpajak
+    FolderIcon : fas fa-file-pdf
+    createdTime : fas fa-file-pdf
+    description : 
+    starred : ya
+    version : 1
+    modifiedTime : 27/12/2019
+  - id : 92
+    title : Dosen Guru - versi ringan
+    url : https://gum.co/dosen/pajakresources
+    active : yes
+    fitur : aspekpajak
+    FolderIcon : fas fa-file-pdf
+    createdTime : fas fa-file-pdf
+    description : 
+    starred : ya
+    version : 1
+    modifiedTime : 27/12/2019
+  - id : 93
+    title : Pedagang Perantara/Makelar - versi ringan
+    url : https://gumroad.com/l/makelar/pajakresources
+    active : yes
+    fitur : aspekpajak
+    FolderIcon : fas fa-file-pdf
+    createdTime : fas fa-file-pdf
+    description : 
+    starred : ya
+    version : 1
+    modifiedTime : 27/12/2019
+  - id : 94
+    title : Pekerjaan Bebas - versi ringan
+    url : https://gum.co/Mnopq/pajakresources
+    active : yes
+    fitur : aspekpajak
+    FolderIcon : fas fa-file-pdf
+    createdTime : fas fa-file-pdf
+    description : 
+    starred : ya
+    version : 1
+    modifiedTime : 27/12/2019
+  - id : 95
+    title : Catering - versi ringan
+    url : https://gum.co/JJYcr/pajakresources
+    active : yes
+    fitur : aspekpajak
+    FolderIcon : fas fa-file-pdf
+    createdTime : fas fa-file-pdf
+    description : 
+    starred : ya
+    version : 1
+    modifiedTime : 27/12/2019
+  - id : 96
+    title : Bendaharawan Pemerintah - versi ringan
+    url : https://gum.co/qDLOj/Bukubendahara
+    active : yes
+    fitur : aspekpajak
+    FolderIcon : fas fa-file-pdf
+    createdTime : fas fa-file-pdf
+    description : 
+    starred : ya
+    version : 1
+    modifiedTime : 27/12/2019
