@@ -11,7 +11,7 @@ layout: default
   </div>
 </div>
 
-<div class="py- py-sm-6 py-lg-8 py-xl-8 position-relative" style="z-index: 5;">
+<div class="py-4 position-relative" style="z-index: 5;">
   <div class="container-lg p-responsive text-center">
     <h2 class="h1-mktg lh-condensed mt-6 pt-md-4 mb-0">
       Ada 3 fitur penting yang kami ditampilkan
@@ -20,9 +20,9 @@ layout: default
       perpajakan, yaitu resume, aspek pajak dan tanya jawab
     </p>
 
-    <div class="d-md-flex text-md-center mt-9 flex-auto">
+    <div class="d-md-flex text-md-center mt-6 flex-auto">
       {% for fitur in site.data.navigation.docs %}
-      <div class="col-md-4 px-md-3 mb-5 mx-auto" {{ fitur.style }}>
+      <div class="col-md-4 px-md-3 mb-3 mx-auto" {{ fitur.style }}>
         <a href="{{ fitur.url }}" class="no-underline muted-link bg-snowagain-gradient" style="height:100%">
           <img src="/assets/{{fitur.images}}" height="64" class="d-block mx-md-auto mb-3 mx-auto"
             alt="{{ fitur.title }}">
@@ -40,25 +40,40 @@ layout: default
 </div>
 
 
-<div class="container-lg p-responsive text-center pt-6 pb-6">
-  <h2 class="h1-mktg lh-condensed mt-6 pt-md-4 mb-0">Resources Perpajakan Terlengkap</h2>
+<div class="container-lg p-responsive text-center py-4">
+  <h2 class="h1-mktg lh-condensed mt-6 pt-md-4 mb-0">Resources Perpajakan</h2>
   <p class="f3 text-gray col-md-8 mx-auto">
     kumpulan resume dan dasar hukum per alinea, pohon industri, proses produksi dan aturan lain yang berhubungan dengan
     perpajakan
   </p>
 </div>
 
-
 <hr class="mx-auto my-2" style="width:200px">
-<div id="description" class="container-lg p-responsive mx-auto pt-5 mb-8">
+<div class="container-lg p-responsive text-center py-4">
   <div class="col-md-6 mx-auto text-center mt-6">
     <img src="/assets/Ideas.png" height="64"
       class="d-block mx-md-auto mb-3 mx-auto">
   </div>
 
-  <h2 class="h1-mktg lh-condensed text-center mb-8">Aturan lengkap</h2>
+  <h2 class="h1-mktg lh-condensed pt-md-4 mb-0">Aturan lengkap</h2>
   <p class="lead-mktg text-normal text-gray mb-4 col-md-8 mx-auto text-center">
     Aturan perpajakan disusun sampai dengan aturan pelaksanaan berupa file docs <i class="far fa-file-word"></i> dan
     flow chart <i class="fas fa-sitemap"></i> untuk memudahkan memahami peraturan.
+  </p>
+</div>
+
+<hr class="mx-auto my-2" style="width:200px">
+<div class="container-lg p-responsive text-center py-4">
+  <div class="col-md-6 mx-auto text-center mt-6">
+    <img src="/assets/Topic.png" height="64"
+      class="d-block mx-md-auto mb-2 mx-auto">
+  </div>
+
+  <h2 class="h1-mktg lh-condensed pt-md-4 mb-0">Total File</h2>
+  {% assign file_kup = site.data.kup.kup | group_by: 'title' %}
+  {% assign file_pph = site.data.pph.pph | group_by: 'title' %}
+  {% assign file_ppn = site.data.ppn.ppn | group_by: 'title' %}
+  <p class="lead-mktg text-normal text-gray mb-4 col-md-8 mx-auto text-center">
+    {{file_kup.size | plus:file_pph.size | plus:file_ppn.size}} file & folder tanggal efektif 12 Desember 2019
   </p>
 </div>

@@ -32,7 +32,7 @@
         {% for price in fitur.price %}
         <div class="border-top border-bottom py-2 mb-3 d-flex flex-md-items-center flex-justify-between">
             <div class="d-flex flex-md-items-center">
-                <span class="h2 pr-2">{{ price.rupiah }}</span>/&nbsp;
+                <span class="h2 pr-2 tnum">{{ price.rupiah }}</span>/&nbsp;
                 <span class="text-small text-gray-light lh-condensed-ultra d-block mt-1 mt-md-0">{{price.masa}}</span>
             </div>
         </div>
@@ -40,7 +40,7 @@
         <div class="d-lg-flex mb-3 flex-justify-between">
             <div class="mb-2 position-relative">
                 Transfer ke rekening Bank BNI<br>
-                <h3>a.n. JURIATIN no. rekening 018-9078-528</h3><br>
+                <h3 class="slashed-zero">a.n. JURIATIN no. rekening 018-9078-528</h3><br>
                 <span class="text-small text-gray">Berlaku sampai dengan tanggal 31 Desember 2019
                 </span>
             </div>

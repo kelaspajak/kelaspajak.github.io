@@ -14,9 +14,9 @@ layout: pages
     {% for titles in titles %}
     <li class="text-normal">
         {% if titles.active == "tidak" %}
-            <span class="text-gray" style="opacity: 0.6">
+            <span class="text-gray text-header-light" style="opacity: 0.6">
         {% else %}
-            <a href="{{ titles.url }}" class="link-black" target="_blank" >
+            <a href="{{ titles.url }}" class="link-black text-header-medium" target="_blank" >
         {%endif%}
         {{ titles.title }}
         {% if titles.active == "tidak" %}
@@ -24,9 +24,9 @@ layout: pages
         {% else %}
             </a>
         {%endif%}
-        &nbsp;<i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i>
+        &nbsp;<i class="{{ titles.icon }}" style="opacity: 0.6"></i>
         {% if titles.subtopik %}
-        <span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>
+         &#8211; <span class="alt-text-small text-header-light h6 font-inter-case" style="opacity: 0.6">{{ titles.subtopik }}</span>
         {% endif %}
         <a href="https://twitter.com/intent/tweet?text={{ titles.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}"
             rel="nofollow" target="_blank" title="Share on Twitter" class="hover-fade"><i class="fab fa-twitter-square"></i></a>

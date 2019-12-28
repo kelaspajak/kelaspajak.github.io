@@ -1,6 +1,7 @@
 <div class="text-center bg-gray-light">
     <div class="text-gray py-5">
         <div>
+          {% if page.url =='/' %}
             <p style='opacity: 30%;' total
                 <span class="mr-2 d-inline-block">
                   {% assign file_kup = site.data.kup.kup | group_by: 'title' %}
@@ -9,6 +10,7 @@
                   {{file_kup.size | plus:file_pph.size | plus:file_ppn.size}} file & folder tanggal efektif 12 Desember 2019
                 </span>
               </p>
+            {%endif%}
               <p>:memo: with :heart: dan :coffee: 2019</p>
               <p><img src="https://developers.google.com/drive/images/drive_app_badge.png"></p>
            </div>

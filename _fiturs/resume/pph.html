@@ -9,7 +9,7 @@ layout: pages
 {% if file_pph > 0 %}
 <p>total terdapat <span class="Label bg-green text-white">{{file_pph.size}}</span> file dengan status aktif dan masih berlaku </p>
 {% else %}
-<span class="IssueLabel bg-gray text-gray">kelas ini masih ditutup</span> tidak ada link yang aktif
+<span class="IssueLabel bg-orange text-white">kelas ini masih ditutup</span> tidak ada link yang aktif
 {% endif %}
 {% for topik in topik %}
 <h2 class="link-gray-dark d-block">{{ topik.name }} </h2>

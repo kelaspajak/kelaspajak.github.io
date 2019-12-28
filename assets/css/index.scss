@@ -2,9 +2,9 @@
 ---
 $marketing-font-path: "/assets/fonts/" !default;
 @import "typhography-inter.scss";
-@import "@primer/css/index.scss";
-@import "@primer/css//marketing/index.scss";
-//@import "primer-css/index.scss"; //data lama
+@import '@primer/css/core/index.scss';
+@import "@primer/css/product/index.scss";
+@import "@primer/css/marketing/index.scss";
 @import "pages/home.scss";
 @import "colors.scss";
 @import "markdown.scss";
@@ -114,6 +114,9 @@ body {
   opacity: 0.6;
 }
 
+.bg-orange {
+  background-color: $orange-400;
+}
 .text-header-light {
   font-family: $font-mktg;
   font-weight: $font-weight-light !important;
@@ -122,6 +125,11 @@ body {
 .text-header-bold {
   font-family: $font-mktg;
   font-weight: $font-weight-bold;
+}
+
+.text-header-medium {
+  font-family: $font-mktg;
+  font-weight: $font-weight-semibold;
 }
 
 .site__title {
@@ -148,4 +156,21 @@ img.emoji {
   width: 1em;
   margin: 0 .05em 0 .1em;
   vertical-align: -0.1em;
+}
+
+//inter-ui settings
+.font-inter-case {
+  font-feature-settings: 'case' 1;
+}
+
+.slashed-zero {
+  font-feature-settings: 'zero' 1;
+}
+
+.character-variant {
+  font-feature-settings: 'cv11' 1;
+}
+
+.tnum {
+  font-feature-settings: 'tnum' 1;
 }

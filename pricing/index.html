@@ -20,7 +20,7 @@ permalink: /pricelist
               </div>
               <div class="text-small text-right lh-condensed flex-self-center">
                   {% for entry in fitur.price %}
-                    <span class="f3 marketplace-plan-emphasis">{{ entry.rupiah }}</span>
+                    <span class="f3 marketplace-plan-emphasis tnum">{{ entry.rupiah }}</span>
                     {% unless fitur.status == "free" %}
                     <span class="marketplace-plan-per-time d-block">/&nbsp;{{ entry.masa }}</span>{% endunless %}
                   {% endfor %}
