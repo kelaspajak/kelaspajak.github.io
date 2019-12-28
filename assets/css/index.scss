@@ -89,7 +89,7 @@ body {
   background-color: #999999;
  }
 
- .bg-orange {
+ .bg-orange-linear {
   background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
  }
 
@@ -135,7 +135,7 @@ body {
 
 body { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
-  body { font-family: 'Inter var', sans-serif; }
+  body { font-family: 'Inter', sans-serif; }
 }
 
 .fully-width {
