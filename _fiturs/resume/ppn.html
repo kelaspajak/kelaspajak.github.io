@@ -2,7 +2,15 @@
 title: Resume PPN & PPn BM
 layout: pages
 ---
-{% assign topik = site.data.ppn.ppn | group_by: 'topik' %}
+{% assign file_ppn = site.data.ppn.ppn | where:"active","yes" | group_by: 'title'%}
+{% assign topik = site.data.ppn.ppn| group_by: 'topik' %}
+<h5>Resume</h5>
+<h3>Pajak Pertambahan Nilai dan Pajak Penjualan Barang Mewah</h3>
+{% if file_ppn > 0 %}
+<p>total terdapat <span class="Label bg-green text-white">{{file_ppn.size}}</span> file dengan status aktif dan masih berlaku </p>
+{% else %}
+<span class="IssueLabel bg-gray text-gray">kelas ini masih ditutup</span> tidak ada link yang aktif
+{% endif %}
 {% for topik in topik %}
 <h2 class="link-gray-dark d-block">{{ topik.name }} </h2>
 <ul>

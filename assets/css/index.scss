@@ -3,6 +3,7 @@
 $marketing-font-path: "/assets/fonts/" !default;
 @import "typhography-inter.scss";
 @import "@primer/css/index.scss";
+@import "@primer/css//marketing/index.scss";
 //@import "primer-css/index.scss"; //data lama
 @import "pages/home.scss";
 @import "colors.scss";
@@ -88,7 +89,7 @@ body {
   background-color: #999999;
  }
 
- .bg-orange {
+ .bg-orange-linear {
   background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
  }
 
@@ -132,11 +133,10 @@ body {
   animation: hue 60s infinite linear;
 }
 
-html { font-family: 'Inter', sans-serif; }
+body { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+  body { font-family: 'Inter', sans-serif; }
 }
-//halo 
 
 .fully-width {
  min-width: $width-md;
