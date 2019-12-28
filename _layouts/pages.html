@@ -9,7 +9,7 @@ layout: default
 
     </div>
     <div id="toc" class="col-md-3 py-6">
-      <div class="toc-wrap">
+      <div class="toc-wrap" style="min-width: 250px;">
         {% for item in site.data.navigation.docs %}
         <a class="d-block no-underline {% if item.url == page.url %}active {% else %}link-gray-dark {% endif %}" href="{{ item.url }}">
           <h4 class="alt-h4" id="{{ item.id }}">{{ item.title }}</h4>
