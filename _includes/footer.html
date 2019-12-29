@@ -24,4 +24,14 @@
         });
     });
 });
+
+var pageProperties = {
+    url: "{{ titles.url }}",
+    title: "{{ titles.title | replace: '"', '\\"' }}",
+    scripts: [
+        {% for script in page.scripts %}
+        "{{ script }}",
+        {% endfor %}
+    ],
+};
 </script>
