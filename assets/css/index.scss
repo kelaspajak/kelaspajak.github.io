@@ -57,8 +57,7 @@ body {
 
 .site-header {
   text-align: center;
-  color: #74b1be !important;
-  border-bottom: 1px solid #e8e8e8;
+  color: $blue-mktg !important;
   -webkit-font-smoothing: antialiased;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -107,11 +106,11 @@ body {
 }
 
 .hover-fade{
-  opacity: 0.3;
+  opacity: 0;
 }
 
 .hover-fade:hover {
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .bg-orange {
@@ -132,6 +131,14 @@ body {
   font-weight: $font-weight-semibold;
 }
 
+.bg-footer-gradient {
+  background-image: linear-gradient(to top, #f1f8ff 0%, white 100%);
+}
+
+.bg-bankslate-gradient {
+  background-image: linear-gradient(to top, white 0%, #f1f8ff 100%);
+}
+
 .site__title {
   color: #f35626;
   background-image: linear-gradient(92deg, #f35626 0%,#feab3a 100%);
@@ -146,8 +153,10 @@ body { font-family: 'Inter', sans-serif; }
   body { font-family: 'Inter', sans-serif; }
 }
 
-.fully-width {
- min-width: $width-md;
+@media (min-width: 768px) {
+  .fully-width {
+    min-width: $width-md;
+  }
 }
 
 //twemoji
