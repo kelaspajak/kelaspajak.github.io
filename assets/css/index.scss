@@ -106,7 +106,7 @@ body {
 }
 
 .hover-fade{
-  opacity: 0;
+  opacity: 0.6;
 }
 
 .hover-fade:hover {
@@ -163,6 +163,11 @@ body { font-family: 'Inter', sans-serif; }
 img.emoji {
   height: 1em;
   width: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+}
+
+svg {
   margin: 0 .05em 0 .1em;
   vertical-align: -0.1em;
 }
