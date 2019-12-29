@@ -2,7 +2,7 @@
 {% assign resume = site.data.resume.data | where_exp: "item", "item.category == dataid and item.active == 'yes'" | group_by: 'title' %}
 {% assign topik = site.data.resume.data | where_exp: "item", "item.category == dataid" | group_by: 'topik' %}
 <h5>{{page.category}}</h5>
-<h2>{{page.description}}</h2>
+<h1 class="h00-mktg mb-8">{{page.description}}</h1>
 {% if page.status == 'open' %}
 <p>total terdapat <span class="Label {{page.label}} text-white">{{resume.size}}</span> file dengan status aktif dan masih berlaku </p>
 {% else %}
@@ -10,7 +10,7 @@
 {% endif %}
 
 {% for topik in topik %}
-<h2 class="link-gray-dark d-block">{{ topik.name }} </h2>
+<h3 class="link-gray-dark d-block">{{ topik.name }} </h3>
 <ul>
     {% capture namatopik %}{{ topik.name }}{% endcapture %}
     {% assign titles = site.data.resume.data | where_exp: "item", "item.category == dataid and item.topik == namatopik" %}
@@ -19,7 +19,7 @@
         {% if titles.active == "tidak" %}
             <span class="text-gray text-header-light" style="opacity: 0.6">
         {% else %}
-            <a href="{{ titles.url }}" class="link-black text-header-medium" target="_blank" >
+            <a href="{{ titles.url }}" class="text-header-medium" target="_blank" >
         {%endif%}
         {{ titles.title }}
         {% if titles.active == "tidak" %}
