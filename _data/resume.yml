@@ -1414,13 +1414,13 @@ data:
     tgl: 11 Desember 2019
   - id: 149
     title: Sunset Policy
-    url: 404
+    url: 
     active: "tidak"
     fitur: resume
     category: kup
     topik: Sunset policy
     icon: far fa-file-word
-    tgl: 11 Desember 2019
+    tgl: 30 Desember 2019
   - id: 150
     title: Pendaftaran Lembaga Keuangan
     url: 
