@@ -43,7 +43,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
-  - twemoji
 
 branch: master
 
