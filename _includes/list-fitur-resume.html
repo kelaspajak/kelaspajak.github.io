@@ -5,7 +5,8 @@
 {% assign resumes = resume | where: "active", 'yes'" | group_by: "title" %}
 
 {% assign topik = site.data.resume.data | where_exp: "item", "item.category == dataid" | group_by: 'topik' %}
-<h5>{{page.category}}</h5>
+<div class="mt-sm-3">
+<h5>{{page.category}}</h5></div>
 <h1 class="h0-mktg mb-8">{{page.description}}</h1>
 {% if page.status == 'open' %}
 <p>total terdapat <span class="Label {{page.label}} text-white">{{resumes.size}}</span> file dengan status aktif dan masih berlaku </p>
