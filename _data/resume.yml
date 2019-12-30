@@ -1424,7 +1424,7 @@ data:
   - id: 150
     title: Pendaftaran Lembaga Keuangan
     url: https://docs.google.com/document/d/1Al-IzdFQUbAykRfd24-SIMN7n1M3I1xsszPGgq0M7lw/edit?usp=sharing
-    active: "tidak"
+    active: ya
     fitur: resume
     category: kup
     topik: Akses Informasi Keuangan
