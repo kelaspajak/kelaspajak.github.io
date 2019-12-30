@@ -4,6 +4,8 @@ permalink: pretty
 twitter_username: kelaspajakwith1
 instagram: kelaspajakwith
 
+encoding: UTF-8
+
 exclude:
   - Gemfile*
   - node_modules
