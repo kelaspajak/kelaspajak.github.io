@@ -132,11 +132,11 @@ body {
 }
 
 .bg-footer-gradient {
-  background-image: linear-gradient(to top, #f1f8ff 0%, white 100%);
+  background-image: linear-gradient(to top, #c8e1ff 0%, white 100%);
 }
 
 .bg-bankslate-gradient {
-  background-image: linear-gradient(to top, white 0%, #f1f8ff 100%);
+  background-image: linear-gradient(to top, white 0%, #c8e1ff 100%);
 }
 
 .site__title {
@@ -187,4 +187,11 @@ svg {
 
 .tnum {
   font-feature-settings: 'tnum' 1;
+}
+
+.hanging-icon-list li {
+  padding-left: 25px;
+  margin: 10px 0;
+  font-size: 14px;
+  list-style-type: none;
 }

@@ -70,10 +70,8 @@ layout: default
   </div>
 
   <h2 class="h1-mktg lh-condensed pt-md-4 mb-0">Total File</h2>
-  {% assign file_kup = site.data.kup.kup | group_by: 'title' %}
-  {% assign file_pph = site.data.pph.pph | group_by: 'title' %}
-  {% assign file_ppn = site.data.ppn.ppn | group_by: 'title' %}
+  {% assign file_kup = site.data.resume.data | group_by: 'title' %}
   <p class="lead-mktg text-normal text-gray mb-4 col-md-8 mx-auto text-center">
-    {{file_kup.size | plus:file_pph.size | plus:file_ppn.size}} file & folder tanggal efektif 12 Desember 2019
+    {{file_kup.size}} file dan folder per tanggal 12 Desember 2019
   </p>
 </div>

@@ -33,23 +33,10 @@
   <!--<script defer src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js" charset="utf-8"></script>
   <script defer src="/assets/js/office-hours.js" charset="utf-8"></script>-->
   <script src="https://kit.fontawesome.com/01f1ddb776.js" crossorigin="anonymous"></script>
-    {% if jekyll.environment != 'development' %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146778045-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-146778045-2');
-  </script>
-  
-  <script async src="/assets/js/autotrack.js"></script>
+  {% if jekyll.environment != 'development' %}
+  {% include analytics.html %}
   {% endif %}
-</head>
+  </head>
 
 <body class="height-full">
 

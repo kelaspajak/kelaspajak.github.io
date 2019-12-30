@@ -4,6 +4,8 @@ permalink: pretty
 twitter_username: kelaspajakwith1
 instagram: kelaspajakwith
 
+encoding: UTF-8
+
 exclude:
   - Gemfile*
   - node_modules
@@ -22,7 +24,6 @@ sass:
   sass_dir: _sass
   load_paths:
     - node_modules
-    #- node_modules/**/*/node_modules
 
 collections:
   fiturs:
@@ -43,6 +44,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
-  - twemoji
 
 branch: master
+
+# Google Analytics
+google_analytics: UA-146778045-2
