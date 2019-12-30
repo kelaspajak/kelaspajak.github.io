@@ -2,6 +2,6 @@
   "private": true,
   "dependencies": {
     "@primer/css": "^14.1.0",
-    "primer-css": "^8.0.0"
+    "primer-css": "^9.6.0"
   }
 }
