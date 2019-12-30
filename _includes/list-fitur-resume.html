@@ -1,10 +1,14 @@
 {% assign dataid = page.dataid %}
-{% assign resume = site.data.resume.data | where_exp: "item", "item.category == dataid and item.active == 'yes'" | group_by: 'title' %}
+{%comment%}{% assign resume = site.data.resume.data | where_exp: "item", "item.category == dataid and item.active == 'yes'" | group_by: "title" %}{%endcomment%}
+
+{% assign resume = site.data.resume.data | where: "category", dataid" %}
+{% assign resumes = resume | where: "active", 'yes'" | group_by: "title" %}
+
 {% assign topik = site.data.resume.data | where_exp: "item", "item.category == dataid" | group_by: 'topik' %}
 <h5>{{page.category}}</h5>
-<h1 class="h00-mktg mb-8">{{page.description}}</h1>
+<h1 class="h0-mktg mb-8">{{page.description}}</h1>
 {% if page.status == 'open' %}
-<p>total terdapat <span class="Label {{page.label}} text-white">{{resume.size}}</span> file dengan status aktif dan masih berlaku </p>
+<p>total terdapat <span class="Label {{page.label}} text-white">{{resumes.size}}</span> file dengan status aktif dan masih berlaku </p>
 {% else %}
 <span class="IssueLabel {{page.label}} text-white">kelas ini masih ditutup</span> tidak ada link yang aktif
 {% endif %}
@@ -13,7 +17,11 @@
 <h3 class="link-gray-dark d-block">{{ topik.name }} </h3>
 <ul>
     {% capture namatopik %}{{ topik.name }}{% endcapture %}
-    {% assign titles = site.data.resume.data | where_exp: "item", "item.category == dataid and item.topik == namatopik" %}
+    {%comment%}{% assign titles = site.data.resume.data | where_exp: "item", "item.category == dataid and item.topik == namatopik" %}{%endcomment%}
+
+    {% assign titulo = site.data.resume.data | where: "category",dataid %}
+    {% assign titles = titulo | where: "topik", namatopik %}
+
     {% for titles in titles %}
     <li class="text-normal">
         {% if titles.active == "tidak" %}
