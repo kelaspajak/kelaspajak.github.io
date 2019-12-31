@@ -36,7 +36,9 @@
     {% assign titles = resume | where: "subtopik", subtopikname %}
 
     {% for titles in titles %}
-    <li class="text-normal">{{titles.title}}</li>
+    <li class="text-normal">
+        <a href="{{ titles.url }}" class="text-bold" target="_blank">{{titles.title}}</a>
+    </li>
     {%endfor%}
 </ul>
 {% endfor %}
