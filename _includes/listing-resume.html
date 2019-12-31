@@ -22,11 +22,15 @@
 <ul>
     {% assign titlenontopik = resume | where: "topik", namatopik %}
 
+    {% capture sizesubtopik %}{{subtopik.name}}{% endcapture %}
+    {% if sizesubtopik.size == blank %}
+
     {% for titlenontopiks in titlenontopik %}
-    <li class="text-normal">
-        <a href="{{ titlenontopiks.url }}" class="text-bold" target="_blank">{{titlenontopiks.title}}</a>
-    </li>
-    {%endfor%}
+        <li class="text-normal">
+            <a href="{{ titlenontopiks.url }}" class="text-bold" target="_blank">{{titlenontopiks.title}}</a>
+        </li>
+        {%endfor%}
+    {% endif %}
 </ul>
 {% endif %}
 {%comment%} untuk subcategories {%endcomment%}
