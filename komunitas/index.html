@@ -9,38 +9,12 @@ permalink: /komunitas
     komunitas perpajakan terbesar, kami mengajak anda untuk bergabung bersama kami.
   </p>
 </div>
-
-{%comment%}
-<div class="container-lg px-3 p-responsive">
-  <div class="text-center my-6 py-6">
-    <a class="btn btn-outline d-inline-block mb-1 mb-md-0 mr-0 mr-md-3" href="https://t.me/diskusipajak">
-      <i class="fab fa-telegram-plane"></i>
-      Grup DiskusiPajak
-    </a>
-
-    <a class="btn btn-outline d-inline-block mb-1 mb-md-0 mr-0 mr-md-3" href="https://t.me/tutorialpajak">
-      <i class="fab fa-telegram-plane"></i>
-      Channel DiskusiPajak
-    </a>
-
-    <a class="btn btn-outline d-inline-block mb-1 mb-md-0 mr-0 mr-md-3" href="https://facebook.com/diskusipajak">
-      <i class="fab fa-facebook"></i>
-      Pages DiskusiPajak
-    </a>
-
-    <a class="btn btn-outline d-inline-block mb-1" href="https://facebook.com/group/diskusipajak">
-      <i class="fab fa-facebook"></i>
-      Grup DiskusiPajak
-    </a>
-  </div>
-  {% endcomment %}
-
   <div class="container-lg px-3 p-responsive mt-6 pt-6">
     <div class="container-narrow">
       {% assign titles = site.data.komunitas.data%}
       {% for titles in titles %}
-      <p class="mb-4"><i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i> <a
-          href="{{ titles.url }}"><b>{{ titles.title }}</b></a> {{ titles.description }}</p>
+      <p class="mb-4"><i class="{{ titles.icon }} alt-text-small" style="opacity: 0.6"></i> 
+        <a href="{{ titles.url }}" target="_blank"><b>{{ titles.title }}</b></a> {{ titles.description }}</p>
       {% endfor %}
     </div>
   </div>  

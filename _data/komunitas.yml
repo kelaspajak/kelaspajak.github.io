@@ -1,10 +1,10 @@
 data:
-  - title: Grup Telegram Diskusi Pajak
+  - title: Grup Telegram Diskusi Kontribusi Wajib Kepada Negara
     icon: fab fa-telegram
     id: 1
     description: diskusi langsung bersama praktisi pajak dengan jumlah anggota > 6K
     url: https://t.me/diskusipajak
-  - title: Channel Telegram Akuntansi dan Pajak
+  - title: Channel Telegram Kontribusi Wajib Kepada Negara
     icon: fab fa-telegram
     id: 2
     description: Channel satu arah yang berisi informasi penting terkait perpajakan
