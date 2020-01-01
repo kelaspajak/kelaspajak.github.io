@@ -18,7 +18,7 @@
     <ul>
         {% capture namatopik %}{{topik.name}}{% endcapture %}
         {% assign t = resume | where: "topik", namatopik %}
-        {% assign ti = t | where: "subtopik", blank %}
+        {% assign ti = t | where: "subtopik", nil %}
         {% for titl in ti %}
         <li class="text-normal">
             {% if titl.active == "ya" %}
