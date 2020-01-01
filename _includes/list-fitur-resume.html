@@ -1,10 +1,9 @@
 {% assign dataid = page.dataid %}
 {%comment%}{% assign resume = site.data.resume.data | where_exp: "item", "item.category == dataid and item.active == 'yes'" | group_by: "title" %}{%endcomment%}
-
 {% assign resume = site.data.resume.data | where: "category", dataid" %}
 {% assign resumes = resume | where: "active", 'yes'" | group_by: "title" %}
-
 {% assign topik = site.data.resume.data | where_exp: "item", "item.category == dataid" | group_by: 'topik' %}
+
 <h1 class="h1-mktg mt-2">{{page.description}} <span title="Fitur: {{page.category}}"
         class="f6 Label Label--gray">{{page.category}}</span></h1>
 {% if page.status == 'open' %}
@@ -28,8 +27,9 @@
         {% endif %}
     </li>
     {%endfor%}
-
 </ul>
+{%endfor%}
+
 {%comment%} untuk yang ada subcategories {%endcomment%}
 {% for subtopiks in subtopik %}
 <h4>{{subtopiks.name}}</h4>
