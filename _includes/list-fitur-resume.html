@@ -5,10 +5,10 @@
 <div class="mt-sm-2"><span title="Fitur: {{page.category}}" class="f6 Label Label--gray">{{page.category}}</span></div>
 <h1 class="h1-mktg mt-2">{{page.description}}</h1>
 {% if page.status == 'open' %}
-<p>total terdapat <span class="Label {{page.label}} text-white">{{resumes.size}}</span> file dengan status aktif dan
+<p class="text-small text-gray">total terdapat <span class="Label {{page.label}} text-white">{{resumes.size}}</span> file dengan status aktif dan
     masih berlaku </p>
 {% else %}
-kelas ini sedang <span class="IssueLabel {{page.label}} text-white">tutup</span> materi masih dalam tahap persiapan
+<p class="text-small text-gray"><span class="IssueLabel {{page.label}} text-white">tutup</span> kelas ini masih dalam tahap persiapan materi</p>
 {% endif %}
 {% for topik in topik %}
 <h3 class="position-sticky top-0" style="z-index: 2;">{{ topik.name }} </h3>

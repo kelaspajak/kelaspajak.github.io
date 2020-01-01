@@ -5,8 +5,8 @@ layout: pages
 permalink: /fitur/aspekpajak/
 ---
 {% assign data = site.data.aspekpajak.data | group_by: 'id' %}
-<h1 class="h0-mktg mb-8">Aspek Perpajakan</h1>
-<p>total terdapat <span class="IssueLabel bg-green text-white">{{data.size}}</span> folder dengan status aktif dan
+<h1 class="h1-mktg mt-sm-2">Aspek Perpajakan Industri</h1>
+<p class="text-small text-gray">total terdapat <span class="IssueLabel bg-green text-white">{{data.size}}</span> folder dengan status aktif dan
     masih berlaku </p>
 <ul>
     {% assign titles = site.data.aspekpajak.data %}

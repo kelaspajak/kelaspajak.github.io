@@ -26,7 +26,7 @@ docs:
 #        url: /fitur/resume/pengampunan-pajak/
  
 
-  - title: Aspek Pajak
+  - title: Aspek Pajak Industri
     image: https://ghicons.github.com/assets/images/light/Marketplace.png
     images: Marketplace.png
     id: aspekpajak
@@ -46,7 +46,7 @@ docs:
     url: https://trello.com/invite/b/xz52ztAa/afa00f9acd10cefd8a7c9b587276ef48/faq-pajak-indonesia
     active: true
     price: 
-    - rupiah: Rp0
+    - rupiah: Free
 #    children:
 #      - title: "KUP"
 #        url: /docs/resume-kup/
