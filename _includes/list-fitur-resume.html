@@ -16,13 +16,13 @@
 {% assign subtopik = resume | where: "topik", namatopik | group_by: "subtopik"%}
 <ul>
     {% assign titling = resume | where: "topik", namatopik %}
-    {% assign titles = titling | where: "subtopik", blank %}
-    {% for titles in titles %}
+    {% assign titlings = titling | where: "subtopik", blank %}
+    {% for titlings in titlings %}
     <li class="text-normal">
-        {% if titles.active == "ya" %}
-        <a href="{{ titles.url }}" target="_blank" class="tooltipped tooltipped-n" aria-label="File {{titles.type}}, aktif: {{titles.active}}">{{titles.title}}</a>
+        {% if titlings.active == "ya" %}
+        <a href="{{ titles.url }}" target="_blank" class="tooltipped tooltipped-n" aria-label="File {{titles.type}}, aktif: {{titles.active}}">{{titlings.title}}</a>
         {% else %}
-        <span class="tooltipped tooltipped-n" aria-label="tipe: {{titles.type}}, aktif: {{titles.active}}">{{titles.title}}</span>
+        <span class="tooltipped tooltipped-n" aria-label="tipe: {{titles.type}}, aktif: {{titles.active}}">{{titlings.title}}</span>
         {% endif %}
     </li>
     {%endfor%}
