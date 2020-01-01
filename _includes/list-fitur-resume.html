@@ -11,17 +11,12 @@
 <p class="text-small text-gray">total terdapat <span class="Label {{page.label}} text-white">{{resumes.size}}</span> file dengan status aktif dan
     masih berlaku </p>
 {% else %}
-<<<<<<< HEAD
 <p class="text-small text-gray"><span class="IssueLabel {{page.label}} text-white">tutup</span> kelas ini masih dalam tahap persiapan materi</p>
-=======
-<span class="IssueLabel {{page.label}} text-white">kelas ini masih ditutup</span> tidak ada link yang aktif
->>>>>>> parent of 5ed780c... layout
 {% endif %}
 
 {% for topik in topik %}
 <h3 class="link-gray-dark d-block">{{ topik.name }} </h3>
 <ul>
-<<<<<<< HEAD
     {% assign titling = resume | where: "topik", namatopik %}
     {% assign titlings = titling | where: "subtopik", blank %}
     {% for titlings in titlings %}
@@ -40,9 +35,6 @@
 <h4>{{subtopiks.name}}</h4>
 <ul>
     {% capture subtopikname %}{{subtopiks.name}}{% endcapture %}
-=======
-    {% capture namatopik %}{{ topik.name }}{% endcapture %}
->>>>>>> parent of 5ed780c... layout
     {%comment%}{% assign titles = site.data.resume.data | where_exp: "item", "item.category == dataid and item.topik == namatopik" %}{%endcomment%}
 
     {% assign titulo = site.data.resume.data | where: "category",dataid %}
