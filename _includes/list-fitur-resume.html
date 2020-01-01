@@ -1,20 +1,27 @@
 {% assign dataid = page.dataid %}
+{%comment%}{% assign resume = site.data.resume.data | where_exp: "item", "item.category == dataid and item.active == 'yes'" | group_by: "title" %}{%endcomment%}
+
 {% assign resume = site.data.resume.data | where: "category", dataid" %}
-{% assign resumes = resume | where: "active", 'ya'" | group_by: "title" %}
+{% assign resumes = resume | where: "active", 'yes'" | group_by: "title" %}
+
 {% assign topik = site.data.resume.data | where_exp: "item", "item.category == dataid" | group_by: 'topik' %}
-<div class="mt-sm-2"><span title="Fitur: {{page.category}}" class="f6 Label Label--gray">{{page.category}}</span></div>
-<h1 class="h1-mktg mt-2">{{page.description}}</h1>
+<h1 class="h1-mktg mt-2">{{page.description}} <span title="Fitur: {{page.category}}"
+        class="f6 Label Label--gray">{{page.category}}</span></h1>
 {% if page.status == 'open' %}
 <p class="text-small text-gray">total terdapat <span class="Label {{page.label}} text-white">{{resumes.size}}</span> file dengan status aktif dan
     masih berlaku </p>
 {% else %}
+<<<<<<< HEAD
 <p class="text-small text-gray"><span class="IssueLabel {{page.label}} text-white">tutup</span> kelas ini masih dalam tahap persiapan materi</p>
+=======
+<span class="IssueLabel {{page.label}} text-white">kelas ini masih ditutup</span> tidak ada link yang aktif
+>>>>>>> parent of 5ed780c... layout
 {% endif %}
+
 {% for topik in topik %}
-<h3 class="position-sticky top-0" style="z-index: 2;">{{ topik.name }} </h3>
-{% capture namatopik %}{{ topik.name }}{% endcapture %}
-{% assign subtopik = resume | where: "topik", namatopik | group_by: "subtopik"%}
+<h3 class="link-gray-dark d-block">{{ topik.name }} </h3>
 <ul>
+<<<<<<< HEAD
     {% assign titling = resume | where: "topik", namatopik %}
     {% assign titlings = titling | where: "subtopik", blank %}
     {% for titlings in titlings %}
@@ -33,10 +40,36 @@
 <h4>{{subtopiks.name}}</h4>
 <ul>
     {% capture subtopikname %}{{subtopiks.name}}{% endcapture %}
+=======
+    {% capture namatopik %}{{ topik.name }}{% endcapture %}
+>>>>>>> parent of 5ed780c... layout
     {%comment%}{% assign titles = site.data.resume.data | where_exp: "item", "item.category == dataid and item.topik == namatopik" %}{%endcomment%}
-    {% assign titles = resume | where: "subtopik", subtopikname %}
 
-{% include listing-daftar-file.html %}
+    {% assign titulo = site.data.resume.data | where: "category",dataid %}
+    {% assign titles = titulo | where: "topik", namatopik %}
+
+    {% for titles in titles %}
+    <li class="text-normal">
+        {% if titles.active == "tidak" %}
+            <span class="text-gray text-header-light" style="opacity: 0.6">
+        {% else %}
+            <a href="{{ titles.url }}" class="text-bold" target="_blank">
+        {%endif%}
+        {{ titles.title }}
+        {% if titles.active == "tidak" %}
+            </span>
+        {% else %}
+            </a>
+        {%endif%}
+        
+        &nbsp;<i class="{{ titles.icon }}" style="opacity: 0.6"></i>
+        {% if titles.subtopik %}
+        &#8211; <span class="alt-text-small text-header-light h6 font-inter-case"
+            style="opacity: 0.6">{{ titles.subtopik }}</span>
+        {% endif %}
+        <a href="https://twitter.com/intent/tweet?text={{ titles.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter" class="hover-fade">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1074e7" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>            </svg>        </a>
+    </li>
+    {% endfor %}
 </ul>
-{% endfor %}
 {% endfor %}
