@@ -68,7 +68,7 @@ pricing:
     description: Merupakan kumpulan tanya jawab yang sering ditanyakan untuk sementara menggunakan trello
     status: free
     price: 
-    - rupiah: Rp0
+    - rupiah: Free
   - title: "KUP"
     id: "kup"
     description: "Ketentuan Umum dan Tatacara Perpajakan"
