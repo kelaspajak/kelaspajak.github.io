@@ -4,52 +4,38 @@
 {% assign resumes = resume | where: "active", 'ya'" | group_by: "title" %}
 {% assign topik = resumes | where: "category", dataid | group_by: 'topik' %}
 
-
-<h1 class="h1-mktg mt-2">{{page.description}} <span title="Fitur: {{page.category}}"
-        class="f6 Label Label--gray">{{page.category}}</span></h1>
+<div class="f6 Label Label--gray">{{page.category}}</div>
+<h1 class="h1-mktg mt-2">{{page.description}} </h1>
 {% if page.status == 'open' %}
 <p class="text-small text-gray">total terdapat <span class="Label {{page.label}} text-white">{{resumes.size}}</span> file dengan status aktif dan
     masih berlaku </p>
 {% else %}
-<p class="text-small text-gray"><span class="IssueLabel {{page.label}} text-white">tutup</span> kelas ini masih dalam tahap persiapan materi</p>
+<p class="text-small text-gray"><span class="IssueLabel {{page.label}} text-white">tutup</span> kelas ini masih dalam tahap penyempurnaan materi</p>
 {% endif %}
 
 {% for topik in topik %}
-<h3 class="link-gray-dark d-block">{{ topik.name }} </h3>
-<ul>
+    <h3 class="link-gray-dark d-block">{{ topik.name }} </h3>
+    <ul>
+        {% capture namatopik %}{{topik.name}}{% endcapture %}
+        {% assign titling = resume | where: "topik", namatopik %}
+        {% assign titles= titling | where: "subtopik", blank %}
+
+        {% include listing-daftar-file.html %}
+
+    </ul>
+
+    {%comment%} untuk yang ada subcategories {%endcomment%}
     {% capture namatopik %}{{topik.name}}{% endcapture %}
-    {% assign titling = resume | where: "topik", namatopik %}
-    {% assign titles= titling | where: "subtopik", blank %}
-    {% for titles in titles %}
-    <li class="text-normal">
-        {% if titlings.active == "ya" %}
-        <a href="{{ titles.url }}" target="_blank" class="tooltipped tooltipped-n" aria-label="File {{titles.type}}, aktif: {{titles.active}}">{{titles.title}}</a>
-        {% else %}
-        <span class="tooltipped tooltipped-n" aria-label="tipe: {{titles.type}}, aktif: {{titles.active}}">{{titles.title}}</span>
-        {% endif %}
-    </li>
+    {% assign subtopik = resumes | where: "topik", namatopik | group_by: 'subtopik' %}
+    {% for subtopik in subtopik %}
+        <h4 class="link-gray-dark d-block">{{ subtopik.name }} </h4>
+        <ul>
+            {% capture namasubtopik %}{{subtopik.name}}{% endcapture %}
+            {% assign titling = resume | where: "subtopik", namasubtopik %}
+            {% assign titles= titling %}    
+            {% include listing-daftar-file.html %}    
+        </ul>
+    
     {%endfor%}
-</ul>
 {%endfor%}
-
-{%comment%} untuk yang ada subcategories {%endcomment%}
-{% for subtopiks in subtopik %}
-<h4>{{subtopiks.name}}</h4>
-<ul>
-    {% capture subtopikname %}{{subtopiks.name}}{% endcapture %}
-    {%comment%}{% assign titles = site.data.resume.data | where_exp: "item", "item.category == dataid and item.topik == namatopik" %}{%endcomment%}
-
-    {% assign titulo = site.data.resume.data | where: "category",dataid %}
-    {% assign titles = titulo | where: "topik", namatopik %}
-
-    {% for titles in titles %}
-    <li class="text-normal">
-        {% if titlings.active == "ya" %}
-        <a href="{{ titles.url }}" target="_blank" class="tooltipped tooltipped-n" aria-label="File {{titles.type}}, aktif: {{titles.active}}">{{titles.title}}</a>
-        {% else %}
-        <span class="tooltipped tooltipped-n" aria-label="tipe: {{titles.type}}, aktif: {{titles.active}}">{{titles.title}}</span>
-        {% endif %}
-    </li>
-    {%endfor%}
-</ul>
-{% endfor %}
+-halosemua
