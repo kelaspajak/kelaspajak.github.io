@@ -2,7 +2,7 @@ data:
   - id: 1
     title: Saat Dimulainya Kewajiban Perpajakan
     url: https://docs.google.com/document/d/1gp-QtAI9GY7F2GbUOGzmtPhkIow3fjt2qbsLZrpuOvA/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Umum
@@ -11,7 +11,7 @@ data:
   - id: 2
     title: Dokumen yang Wajib Disimpan oleh Wajib Pajak yang Melakukan Transaksi dengan Pihak Afiliasi
     url: https://docs.google.com/document/d/1fGJWBf8D5IPg7pBOA2pz42VikmJRaBdFKP81kOzPcoU/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Umum
@@ -20,7 +20,7 @@ data:
   - id: 3
     title: Kode Klasifikasi Lapangan Usaha (KLU)
     url: https://docs.google.com/document/d/1vVdZltkHFWXiuDjQw9G2037QnRdez24KVVZA1xxS-2w/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Umum
@@ -38,7 +38,7 @@ data:
   - id: 5
     title: Surat Keterangan Fiskal (SKF)
     url: https://docs.google.com/document/d/1DEfVqH2Nm6lnKtHWGx2EmoEkMeWZort71U-eub76MJY/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Umum
@@ -47,7 +47,7 @@ data:
   - id: 6
     title: Permintaan Penjelasan atas Data dan/atau Keterangan dan Kunjungan (Visit) kepada Wajib Pajak.
     url: https://docs.google.com/document/d/1thbc500v81416_XEItJ8aYSVPur5JT0NqM1ItmQ8gtA/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Umum
@@ -65,7 +65,7 @@ data:
   - id: 8
     title: Surat Kuasa Khusus
     url: https://docs.google.com/document/d/1gZYcl5u5L_7_q6goWXp73LGT7YteIrqlsZ6ZpxnxQWs/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Umum
@@ -82,7 +82,7 @@ data:
   - id: 10
     title: Jenis Pelayanan Kepada WP yang Diberikan oleh KPP dan Kanwil DJP
     url: https://docs.google.com/document/d/1PwEwaBBY317k-aD-AXA0ejKho7RRcS6lfLaxhO9iHH4/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Umum
@@ -100,7 +100,7 @@ data:
   - id: 12
     title: DJP Online
     url: https://docs.google.com/document/d/12SmyXD3dlmcGJWUJGnDNlpno-DNjOj9CqUgxYOOq-9I/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Umum
@@ -109,7 +109,7 @@ data:
   - id: 13
     title: Konfirmasi Status Wajib Pajak
     url: https://docs.google.com/document/d/1syQ3aPNPKp3jC69jyQr7C8jPaPd9Y6c7sQ4lnUZmUVU/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Umum
@@ -127,7 +127,7 @@ data:
   - id: 15
     title: Ketentuan Umum terkait NPWP
     url: https://docs.google.com/document/d/1Vml1ZuwQ6vZKz62UuAwiIqBlfs-H4nZe2fIe9IVrsRQ/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -136,7 +136,7 @@ data:
   - id: 16
     title: NPWP bagi Wanita Kawin
     url: https://docs.google.com/document/d/1JzezgnLTuYTjLZ989WPwgV2rgN8Y_uMoZWhVDNVjzDc/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -146,7 +146,7 @@ data:
   - id: 17
     title: Pendaftaran NPWP
     url: https://docs.google.com/document/d/1UOalegf-mE2IGWUETv-HUX-yXLdmtIGk6gwXQQLh3UM/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -156,7 +156,7 @@ data:
   - id: 18
     title: Penghapusan NPWP
     url: https://docs.google.com/document/d/1uwDqP47itoDlBB_gSJ-dzELm4fryebbwi1RsLgUio6Y/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -166,7 +166,7 @@ data:
   - id: 19
     title: Pengukuhan PKP
     url: https://docs.google.com/document/d/1-CPRvsI9xvKqHKhHgihGZ-2fmsknEjkXCF9d4LBcJCM/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -176,7 +176,7 @@ data:
   - id: 20
     title: Pencabutan Pengukuhan PKP
     url: https://docs.google.com/document/d/1iRSeDFaVT-yjEBMsHpAnHOIWoovrkUQnDz_bBq1AJMs/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -186,7 +186,7 @@ data:
   - id: 21
     title: Perubahan Data WP Dan/Atau PKP
     url: https://docs.google.com/document/d/10ygKIu6B3QnnIZjVtWA0PPy64eEn46xy6OqxGgi6RCc/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -196,7 +196,7 @@ data:
   - id: 22
     title: Pemindahan WP
     url: https://docs.google.com/document/d/1MTkEpRrhvKQntMLP9JIEPqHnnOxmabsZq_-d7HRxGzU/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -206,7 +206,7 @@ data:
   - id: 23
     title: Penetapan WP Sebagai WP Non Efektif
     url: https://docs.google.com/document/d/14slbh4QsaYXbH50qgbPVUceiVkAYnkwAL0g2XOb2UTw/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -216,7 +216,7 @@ data:
   - id: 24
     title: Pencabutan Pengukuhan PKP secara Jabatan atas Pengusaha Kecil 2014
     url: https://docs.google.com/document/d/1S77cRnCvHIKsu4y8p9c2CBK2Qb4XX-ftDThOUDr0NIQ/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -276,7 +276,7 @@ data:
   - id: 30
     title: Pendaftaran NPWP dan Pengukuhan PKP
     url: https://docs.google.com/document/d/1iisIOiex8zN6PM2PBIzFBSwcNh2i2V7-PCpAuiPGwL0/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -286,7 +286,7 @@ data:
   - id: 31
     title: Penghapusan NPWP
     url: https://docs.google.com/document/d/1FbsLZq7WvUMyL3yiaNLc0n2k77OFw3Yamnc_JRsIpxE/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -296,7 +296,7 @@ data:
   - id: 32
     title: Pencabutan PKP
     url: https://docs.google.com/document/d/1fMY5HKUJCH0SVODThNYCb4ImTRUv-4iGoTZQG_mnmqQ/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -306,7 +306,7 @@ data:
   - id: 33
     title: Pendaftaran NPWP dan Pengukuhan PKP
     url: https://docs.google.com/document/d/15-qiiBKqthicR_8BwmqS9B3IOSq99vB-rBSABo5sH-o/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -316,7 +316,7 @@ data:
   - id: 34
     title: Penghapusan NPWP
     url: https://docs.google.com/document/d/1VUoWIHyI_m8pS-DhtswtwLY7sOdT_y5D9yx-hrT8YaY/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: NPWP dan PKP
@@ -326,7 +326,7 @@ data:
   - id: 35
     title: Ketentuan Umum Terkait SPT
     url: https://docs.google.com/document/d/1Yzt01bypjEJtIaOzGkPM17XJ5IUBffvz3nnt82JoSbU/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -336,7 +336,7 @@ data:
   - id: 36
     title: Penyampaian SPT Tahunan
     url: https://docs.google.com/document/d/1X0fHcPtejf2vvSzrfxizw1t0mX1Z-q9tJGnuH5MbNyU/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -346,7 +346,7 @@ data:
   - id: 37
     title: Penyampaian SPT Elektronik (e-SPT)
     url: https://docs.google.com/document/d/1lchYbPPWrIfznZdfHh2UBlNNks-2czle5nbj_h3ezyQ/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -356,7 +356,7 @@ data:
   - id: 38
     title: Batas Waktu Pembayaran, Penyetoran, Penyampaian SPT, dan Sanksi Keterlambatan
     url: https://docs.google.com/document/d/1PV5FgbZCfdEZoYy7_e_4pdryAO_5iz-jnApB9FsUc7w/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -366,7 +366,7 @@ data:
   - id: 39
     title: Pengangsuran dan Penundaan pembayaran SPT Tahunan PPh
     url: https://docs.google.com/document/d/1K_uJkOgBBJLMxBvnxPm_D-Hsp63q3X5Q4ITesF2X7sw/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -376,7 +376,7 @@ data:
   - id: 40
     title: Perpanjangan Penyampaian SPT Tahunan
     url: https://docs.google.com/document/d/1MFo2pUPdaWIuh8NtLT1qvHC3tajuHdvkZRp7aIsGU8M/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -386,7 +386,7 @@ data:
   - id: 41
     title: Penyampaian e-SPT bagi WP KPP Madya, KPP WP Besar, KPP PMA, KPP Badora
     url: https://docs.google.com/document/d/1cxWF7UrjHpaIyY4rzVb3Lyb2X0vQ07sMtVEw_og-7SY/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -396,7 +396,7 @@ data:
   - id: 42
     title: Pembetulan SPT
     url: https://docs.google.com/document/d/1yayL0JtVUpmkM8rA79bqdCTXsAjrXBhL33MX6Zh5YV4/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -406,7 +406,7 @@ data:
   - id: 43
     title: Pengungkapan ketidakbenaran Pengisian SPT & Pengungkapan Ketidakbenaran Perbuatan WP
     url: https://docs.google.com/document/d/1q5uioY_lPo-aUoSwV-Z8ZYEMadqoF-Qd3Kq5wo_-Yww/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -416,7 +416,7 @@ data:
   - id: 44
     title: Penyedia Layanan SPT Elektronik
     url: https://docs.google.com/document/d/1kyVJ-APMwC_Hj-zeoh00LhjzgNY5aK5V7TZNBdwTatc/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -426,7 +426,7 @@ data:
   - id: 45
     title: SPT Tahunan PPh OP
     url: https://docs.google.com/document/d/1o0bvInW_r1w1IHyWFEiFk_17wXM4uOUlV2twbAIpvAk/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -436,7 +436,7 @@ data:
   - id: 46
     title: Penghasilan Tidak Kena Pajak (PTKP)
     url: https://docs.google.com/document/d/1kDgfDIe8WHr5oyH8qpRsxpOYM5tUSVu_cKFEyBd8V_E/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -446,7 +446,7 @@ data:
   - id: 47
     title: SPT Tahunan PPh Badan
     url: https://docs.google.com/document/d/19Wm01gCbyrxAGOc2mxqEhEj2NJ9N2yR5F0P6j5aJKz8/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -456,7 +456,7 @@ data:
   - id: 48
     title: SPT Tahunan PPh Migas
     url: https://docs.google.com/document/d/13czRGwcrnjsGYW9L2tZSRWwHSfNU4F0hciRd5uxgV14/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -466,7 +466,7 @@ data:
   - id: 49
     title: SPT Masa PPN sejak Masa Juli 2015
     url: https://docs.google.com/document/d/1gIsszdI9ABNp0EGj3Ag2zCtwV4PVqlR62PtTQjmet7Q/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -486,7 +486,7 @@ data:
   - id: 51
     title: Kewajiban E-SPT bagi WP di KPP Madya dan KPP di Wilayah Kanwil Jakarta Khusus dan Kanwil WP Besar
     url: https://docs.google.com/document/d/1L5-F0MDAuWpz_8phxXLOzmEhRfhsxYZECRH6zCCuif4/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -496,7 +496,7 @@ data:
   - id: 52
     title: SPT 1111 Sejak Masa Juni 2013
     url: https://docs.google.com/document/d/1COCBA16mUu-DoI8YE0bsq2TgfMt7sk_SUEIX33ECXbU/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -506,7 +506,7 @@ data:
   - id: 53
     title: SPT 1111 DM sejak Masa Juni 2013
     url: https://docs.google.com/document/d/1MCPSDHMmmpu2gG7vekOd7GhWNxBXY6s3R1J4XvmRjsc/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -555,7 +555,7 @@ data:
   - id: 58
     title: SPT Masa PPh 21 (Ketentuan Sebelum 1 Januari 2014)
     url: https://docs.google.com/document/d/1auglc5I-faHhxoaEEZ5zcwodxInu9WMxxLISE-ZJyOo/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -565,7 +565,7 @@ data:
   - id: 59
     title: SPT Masa PPh 21 (Ketentuan Sejak 1 Januari 2014)
     url: https://docs.google.com/document/d/1qtLRB912ujBNUttt-JV--_jPg5DpKYHimPxLgC8-R6M/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -575,7 +575,7 @@ data:
   - id: 60
     title: SPT Masa PPh Pasal 23/26
     url: https://docs.google.com/document/d/1nDM-3bqSgvH-9No3W1ZFd2k-ihipLCvPkkxGHifO13I/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: SPT
@@ -585,7 +585,7 @@ data:
   - id: 61
     title: Pembayaran atau Penyetoran pajak
     url: https://docs.google.com/document/d/15cykDC9mLd3PYXWFEg942KGBRTKnwPjbCd2n9pf1KWI/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pembayaran atau Penyetoran
@@ -594,7 +594,7 @@ data:
   - id: 62
     title: Permohonan Pemindahbukuan (Pbk)
     url: https://docs.google.com/document/d/157lAjUjlQIC6YFgBqXzcaRbLrqarvR1PmJidg7eLZNA/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pembayaran atau Penyetoran
@@ -644,7 +644,7 @@ data:
   - id: 68
     title: Tabel Kode Ketetapan per Jenis Pajak (Kode SKP, STP)
     url: https://docs.google.com/document/d/1AK4MZeIaSLD_65OqYMMYc8B22CFup6vLIlq0WDB8MlE/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pembayaran atau Penyetoran
@@ -653,7 +653,7 @@ data:
   - id: 69
     title: Tabel Kode MAP dan KJS Lengkap
     url: https://docs.google.com/spreadsheets/d/1MEd4lf3-Maawi1fu86UimVMiMpASjmFQqxLtfRVnVKc/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pembayaran atau Penyetoran
@@ -662,7 +662,7 @@ data:
   - id: 70
     title: penundaan pembayaran PPh pasal 29 tahun 2013 bagi WP industri tertentu
     url: https://docs.google.com/document/d/1xQbHIS9Evq-U9CPNIynjfSivDDc0s7A-dnzc6o1zDmw/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pembayaran atau Penyetoran
@@ -671,7 +671,7 @@ data:
   - id: 71
     title: Sistem Pembayaran Pajak secara Elektronik (Billing System) (Ketentuan sejak 13 Oktober 2014)
     url: https://docs.google.com/document/d/1Xe1up5VFYVmGNUfeEtzpYVBIvDJPYJnAVRWRrzSsNhg/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pembayaran atau Penyetoran
@@ -680,7 +680,7 @@ data:
   - id: 72
     title: Sistem Pembayaran Pajak secara Elektronik (Billing System) (Ketentuan sejak 4 April 2017)
     url: https://docs.google.com/document/d/1ae1LXmUcFfOwgmRMIVCE1Mco2tqJL8xIBfg7a2sJ9P8/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pembayaran atau Penyetoran
@@ -689,7 +689,7 @@ data:
   - id: 73
     title: Jadwal Waktu Penagihan Pajak
     url: https://docs.google.com/document/d/1ik7iEiudi3s4WXBs8EGlPZoudvdDKepZEtlThcdk29g/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Penagihan Pajak
@@ -698,7 +698,7 @@ data:
   - id: 74
     title: Ketentuan terkait Penagihan pajak
     url: https://docs.google.com/document/d/1a3R364pnaScw3drpgGRKIS5pGyic227YoGLlTQ0Di68/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Penagihan Pajak
@@ -707,7 +707,7 @@ data:
   - id: 75
     title: Pasal 25 UU KUP , Keberatan
     url: https://docs.google.com/document/d/15AkUJ2akC5QAHUCdHGa1AFkVNH-6L3Hb2ACE_L8aay4/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Keberatan
@@ -716,7 +716,7 @@ data:
   - id: 76
     title: Pasal 16 KUP , Pembetulan STP, Surat Ketetapan/Keputusan Pajak
     url: https://docs.google.com/document/d/1lXpw2T4j13L6pr8k3Kn4TdkkzwH1NcfCWHaB3Tolx3U/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
@@ -725,7 +725,7 @@ data:
   - id: 77
     title: Gugatan
     url: https://docs.google.com/document/d/1nVcxGa3jFnSraLUAPprV_cLSQNyaNHD2G8q9D51B_wU/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
@@ -734,7 +734,7 @@ data:
   - id: 78
     title: Pasal 27 UU KUP , Banding
     url: https://docs.google.com/document/d/1f3Y4XTd6Bziix0wmsIDxoTY1oIGw0TT3mqsiYUl3sIc/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
@@ -743,7 +743,7 @@ data:
   - id: 79
     title: Peninjauan Kembali
     url: https://docs.google.com/document/d/1FjO0PGitgc3JkZGCo2nwBuO4S7Hr70OBkS27osgkV7k/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
@@ -762,7 +762,7 @@ data:
   - id: 81
     title: Ketentuan terkait Pasal 36 UU KUP Sejak 1 Maret 2013
     url: https://docs.google.com/document/d/1C0RXf6rXTJm792Lktv5afYHb1t7RR5K8rmsPghJegKs/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
@@ -772,7 +772,7 @@ data:
   - id: 82
     title: Pengurangan Atau Penghapusan Sanksi Administrasi Pada SKP dan STP
     url: https://docs.google.com/document/d/1TRCR8f7pl0hBKGPOJEF6Q9AG45Z4LK_AR0ImheP0VTU/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
@@ -782,7 +782,7 @@ data:
   - id: 83
     title: Pengurangan atau Pembatalan SKP yang Tidak Benar
     url: https://docs.google.com/document/d/1XW_gqaWvq-hS7ucXh0HKVHtEEcBmgPkVmpJ-hs3t9vY/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
@@ -792,7 +792,7 @@ data:
   - id: 84
     title: Pengurangan atau Pembatalan STP yang Tidak Benar
     url: https://docs.google.com/document/d/1Vpu7QBq63b0JQLTmqzYQksnnJ_HjmWF1NI1ceQ_Zt_8/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
@@ -802,7 +802,7 @@ data:
   - id: 85
     title: Pembatalan SKP Pemeriksaan atau Verifikasi
     url: https://docs.google.com/document/d/1LYkGpOCzmFGTeQLH4cic6xhf3TCm2r6TBZBtuYbXa2w/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
@@ -812,7 +812,7 @@ data:
   - id: 86
     title: Penghapusan Sanksi Administrasi Bunga Pasal 19 ayat (1) UU KUP
     url: https://docs.google.com/document/d/1_CCvB8RwtOq3U95P9Vl6xTp4yNm2JbDMzAXCEeJ4i70/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
@@ -822,7 +822,7 @@ data:
   - id: 87
     title: Pengurangan Atau Penghapusan Sanksi Administrasi Atas SPT
     url: https://docs.google.com/document/d/10SyDAVFNzFTnFnFRETVFU3gHl2_RwrvX-JkjqYEsGaY/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
@@ -832,7 +832,7 @@ data:
   - id: 88
     title: Pengurangan Sanksi Administrasi khusus 2015
     url: https://docs.google.com/document/d/1Wwmccmvpoh1UW5RQNKjUUuOPKWV7K1a1Wl7SRTVDXO8/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
@@ -842,7 +842,7 @@ data:
   - id: 89
     title: Pembukuan dengan Mata Uang Asing
     url: https://docs.google.com/document/d/1RYzSxH9ybPJzQxUhWSwXEBfvnESLxv87WGMIE_JsQXo/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pembukuan
@@ -851,7 +851,7 @@ data:
   - id: 90
     title: Perubahan Metode Pembukuan dan atau Tahun Buku
     url: https://docs.google.com/document/d/115buqDuAB4V0ygsB0cRtHXrxvRc_xA4LBBZPgRjVn5k/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pembukuan
@@ -860,7 +860,7 @@ data:
   - id: 91
     title: Pembukuan
     url: https://docs.google.com/document/d/173loITovR7URm7J64sq6RmhKoIBK-JmCOMH8UG8CyV8/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pembukuan
@@ -869,7 +869,7 @@ data:
   - id: 92
     title: Pencatatan
     url: https://docs.google.com/document/d/1MsXQVKDGEBJTOaPbs7Z7yE0XZsY1NqOaKCan_aQfQ4k/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pembukuan
@@ -878,7 +878,7 @@ data:
   - id: 93
     title: Konversi Ke Satuan Mata Uang Dollar Dan Setelah WP Memperoleh Izin Pembukuan Dollar
     url: https://docs.google.com/document/d/1SuKsaumnrLtQBN8EaM2tBtOCPi-X0v6jNj88IJgIW4M/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pembukuan
@@ -896,7 +896,7 @@ data:
   - id: 95
     title: Ruang Lingkup, Kriteria, dan Jenis Pemeriksaan
     url: https://docs.google.com/document/d/1EB9rsda04lNnZsCLbYqUnMDQJ5ViKuMltOA4HZu-fjA/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -906,7 +906,7 @@ data:
   - id: 96
     title: Standar Pemeriksaan
     url: https://docs.google.com/document/d/1Ju3cu15XD_iLzLp98koWaX0HLrbCCANGH8zdRN_Kxew/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -916,7 +916,7 @@ data:
   - id: 97
     title: Kewajiban dan Kewenangan Pemeriksa Pajak
     url: https://docs.google.com/document/d/1B2u98Y-9YRR2jHvmIrjkFrjL6OwYDDUMrZ6Iq7j2RUQ/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -926,7 +926,7 @@ data:
   - id: 98
     title: Hak dan Kewajiban Wajib Pajak
     url: https://docs.google.com/document/d/1bjeqmpp-m7ilBh81rN0T46qgUSdE-Tbbgf1IEHftSYA/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -936,7 +936,7 @@ data:
   - id: 99
     title: Jangka Waktu Pemeriksaan
     url: https://docs.google.com/document/d/10fFCSa9Gq4L1Jhxajlou148NeGoC0fhPJySNAeFHXXU/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -946,7 +946,7 @@ data:
   - id: 100
     title: Penyelesaian Pemeriksaan
     url: https://docs.google.com/document/d/1f7Dnwp62VFqINvzjIAF4fHNlXYfmIT3FtkSeQPYAJNA/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -956,7 +956,7 @@ data:
   - id: 101
     title: Tim Pemeriksa Pajak
     url: https://docs.google.com/document/d/1n8p5KXfFZtJVDgE6dZfTBYCX49EEg2uLYK8g_RZpxoQ/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -966,7 +966,7 @@ data:
   - id: 102
     title: Pemberitahuan, Panggilan Pemeriksaan, dan Pertemuan dengan WP
     url: https://docs.google.com/document/d/1pcrVZRUTuFgeJBxdATgubaprJEFUsUTGh7WkBF4EIio/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -976,7 +976,7 @@ data:
   - id: 103
     title: Peminjaman Dokumen
     url: https://docs.google.com/document/d/1ohRws68uyNr3yYzODQk-LQiBBPt3hfjYTtdM3uwusO8/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -986,7 +986,7 @@ data:
   - id: 104
     title: Penyegelan
     url: https://docs.google.com/document/d/1UTk9ULe062bKyQtONmawi0rvLJOBPI-KG5qSAFa9_I8/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -996,7 +996,7 @@ data:
   - id: 105
     title: Penolakan Pemeriksaan
     url: https://docs.google.com/document/d/1k_n2AOzwO5bZR7ifZXZM8p21psQzzJh3eyagCYHXrHo/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -1006,7 +1006,7 @@ data:
   - id: 106
     title: Penjelasan WP dan Permintaan Keterangan Kepada Pihak Ketiga
     url: https://docs.google.com/document/d/1_iHqrOaH8GPnSGdUnWWwPi7-Yr9Xfw-hSrUQXfHe7h8/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -1016,7 +1016,7 @@ data:
   - id: 107
     title: Pemberitahuan Hasil Pemeriksaan dan Pembahasan Akhir Hasil Pemeriksaan
     url: https://docs.google.com/document/d/17APDf6BAJ20HrmTqpJtWkvL6FvciFjB1TlgOdUU2HW4/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -1026,7 +1026,7 @@ data:
   - id: 108
     title: Pelaporan Hasil Pemeriksaan dan Pengembalian Dokumen
     url: https://docs.google.com/document/d/1wHshXJRAYq-fLr3u4SqT44kzOpcqV_gC-SB2to4TIxs/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -1036,7 +1036,7 @@ data:
   - id: 109
     title: Pembatalan Hasil Pemeriksaan
     url: https://docs.google.com/document/d/1FuRjNkTdR8jEGhnsz-WMlS1cRyuTEfcPeZ0M0hJmHH0/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -1046,7 +1046,7 @@ data:
   - id: 110
     title: Pengungkapan Ketidakbenaran Pengisian SPT Selama Pemeriksaan
     url: https://docs.google.com/document/d/1qVcUg6XYwahQJk9rQLLyaD9LHSY1RhWIdKuAXKZu4SY/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -1056,7 +1056,7 @@ data:
   - id: 111
     title: Usulan Pemeriksaan Bukti Permulaan dan Penangguhan Pemeriksaan
     url: https://docs.google.com/document/d/1uygM1ech69-P--dx96yP55MX30qg5hrsyK1jZGku-JE/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -1066,7 +1066,7 @@ data:
   - id: 112
     title: Pemeriksaan Ulang
     url: https://docs.google.com/document/d/13OmInVkYOW0RiOSvALtNYIuA62G0H8ULb76qXrHUKyk/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -1076,7 +1076,7 @@ data:
   - id: 113
     title: Ruang Lingkup, Kriteria, dan Jenis Pemeriksaan Tujuan Lain
     url: https://docs.google.com/document/d/1EB9rsda04lNnZsCLbYqUnMDQJ5ViKuMltOA4HZu-fjA/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Pemeriksaan
@@ -1230,7 +1230,7 @@ data:
   - id: 130
     title: Surat Ketetapan Pajak (SKP)
     url: https://docs.google.com/document/d/1MyGDCWTztRzAQ_Pt1bh37F4TeURcz2rb0b-0LCHkRg8/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Sanksi, Penetapan dan Ketetapan Pajak
@@ -1239,7 +1239,7 @@ data:
   - id: 131
     title: SKPKB
     url: https://docs.google.com/document/d/1uDwJFsXx89Qx1tUs-i5Q-62C3tM9upFRGE65U2HbnEM/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Sanksi, Penetapan dan Ketetapan Pajak
@@ -1248,7 +1248,7 @@ data:
   - id: 132
     title: Surat Tagihan Pajak (STP)
     url: https://docs.google.com/document/d/1TFtX5maQsbWUktgZj2yttKwPDtDnzZ6Amj3DmpY664c/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Sanksi, Penetapan dan Ketetapan Pajak
@@ -1257,7 +1257,7 @@ data:
   - id: 133
     title: SKPKBT
     url: https://docs.google.com/document/d/1DF1xymzGqvRHe2AnMcv4ZKEdFz3Wi0-uWxs4rB3rLvA/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Sanksi, Penetapan dan Ketetapan Pajak
@@ -1266,7 +1266,7 @@ data:
   - id: 134
     title: Pengembalian Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang
     url: https://docs.google.com/document/d/1EVdtvtqy7utfehX1lTyM1QGLYBXsVoXFiShxZ7lLU5M/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1316,7 +1316,7 @@ data:
   - id: 139
     title: Penghitungan Kelebihan Pembayaran PPh,PPN,dan/atau PPnBM
     url: https://docs.google.com/document/d/154aYv7BX97X5HzrmvmmV_etSO9p_scQtUKU75Aft0Eo/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1356,7 +1356,7 @@ data:
   - id: 143
     title: PKP Kriteria Tertentu
     url: https://docs.google.com/document/d/1H89_E_edZj4F2tHx3r46D7GxfPapJ2TLr2hlPT9S8ik/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1366,7 +1366,7 @@ data:
   - id: 144
     title: PKP Persyaratan Tertentu
     url: https://docs.google.com/document/d/1n-mnOr2fv1TeNRT4048_23rEyvJ9BVuGEkqrhaLiqIc/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Restitusi
@@ -1385,7 +1385,7 @@ data:
   - id: 146
     title: Imbalan Bunga (Ketentuan Sejak 1 Januari 2014)
     url: https://docs.google.com/document/d/1MqFomImB_r_kkOGI30WCp2Aa4iYoXgN79HRTaxddYzQ/edit?usp=drivesdk
-    active: "yes"
+    active: "ya"
     fitur: resume
     category: kup
     topik: Imbalan Bunga
