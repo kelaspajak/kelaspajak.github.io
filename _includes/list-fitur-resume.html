@@ -14,33 +14,31 @@
 {% endif %}
 
 {% for topik in topik %}
-    <h3 class="link-gray-dark d-block">{{ topik.name }} </h3>
+    <h3 class="d-block">{{ topik.name }} </h3>
     <ul>
-        {% capture namatopik %}{{topik.name}}{% endcapture %}
-        {% assign t = resume | where: "topik", namatopik %}
-        {% assign ti = t | where: "subtopik", nil %}
-        {% for titl in ti %}
-        <li class="text-normal">
-            {% if titl.active == "ya" %}
-            <a href="{{ titl.url }}" target="_blank" class="tooltipped tooltipped-n" aria-label="File {{titl.type}}, aktif: {{titl.active}}">{{titl.title}}</a>
+        {% capture snamatopik %}{{ topik.name }}{% endcapture %}
+        {% assign t = resume | where: "topik", snamatopik %}
+            {% for titles in t %}
+            {% if titles.subtopik != nil %}
             {% else %}
-            <span class="tooltipped tooltipped-n" aria-label="tipe: {{titl.type}}, aktif: {{titl.active}}">{{titl.title}}</span>
+                {% include listing-daftar-file.html %}
             {% endif %}
-        </li>
-        {%endfor%}
+            {%endfor%}  
     </ul>
 
 
     {%comment%} untuk yang ada subcategories {%endcomment%}
     {% capture namatopik %}{{topik.name}}{% endcapture %}
-    {% assign subtopik = resumes | where: "topik", namatopik | group_by: 'subtopik' %}
-    {% for subtopik in subtopik %}
-        <h4 class="link-gray-dark d-block">{{ subtopik.name }} </h4>
+    {% assign namesubtopik = resumes | where: "topik", namatopik | group_by: 'subtopik' %}
+    {% for subtop in namesubtopik %}
+        <h4 class="d-block">{{ subtop.name }} </h4>
         <ul>
-            {% capture namasubtopik %}{{subtopik.name}}{% endcapture %}
-            {% assign titling = resume | where: "subtopik", namasubtopik %}
+            {% capture subtopik1 %}{{subtop.name}}{% endcapture %}
+            {% assign titling = resume | where: "subtopik", subtopik1 %}
             {% assign titles= titling %}    
-            {% include listing-daftar-file.html %}    
+            {% for titles in titles %}
+            {% include listing-daftar-file.html %}
+            {%endfor%}
         </ul>    
     {%endfor%}
 
