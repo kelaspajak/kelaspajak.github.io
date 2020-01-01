@@ -19,18 +19,11 @@ kelas ini masih di<span class="IssueLabel {{page.label}} text-white">tutup</span
 {% capture namatopik %}{{ topik.name }}{% endcapture %}
 {% assign subtopik = resume | where: "topik", namatopik | group_by: "subtopik"%}
 
-<ul>
-    {% assign titling = resume | where: "topik", namatopik %}
-    {% assign titles = titling | where: "subtopik", blank %}
-
-    {% include listing-daftar-file.html %}
-=======
     {% for titlenontopiks in titlenontopik %}
     <li class="text-normal">
         <a href="{{ titlenontopiks.url }}" class="text-bold" target="_blank">{{titlenontopiks.title}}</a>
     </li>
     {%endfor%}
->>>>>>> parent of f6902c0... Update listing-resume.html:_includes/listing-resume.html
 </ul>
 
 
