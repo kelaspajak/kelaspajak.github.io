@@ -17,11 +17,19 @@
     <h3 class="link-gray-dark d-block">{{ topik.name }} </h3>
     <ul>
         {% capture namatopik %}{{topik.name}}{% endcapture %}
-        {% assign titling = resume | where: "topik", namatopik %}
-        {% assign titles= titling | where: "subtopik", blank %}
-
-        {% include listing-daftar-file.html %}
-
+        {% assign t = resume | where: "topik", namatopik %}
+        {% assign tit = ti | where: "subtopik", blank %}
+        {% for titl in tit %}
+        <li class="text-normal">
+            {% if titl.active == "ya" %}
+            <a href="{{ titl.url }}" target="_blank" class="tooltipped tooltipped-n"
+                aria-label="File {{titl.type}}, aktif: {{titl.active}}">{{titl.title}}</a>
+            {% else %}
+            <span class="tooltipped tooltipped-n"
+                aria-label="tipe: {{titl.type}}, aktif: {{titl.active}}">{{titl.title}}</span>
+            {% endif %}
+        </li>
+        {%endfor%}
     </ul>
 
     {%comment%} untuk yang ada subcategories {%endcomment%}
