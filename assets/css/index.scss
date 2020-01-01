@@ -63,34 +63,6 @@ body {
   padding-bottom: 25px;
 }
 
-.logobanner {
-  margin-top: 0;
-  color: #234766;
-  background-image: linear-gradient(180deg,hsla(0,0%,100%,0) 30%,#fff),linear-gradient(70deg,#e0f1ff 32%,#fffae3);
-  border-bottom-color: #fff;
-}
-
-.bg-nelson-gradient {
-  background-image: linear-gradient( 106.8deg,  rgba(117,255,220,1) 6%, rgba(163,216,255,1) 47.6%, rgba(248,215,251,1) 87.8% );
-}
-
-.bg-snowagain-gradient {
-  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-}
-
-.bg-lollypop-image {
-  background-image: url("../lollypop.jpg");
-  background-color: #cccccc;
- }
-
- .bg-perfume-image {
-  background-image: url("../perfume.jpg");
-  background-color: #999999;
- }
-
- .bg-orange-linear {
-  background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
- }
 
  .bg-biru-linear {
   color: #fff;
@@ -137,20 +109,6 @@ body {
 
 .bg-bankslate-gradient {
   background-image: linear-gradient(to top, white 0%, #c8e1ff 100%);
-}
-
-.site__title {
-  color: #f35626;
-  background-image: linear-gradient(92deg, #f35626 0%,#feab3a 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: hue 60s infinite linear;
-}
-
-body { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  body { font-family: 'Inter', sans-serif; }
 }
 
 @media (min-width: 768px) {

@@ -2,29 +2,32 @@ data:
   - id: 1
     title: Saat Dimulainya Kewajiban Perpajakan
     url: https://docs.google.com/document/d/1gp-QtAI9GY7F2GbUOGzmtPhkIow3fjt2qbsLZrpuOvA/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 2
     title: Dokumen yang Wajib Disimpan oleh Wajib Pajak yang Melakukan Transaksi dengan Pihak Afiliasi
     url: https://docs.google.com/document/d/1fGJWBf8D5IPg7pBOA2pz42VikmJRaBdFKP81kOzPcoU/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 3
     title: Kode Klasifikasi Lapangan Usaha (KLU)
     url: https://docs.google.com/document/d/1vVdZltkHFWXiuDjQw9G2037QnRdez24KVVZA1xxS-2w/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 4
     title: Layanan unggulan bidang perpajakan
@@ -34,24 +37,27 @@ data:
     category: kup
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 5
     title: Surat Keterangan Fiskal (SKF)
     url: https://docs.google.com/document/d/1DEfVqH2Nm6lnKtHWGx2EmoEkMeWZort71U-eub76MJY/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 6
     title: Permintaan Penjelasan atas Data dan/atau Keterangan dan Kunjungan (Visit) kepada Wajib Pajak.
     url: https://docs.google.com/document/d/1thbc500v81416_XEItJ8aYSVPur5JT0NqM1ItmQ8gtA/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 7
     title: Tindak Lanjut Surat Himbauan
@@ -61,15 +67,17 @@ data:
     category: kup
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 8
     title: Surat Kuasa Khusus
     url: https://docs.google.com/document/d/1gZYcl5u5L_7_q6goWXp73LGT7YteIrqlsZ6ZpxnxQWs/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 9
     title: Penentuan SPDN dan SPLN
@@ -78,15 +86,17 @@ data:
     category: kup
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 10
     title: Jenis Pelayanan Kepada WP yang Diberikan oleh KPP dan Kanwil DJP
     url: https://docs.google.com/document/d/1PwEwaBBY317k-aD-AXA0ejKho7RRcS6lfLaxhO9iHH4/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 11
     title: Verifikasi
@@ -96,24 +106,27 @@ data:
     category: kup
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 12
     title: DJP Online
     url: https://docs.google.com/document/d/12SmyXD3dlmcGJWUJGnDNlpno-DNjOj9CqUgxYOOq-9I/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 13
     title: Konfirmasi Status Wajib Pajak
     url: https://docs.google.com/document/d/1syQ3aPNPKp3jC69jyQr7C8jPaPd9Y6c7sQ4lnUZmUVU/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 14
     title: Ekstensifikasi
@@ -123,105 +136,116 @@ data:
     category: kup
     topik: NPWP dan PKP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 15
     title: Ketentuan Umum terkait NPWP
     url: https://docs.google.com/document/d/1Vml1ZuwQ6vZKz62UuAwiIqBlfs-H4nZe2fIe9IVrsRQ/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: NPWP dan PKP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 16
     title: NPWP bagi Wanita Kawin
     url: https://docs.google.com/document/d/1JzezgnLTuYTjLZ989WPwgV2rgN8Y_uMoZWhVDNVjzDc/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: NPWP dan PKP
     subtopik: Ketentuan Sejak Atau setelah 30 Mei 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 17
     title: Pendaftaran NPWP
     url: https://docs.google.com/document/d/1UOalegf-mE2IGWUETv-HUX-yXLdmtIGk6gwXQQLh3UM/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: NPWP dan PKP
     subtopik: Ketentuan Sejak Atau setelah 30 Mei 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 18
     title: Penghapusan NPWP
     url: https://docs.google.com/document/d/1uwDqP47itoDlBB_gSJ-dzELm4fryebbwi1RsLgUio6Y/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: NPWP dan PKP
     subtopik: Ketentuan Sejak Atau setelah 30 Mei 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 19
     title: Pengukuhan PKP
     url: https://docs.google.com/document/d/1-CPRvsI9xvKqHKhHgihGZ-2fmsknEjkXCF9d4LBcJCM/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: NPWP dan PKP
     subtopik: Ketentuan Sejak Atau setelah 30 Mei 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 20
     title: Pencabutan Pengukuhan PKP
     url: https://docs.google.com/document/d/1iRSeDFaVT-yjEBMsHpAnHOIWoovrkUQnDz_bBq1AJMs/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: NPWP dan PKP
     subtopik: Ketentuan Sejak Atau setelah 30 Mei 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 21
     title: Perubahan Data WP Dan/Atau PKP
     url: https://docs.google.com/document/d/10ygKIu6B3QnnIZjVtWA0PPy64eEn46xy6OqxGgi6RCc/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: NPWP dan PKP
     subtopik: Ketentuan Sejak Atau setelah 30 Mei 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 22
     title: Pemindahan WP
     url: https://docs.google.com/document/d/1MTkEpRrhvKQntMLP9JIEPqHnnOxmabsZq_-d7HRxGzU/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: NPWP dan PKP
     subtopik: Ketentuan Sejak Atau setelah 30 Mei 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 23
     title: Penetapan WP Sebagai WP Non Efektif
     url: https://docs.google.com/document/d/14slbh4QsaYXbH50qgbPVUceiVkAYnkwAL0g2XOb2UTw/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: NPWP dan PKP
     subtopik: Ketentuan Sejak Atau setelah 30 Mei 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 24
     title: Pencabutan Pengukuhan PKP secara Jabatan atas Pengusaha Kecil 2014
     url: https://docs.google.com/document/d/1S77cRnCvHIKsu4y8p9c2CBK2Qb4XX-ftDThOUDr0NIQ/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: NPWP dan PKP
     subtopik: Ketentuan Sejak Atau setelah 30 Mei 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 25
     title: Tempat Pendaftaran NPWP WP KPP WP Besar, KPP Madya, KPP PMA, KPP Badora (Sejak 1 Januari 2013)
@@ -232,6 +256,7 @@ data:
     topik: NPWP dan PKP
     subtopik: Tempat pendaftaran WP Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 26
     title: Tempat Pendaftaran NPWP WP KPP WP Besar, KPP Madya, KPP PMA, KPP Badora Tertentu (Sejak 30 Maret 2012)
@@ -242,6 +267,7 @@ data:
     topik: NPWP dan PKP
     subtopik: Tempat pendaftaran WP Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 27
     title: Tempat Pendaftaran NPWP WP KPP WP Besar, KPP Madya, KPP PMA, KPP Badora (sebelum 30 Maret 2012)
@@ -252,6 +278,7 @@ data:
     topik: NPWP dan PKP
     subtopik: Tempat pendaftaran WP Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 28
     title: Pelaksanaan Hak dan Kewajiban sehubungan dengan Pemindahan WP KPP WP Besar, KPP Madya, KPP PMA, KPP Badora
@@ -262,6 +289,7 @@ data:
     topik: NPWP dan PKP
     subtopik: Tempat pendaftaran WP Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 29
     title: Tempat Pendaftaran/Pelaporan PKP bagi WP yang Usahanya di Bidang Pengalihan Tanah/Bangunan
@@ -272,206 +300,227 @@ data:
     topik: NPWP dan PKP
     subtopik: Tempat pendaftaran WP Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 30
     title: Pendaftaran NPWP dan Pengukuhan PKP
     url: https://docs.google.com/document/d/1iisIOiex8zN6PM2PBIzFBSwcNh2i2V7-PCpAuiPGwL0/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: NPWP dan PKP
     subtopik: Ketentuan Sejak 30 September 2015
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 31
     title: Penghapusan NPWP
     url: https://docs.google.com/document/d/1FbsLZq7WvUMyL3yiaNLc0n2k77OFw3Yamnc_JRsIpxE/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: NPWP dan PKP
     subtopik: Ketentuan Sejak 30 September 2015
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 32
     title: Pencabutan PKP
     url: https://docs.google.com/document/d/1fMY5HKUJCH0SVODThNYCb4ImTRUv-4iGoTZQG_mnmqQ/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: NPWP dan PKP
     subtopik: Ketentuan Sejak 30 September 2015
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 33
     title: Pendaftaran NPWP dan Pengukuhan PKP
     url: https://docs.google.com/document/d/15-qiiBKqthicR_8BwmqS9B3IOSq99vB-rBSABo5sH-o/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: NPWP dan PKP
     subtopik: Ketentuan Sejak 1 November 2017
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 34
     title: Penghapusan NPWP
     url: https://docs.google.com/document/d/1VUoWIHyI_m8pS-DhtswtwLY7sOdT_y5D9yx-hrT8YaY/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: NPWP dan PKP
     subtopik: Ketentuan Sejak 1 November 2017
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 35
     title: Ketentuan Umum Terkait SPT
     url: https://docs.google.com/document/d/1Yzt01bypjEJtIaOzGkPM17XJ5IUBffvz3nnt82JoSbU/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: Ketentuan Terkait SPT
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 36
     title: Penyampaian SPT Tahunan
     url: https://docs.google.com/document/d/1X0fHcPtejf2vvSzrfxizw1t0mX1Z-q9tJGnuH5MbNyU/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: Ketentuan Terkait SPT
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 37
     title: Penyampaian SPT Elektronik (e-SPT)
     url: https://docs.google.com/document/d/1lchYbPPWrIfznZdfHh2UBlNNks-2czle5nbj_h3ezyQ/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: Ketentuan Terkait SPT
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 38
     title: Batas Waktu Pembayaran, Penyetoran, Penyampaian SPT, dan Sanksi Keterlambatan
     url: https://docs.google.com/document/d/1PV5FgbZCfdEZoYy7_e_4pdryAO_5iz-jnApB9FsUc7w/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: Ketentuan Terkait SPT
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 39
     title: Pengangsuran dan Penundaan pembayaran SPT Tahunan PPh
     url: https://docs.google.com/document/d/1K_uJkOgBBJLMxBvnxPm_D-Hsp63q3X5Q4ITesF2X7sw/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: Ketentuan Terkait SPT
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 40
     title: Perpanjangan Penyampaian SPT Tahunan
     url: https://docs.google.com/document/d/1MFo2pUPdaWIuh8NtLT1qvHC3tajuHdvkZRp7aIsGU8M/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: Ketentuan Terkait SPT
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 41
     title: Penyampaian e-SPT bagi WP KPP Madya, KPP WP Besar, KPP PMA, KPP Badora
     url: https://docs.google.com/document/d/1cxWF7UrjHpaIyY4rzVb3Lyb2X0vQ07sMtVEw_og-7SY/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: Ketentuan Terkait SPT
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 42
     title: Pembetulan SPT
     url: https://docs.google.com/document/d/1yayL0JtVUpmkM8rA79bqdCTXsAjrXBhL33MX6Zh5YV4/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: Ketentuan Terkait SPT
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 43
     title: Pengungkapan ketidakbenaran Pengisian SPT & Pengungkapan Ketidakbenaran Perbuatan WP
     url: https://docs.google.com/document/d/1q5uioY_lPo-aUoSwV-Z8ZYEMadqoF-Qd3Kq5wo_-Yww/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: Ketentuan Terkait SPT
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 44
     title: Penyedia Layanan SPT Elektronik
     url: https://docs.google.com/document/d/1kyVJ-APMwC_Hj-zeoh00LhjzgNY5aK5V7TZNBdwTatc/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: Ketentuan Terkait SPT
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 45
     title: SPT Tahunan PPh OP
     url: https://docs.google.com/document/d/1o0bvInW_r1w1IHyWFEiFk_17wXM4uOUlV2twbAIpvAk/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: SPT Tahunan PPh OP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 46
     title: Penghasilan Tidak Kena Pajak (PTKP)
     url: https://docs.google.com/document/d/1kDgfDIe8WHr5oyH8qpRsxpOYM5tUSVu_cKFEyBd8V_E/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: SPT Tahunan PPh OP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 47
     title: SPT Tahunan PPh Badan
     url: https://docs.google.com/document/d/19Wm01gCbyrxAGOc2mxqEhEj2NJ9N2yR5F0P6j5aJKz8/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: SPT Tahunan PPh Badan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 48
     title: SPT Tahunan PPh Migas
     url: https://docs.google.com/document/d/13czRGwcrnjsGYW9L2tZSRWwHSfNU4F0hciRd5uxgV14/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: SPT Tahunan PPh Badan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 49
     title: SPT Masa PPN sejak Masa Juli 2015
     url: https://docs.google.com/document/d/1gIsszdI9ABNp0EGj3Ag2zCtwV4PVqlR62PtTQjmet7Q/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: SPT Masa PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 50
     title: Perbedaan SPT masa PPN 1107, 1108, 1111
@@ -482,36 +531,40 @@ data:
     topik: SPT
     subtopik: SPT Masa PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 51
     title: Kewajiban E-SPT bagi WP di KPP Madya dan KPP di Wilayah Kanwil Jakarta Khusus dan Kanwil WP Besar
     url: https://docs.google.com/document/d/1L5-F0MDAuWpz_8phxXLOzmEhRfhsxYZECRH6zCCuif4/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: SPT Masa PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 52
     title: SPT 1111 Sejak Masa Juni 2013
     url: https://docs.google.com/document/d/1COCBA16mUu-DoI8YE0bsq2TgfMt7sk_SUEIX33ECXbU/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: SPT Masa PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 53
     title: SPT 1111 DM sejak Masa Juni 2013
     url: https://docs.google.com/document/d/1MCPSDHMmmpu2gG7vekOd7GhWNxBXY6s3R1J4XvmRjsc/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: SPT Masa PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 54
     title: SPT 1111 DM Masa Januari 2011 s/d Mei 2013
@@ -522,6 +575,7 @@ data:
     topik: SPT
     subtopik: SPT Masa PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 55
     title: SPT 1111 Sejak Masa Januari 2011 s/d Mei 2013
@@ -532,6 +586,7 @@ data:
     topik: SPT
     subtopik: SPT Masa PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 56
     title: Petunjuk Umum Pengisian,Pencetakan,dan Pelaporan SPT Masa PPN 1111 Masa Januari 2011 s/d Mei 2013
@@ -542,6 +597,7 @@ data:
     topik: SPT
     subtopik: SPT Masa PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 57
     title: Jenis SPT Masa PPN sebelum 1 Januari 2011
@@ -551,54 +607,60 @@ data:
     topik: SPT
     subtopik: SPT Masa PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 58
     title: SPT Masa PPh 21 (Ketentuan Sebelum 1 Januari 2014)
     url: https://docs.google.com/document/d/1auglc5I-faHhxoaEEZ5zcwodxInu9WMxxLISE-ZJyOo/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: SPT Masa PPh Pasal 21
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 59
     title: SPT Masa PPh 21 (Ketentuan Sejak 1 Januari 2014)
     url: https://docs.google.com/document/d/1qtLRB912ujBNUttt-JV--_jPg5DpKYHimPxLgC8-R6M/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: SPT Masa PPh Pasal 21
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 60
     title: SPT Masa PPh Pasal 23/26
     url: https://docs.google.com/document/d/1nDM-3bqSgvH-9No3W1ZFd2k-ihipLCvPkkxGHifO13I/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: SPT
     subtopik: SPT Masa PPh Pasal 23
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 61
     title: Pembayaran atau Penyetoran pajak
     url: https://docs.google.com/document/d/15cykDC9mLd3PYXWFEg942KGBRTKnwPjbCd2n9pf1KWI/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pembayaran atau Penyetoran
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 62
     title: Permohonan Pemindahbukuan (Pbk)
     url: https://docs.google.com/document/d/157lAjUjlQIC6YFgBqXzcaRbLrqarvR1PmJidg7eLZNA/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pembayaran atau Penyetoran
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 63
     title: Tabel Kode Ketetapan per Jenis Pajak (Kode SKP, STP) lama
@@ -608,6 +670,7 @@ data:
     category: kup
     topik: Pembayaran atau Penyetoran
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 64
     title: Tata Cara Angsuran Dan Penundaan Pembayaran Pajak
@@ -616,6 +679,7 @@ data:
     category: kup
     topik: Pembayaran atau Penyetoran
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 65
     title: kode MAP SSBP untuk biaya pelaksanaan SP, SPMP, Pengumuman Lelang dan Pembatalan lelang
@@ -624,6 +688,7 @@ data:
     category: kup
     topik: Pembayaran atau Penyetoran
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 66
     title: Biaya Penagihan Pajak
@@ -632,6 +697,7 @@ data:
     category: kup
     topik: Pembayaran atau Penyetoran
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 67
     title: Jangka Waktu Pembayaran Pajak dan Jangka Waktu Pelunasan STP, SKPKB, SKPKBT, dll
@@ -640,114 +706,127 @@ data:
     category: kup
     topik: Pembayaran atau Penyetoran
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 68
     title: Tabel Kode Ketetapan per Jenis Pajak (Kode SKP, STP)
     url: https://docs.google.com/document/d/1AK4MZeIaSLD_65OqYMMYc8B22CFup6vLIlq0WDB8MlE/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pembayaran atau Penyetoran
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 69
     title: Tabel Kode MAP dan KJS Lengkap
     url: https://docs.google.com/spreadsheets/d/1MEd4lf3-Maawi1fu86UimVMiMpASjmFQqxLtfRVnVKc/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pembayaran atau Penyetoran
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 70
     title: penundaan pembayaran PPh pasal 29 tahun 2013 bagi WP industri tertentu
     url: https://docs.google.com/document/d/1xQbHIS9Evq-U9CPNIynjfSivDDc0s7A-dnzc6o1zDmw/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pembayaran atau Penyetoran
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 71
     title: Sistem Pembayaran Pajak secara Elektronik (Billing System) (Ketentuan sejak 13 Oktober 2014)
     url: https://docs.google.com/document/d/1Xe1up5VFYVmGNUfeEtzpYVBIvDJPYJnAVRWRrzSsNhg/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pembayaran atau Penyetoran
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 72
     title: Sistem Pembayaran Pajak secara Elektronik (Billing System) (Ketentuan sejak 4 April 2017)
     url: https://docs.google.com/document/d/1ae1LXmUcFfOwgmRMIVCE1Mco2tqJL8xIBfg7a2sJ9P8/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pembayaran atau Penyetoran
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 73
     title: Jadwal Waktu Penagihan Pajak
     url: https://docs.google.com/document/d/1ik7iEiudi3s4WXBs8EGlPZoudvdDKepZEtlThcdk29g/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Penagihan Pajak
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 74
     title: Ketentuan terkait Penagihan pajak
     url: https://docs.google.com/document/d/1a3R364pnaScw3drpgGRKIS5pGyic227YoGLlTQ0Di68/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Penagihan Pajak
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 75
     title: Pasal 25 UU KUP , Keberatan
     url: https://docs.google.com/document/d/15AkUJ2akC5QAHUCdHGa1AFkVNH-6L3Hb2ACE_L8aay4/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Keberatan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 76
     title: Pasal 16 KUP , Pembetulan STP, Surat Ketetapan/Keputusan Pajak
     url: https://docs.google.com/document/d/1lXpw2T4j13L6pr8k3Kn4TdkkzwH1NcfCWHaB3Tolx3U/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 77
     title: Gugatan
     url: https://docs.google.com/document/d/1nVcxGa3jFnSraLUAPprV_cLSQNyaNHD2G8q9D51B_wU/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 78
     title: Pasal 27 UU KUP , Banding
     url: https://docs.google.com/document/d/1f3Y4XTd6Bziix0wmsIDxoTY1oIGw0TT3mqsiYUl3sIc/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 79
     title: Peninjauan Kembali
     url: https://docs.google.com/document/d/1FjO0PGitgc3JkZGCo2nwBuO4S7Hr70OBkS27osgkV7k/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 80
     title: Pengurangan/penghapusan sanksi, pengurangan/pembatalan STP/SKP,pembatalan hasil pemeriksaan (Ketentuan Sebelum 1 Maret 2013)
@@ -758,131 +837,145 @@ data:
     topik: Banding, Gugatan, dan Peninjauan Kembali
     subtopik: Pasal 36 UU KUP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 81
     title: Ketentuan terkait Pasal 36 UU KUP Sejak 1 Maret 2013
     url: https://docs.google.com/document/d/1C0RXf6rXTJm792Lktv5afYHb1t7RR5K8rmsPghJegKs/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
     subtopik: Pasal 36 UU KUP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 82
     title: Pengurangan Atau Penghapusan Sanksi Administrasi Pada SKP dan STP
     url: https://docs.google.com/document/d/1TRCR8f7pl0hBKGPOJEF6Q9AG45Z4LK_AR0ImheP0VTU/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
     subtopik: Pasal 36 UU KUP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 83
     title: Pengurangan atau Pembatalan SKP yang Tidak Benar
     url: https://docs.google.com/document/d/1XW_gqaWvq-hS7ucXh0HKVHtEEcBmgPkVmpJ-hs3t9vY/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
     subtopik: Pasal 36 UU KUP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 84
     title: Pengurangan atau Pembatalan STP yang Tidak Benar
     url: https://docs.google.com/document/d/1Vpu7QBq63b0JQLTmqzYQksnnJ_HjmWF1NI1ceQ_Zt_8/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
     subtopik: Pasal 36 UU KUP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 85
     title: Pembatalan SKP Pemeriksaan atau Verifikasi
     url: https://docs.google.com/document/d/1LYkGpOCzmFGTeQLH4cic6xhf3TCm2r6TBZBtuYbXa2w/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
     subtopik: Pasal 36 UU KUP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 86
     title: Penghapusan Sanksi Administrasi Bunga Pasal 19 ayat (1) UU KUP
     url: https://docs.google.com/document/d/1_CCvB8RwtOq3U95P9Vl6xTp4yNm2JbDMzAXCEeJ4i70/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
     subtopik: Pasal 36 UU KUP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 87
     title: Pengurangan Atau Penghapusan Sanksi Administrasi Atas SPT
     url: https://docs.google.com/document/d/10SyDAVFNzFTnFnFRETVFU3gHl2_RwrvX-JkjqYEsGaY/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
     subtopik: Pasal 36 UU KUP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 88
     title: Pengurangan Sanksi Administrasi khusus 2015
     url: https://docs.google.com/document/d/1Wwmccmvpoh1UW5RQNKjUUuOPKWV7K1a1Wl7SRTVDXO8/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Banding, Gugatan, dan Peninjauan Kembali
     subtopik: Pasal 36 UU KUP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 89
     title: Pembukuan dengan Mata Uang Asing
     url: https://docs.google.com/document/d/1RYzSxH9ybPJzQxUhWSwXEBfvnESLxv87WGMIE_JsQXo/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pembukuan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 90
     title: Perubahan Metode Pembukuan dan atau Tahun Buku
     url: https://docs.google.com/document/d/115buqDuAB4V0ygsB0cRtHXrxvRc_xA4LBBZPgRjVn5k/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pembukuan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 91
     title: Pembukuan
     url: https://docs.google.com/document/d/173loITovR7URm7J64sq6RmhKoIBK-JmCOMH8UG8CyV8/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pembukuan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 92
     title: Pencatatan
     url: https://docs.google.com/document/d/1MsXQVKDGEBJTOaPbs7Z7yE0XZsY1NqOaKCan_aQfQ4k/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pembukuan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 93
     title: Konversi Ke Satuan Mata Uang Dollar Dan Setelah WP Memperoleh Izin Pembukuan Dollar
     url: https://docs.google.com/document/d/1SuKsaumnrLtQBN8EaM2tBtOCPi-X0v6jNj88IJgIW4M/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pembukuan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 94
     title: Cara Pemeriksaan
@@ -892,196 +985,216 @@ data:
     category: kup
     topik: Pemeriksaan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 95
     title: Ruang Lingkup, Kriteria, dan Jenis Pemeriksaan
     url: https://docs.google.com/document/d/1EB9rsda04lNnZsCLbYqUnMDQJ5ViKuMltOA4HZu-fjA/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 96
     title: Standar Pemeriksaan
     url: https://docs.google.com/document/d/1Ju3cu15XD_iLzLp98koWaX0HLrbCCANGH8zdRN_Kxew/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 97
     title: Kewajiban dan Kewenangan Pemeriksa Pajak
     url: https://docs.google.com/document/d/1B2u98Y-9YRR2jHvmIrjkFrjL6OwYDDUMrZ6Iq7j2RUQ/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 98
     title: Hak dan Kewajiban Wajib Pajak
     url: https://docs.google.com/document/d/1bjeqmpp-m7ilBh81rN0T46qgUSdE-Tbbgf1IEHftSYA/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 99
     title: Jangka Waktu Pemeriksaan
     url: https://docs.google.com/document/d/10fFCSa9Gq4L1Jhxajlou148NeGoC0fhPJySNAeFHXXU/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 100
     title: Penyelesaian Pemeriksaan
     url: https://docs.google.com/document/d/1f7Dnwp62VFqINvzjIAF4fHNlXYfmIT3FtkSeQPYAJNA/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 101
     title: Tim Pemeriksa Pajak
     url: https://docs.google.com/document/d/1n8p5KXfFZtJVDgE6dZfTBYCX49EEg2uLYK8g_RZpxoQ/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 102
     title: Pemberitahuan, Panggilan Pemeriksaan, dan Pertemuan dengan WP
     url: https://docs.google.com/document/d/1pcrVZRUTuFgeJBxdATgubaprJEFUsUTGh7WkBF4EIio/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 103
     title: Peminjaman Dokumen
     url: https://docs.google.com/document/d/1ohRws68uyNr3yYzODQk-LQiBBPt3hfjYTtdM3uwusO8/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 104
     title: Penyegelan
     url: https://docs.google.com/document/d/1UTk9ULe062bKyQtONmawi0rvLJOBPI-KG5qSAFa9_I8/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 105
     title: Penolakan Pemeriksaan
     url: https://docs.google.com/document/d/1k_n2AOzwO5bZR7ifZXZM8p21psQzzJh3eyagCYHXrHo/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 106
     title: Penjelasan WP dan Permintaan Keterangan Kepada Pihak Ketiga
     url: https://docs.google.com/document/d/1_iHqrOaH8GPnSGdUnWWwPi7-Yr9Xfw-hSrUQXfHe7h8/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 107
     title: Pemberitahuan Hasil Pemeriksaan dan Pembahasan Akhir Hasil Pemeriksaan
     url: https://docs.google.com/document/d/17APDf6BAJ20HrmTqpJtWkvL6FvciFjB1TlgOdUU2HW4/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 108
     title: Pelaporan Hasil Pemeriksaan dan Pengembalian Dokumen
     url: https://docs.google.com/document/d/1wHshXJRAYq-fLr3u4SqT44kzOpcqV_gC-SB2to4TIxs/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 109
     title: Pembatalan Hasil Pemeriksaan
     url: https://docs.google.com/document/d/1FuRjNkTdR8jEGhnsz-WMlS1cRyuTEfcPeZ0M0hJmHH0/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 110
     title: Pengungkapan Ketidakbenaran Pengisian SPT Selama Pemeriksaan
     url: https://docs.google.com/document/d/1qVcUg6XYwahQJk9rQLLyaD9LHSY1RhWIdKuAXKZu4SY/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 111
     title: Usulan Pemeriksaan Bukti Permulaan dan Penangguhan Pemeriksaan
     url: https://docs.google.com/document/d/1uygM1ech69-P--dx96yP55MX30qg5hrsyK1jZGku-JE/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 112
     title: Pemeriksaan Ulang
     url: https://docs.google.com/document/d/13OmInVkYOW0RiOSvALtNYIuA62G0H8ULb76qXrHUKyk/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 113
     title: Ruang Lingkup, Kriteria, dan Jenis Pemeriksaan Tujuan Lain
     url: https://docs.google.com/document/d/1EB9rsda04lNnZsCLbYqUnMDQJ5ViKuMltOA4HZu-fjA/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Pemeriksaan
     subtopik: Tujuan Lain (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 114
     title: Standar Pemeriksaan
@@ -1091,6 +1204,7 @@ data:
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Tujuan Lain (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 115
     title: Kewajiban dan Kewenangan Pemeriksa Pajak
@@ -1100,6 +1214,7 @@ data:
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Tujuan Lain (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 116
     title: Hak dan Kewajiban Wajib Pajak
@@ -1109,6 +1224,7 @@ data:
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Tujuan Lain (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 117
     title: Jangka Waktu Pemeriksaan
@@ -1118,6 +1234,7 @@ data:
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Tujuan Lain (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 118
     title: Surat Perintah Pemeriksaan (SP2) dan Surat Yang Berisi Perubahan Tim Pemeriksa Pajak
@@ -1127,6 +1244,7 @@ data:
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Tujuan Lain (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 119
     title: Pemberitahuan dan Panggilan Pemeriksaan
@@ -1136,6 +1254,7 @@ data:
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Tujuan Lain (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 120
     title: Peminjaman Dokumen
@@ -1145,6 +1264,7 @@ data:
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Tujuan Lain (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 121
     title: Penolakan Pemeriksaan
@@ -1154,6 +1274,7 @@ data:
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Tujuan Lain (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 122
     title: Penjelasan Wajib Pajak dan Pihak Ketiga
@@ -1163,6 +1284,7 @@ data:
     topik: Pemeriksaan
     subtopik: Pemeriksaan Untuk Tujuan Lain (Sejak 1 Februari 2013)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 123
     title: Pemeriksaan lapangan (Untuk Surat Perintah Pemeriksaan yang diterbitkan sebelum 3 Mei 2011)
@@ -1172,6 +1294,7 @@ data:
     topik: Pemeriksaan
     subtopik: Ketentuan sebelum 1 Februari 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 124
     title: Hak dan Kewajiban Wajib Pajak dan Pemeriksa Pajak dalam Pemeriksaan
@@ -1181,6 +1304,7 @@ data:
     topik: Pemeriksaan
     subtopik: Ketentuan sebelum 1 Februari 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 125
     title: Pemerikasaan kantor
@@ -1190,6 +1314,7 @@ data:
     topik: Pemeriksaan
     subtopik: Ketentuan sebelum 1 Februari 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 126
     title: Pemeriksaan Pajak
@@ -1199,6 +1324,7 @@ data:
     topik: Pemeriksaan
     subtopik: Ketentuan sebelum 1 Februari 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 127
     title: Tata Cara Pemeriksaan Pajak
@@ -1208,6 +1334,7 @@ data:
     topik: Pemeriksaan
     subtopik: Ketentuan sebelum 1 Februari 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 128
     title: Pemeriksaan Untuk Menguji Kepatuhan Pemenuhan Kewajiban Perpajakan
@@ -1217,6 +1344,7 @@ data:
     topik: Pemeriksaan
     subtopik: Ketentuan sebelum 1 Februari 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 129
     title: Pemeriksaan Untuk Tujuan Lain Dalam rangka Melaksanakan Ketentuan Peraturan Per-UU-an Perpajakan
@@ -1226,52 +1354,58 @@ data:
     topik: Pemeriksaan
     subtopik: Ketentuan sebelum 1 Februari 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 130
     title: Surat Ketetapan Pajak (SKP)
     url: https://docs.google.com/document/d/1MyGDCWTztRzAQ_Pt1bh37F4TeURcz2rb0b-0LCHkRg8/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Sanksi, Penetapan dan Ketetapan Pajak
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 131
     title: SKPKB
     url: https://docs.google.com/document/d/1uDwJFsXx89Qx1tUs-i5Q-62C3tM9upFRGE65U2HbnEM/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Sanksi, Penetapan dan Ketetapan Pajak
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 132
     title: Surat Tagihan Pajak (STP)
     url: https://docs.google.com/document/d/1TFtX5maQsbWUktgZj2yttKwPDtDnzZ6Amj3DmpY664c/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Sanksi, Penetapan dan Ketetapan Pajak
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 133
     title: SKPKBT
     url: https://docs.google.com/document/d/1DF1xymzGqvRHe2AnMcv4ZKEdFz3Wi0-uWxs4rB3rLvA/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Sanksi, Penetapan dan Ketetapan Pajak
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 134
     title: Pengembalian Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang
     url: https://docs.google.com/document/d/1EVdtvtqy7utfehX1lTyM1QGLYBXsVoXFiShxZ7lLU5M/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Restitusi
     subtopik: Tata Cara
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 135
     title: Untuk PPh yang Dibayar Sendiri oleh WP (Ketentuan sebelum 1 Februari 2013)
@@ -1282,6 +1416,7 @@ data:
     topik: Restitusi
     subtopik: Tata Cara
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 136
     title: Untuk PPh yang Dipotong/Dipungut oleh Pihak Lain (Ketentuan sebelum 1 Februari 2013)
@@ -1292,6 +1427,7 @@ data:
     topik: Restitusi
     subtopik: Tata Cara
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 137
     title: Pengembalian Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang bagi WPLN (Ketentuan sebelum 1 Februari 2013)
@@ -1302,6 +1438,7 @@ data:
     topik: Restitusi
     subtopik: Tata Cara
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 138
     title: Tata Cara Pengembalian Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang sejak 30 September 2015
@@ -1312,16 +1449,19 @@ data:
     topik: Restitusi
     subtopik: Tata Cara
     icon: far fa-file-word
+    type: word
+    type: word
     tgl: 11 Desember 2019
   - id: 139
     title: Penghitungan Kelebihan Pembayaran PPh,PPN,dan/atau PPnBM
     url: https://docs.google.com/document/d/154aYv7BX97X5HzrmvmmV_etSO9p_scQtUKU75Aft0Eo/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Restitusi
     subtopik: Pengembalian Kelebihan Pembayaran PPh,PPN,dan/atau PPnBM
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 140
     title: Pengembalian Pendahuluan Kelebihan Pajak untuk WP Dengan Kriteria Tertentu (tidak berlaku)
@@ -1332,6 +1472,7 @@ data:
     topik: Restitusi
     subtopik: Ketentuan Lama
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 141
     title: Pengembalian Pendahuluan Kelebihan Pajak untuk WP dengan Persyaratan Tertentu (tidak berlaku)
@@ -1342,6 +1483,7 @@ data:
     topik: Restitusi
     subtopik: Ketentuan Lama
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 142
     title: Pengembalian Pendahuluan Kelebihan Pajak untuk WP dengan Persyaratan Tertentu (Ketentuan sejak 1 Januari 2014)
@@ -1352,26 +1494,29 @@ data:
     topik: Restitusi
     subtopik: Ketentuan Lama
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 143
     title: PKP Kriteria Tertentu
     url: https://docs.google.com/document/d/1H89_E_edZj4F2tHx3r46D7GxfPapJ2TLr2hlPT9S8ik/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Restitusi
     subtopik: Pengembalian Pendahuluan Kelebihan Pembayaran Pajak
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 144
     title: PKP Persyaratan Tertentu
     url: https://docs.google.com/document/d/1n-mnOr2fv1TeNRT4048_23rEyvJ9BVuGEkqrhaLiqIc/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Restitusi
     subtopik: Pengembalian Pendahuluan Kelebihan Pembayaran Pajak
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 145
     title: Imbalan Bunga (Sebelum 1 Januari 2014)
@@ -1381,16 +1526,18 @@ data:
     category: kup
     topik: Imbalan Bunga
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 146
     title: Imbalan Bunga (Ketentuan Sejak 1 Januari 2014)
     url: https://docs.google.com/document/d/1MqFomImB_r_kkOGI30WCp2Aa4iYoXgN79HRTaxddYzQ/edit?usp=drivesdk
-    active: "yes"
+    active: ya
     fitur: resume
     category: kup
     topik: Imbalan Bunga
     subtopik: sejak 1 Januari 2014
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 147
     title: Cara Pemberian Imbalan Bunga
@@ -1401,6 +1548,7 @@ data:
     topik: Imbalan Bunga
     subtopik: sejak 1 Januari 2014
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 148
     title: Sebab Diberikan Imbalan Bunga Dan Penghitungan Imbalan Bunganya
@@ -1411,6 +1559,7 @@ data:
     topik: Imbalan Bunga
     subtopik: sejak 1 Januari 2014
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 149
     title: Sunset Policy
@@ -1420,6 +1569,7 @@ data:
     category: kup
     topik: Sunset policy
     icon: far fa-file-word
+    type: word
     tgl: 30 Desember 2019
   - id: 150
     title: Pendaftaran Lembaga Keuangan
@@ -1429,6 +1579,7 @@ data:
     category: kup
     topik: Akses Informasi Keuangan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 1
     title: Penentuan SPDN dan SPLN
@@ -1438,6 +1589,7 @@ data:
     category: pph
     topik: Subjek Pajak
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 2
     title: Subjek Pajak dan Bukan Subjek Pajak
@@ -1447,6 +1599,7 @@ data:
     category: pph
     topik: Subjek Pajak
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 3
     title: Sisa Lebih yang Diterima oleh Badan atau Lembaga Nirlaba di Bidang Pendidikan
@@ -1456,6 +1609,7 @@ data:
     category: pph
     topik: Penghasilan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 4
     title: Hibah, Bantuan, Sumbangan yang tidak termasuk Objek pajak
@@ -1465,6 +1619,7 @@ data:
     category: pph
     topik: Penghasilan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 5
     title: Beasiswa tidak termasuk Objek Pajak
@@ -1474,6 +1629,7 @@ data:
     category: pph
     topik: Penghasilan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 6
     title: Bantuan atau Santunan yang Dibayarkan oleh Badan Penyelenggara Jaminan Sosial (BPJS)
@@ -1483,6 +1639,7 @@ data:
     category: pph
     topik: Penghasilan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 7
     title: Bantuan, Sumbangan, Zakat yang tidak termasuk Objek Pajak
@@ -1492,6 +1649,7 @@ data:
     category: pph
     topik: Penghasilan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 8
     title: Keuntungan karena Pembebasan Utang
@@ -1501,6 +1659,7 @@ data:
     category: pph
     topik: Penghasilan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 9
     title: Hubungan Usaha, Pekerjaan,Kepemilikan atau Penguasaan
@@ -1510,6 +1669,7 @@ data:
     category: pph
     topik: Penghasilan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 10
     title: Objek PPh
@@ -1519,6 +1679,7 @@ data:
     category: pph
     topik: Penghasilan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 11
     title: Bukan objek PPh
@@ -1528,6 +1689,7 @@ data:
     category: pph
     topik: Penghasilan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 12
     title: Zakat Atau Sumbangan Keagamaan yang Sifatnya Wajib
@@ -1537,6 +1699,7 @@ data:
     category: pph
     topik: Biaya Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 13
     title: BIAYA FISKAL (PASAL 6 DAN 9 UU PPH)
@@ -1546,6 +1709,7 @@ data:
     category: pph
     topik: Biaya Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 14
     title: Natura/Kenikmatan
@@ -1555,6 +1719,7 @@ data:
     category: pph
     topik: Biaya Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 15
     title: Biaya Promosi
@@ -1564,6 +1729,7 @@ data:
     category: pph
     topik: Biaya Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 16
     title: Piutang yang Nyata-Nyata Tidak Dapat Ditagih
@@ -1573,6 +1739,7 @@ data:
     category: pph
     topik: Biaya Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 17
     title: Biaya SDM (deductible/nondeductible, objek pph 21/bukan objek pph 21)
@@ -1582,6 +1749,7 @@ data:
     category: pph
     topik: Biaya Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 18
     title: Biaya Bunga Pinjaman
@@ -1591,6 +1759,7 @@ data:
     category: pph
     topik: Biaya Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 19
     title: Pajak Daerah dan Retribusi Daerah
@@ -1600,6 +1769,7 @@ data:
     category: pph
     topik: Biaya Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 20
     title: Biaya Entertainment
@@ -1609,6 +1779,7 @@ data:
     category: pph
     topik: Biaya Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 21
     title: Sumbangan / Biaya Pembangunan Infrastruktur yang bisa dikurangkan dari penghasilan bruto
@@ -1618,6 +1789,7 @@ data:
     category: pph
     topik: Biaya Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 22
     title: Pajak Masukan yang Tidak dapat Dikreditkan bisa jadi Pengurang Penghasilan Bruto
@@ -1627,6 +1799,7 @@ data:
     category: pph
     topik: Biaya Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 23
     title: Biaya Bersama / Join Cost
@@ -1636,6 +1809,7 @@ data:
     category: pph
     topik: Biaya Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 24
     title: Daftar Rekonsiliasi Fiskal Biaya Usaha
@@ -1645,6 +1819,7 @@ data:
     category: pph
     topik: Biaya Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 25
     title: Contoh Soal Rekonsiliasi Fiskal + Kunci Jawaban
@@ -1654,6 +1829,7 @@ data:
     category: pph
     topik: Biaya Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 26
     title: Biaya Penyusutan Fiskal
@@ -1664,6 +1840,7 @@ data:
     topik: Biaya Fiskal
     subtopik: Penyusutan Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 27
     title: Penyusutan Harta Berwujud
@@ -1674,6 +1851,7 @@ data:
     topik: Biaya Fiskal
     subtopik: Penyusutan Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 28
     title: Amortisasi Harta Tidak Berwujud
@@ -1684,6 +1862,7 @@ data:
     topik: Biaya Fiskal
     subtopik: Penyusutan Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 29
     title: Perangkat Lunak (Software) Komputer
@@ -1694,6 +1873,7 @@ data:
     topik: Biaya Fiskal
     subtopik: Penyusutan Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 30
     title: Kendaraan milik perusahaan
@@ -1704,6 +1884,7 @@ data:
     topik: Biaya Fiskal
     subtopik: Penyusutan Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 31
     title: HP, telepon Seluler, Pager
@@ -1714,6 +1895,7 @@ data:
     topik: Biaya Fiskal
     subtopik: Penyusutan Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 32
     title: Penyusutan, Amortisasi dalam Bidang Usaha Tertentu (Tanaman Kehutanan, kayu, Tanaman Keras, Ternak)
@@ -1724,6 +1906,7 @@ data:
     topik: Biaya Fiskal
     subtopik: Penyusutan Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 33
     title: Penyusutan Harta Berwujud Bagi Kontraktor Migas
@@ -1734,6 +1917,7 @@ data:
     topik: Biaya Fiskal
     subtopik: Penyusutan Fiskal
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 34
     title: Norma Penghitungan Penghasilan Neto
@@ -1743,6 +1927,7 @@ data:
     category: pph
     topik: Pencatatan, Pembukuan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 35
     title: Tax Haven Country
@@ -1752,6 +1937,7 @@ data:
     category: pph
     topik: Pencatatan, Pembukuan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 36
     title: Norma Penghitungan Penghasilan Neto sejak tahun pajak 2016
@@ -1761,6 +1947,7 @@ data:
     category: pph
     topik: Pencatatan, Pembukuan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 37
     title: Joint Operation / JO (Pemecahan Bukti Potong)
@@ -1770,6 +1957,7 @@ data:
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 38
     title: Perlakuan PPh dan PPN atas Leasing ( Sewa Guna Usaha )
@@ -1779,6 +1967,7 @@ data:
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 39
     title: Perlakuan Perpajakan untuk Pengusaha Panas Bumi
@@ -1788,6 +1977,7 @@ data:
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 40
     title: CV, Firma, Kongsi, Persekutuan, Kontrak Investasi Kolektif (KIK)
@@ -1797,6 +1987,7 @@ data:
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 41
     title: Yayasan
@@ -1806,6 +1997,7 @@ data:
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 42
     title: Usaha Lapangan Golf
@@ -1815,6 +2007,7 @@ data:
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 43
     title: Perlakuan PPh atas Usaha Reksadana
@@ -1824,6 +2017,7 @@ data:
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 44
     title: Built Operate and Transfer (BOT) (Bangun Guna Serah)
@@ -1833,6 +2027,7 @@ data:
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 45
     title: Kegiatan Usaha Berbasis Syariah
@@ -1842,6 +2037,7 @@ data:
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 46
     title: Perusahaan Pelayaran Niaga Nasional
@@ -1851,6 +2047,7 @@ data:
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 47
     title: Penghitungan PPh Kontraktor Kontrak Kerja Sama Migas
@@ -1860,6 +2057,7 @@ data:
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 48
     title: Transaksi e-commerse
@@ -1869,6 +2067,7 @@ data:
     category: pph
     topik: Penghasilan atas Jenis Usaha Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 49
     title: Perlakuan Perpajakan di KAPET (PPh dan PPN)
@@ -1879,6 +2078,7 @@ data:
     topik: Penghasilan atas Jenis Usaha Tertentu
     subtopik: Perlakuan Perpajakan di KAPET
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 50
     title: Untuk Pengusaha yang Berdomisili di dalam wilayah KAPET
@@ -1889,6 +2089,7 @@ data:
     topik: Penghasilan atas Jenis Usaha Tertentu
     subtopik: Perlakuan Perpajakan di KAPET
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 51
     title: Untuk Pengusaha yang Tidak Berdomisili di dalam wilayah KAPET
@@ -1899,6 +2100,7 @@ data:
     topik: Penghasilan atas Jenis Usaha Tertentu
     subtopik: Perlakuan Perpajakan di KAPET
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 52
     title: Kawasan Pengembangan Ekonomi Terpadu (KAPET) (yang ditetapkan sebagai Kawasan Berikat)
@@ -1909,6 +2111,7 @@ data:
     topik: Penghasilan atas Jenis Usaha Tertentu
     subtopik: Perlakuan Perpajakan di KAPET
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 53
     title: Daftar Wilayah KAPET
@@ -1919,6 +2122,7 @@ data:
     topik: Penghasilan atas Jenis Usaha Tertentu
     subtopik: Perlakuan Perpajakan di KAPET
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 54
     title: Tabel Tarif PPh Pasal 21
@@ -1929,6 +2133,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Ketentuan Terkait PPh 21
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 55
     title: Jamsostek (JKK, JHT, JKM, JPK & JHT) dan Premi asuransi lainnya
@@ -1939,6 +2144,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Ketentuan Terkait PPh 21
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 56
     title: PPh 21 Ditanggung Pemerintah
@@ -1949,6 +2155,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Ketentuan Terkait PPh 21
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 57
     title: Tanda Tangan Stempel & Bukti Potong Online PPh 21
@@ -1959,6 +2166,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Ketentuan Terkait PPh 21
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 58
     title: Pesangon, Uang Manfaat Pensiun, THT dan JHT
@@ -1969,6 +2177,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Ketentuan Terkait PPh 21
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 59
     title: Penghasilan Tidak Kena Pajak (PTKP)
@@ -1979,6 +2188,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Ketentuan Terkait PPh 21
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 60
     title: Biaya Jabatan dan Biaya Pensiun
@@ -1989,6 +2199,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Ketentuan Terkait PPh 21
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 61
     title: Subjek dan Bukan Subjek PPh Pasal 21/26
@@ -1999,6 +2210,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Ketentuan Terkait PPh 21
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 62
     title: Objek dan Bukan Objek PPh Pasal 21/26
@@ -2009,6 +2221,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Ketentuan Terkait PPh 21
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 63
     title: Pemotong dan Bukan Pemotong PPh Pasal 21/26
@@ -2019,6 +2232,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Ketentuan Terkait PPh 21
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 64
     title: SKB PPh Potput (SKB PPh 21, 22, 22 impor, 23)
@@ -2029,6 +2243,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Ketentuan Terkait PPh 21
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 65
     title: PPh 21 bagi Pejabat Negara, PNS, Anggota TNI, POLRI, dan Pensiunannya
@@ -2039,6 +2254,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Ketentuan Terkait PPh 21
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 66
     title: Unsur Penambah dan Pengurang Penghasilan dalam Penghitungan PPh Pasal 21
@@ -2049,6 +2265,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Ketentuan Terkait PPh 21
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 67
     title: Pajak Penghasilan Pasal 21 atas Penghasilan Pegawai dari Pemberi Kerja yang Memenuhi Kriteria Tertentu
@@ -2059,6 +2276,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Ketentuan Terkait PPh 21
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 68
     title: PPh Pasal 21 Atas Bonus dan Tunjangan Hari Raya (THR)
@@ -2069,6 +2287,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Penghitungan PPh 21 Sebelum 1 Januari 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 69
     title: PPh Pasal 21 Pegawai Tetap dan Penerima Pensiun Berkala
@@ -2079,6 +2298,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Penghitungan PPh 21 Sebelum 1 Januari 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 70
     title: PPh Pasal 21 Pegawai Tidak Tetap
@@ -2089,6 +2309,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Penghitungan PPh 21 Sebelum 1 Januari 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 71
     title: PPh 21 atas mantan pegawai, komisaris yang bukan pegawai tetap, penarikan dana pensiun oleh pegawai
@@ -2099,6 +2320,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Penghitungan PPh 21 Sebelum 1 Januari 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 72
     title: PPh Pasal 21 Atas Bonus dan Tunjangan Hari Raya (THR)
@@ -2109,6 +2331,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Penghitungan PPh 21 Sejak 1 Januari 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 73
     title: Penghitungan PPh 21 Pegawai Tetap dan Penerima Pensiun Berkala
@@ -2119,6 +2342,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Penghitungan PPh 21 Sejak 1 Januari 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 74
     title: PPh Pasal 21 Pegawai Tidak Tetap
@@ -2129,6 +2353,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Penghitungan PPh 21 Sejak 1 Januari 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 75
     title: PPh 21 atas mantan pegawai, komisaris yang bukan pegawai tetap, penarikan dana pensiun oleh pegawai
@@ -2139,6 +2364,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Penghitungan PPh 21 Sejak 1 Januari 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 76
     title: PPh Pasal 21 Pegawai Tetap dan Penerima Pensiun Berkala
@@ -2149,6 +2375,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Penghitungan PPh 21 Sejak tahun pajak 2015
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 77
     title: PPh Pasal 21 Pegawai Tidak Tetap
@@ -2159,6 +2386,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Penghitungan PPh 21 Sejak tahun pajak 2015
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 78
     title: PPh Pasal 21 Atas Bonus dan Tunjangan Hari Raya (THR)
@@ -2169,6 +2397,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Penghitungan PPh 21 Sejak tahun pajak 2015
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 79
     title: PPh Pasal 21 Pegawai Tetap dan Pemberi Pensiun
@@ -2179,6 +2408,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Penghitungan PPh Pasal 21 sejak Tahun Pajak 2016
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 80
     title: PPh Pasal 21 Pegawai Tidak Tetap
@@ -2189,6 +2419,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Penghitungan PPh Pasal 21 sejak Tahun Pajak 2016
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 81
     title: PPh Pasal 21 Atas Bonus dan Tunjangan Hari Raya (THR)
@@ -2199,6 +2430,7 @@ data:
     topik: PPh Pasal 21
     subtopik: Penghitungan PPh Pasal 21 sejak Tahun Pajak 2016
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 82
     title: Tabel Tarif PPh Pasal 22
@@ -2208,6 +2440,7 @@ data:
     category: pph
     topik: PPh Pasal 22
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 83
     title: PPh Pasal 22
@@ -2217,6 +2450,7 @@ data:
     category: pph
     topik: PPh Pasal 22
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 84
     title: PPh Pasal 22 yang Dipungut Bank Devisa dan DJBC
@@ -2226,6 +2460,7 @@ data:
     category: pph
     topik: PPh Pasal 22
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 85
     title: PPh Pasal 22 Bendaharawan
@@ -2235,6 +2470,7 @@ data:
     category: pph
     topik: PPh Pasal 22
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 86
     title: PPh Pasal 22 Produsen atau importir bahan bakar minyak, bahan bakar gas, dan pelumas
@@ -2244,6 +2480,7 @@ data:
     category: pph
     topik: PPh Pasal 22
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 87
     title: PPh Pasal 22 Industri Tertentu
@@ -2253,6 +2490,7 @@ data:
     category: pph
     topik: PPh Pasal 22
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 88
     title: PPh Pasal 22 Industri atau eksportir sektor kehutanan, perkebunan, pertanian, peternakan, dan perikanan
@@ -2262,6 +2500,7 @@ data:
     category: pph
     topik: PPh Pasal 22
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 89
     title: PPh Pasal 22 Penjualan Barang yang Tergolong Sangat Mewah
@@ -2271,6 +2510,7 @@ data:
     category: pph
     topik: PPh Pasal 22
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 90
     title: SKB PPh Potput (SKB PPh 21, 22, 22 impor, 23)
@@ -2280,6 +2520,7 @@ data:
     category: pph
     topik: PPh Pasal 22
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 91
     title: PPh Pasal 22 atas Badan Usaha Tertentu
@@ -2289,6 +2530,7 @@ data:
     category: pph
     topik: PPh Pasal 22
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 92
     title: PPh Pasal 22 Industri atau badan usaha komoditas tambang batubara, mineral logam, dan mineral bukan logam
@@ -2298,6 +2540,7 @@ data:
     category: pph
     topik: PPh Pasal 22
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 93
     title: Dividen
@@ -2307,6 +2550,7 @@ data:
     category: pph
     topik: PPh Pasal 23
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 94
     title: Bunga
@@ -2316,6 +2560,7 @@ data:
     category: pph
     topik: PPh Pasal 23
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 95
     title: Royalti
@@ -2325,6 +2570,7 @@ data:
     category: pph
     topik: PPh Pasal 23
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 96
     title: Hadiah, Penghargaan
@@ -2334,6 +2580,7 @@ data:
     category: pph
     topik: PPh Pasal 23
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 97
     title: Sewa dan Jasa
@@ -2343,6 +2590,7 @@ data:
     category: pph
     topik: PPh Pasal 23
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 98
     title: Tabel Tarif PPh Pasal 23
@@ -2352,6 +2600,7 @@ data:
     category: pph
     topik: PPh Pasal 23
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 99
     title: PPh Pasal 23
@@ -2361,6 +2610,7 @@ data:
     category: pph
     topik: PPh Pasal 23
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 100
     title: SKB PPh Potput (SKB PPh 21, 22, 22 impor, 23)
@@ -2370,6 +2620,7 @@ data:
     category: pph
     topik: PPh Pasal 23
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 101
     title: Resume S-653/PJ.032/2010 Penegasan Perlakuan PPh Pasal 23 Usaha Retail
@@ -2379,6 +2630,7 @@ data:
     category: pph
     topik: PPh Pasal 23
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 102
     title: Stempel Tanda tangan pada Bukti Potong PPh 23/26 atas dividen
@@ -2388,6 +2640,7 @@ data:
     category: pph
     topik: PPh Pasal 23
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 103
     title: SUN (Obligasi Negara, SPN) dan SBSN
@@ -2397,6 +2650,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 104
     title: PPh Final atas Pengalihan hak atas Tanah dan/atau bangunan, SKB PPhTB
@@ -2406,6 +2660,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 105
     title: PPh Final atas Persewaan Tanah dan/atau Bangunan
@@ -2415,6 +2670,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 106
     title: PPh Final atas Jasa Konstruksi
@@ -2424,6 +2680,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 107
     title: PPh Final atas Penjualan Saham di Bursa Efek
@@ -2433,6 +2690,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 108
     title: Tabel Tarif PPh Pasal 4 (2)
@@ -2442,6 +2700,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 109
     title: PPh Final atas Dividen yang diterima Orang Pribadi (OP)
@@ -2451,6 +2710,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 110
     title: PPh Final atas Bunga Obligasi
@@ -2460,6 +2720,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 111
     title: PPh Final atas Bunga deposito dan tabungan serta diskonto Sertifikat Bank Indonesia
@@ -2469,6 +2730,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 112
     title: PPh Final atas Bunga simpanan Koperasi
@@ -2478,6 +2740,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 113
     title: PPh Final atas Hadiah Undian
@@ -2487,6 +2750,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 114
     title: Stempel Tanda Tangan pada Bukti Potong PPh atas Bunga Deposito, Tabungan, Jasa Giro, dan Diskonto SBI
@@ -2496,6 +2760,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 115
     title: Stempel Tanda Tangan pada Bukti Potong PPh atas Pembayaran Bunga Kepada Nasabah SUN-ORI
@@ -2505,6 +2770,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 116
     title: SKB terkait PP 46 Tahun 2013
@@ -2514,6 +2780,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 117
     title: PPh Final atas Penghasilan Lain Kontraktor Dari Pengalihan Participating Interest
@@ -2523,6 +2790,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 118
     title: PPh Final atas Penghasilan dari Pengalihan Real Estat dalam Skema Kontrak Investasi Kolektif Tertentu
@@ -2532,6 +2800,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 119
     title: PPh Final atas penghasilan WP yang memiliki peredaran bruto tertentu PP 46 Tahun 2013 (sudah tidak berlaku sejak 1 Juli 2018)
@@ -2541,6 +2810,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 120
     title: PPh Final atas penghasilan WP yang memiliki peredaran bruto tertentu PP 23 Tahun 2018
@@ -2550,6 +2820,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 121
     title: Validasi SSB dan SSP
@@ -2559,6 +2830,7 @@ data:
     category: pph
     topik: PPh Final Pasal 4 Ayat (2)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 122
     title: PPh Pasal 15 atas PELAYARAN DALAM NEGERI
@@ -2568,6 +2840,7 @@ data:
     category: pph
     topik: PPh Pasal 15
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 123
     title: PPh Pasal 15 atas Pelayaran/Penerbangan Luar Negeri
@@ -2577,6 +2850,7 @@ data:
     category: pph
     topik: PPh Pasal 15
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 124
     title: PPh Pasal 15 atas Penerbangan Dalam Negeri
@@ -2586,6 +2860,7 @@ data:
     category: pph
     topik: PPh Pasal 15
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 125
     title: Tabel Tarif PPh Pasal 15
@@ -2595,6 +2870,7 @@ data:
     category: pph
     topik: PPh Pasal 15
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 126
     title: PPh Pasal 15 atas Kantor Perwakilan Dagang Asing (representative office/liaison office) di Indonesia
@@ -2604,6 +2880,7 @@ data:
     category: pph
     topik: PPh Pasal 15
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 127
     title: PPh Pasal 15 atas WP yang melakukan kegiatan usaha jasa maklon internasional di bidang produksi mainan anak-anak
@@ -2613,6 +2890,7 @@ data:
     category: pph
     topik: PPh Pasal 15
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 128
     title: PPh PASAL 19 ATAS Revaluasi (penilaian kembali aktiva tetap)
@@ -2622,6 +2900,7 @@ data:
     category: pph
     topik: PPh Pasal 19
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 129
     title: Revaluasi aktiva tetap untuk tahun 2015 dan 2016
@@ -2631,6 +2910,7 @@ data:
     category: pph
     topik: PPh Pasal 19
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 130
     title: PPH PASAL 24 ATAS penghasilan WPDN dari Luar Negeri
@@ -2640,6 +2920,7 @@ data:
     category: pph
     topik: PPh Pasal 24
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 131
     title: PPh Pasal 25 atas Orang Pribadi Pengusaha Tertentu (OPPT)
@@ -2649,6 +2930,7 @@ data:
     category: pph
     topik: PPh Pasal 25
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 132
     title: Pelaporan SPT Masa PPh 25
@@ -2658,6 +2940,7 @@ data:
     category: pph
     topik: PPh Pasal 25
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 133
     title: Fiskal Luar Negeri
@@ -2667,6 +2950,7 @@ data:
     category: pph
     topik: PPh Pasal 25
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 134
     title: Cara Menghitung PPh Pasal 25 untuk WP BARU
@@ -2676,6 +2960,7 @@ data:
     category: pph
     topik: PPh Pasal 25
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 135
     title: Cara menghitung PPh Pasal 25 untuk WP Bank, WP SGU dengan Hak Opsi
@@ -2685,6 +2970,7 @@ data:
     category: pph
     topik: PPh Pasal 25
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 136
     title: Cara Menghitung PPh Pasal 25 untuk WP BUMN, BUMD, WP Masuk Bursa
@@ -2694,6 +2980,7 @@ data:
     category: pph
     topik: PPh Pasal 25
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 137
     title: pengurangan besarnya PPh pasal 25 bagi wajib pajak industri tertentu
@@ -2703,6 +2990,7 @@ data:
     category: pph
     topik: PPh Pasal 25
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 138
     title: Dalam hal WP berhak atas kompensasi kerugian dan Menerima Penghasilan Tidak Teratur
@@ -2713,6 +3001,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 139
     title: Dalam hal WP melaporkan SPT Tahunan PPh Tahun Pajak Lalu Lewat Batas Waktu
@@ -2723,6 +3012,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 140
     title: Dalam hal WP diberikan perpanjangan jangka waktu penyampaian SPT Tahunan PPh
@@ -2733,6 +3023,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 141
     title: Dalam hal WP membetulkan sendiri SPT Tahunan PPh
@@ -2743,6 +3034,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 142
     title: Dalam hal WP mengalami perubahan usaha atau kegiatan WP
@@ -2753,6 +3045,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 143
     title: Penerapan P3B, DGT dan SKD
@@ -2763,6 +3056,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 144
     title: Surat Keterangan Domisili Bagi SPDN Indonesia Dalam Rangka P3B
@@ -2773,6 +3067,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 145
     title: Tabel Tarif PPh Pasal 26
@@ -2783,6 +3078,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 146
     title: PPh Pasal 26 atas Penjualan Saham yang Dilakukan oleh WPLN
@@ -2793,6 +3089,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 147
     title: Premi Asuransi dan Reasuransi yang Dibayar kepada Perusahaan Asuransi di Luar Negeri
@@ -2803,6 +3100,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 148
     title: Perlakuan PPh Vs Perjanjian Internasional
@@ -2813,6 +3111,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 149
     title: Surat Keterangan Domisili (DGT 6 dan DGT 7) bagi SPDN Indonesia dalam rangka P3B (Ketentuan Sebelum 12 Mei 2017)
@@ -2823,6 +3122,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 150
     title: DGT 1 dan DGT 2 (Ketentuan ini sudah dicabut sejak 1 Agustus 2017)
@@ -2833,6 +3133,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 151
     title: Pencegahan Penyalahgunaan P3B (Ketentuan ini dicabut sejak 1 Agustus 2017)
@@ -2843,6 +3144,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 152
     title: DGT 3, DGT 4, dan DGT 5 (Ketentuan ini Sudah dicabut sejak 30 Mei 2013)
@@ -2853,6 +3155,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 153
     title: BUT dalam UU PPh
@@ -2863,6 +3166,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 154
     title: BUT dalam P3B
@@ -2873,6 +3177,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 155
     title: Objek Pajak BUT dan Branch Profit Tax
@@ -2883,6 +3188,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 156
     title: Biaya BUT yang boleh / tidak boleh dikurangkan
@@ -2893,6 +3199,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 157
     title: Terjadinya Hubungan Istimewa
@@ -2903,6 +3210,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 158
     title: Penurunan tarif PPh Bagi WPDN berbentuk Perseroan Terbuka
@@ -2913,6 +3221,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 159
     title: Fasilitas PPh untuk Penanaman Modal di Bidang Usaha Tertentu dan/atau Daerah tertentu
@@ -2923,6 +3232,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 160
     title: Fasilitas Pengurangan Pajak Penghasilan Badan
@@ -2933,6 +3243,7 @@ data:
     topik: PPh Pasal 25
     subtopik: Cara Menghitung PPh Pasal 25 dalam hal-hal Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 1
     title: Mekanisme PPN Indonesia
@@ -2942,6 +3253,7 @@ data:
     category: ppn
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 2
     title: Bagaimanakah mekanisme pemungutan PPN?
@@ -2951,6 +3263,7 @@ data:
     category: ppn
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 3
     title: Lain - lain
@@ -2960,6 +3273,7 @@ data:
     category: ppn
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 4
     title: UU PPN dan Resume
@@ -2969,6 +3283,7 @@ data:
     category: ppn
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 5
     title: Tanggung Jawab Renteng
@@ -2978,6 +3293,7 @@ data:
     category: ppn
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 6
     title: Branches PP 10 Tahun 2012
@@ -2987,6 +3303,7 @@ data:
     category: ppn
     topik: Umum
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 7
     title: Subjek PPN (PKP dan Non PKP)
@@ -2996,6 +3313,7 @@ data:
     category: ppn
     topik: Subjek PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 8
     title: Tempat Terutangnya PPN (KPP Tempat WP Mengajukan Permohonan PKP)
@@ -3005,6 +3323,7 @@ data:
     category: ppn
     topik: Subjek PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 9
     title: Pemakaian Sendiri dan Pemberian Cuma-cuma
@@ -3014,6 +3333,7 @@ data:
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 10
     title: Kegiatan Membangun Sendiri (KMS) (Pasal 16C UU PPN)
@@ -3023,6 +3343,7 @@ data:
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 11
     title: Pemanfaatan BKP tidak Berwujud atau JKP dari Luar Daerah Pabean
@@ -3032,6 +3353,7 @@ data:
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 12
     title: Ekspor JKP dan/atau BKP Tidak Berwujud
@@ -3041,6 +3363,7 @@ data:
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 13
     title: Aktiva yang Menurut Tujuan Semula Tidak Untuk Diperjualbelikan (Pasal 16D)
@@ -3050,6 +3373,7 @@ data:
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 14
     title: penyerahan BKP/JKP di dalam Daerah Pabean yang dilakukan oleh Pengusaha (Ps. 4 ayat (1) huruf a & c)
@@ -3059,6 +3383,7 @@ data:
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 15
     title: PPN atas Penyerahan Jasa Jalan Tol
@@ -3068,6 +3393,7 @@ data:
     category: ppn
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 16
     title: Penyerahan hak atas BKP karena suatu Perjanjian
@@ -3078,6 +3404,7 @@ data:
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
     subtopik: Yang Termasuk Ke dalam Pengertian Penyerahan BKP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 17
     title: pengalihan BKP karena suatu perjanjian sewa beli dan/atau perjanjian sewa guna usaha (leasing)
@@ -3088,6 +3415,7 @@ data:
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
     subtopik: Yang Termasuk Ke dalam Pengertian Penyerahan BKP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 18
     title: penyerahan BKP kepada pedagang perantara (komisioner), melalui juru lelang, makelar
@@ -3098,6 +3426,7 @@ data:
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
     subtopik: Yang Termasuk Ke dalam Pengertian Penyerahan BKP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 19
     title: Penyerahan BKP secara Konsinyasi
@@ -3108,6 +3437,7 @@ data:
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
     subtopik: Yang Termasuk Ke dalam Pengertian Penyerahan BKP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 20
     title: Yang Termasuk Pengertian Penyerahan BKP
@@ -3118,6 +3448,7 @@ data:
     topik: Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
     subtopik: Yang Termasuk Ke dalam Pengertian Penyerahan BKP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 21
     title: Perbandingan Ketentuan Bukan Objek PPN Sebelum dan Sesudah berlakunya UU 42 Tahun 2009
@@ -3127,6 +3458,7 @@ data:
     category: ppn
     topik: Bukan Objek PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 22
     title: Jasa Angkutan Umum
@@ -3136,6 +3468,7 @@ data:
     category: ppn
     topik: Bukan Objek PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 23
     title: Jasa Perhotelan
@@ -3145,6 +3478,7 @@ data:
     category: ppn
     topik: Bukan Objek PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 24
     title: Bukan Objek PPN (Bukan BKP dan Bukan JKP) SEBELUM 1 April 2010
@@ -3154,6 +3488,7 @@ data:
     category: ppn
     topik: Bukan Objek PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 25
     title: Bukan Objek PPN (Bukan BKP dan Bukan JKP) SEJAK 1 April 2010
@@ -3163,6 +3498,7 @@ data:
     category: ppn
     topik: Bukan Objek PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 26
     title: Jasa tenaga kerja
@@ -3172,6 +3508,7 @@ data:
     category: ppn
     topik: Bukan Objek PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 27
     title: Jasa Penyediaan Tempat Parkir
@@ -3181,6 +3518,7 @@ data:
     category: ppn
     topik: Bukan Objek PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 28
     title: jasa yang disediakan oleh Pemerintah dalam rangka menjalankan pemerintahan secara umum
@@ -3190,6 +3528,7 @@ data:
     category: ppn
     topik: Bukan Objek PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 29
     title: Jasa Penyiaran yang Tidak Bersifat Iklan
@@ -3199,6 +3538,7 @@ data:
     category: ppn
     topik: Bukan Objek PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 30
     title: Jasa Pendidikan
@@ -3208,6 +3548,7 @@ data:
     category: ppn
     topik: Bukan Objek PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 31
     title: Jasa Boga atau Katering
@@ -3217,6 +3558,7 @@ data:
     category: ppn
     topik: Bukan Objek PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 32
     title: Jasa Kesenian dan Hiburan
@@ -3226,6 +3568,7 @@ data:
     category: ppn
     topik: Bukan Objek PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 33
     title: Pemusatan tempat terutang PPN (lama) (Ketentuan sebelum 1 April 2010)
@@ -3235,6 +3578,7 @@ data:
     category: ppn
     topik: Pemusatan PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 34
     title: Pemusatan tempat terutang PPN (Ketentuan Sejak 1 April 2010)
@@ -3244,6 +3588,7 @@ data:
     category: ppn
     topik: Pemusatan PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 35
     title: Pemusatan Tempat PPN terutang (ketentuan sejak 1 Januari 2013 (Masih menggunakan PER-19/PJ/2010))
@@ -3253,6 +3598,7 @@ data:
     category: ppn
     topik: Pemusatan PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 36
     title: FP sebelum 1 April Vs setelah 1 April 2010
@@ -3262,6 +3608,7 @@ data:
     category: ppn
     topik: Faktur Pajak dan Nota Retur
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 37
     title: Nota Retur dan Nota Pembatalan
@@ -3272,6 +3619,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 38
     title: Dokumen Tertentu yang Dipersamakan dengan Faktur Pajak
@@ -3282,6 +3630,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 39
     title: FP bagi PKP Toko Retail (VAT Refund for tourist)
@@ -3292,6 +3641,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 40
     title: FP PKP PE
@@ -3302,6 +3652,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 41
     title: Larangan Penggunaan Metode Q.Q Pada FP
@@ -3312,6 +3663,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 42
     title: Saat Penyerahan BKP/JKP
@@ -3322,6 +3674,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 43
     title: Kode dan Nomor Seri FP
@@ -3332,6 +3685,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 44
     title: FP Pengganti
@@ -3342,6 +3696,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 45
     title: FP Hilang
@@ -3352,6 +3707,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 46
     title: FP Batal
@@ -3362,6 +3718,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 47
     title: saat lain sebagai saat pembuatan faktur pajak atas penyerahan BKP dengan karakteristik tertentu
@@ -3372,6 +3729,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 48
     title: FP Tidak Lengkap (Ketentuan Sejak 1 April 2013)
@@ -3382,6 +3740,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 49
     title: Faktur Pajak sejak 1 Juli 2014
@@ -3392,6 +3751,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 50
     title: Faktur Pajak elektronik (e-Faktur)
@@ -3402,6 +3762,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 51
     title: Sertifikat Elektronik
@@ -3412,6 +3773,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 52
     title: Yang baru tentang FP Menurut PER-24/PJ/2012 (sudah ada perubahan)
@@ -3422,6 +3784,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 53
     title: FP sejak 1 April 2013 (sudah tidak berlaku)
@@ -3432,6 +3795,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Terbaru
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 54
     title: FP Pengganti (Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013)
@@ -3442,6 +3806,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 55
     title: Pembatalan FP (Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013)
@@ -3452,6 +3817,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 56
     title: FP (Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013)
@@ -3462,6 +3828,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 57
     title: Kode dan Nomor Seri FP (Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013)
@@ -3472,6 +3839,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 58
     title: FP Hilang (Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013)
@@ -3482,6 +3850,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 59
     title: FP Cacat (Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013)
@@ -3492,6 +3861,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Sejak 1 April 2010 s/d 31 Maret 2013
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 60
     title: Tata Cara Pembuatan Nota Retur (berlaku mulai 1 Januari 1995 sampai 31 Maret 2010)
@@ -3502,6 +3872,7 @@ data:
     topik: Faktur Pajak dan Nota Retur
     subtopik: Ketentuan Sebelum 1 April 2010
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 61
     title: Wajib Pungut (WAPU) PPN
@@ -3511,6 +3882,7 @@ data:
     category: ppn
     topik: Wajib Pungut (Wapu) PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 62
     title: Bendaharawan Pemerintah dan KPKN
@@ -3520,6 +3892,7 @@ data:
     category: ppn
     topik: Wajib Pungut (Wapu) PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 63
     title: Kontraktor Kontrak Kerja Sama
@@ -3529,6 +3902,7 @@ data:
     category: ppn
     topik: Wajib Pungut (Wapu) PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 64
     title: Badan Usaha Milik Negara
@@ -3538,6 +3912,7 @@ data:
     category: ppn
     topik: Wajib Pungut (Wapu) PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 65
     title: Badan Usaha Tertentu (Mulai tanggal 1 April 2015)
@@ -3547,6 +3922,7 @@ data:
     category: ppn
     topik: Wajib Pungut (Wapu) PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 66
     title: Jenis-jenis Fasilitas Pembebasan PPN
@@ -3556,6 +3932,7 @@ data:
     category: ppn
     topik: Fasilitas Pembebasan PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 67
     title: Pembebasan PPN kepada perwakilan Negara asing dan Badan Internasional serta Pejabatnya
@@ -3565,6 +3942,7 @@ data:
     category: ppn
     topik: Fasilitas Pembebasan PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 68
     title: Pembebasan PPN atas penyerahan jasa kebandarudaraan tertentu
@@ -3574,6 +3952,7 @@ data:
     category: ppn
     topik: Fasilitas Pembebasan PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 69
     title: Pembebasan PPN atas Penyerahan Air Bersih
@@ -3583,6 +3962,7 @@ data:
     category: ppn
     topik: Fasilitas Pembebasan PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 70
     title: Pembebasan PPN atas Penyerahan Jasa Ke Pelabuhan Tertentu
@@ -3592,6 +3972,7 @@ data:
     category: ppn
     topik: Fasilitas Pembebasan PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 71
     title: BKP Strategis bebas PPN
@@ -3602,6 +3983,7 @@ data:
     topik: Fasilitas Pembebasan PPN
     subtopik: BKP strategis
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 72
     title: Mesin dan Peralatan Pabrik
@@ -3612,6 +3994,7 @@ data:
     topik: Fasilitas Pembebasan PPN
     subtopik: BKP strategis
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 73
     title: RUSUNAMI
@@ -3622,6 +4005,7 @@ data:
     topik: Fasilitas Pembebasan PPN
     subtopik: BKP strategis
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 74
     title: BKP Strategis Bebas PPN (Ketentuan Baru)
@@ -3632,6 +4016,7 @@ data:
     topik: Fasilitas Pembebasan PPN
     subtopik: BKP strategis
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 75
     title: BKP dan atau JKP Tertentu Bebas PPN
@@ -3642,6 +4027,7 @@ data:
     topik: Fasilitas Pembebasan PPN
     subtopik: BKP/JKP Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 76
     title: Batasan Buku Pelajaran Umum, kitab suci dan buku-buku pelajaran agama yang Mendapatkan Pembebasan PPN
@@ -3652,6 +4038,7 @@ data:
     topik: Fasilitas Pembebasan PPN
     subtopik: BKP/JKP Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 77
     title: Batas Rumah Sederhana, RSS, dll yang Memperoleh Pembebasan PPN
@@ -3662,6 +4049,7 @@ data:
     topik: Fasilitas Pembebasan PPN
     subtopik: BKP/JKP Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 78
     title: JKP Tertentu yang dibebaskan PPN
@@ -3672,6 +4060,7 @@ data:
     topik: Fasilitas Pembebasan PPN
     subtopik: BKP/JKP Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 79
     title: Jenis-Jenis PPN tidak dipungut
@@ -3681,6 +4070,7 @@ data:
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 80
     title: Kawasan Berikat
@@ -3690,6 +4080,7 @@ data:
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 81
     title: BKP Tertentu Bersifat Strategis Yang Tidak Dipungut PPN
@@ -3699,6 +4090,7 @@ data:
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 82
     title: Kawasan Pengembangan Ekonomi Terpadu (KAPET) (yang ditetapkan sebagai Kawasan Berikat)
@@ -3708,6 +4100,7 @@ data:
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 83
     title: Kemudahan Impor untuk Tujuan Ekspor (KITE)
@@ -3717,6 +4110,7 @@ data:
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 84
     title: Proyek pemerintah yang dibiayai dengan hibah atau dana pinjaman Luar Negeri
@@ -3726,6 +4120,7 @@ data:
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 85
     title: Toko Bebas Bea
@@ -3735,6 +4130,7 @@ data:
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 86
     title: PPN Tidak Dipungut atas Sebagian impor BKP yang dibebaskan dari pungutan bea masuk
@@ -3744,6 +4140,7 @@ data:
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 87
     title: Alat Angkutan Tertentu dan JKP terkait Yang impor/penyerahannya Tidak Dipungut PPN
@@ -3753,6 +4150,7 @@ data:
     category: ppn
     topik: Fasilitas PPN Tidak Dipungut
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 88
     title: penyerahan minyak goreng kemasan sederhana
@@ -3763,6 +4161,7 @@ data:
     topik: Fasilitas PPN Tidak Dipungut
     subtopik: PPN Ditanggung Pemerintah
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 89
     title: Penyerahan Minyak Goreng Sawit Curah
@@ -3773,6 +4172,7 @@ data:
     topik: Fasilitas PPN Tidak Dipungut
     subtopik: PPN Ditanggung Pemerintah
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 90
     title: Impor Barang Untuk Kegiatan Usaha Eksplorasi Hulu Minyak dan Gas Bumi Serta Panas Bumi
@@ -3783,6 +4183,7 @@ data:
     topik: Fasilitas PPN Tidak Dipungut
     subtopik: PPN Ditanggung Pemerintah
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 91
     title: PPN DTP atas subsidi BBM Jenis Tertentu dan LPG Tabung 3 kg
@@ -3793,6 +4194,7 @@ data:
     topik: Fasilitas PPN Tidak Dipungut
     subtopik: PPN Ditanggung Pemerintah
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 92
     title: Kawasan Bebas
@@ -3803,6 +4205,7 @@ data:
     topik: Fasilitas PPN Tidak Dipungut
     subtopik: Kawasan Bebas PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 93
     title: I.1 Antara Kawasan Bebas dengan Luar Daerah Pabean (Terkait BKP berwujud)
@@ -3813,6 +4216,7 @@ data:
     topik: Fasilitas PPN Tidak Dipungut
     subtopik: Kawasan Bebas PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 94
     title: I.2 Antara Kawasan Bebas dengan TLDDP (Terkait BKP berwujud)
@@ -3823,6 +4227,7 @@ data:
     topik: Fasilitas PPN Tidak Dipungut
     subtopik: Kawasan Bebas PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 95
     title: I.3 Antara Kawasan Bebas dengan TPB atau KEK (Terkait BKP Berwujud)
@@ -3833,6 +4238,7 @@ data:
     topik: Fasilitas PPN Tidak Dipungut
     subtopik: Kawasan Bebas PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 96
     title: I.4 Perlakuan PPN atas Penyerahan atau Perolehan/Pemanfaatan BKP TB dan Penyerahan/Perolehan JKP
@@ -3843,6 +4249,7 @@ data:
     topik: Fasilitas PPN Tidak Dipungut
     subtopik: Kawasan Bebas PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 97
     title: SKB PPnBM atas kendaraan bermotor
@@ -3852,6 +4259,7 @@ data:
     category: ppn
     topik: PPnBM
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 98
     title: PPnBM
@@ -3861,6 +4269,7 @@ data:
     category: ppn
     topik: PPnBM
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 99
     title: PPnBM untuk Golongan Selain Kendaraan Bermotor
@@ -3870,6 +4279,7 @@ data:
     category: ppn
     topik: PPnBM
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 100
     title: PPnBM atas Kendaraan Bermotor sebelum 23 Mei 2013
@@ -3879,6 +4289,7 @@ data:
     category: ppn
     topik: PPnBM
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 101
     title: Tatacara Pengajuan Pengembalian PPnBM atas Kendaraan Bermotor
@@ -3888,6 +4299,7 @@ data:
     category: ppn
     topik: PPnBM
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 102
     title: PPnBM atas Kendaraan Bermotor Sejak 23 Mei 2013
@@ -3897,6 +4309,7 @@ data:
     category: ppn
     topik: PPnBM
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 103
     title: Yang Menggunakan DPP Nilai Lain
@@ -3906,6 +4319,7 @@ data:
     category: ppn
     topik: Dasar Pengenaan Pajak
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 104
     title: Dasar Pengenaan Pajak (DPP)
@@ -3915,6 +4329,7 @@ data:
     category: ppn
     topik: Dasar Pengenaan Pajak
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 105
     title: Pedoman Pengkreditan PM Bagi PKP yang peredaran Usahanya Tidak Melebihi Jumlah Tertentu
@@ -3924,6 +4339,7 @@ data:
     category: ppn
     topik: Pengkreditan Pajak Masukan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 106
     title: Pedoman Pengkreditan PM Bagi PKP yang Melakukan Penyerahan Terutang danTidak Terutang/dibebaskan PPN
@@ -3933,6 +4349,7 @@ data:
     category: ppn
     topik: Pengkreditan Pajak Masukan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 107
     title: Pedoman Pengkreditan PM bagi PKP Usaha Tertentu (kendaraan bekas)
@@ -3942,6 +4359,7 @@ data:
     category: ppn
     topik: Pengkreditan Pajak Masukan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 108
     title: Pedoman Pengkreditan PM Sebelum 1 April 2010
@@ -3951,6 +4369,7 @@ data:
     category: ppn
     topik: Pengkreditan Pajak Masukan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 109
     title: Jenis Pajak Masukan yang Tidak Bisa Dikreditkan
@@ -3960,6 +4379,7 @@ data:
     category: ppn
     topik: Pengkreditan Pajak Masukan
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 110
     title: Tata Cara Restitusi PPN
@@ -3969,6 +4389,7 @@ data:
     category: ppn
     topik: Restitusi PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 111
     title: Penetapan PKP Resiko Rendah
@@ -3978,6 +4399,7 @@ data:
     category: ppn
     topik: Restitusi PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 112
     title: Pembayaran Kembali PM Bagi PKP yang Gagal Berproduksi
@@ -3987,6 +4409,7 @@ data:
     category: ppn
     topik: Restitusi PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 113
     title: Penetapan PKP Resiko Rendah (Ketentuan Lama)
@@ -3996,6 +4419,7 @@ data:
     category: ppn
     topik: Restitusi PPN
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 114
     title: Pengusaha Emas Perhiasan
@@ -4005,6 +4429,7 @@ data:
     category: ppn
     topik: Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 115
     title: VAT Refund bagi Turis Asing
@@ -4014,6 +4439,7 @@ data:
     category: ppn
     topik: Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 116
     title: Penebusan Stiker Lunas PPN untuk Media Rekaman Suara/ Gambar
@@ -4023,6 +4449,7 @@ data:
     category: ppn
     topik: Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 117
     title: PPN atas penyerahan Obat oleh Apotik atau instalasi farmasi (kamar obat) Rumah Sakit
@@ -4032,6 +4459,7 @@ data:
     category: ppn
     topik: Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 118
     title: PPN atas Insentif/Bonus dari main dealer kepada dealer/distributor
@@ -4041,6 +4469,7 @@ data:
     category: ppn
     topik: Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 119
     title: Pengenaan PPN atas Produksi Hasil Tembakau (Rokok, dsb)
@@ -4050,6 +4479,7 @@ data:
     category: ppn
     topik: Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 120
     title: Kontraktor Perjanjian Karya Pengusahaan Pertambangan Batubara Generasi I (Pajak penjualan dan PPN)
@@ -4059,6 +4489,7 @@ data:
     category: ppn
     topik: Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 121
     title: PPN atas Penyerahan Pupuk Tertentu
@@ -4068,6 +4499,7 @@ data:
     category: ppn
     topik: Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 122
     title: Impor BKP
@@ -4077,6 +4509,7 @@ data:
     category: ppn
     topik: Impor BKP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 123
     title: Impor Sementara
@@ -4086,6 +4519,7 @@ data:
     category: ppn
     topik: Impor BKP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019
   - id: 124
     title: Impor Atas Dasar Inden
@@ -4095,4 +4529,5 @@ data:
     category: ppn
     topik: Impor BKP
     icon: far fa-file-word
+    type: word
     tgl: 11 Desember 2019

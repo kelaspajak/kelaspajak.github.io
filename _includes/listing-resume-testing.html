@@ -1,8 +1,8 @@
 {% assign dataid = page.dataid %}
-{%comment%}{% assign resume = site.data.resume.data | where_exp: "item", "item.category == dataid and item.active == 'yes'" | group_by: "title" %}{%endcomment%}
+{%comment%}{% assign resume = site.data.resume.data | where_exp: "item", "item.category == dataid and item.active == 'ya'" | group_by: "title" %}{%endcomment%}
 
 {% assign resume = site.data.resume.data | where: "category", dataid" %}
-{% assign resumes = resume | where: "active", 'yes'" | group_by: "title" %}
+{% assign resumes = resume | where: "active", 'ya'" | group_by: "title" %}
 
 {% assign topik = site.data.resume.data | where_exp: "item", "item.category == dataid" | group_by: 'topik' %}
 <h1 class="h1-mktg mt-2">{{page.description}} <span title="Fitur: {{page.category}}"
@@ -11,29 +11,23 @@
 <p>total terdapat <span class="Label {{page.label}} text-white">{{resumes.size}}</span> file dengan status aktif dan
     masih berlaku </p>
 {% else %}
-<span class="IssueLabel {{page.label}} text-white">kelas ini masih ditutup</span> tidak ada link yang aktif
+kelas ini masih di<span class="IssueLabel {{page.label}} text-white">tutup</span> materi masih dalam tahap persiapan
 {% endif %}
 
 {% for topik in topik %}
-<h3 class="link-gray-dark d-block">{{ topik.name }} </h3>
+<h3 class="link-gray-dark d-block position-sticky top-0" style="z-index: 2;">{{ topik.name }} </h3>
 {% capture namatopik %}{{ topik.name }}{% endcapture %}
 {% assign subtopik = resume | where: "topik", namatopik | group_by: "subtopik"%}
-{% if subtopik.size != 0 %}
+
 <ul>
-    {% assign titlenontopik = resume | where: "topik", namatopik %}
+    {% assign titling = resume | where: "topik", namatopik %}
+    {% assign titles = titling | where: "subtopik", blank %}
 
-    {% capture sizesubtopik %}{{subtopik.name}}{% endcapture %}
-    {% if sizesubtopik.size == blank %}
-
-    {% for titlenontopiks in titlenontopik %}
-        <li class="text-normal">
-            <a href="{{ titlenontopiks.url }}" class="text-bold" target="_blank">{{titlenontopiks.title}}</a>
-        </li>
-        {%endfor%}
-    {% endif %}
+    {% include listing-daftar-file.html %}
 </ul>
-{% endif %}
-{%comment%} untuk subcategories {%endcomment%}
+
+
+{%comment%} untuk yang ada subcategories {%endcomment%}
 {% for subtopiks in subtopik %}
 <h4>{{subtopiks.name}}</h4>
 <ul>
@@ -41,11 +35,7 @@
     {%comment%}{% assign titles = site.data.resume.data | where_exp: "item", "item.category == dataid and item.topik == namatopik" %}{%endcomment%}
     {% assign titles = resume | where: "subtopik", subtopikname %}
 
-    {% for titles in titles %}
-    <li class="text-normal">
-        <a href="{{ titles.url }}" class="text-bold" target="_blank">{{titles.title}}</a>
-    </li>
-    {%endfor%}
+{% include listing-daftar-file.html %}
 </ul>
 {% endfor %}
 {% endfor %}
