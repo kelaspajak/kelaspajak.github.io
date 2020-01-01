@@ -18,19 +18,18 @@
     <ul>
         {% capture namatopik %}{{topik.name}}{% endcapture %}
         {% assign t = resume | where: "topik", namatopik %}
-        {% assign tit = ti | where: "subtopik", blank %}
-        {% for titl in tit %}
+        {% assign ti = t | where: "subtopik", blank %}
+        {% for titl in ti %}
         <li class="text-normal">
             {% if titl.active == "ya" %}
-            <a href="{{ titl.url }}" target="_blank" class="tooltipped tooltipped-n"
-                aria-label="File {{titl.type}}, aktif: {{titl.active}}">{{titl.title}}</a>
+            <a href="{{ titl.url }}" target="_blank" class="tooltipped tooltipped-n" aria-label="File {{titl.type}}, aktif: {{titl.active}}">{{titl.title}}</a>
             {% else %}
-            <span class="tooltipped tooltipped-n"
-                aria-label="tipe: {{titl.type}}, aktif: {{titl.active}}">{{titl.title}}</span>
+            <span class="tooltipped tooltipped-n" aria-label="tipe: {{titl.type}}, aktif: {{titl.active}}">{{titl.title}}</span>
             {% endif %}
         </li>
         {%endfor%}
     </ul>
+
 
     {%comment%} untuk yang ada subcategories {%endcomment%}
     {% capture namatopik %}{{topik.name}}{% endcapture %}
@@ -44,4 +43,5 @@
             {% include listing-daftar-file.html %}    
         </ul>    
     {%endfor%}
+
 {%endfor%}
