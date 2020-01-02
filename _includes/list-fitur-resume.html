@@ -1,6 +1,7 @@
 {% assign dataid = page.dataid %}
 {%comment%}{% assign resume = site.data.resume.data | where_exp: "item", "item.category == dataid and item.active == 'yes'" | group_by: "title" %}{%endcomment%}
-{% assign resume = site.data.resume.data | where: "category", dataid" %}
+{% assign r = site.data.resume.data | where: "category", dataid" %}
+{% assign resume = r | where: "active", 'ya'" %}
 {% assign resumes = resume | where: "active", 'ya'" | group_by: "title" %}
 {% assign topik = resumes | where: "category", dataid | group_by: 'topik' %}
 
