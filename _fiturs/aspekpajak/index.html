@@ -4,32 +4,32 @@ description: Aspek Perpajakan per Industri, pohon industri, proses bisnis
 layout: pages
 permalink: /fitur/aspekpajak/
 ---
-{% assign data = site.data.aspekpajak.data | group_by: 'id' %}
+{% assign datas = site.data.aspekpajak.data | group_by: 'id' %}
+
 <h1 class="h1-mktg mt-sm-2">Aspek Perpajakan Industri</h1>
-<p class="text-small text-gray">total terdapat <span class="IssueLabel bg-green text-white">{{data.size}}</span> folder dengan status aktif dan
+<p class="text-small text-gray">total terdapat <span class="IssueLabel bg-green text-white">{{datas.size}}</span> folder
+    dengan status aktif dan
     masih berlaku </p>
+
+{% assign topik_group = site.data.aspekpajak.data | where: "fitur", "aspekpajak" | group_by: 'topik' %}
+{% for topik in topik_group %}
+<h3 class="d-block">{{ topik.name }} </h3>
 <ul>
-    {% assign titles = site.data.aspekpajak.data %}
-    {% for titles in titles %}
-    <li class="text-normal">
-    {% if titles.active == "tidak" %}
-        <span class="text-gray" style="opacity: 0.6">
+    {% capture namatopik %}{{ topik.name }}{% endcapture %}
+    {% assign t = site.data.aspekpajak.data | where: "topik", namatopik %}
+    {% for titles in t %}
+    {% if titles.topik != nil %}
+    {% include listing-daftar-file.html %}
+        {% if titles.file %}
+        <ul>
+            {% for titles in titles.file %}
+                {% include listing-daftar-file.html %}                                                            
+            {% endfor %}
+        </ul>
+        {% endif %}
     {% else %}
-        <a href="{{ titles.url }}" class="link-black" target="_blank">
-    {%endif%}
-        {{ titles.title }}
-    {% if titles.active == "tidak" %}
-        </span>
-    {% else %}
-        </a>
-    {%endif%}
-        &nbsp;<i class="{{ titles.FolderIcon }} alt-text-small" style="opacity: 0.6"></i>
-    {% if titles.subtopik %}
-        <span class="alt-text-small" style="opacity: 0.6"> - {{ titles.subtopik }}</span>
+    + {% include listing-daftar-file.html %}
     {% endif %}
-        <a href="https://twitter.com/intent/tweet?text=Aspek Perpajakan {{ titles.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}"
-            rel="nofollow" target="_blank" title="Share on Twitter" class="hover-fade"><i class="fab fa-twitter-square"></i>
-        </a>
-    </li>
-    {% endfor %}
+    {%endfor%}
 </ul>
+{% endfor %}
