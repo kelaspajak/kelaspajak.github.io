@@ -2,1056 +2,1165 @@ data:
   - id : 1
     title : Batubara
     url : https://drive.google.com/drive/folders/1nprNEOvURC_8f7685iMA8JOECm9jr5Uy?usp=sharing
-    active : yes
+    active : ya
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 2
     title : Emas
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 3
     title : Farmasi
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 4
     title : Hotel
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 5
     title : Pasar Modal dan Asuransi
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 6
     title : Bendaharawan
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 7
     title : Kendaraan Bermotor
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 8
     title : Penambangan
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 9
     title : Pelayaran
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 10
     title : Pengolahan Kayu
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 11
     title : Perbankan
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 12
     title : Perdagangan Impor
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 13
     title : Perkebunan
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 14
     title : Rumah Sakit
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 15
     title : Telekomunikasi
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 16
     title : WP Orang Pribadi
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 17
     title : Perdagangan Ritel
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 18
     title : Jasa Angkutan
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 19
     title : Barang Galian Bukan Logam
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 20
     title : Industri Furniture
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 21
     title : Industri Gula
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 22
     title : Industri Kakao
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 23
     title : Industri Kelapa
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 24
     title : Industri Keramik
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 25
     title : Industri Kimia Plastik
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Pohon Industri
   - id : 26
     title : Industri Kopi
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 27
     title : Industri Makanan dan Minuman
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 28
     title : Industri Pengolahan Buah
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 29
     title : Industri Pengolahan Ikan Laut
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Pohon Industri
   - id : 30
     title : Industri Penyamakan Kulit
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Pohon Industri
   - id : 31
     title : Perdagangan Besar
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 32
     title : Industri Periklanan
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 33
     title : Industri Pupuk
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 34
     title : Industri Rokok
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 35
     title : Industri Sepeda
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 36
     title : Industri Susu
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 37
     title : Industri Tekstil
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 38
     title : Industri Tembakau
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 39
     title : Industri Logam Dasar
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 40
     title : Industri Rekaman
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 41
     title : Jasa Konstruksi
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 42
     title : Kelapa Sawit
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 43
     title : Logistik
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 44
     title : Minyak dan Gas
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 45
     title : Pabrik Kertas
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 46
     title : Perdagangan Besar Mobil
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 47
     title : Hutan Industri
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 48
     title : Peternakan Unggas
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 49
     title : Koperasi
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 50
     title : Rumah Kost
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 51
     title : SPBU / Pom Bensin
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 52
     title : Tebu dan Gula
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 53
     title : Tembakau
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 54
     title : Industri Petrokimia
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 55
     title : Industri Sepatu
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 56
     title : Industri Listrik
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 57
     title : Perikanan
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 58
     title : Reksadana
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 59
     title : Pelabuhan
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 60
     title : Agen LPG
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 61
     title : Real Estate
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 62
     title : Event Organizer
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 63
     title : Apotek
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 64
     title : Notaris
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 65
     title : Yayasan Pendidikan
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 66
     title : Jasa Akomodasi
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 67
     title : Jasa Agen Perjalanan Wisata Travel
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 68
     title : Dokter
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 69
     title : Partai Politik
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 70
     title : Kepailitan
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 71
     title : Industri Tahu Tempe
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 72
     title : Bengkel
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 73
     title : E-Commerce Lazada Blibli Bukalapak Tokopedia
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Mini Version
   - id : 74
     title : Industri Es Kristal
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 75
     title : Apoteker
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 76
     title : Dana Pensiun
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Mini Version
   - id : 77
     title : Sewaw Alat Pesta
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Mini Version
   - id : 78
     title : Sewa Kendaraan
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Mini Version
   - id : 79
     title : Sewa Alat Berat
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Mini Version
   - id : 80
     title : Sewa Perkantoran
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Mini Version
   - id : 81
     title : MLM
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 82
-    title : Petugas Dinas Luar Asuransi
-    url : 
+    title : Petugas Dinas Luar Asuransi (OP)
+    url : https://drive.google.com/drive/folders/134uJGiO2br7ULb-ATcPcwausM-SaZlVl?usp=sharing
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: Folder
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Mini Version
+    file: 
+      - id : 821
+        title : Bagaimana Hitung PPh pada SPT Tahunan Agen Asuransi
+        url : https://drive.google.com/file/d/1GMDakNuyzo-ZVhOqjW5cUGwkD6RtI2Ye/view?usp=sharing
+        active : ya
+        fitur : aspekpajak
+        type: pdf
+        createdTime : 31/07/2019
+        description : 
+        starred : no
+        version : 1
+        modifiedTime : 26/12/2019
+        topik: Mini Version
+      - id : 822
+        title : Resume Profesi Petugas Dinas Luar Asuransi
+        url : https://gumroad.com/l/iEmrn/pajakresources
+        active : ya
+        fitur : aspekpajak
+        type: pdf
+        createdTime : 31/07/2019
+        description : 
+        starred : no
+        version : 1
+        modifiedTime : 26/12/2019
+        topik: Mini Version
   - id : 83
     title : UMKM
     url : 
     active : tidak
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 84
     title : Jasa Titip
     url : https://drive.google.com/drive/folders/1uPY7pPyqQ9sPXYXjcRZNsC7mN6LtruFa?usp=sharing
-    active : yes
+    active : ya
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Mini Version
   - id : 85
     title : Jasa Alih Daya Outsourcing
     url : https://drive.google.com/drive/folders/1kRzy3QPkf9-VVm-RkNPdhFuJk5lSuK89?usp=sharing
-    active : yes
+    active : ya
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Mini Version
   - id : 86
     title : BLU
     url : https://drive.google.com/drive/folders/18lQn4eri0D6--thffYP7kmZd8ASzvg12?usp=sharing
-    active : yes
+    active : ya
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap 
   - id : 87
     title : Petani Pengepul
     url : https://drive.google.com/drive/folders/1-SPV5TkP9glKsIckAs0Az3Li-RsnN2lo?usp=sharing
-    active : yes
+    active : ya
     fitur : aspekpajak
-    FolderIcon : fas fa-file-pdf
+    type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
     modifiedTime : 26/12/2019
+    topik: Versi Lengkap
   - id : 88
-    title : Hotel - Versi Ringan
+    title : Hotel
     url : https://gum.co/pajakhotel/pajakresources
-    active : yes
+    active : ya
     fitur : aspekpajak
-    FolderIcon : fas fa-award
+    type: PDF
     createdTime : 31/08/2019
     description : 
     starred : ya
     version : 1
     modifiedTime : 27/12/2019
+    topik: Versi Ringan
   - id : 89
-    title : Distributor MLM - versi ringan
+    title : Distributor MLM
     url : https://gumroad.com/l/distributormlm/pajakresources
-    active : yes
+    active : ya
     fitur : aspekpajak
-    FolderIcon : fas fa-award
+    type: PDF
     createdTime : 31/08/2019
     description : 
     starred : ya
     version : 1
     modifiedTime : 27/12/2019
-  - id : 90
-    title : Petugas Dinas Luar Asuransi - versi ringan
-    url : https://gumroad.com/l/iEmrn/pajakresources
-    active : yes
-    fitur : aspekpajak
-    FolderIcon : fas fa-award
-    createdTime : 31/08/2019
-    description : 
-    starred : ya
-    version : 1
-    modifiedTime : 27/12/2019
+    topik: Versi Ringan
   - id : 91
-    title : Profesi Konsultan - versi ringan
+    title : Profesi Konsultan
     url : https://gum.co/konsultan/pajakresources
-    active : yes
+    active : ya
     fitur : aspekpajak
-    FolderIcon : fas fa-award
+    type: PDF
     createdTime : 31/08/2019
     description : 
     starred : ya
     version : 1
     modifiedTime : 27/12/2019
+    topik: Versi Ringan
   - id : 92
-    title : Dosen Guru - versi ringan
+    title : Dosen Guru
     url : https://gum.co/dosen/pajakresources
-    active : yes
+    active : ya
     fitur : aspekpajak
-    FolderIcon : fas fa-award
+    type: PDF
     createdTime : 31/08/2019
     description : 
     starred : ya
     version : 1
     modifiedTime : 27/12/2019
+    topik: Versi Ringan
   - id : 93
-    title : Pedagang Perantara/Makelar - versi ringan
+    title : Pedagang Perantara/Makelar
     url : https://gumroad.com/l/makelar/pajakresources
-    active : yes
+    active : ya
     fitur : aspekpajak
-    FolderIcon : fas fa-award
+    type: PDF
     createdTime : 31/08/2019
     description : 
     starred : ya
     version : 1
     modifiedTime : 27/12/2019
+    topik: Versi Ringan
   - id : 94
-    title : Pekerjaan Bebas - versi ringan
+    title : Pekerjaan Bebas
     url : https://gum.co/Mnopq/pajakresources
-    active : yes
+    active : ya
     fitur : aspekpajak
-    FolderIcon : fas fa-award
+    type: PDF
     createdTime : 31/08/2019
     description : 
     starred : ya
     version : 1
     modifiedTime : 27/12/2019
+    topik: Versi Ringan
   - id : 95
-    title : Catering - versi ringan
+    title : Catering
     url : https://gum.co/JJYcr/pajakresources
-    active : yes
+    active : ya
     fitur : aspekpajak
-    FolderIcon : fas fa-award
+    type: PDF
     createdTime : 31/08/2019
     description : 
     starred : ya
     version : 1
     modifiedTime : 27/12/2019
+    topik: Versi Ringan
   - id : 96
-    title : Bendaharawan Pemerintah - versi ringan
+    title : Bendaharawan Pemerintah
     url : https://gum.co/qDLOj/Bukubendahara
-    active : yes
+    active : ya
     fitur : aspekpajak
-    FolderIcon : fas fa-award
+    type: PDF
     createdTime : 31/08/2019
     description : 
     starred : ya
     version : 1
     modifiedTime : 27/12/2019
+    topik: Versi Ringan
