@@ -1,9 +1,34 @@
 ---
-title: Resume KUP
-description: Ketentuan Umum dan Tatacara Perpajakan
-category: Resume
+title: Aspek Perpajakan
+description: Aspek Perpajakan per Industri, pohon industri, proses bisnis
 layout: pages
-dataid: kup
-status: open
-label: bg-green
 ---
+{% assign datas = site.data.aspekpajak.data | group_by: 'id' %}
+
+<h1 class="h1-mktg mt-sm-2">Aspek Perpajakan Industri</h1>
+<p class="text-small text-gray">total terdapat <span class="IssueLabel bg-green text-white">{{datas.size}}</span> folder
+    dengan status aktif dan
+    masih berlaku </p>
+
+{% assign topik_group = site.data.aspekpajak.data | where: "fitur", "aspekpajak" | group_by: 'topik' %}
+{% for topik in topik_group %}
+<h3 class="d-block">{{ topik.name }} </h3>
+<ul>
+    {% capture namatopik %}{{ topik.name }}{% endcapture %}
+    {% assign t = site.data.aspekpajak.data | where: "topik", namatopik %}
+    {% for titles in t %}
+    {% if titles.topik != nil %}
+    {% include listing-daftar-file.html %}
+        {% if titles.file %}
+        <ul>
+            {% for titles in titles.file %}
+                {% include listing-daftar-file.html %}                                                            
+            {% endfor %}
+        </ul>
+        {% endif %}
+    {% else %}
+    + {% include listing-daftar-file.html %}
+    {% endif %}
+    {%endfor%}
+</ul>
+{% endfor %}
