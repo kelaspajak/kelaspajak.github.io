@@ -11,36 +11,37 @@
 <p class="text-small text-gray">total terdapat <span class="Label {{page.label}} text-white">{{resumes.size}}</span> file dengan status aktif dan
     masih berlaku </p>
 {% else %}
-<p class="text-small text-gray"><span class="IssueLabel {{page.label}} text-white">tutup</span> kelas ini masih dalam tahap penyempurnaan materi</p>
+<p class="text-small text-gray"><span class="IssueLabel {{page.label}} text-white">tutup</span> kelas ini masih dalam tahap penyempurnaan materi dan pembenahan basis data</p>
 {% endif %}
 
-{% for topik in topik %}
-    <h3 class="d-block">{{ topik.name }} </h3>
-    <ul>
-        {% capture snamatopik %}{{ topik.name }}{% endcapture %}
-        {% assign t = resume | where: "topik", snamatopik %}
-            {% for titles in t %}
-            {% if titles.subtopik != nil %}
-            {% else %}
-                {% include listing-daftar-file.html %}
-            {% endif %}
-            {%endfor%}  
-    </ul>
-
-
-    {%comment%} untuk yang ada subcategories {%endcomment%}
-    {% capture namatopik %}{{topik.name}}{% endcapture %}
-    {% assign namesubtopik = resumes | where: "topik", namatopik | group_by: 'subtopik' %}
-    {% for subtop in namesubtopik %}
-        <h4 class="d-block">{{ subtop.name }} </h4>
+{% if page.status == "open" %}
+    {% for topik in topik %}
+        <h3 class="d-block">{{ topik.name }} </h3>
         <ul>
-            {% capture subtopik1 %}{{subtop.name}}{% endcapture %}
-            {% assign titling = resume | where: "subtopik", subtopik1 %}
-            {% assign titles= titling %}    
-            {% for titles in titles %}
-            {% include listing-daftar-file.html %}
-            {%endfor%}
-        </ul>    
-    {%endfor%}
+            {% capture snamatopik %}{{ topik.name }}{% endcapture %}
+            {% assign t = resume | where: "topik", snamatopik %}
+                {% for titles in t %}
+                {% if titles.subtopik != nil %}
+                {% else %}
+                    {% include listing-daftar-file.html %}
+                {% endif %}
+                {%endfor%}  
+        </ul>
 
-{%endfor%}
+
+        {%comment%} untuk yang ada subcategories {%endcomment%}
+        {% capture namatopik %}{{topik.name}}{% endcapture %}
+        {% assign namesubtopik = resumes | where: "topik", namatopik | group_by: 'subtopik' %}
+        {% for subtop in namesubtopik %}
+            <h4 class="d-block">{{ subtop.name }} </h4>
+            <ul>
+                {% capture subtopik1 %}{{subtop.name}}{% endcapture %}
+                {% assign titling = resume | where: "subtopik", subtopik1 %}
+                {% assign titles= titling %}    
+                {% for titles in titles %}
+                {% include listing-daftar-file.html %}
+                {%endfor%}
+            </ul>    
+        {%endfor%}
+    {%endfor%}
+{% endif %}
