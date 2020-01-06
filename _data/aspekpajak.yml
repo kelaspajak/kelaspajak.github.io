@@ -954,22 +954,17 @@ data:
     fitur : aspekpajak
     type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Mini Version
+    img: bag.png
   - id : 85
     title : Jasa Alih Daya Outsourcing
     url : https://drive.google.com/drive/folders/1kRzy3QPkf9-VVm-RkNPdhFuJk5lSuK89?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
-    modifiedTime : 26/12/2019
+    modifiedTime : 06/01/2010
     topik: Mini Version
+    img: welder.png
   - id : 86
     title : BLU
     url : https://drive.google.com/drive/folders/18lQn4eri0D6--thffYP7kmZd8ASzvg12?usp=sharing
