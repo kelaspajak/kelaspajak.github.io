@@ -15,19 +15,19 @@ layout: pages
 
 <div class="d-md-flex flex-wrap mt-3">
     {% capture namatopik %}{{ topik.name }}{% endcapture %}
-    {% assign sort1 = site.data.aspekpajak.data | sort: "url" | reverse %}
-    {% assign t = sort1 | where: "topik", namatopik | sort: "modifiedTime" | reverse %}
+    {% assign sort1 = site.data.aspekpajak.data | where: "topik", namatopik | sort: "modifiedTime" %}
+    {% assign t = sort1 | sort: "url" | reverse %}
     {% for titles in t %}
     {% if titles.topik != nil %}     
     <div class="col-md-6 mb-4 d-flex no-underline">
-        <div class="CircleBadge CircleBadge--small" style="background-color: #ffffff;">{% if titles.url %}<img class="CircleBadge-icon" alt="" src="{{title.img}}">{% endif %} </div>
-      <div class="px-3">
-        <h4 class="h4">
-          {% if titles.url != nil %}<a href="{{titles.url}}">{{titles.title}}</a>{% octicon verified height:16 class:"ml-1 text-green tooltipped tooltipped-n" aria-label:"aktif" %}{% else %}{{titles.title}}{% octicon issue-opened height:16 class:"ml-1 text-gray tooltipped tooltipped-n" aria-label:"belum aktif" %} {%endif%}
-        </h4>
-        <p class="text-gray-light lh-condensed mb-0 text-small"> terakhir diupdate: {{ titles.modifiedTime}}</p>
-      </div>
-      </div>
+        <div class="CircleBadge CircleBadge--small" style="background-color: #ffffff;">{% if titles.url %}<img class="CircleBadge-icon" alt="" src="/assets/icon/aspekpajak/{{titles.img}}">{% endif %} </div>
+        <div class="px-3">
+            <h4 class="h4">
+            {% if titles.url != nil %}<a href="{{titles.url}}">{{titles.title}}</a><span class="tooltipped tooltipped-n" aria-label="aktif"> {% octicon verified height:16 class:"ml-1 text-green" %}</span>{% else %}{{titles.title}}<span class="tooltipped tooltipped-n" aria-label="tidak aktif">{% octicon issue-opened height:16 class:"ml-1 text-gray" %}</span> {%endif%}
+            </h4>
+            <p class="text-gray-light lh-condensed mb-0 text-small"> terakhir diupdate: {{ titles.modifiedTime}}</p>
+        </div>
+    </div>
     {% endif %}
     {%endfor%}
  </div>
