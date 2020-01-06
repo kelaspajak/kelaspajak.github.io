@@ -601,15 +601,16 @@ data:
     topik: Versi Lengkap
   - id : 54
     title : Industri Petrokimia
-    url : 
+    url : https://drive.google.com/drive/folders/16TaJV05nIv_NA4FnhVn-IMYsZm1q4D3K?usp=sharing
     fitur : aspekpajak
     type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
-    modifiedTime : 26/12/2019
+    modifiedTime : 06/01/2020
     topik: Versi Lengkap
+    img: chemistry.png
   - id : 55
     title : Industri Sepatu
     url : 
@@ -702,15 +703,12 @@ data:
     topik: Versi Lengkap
   - id : 63
     title : Apotek
-    url : 
+    url : https://drive.google.com/drive/folders/1sRDotew35tww-g0eN0lOk_D_6egFXeHM?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
+    img: medicine.png
   - id : 64
     title : Notaris
     url : 
@@ -724,15 +722,12 @@ data:
     topik: Versi Lengkap
   - id : 65
     title : Yayasan Pendidikan
-    url : 
+    url : https://drive.google.com/drive/folders/1BsH7q-F1tymmuW_t4ZdgarfWmT4F2VDB?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
+    img: school.png
   - id : 66
     title : Jasa Akomodasi
     url : 
@@ -757,15 +752,12 @@ data:
     topik: Versi Lengkap
   - id : 68
     title : Dokter
-    url : 
+    url : https://drive.google.com/drive/folders/1d8mGv3yvO0uYJmQk6TgbLOOXrwMfYjrm?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
+    img: doctor.png
   - id : 69
     title : Partai Politik
     url : 
@@ -825,18 +817,15 @@ data:
     topik: Mini Version
   - id : 74
     title : Industri Es Kristal
-    url : 
+    url : https://drive.google.com/drive/folders/1ofyUtMZQuLIfQCPt8MGIhVoSeBWgANyl?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
+    img: ice.png
   - id : 75
-    title : Apoteker
-    url : 
+    title : Orang Pribadi Apoteker
+    url : https://drive.google.com/drive/folders/1daPDggpEBpPEuw9eAMNQokRIfyhpMHiG?usp=sharing
     fitur : aspekpajak
     type: PDF
     createdTime : 31/07/2019
@@ -845,6 +834,7 @@ data:
     version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
+    img: pills.png
   - id : 76
     title : Dana Pensiun
     url : 
