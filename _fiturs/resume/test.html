@@ -6,29 +6,29 @@ layout: pages
 {% assign datas = site.data.aspekpajak.data | group_by: 'id' %}
 
 <h1 class="h1-mktg mt-sm-2">Aspek Perpajakan Industri</h1>
-<p class="text-small text-gray">total terdapat <span class="IssueLabel bg-green text-white">{{datas.size}}</span> folder
-    dengan status aktif dan
-    masih berlaku </p>
+<p class="text-small text-gray">total terdapat <span class="IssueLabel bg-green text-white">{{datas.size}}</span> aspek perpajakan per industri dengan status aktif</p>
+<p class="text-small text-gray">seluruh versi hanya dapat dilihat oleh peserta yang terdaftar, kecuali versi ringan. silakan <a href="https://t.me/lesssummer/" class="link-text-gray">kontak kami</a> untuk mendapatkan hak akses</p>
 
 {% assign topik_group = site.data.aspekpajak.data | where: "fitur", "aspekpajak" | group_by: 'topik' %}
 {% for topik in topik_group %}
 <h3 class="d-block">{{ topik.name }} </h3>
-<ul>
+
+<div class="d-md-flex flex-wrap mt-3">
     {% capture namatopik %}{{ topik.name }}{% endcapture %}
     {% assign t = site.data.aspekpajak.data | where: "topik", namatopik %}
     {% for titles in t %}
-    {% if titles.topik != nil %}
-    {% include listing-daftar-file.html %}
-        {% if titles.file %}
-        <ul>
-            {% for titles in titles.file %}
-                {% include listing-daftar-file.html %}                                                            
-            {% endfor %}
-        </ul>
-        {% endif %}
-    {% else %}
-    + {% include listing-daftar-file.html %}
+    {% if titles.topik != nil %}     
+    <a href="{{titles.url}}" class="col-md-6 mb-4 d-flex no-underline">
+        <div class="CircleBadge CircleBadge--small" style="background-color: #ffffff;"><img class="CircleBadge-icon" alt="" src="https://avatars3.githubusercontent.com/ml/704?s=62&amp;v=4"></div>
+      <div class="px-3">
+        <h4 class="h4">
+          {{titles.title}}{% octicon verified height:16 class:"ml-1 text-green tooltipped tooltipped-n" aria-label:"aktif" %}
+        </h4>
+        <p class="text-gray-light lh-condensed mb-0 text-small">Automated code review for GitHub</p>
+      </div>
+    </a>
     {% endif %}
     {%endfor%}
-</ul>
+ </div>
+
 {% endfor %}
