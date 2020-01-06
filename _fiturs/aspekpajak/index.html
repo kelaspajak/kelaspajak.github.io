@@ -7,10 +7,8 @@ permalink: /fitur/aspekpajak/
 {% assign datas = site.data.aspekpajak.data | group_by: 'id' %}
 
 <h1 class="h1-mktg mt-sm-2">Aspek Perpajakan Industri</h1>
-<p class="text-small text-gray">total terdapat <span class="IssueLabel bg-green text-white">{{datas.size}}</span> folder
-    dengan status aktif dan
-    masih berlaku </p>
-
+<p class="text-small text-gray">total terdapat <span class="IssueLabel bg-green text-white">{{datas.size}}</span> aspek perpajakan per industri dengan status aktif</p>
+<p class="text-small text-gray">seluruh versi hanya dapat dilihat oleh peserta yang terdaftar, kecuali versi ringan. silakan <a href="https://t.me/lesssummer/" class="link-text-gray">kontak kami</a> untuk mendapatkan hak akses</p>
 {% assign topik_group = site.data.aspekpajak.data | where: "fitur", "aspekpajak" | group_by: 'topik' %}
 {% for topik in topik_group %}
 <h3 class="d-block">{{ topik.name }} </h3>
