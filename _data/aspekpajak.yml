@@ -13,8 +13,8 @@ data:
     topik: Versi Lengkap
   - id : 2
     title : Emas
-    url : 
-    active : tidak
+    url : https://drive.google.com/drive/folders/1nprNEOvURC_8f7685iMA8JOECm9jr5Uy?usp=sharing
+    active : ya
     fitur : aspekpajak
     type: PDF
     createdTime : 31/07/2019
@@ -25,8 +25,8 @@ data:
     topik: Versi Lengkap
   - id : 3
     title : Farmasi
-    url : 
-    active : tidak
+    url : https://drive.google.com/drive/folders/1P0BxNUJe3CLYsotuSGCIvkNokp2qCzrN?usp=sharing
+    active : ya
     fitur : aspekpajak
     type: PDF
     createdTime : 31/07/2019
@@ -37,8 +37,8 @@ data:
     topik: Versi Lengkap
   - id : 4
     title : Hotel
-    url : 
-    active : tidak
+    url : https://drive.google.com/drive/folders/1vgAz1rYTBpYO-2r1RbaAU9ZKQ0CFW63s?usp=sharing
+    active : ya
     fitur : aspekpajak
     type: PDF
     createdTime : 31/07/2019
@@ -49,8 +49,8 @@ data:
     topik: Versi Lengkap
   - id : 5
     title : Pasar Modal dan Asuransi
-    url : 
-    active : tidak
+    url : https://drive.google.com/drive/folders/1IDp5iEKBMlBlIPlEhsOE0UWTR3h5Taqw?usp=sharing
+    active : ya
     fitur : aspekpajak
     type: PDF
     createdTime : 31/07/2019
@@ -61,8 +61,8 @@ data:
     topik: Versi Lengkap
   - id : 6
     title : Bendaharawan
-    url : 
-    active : tidak
+    url : https://drive.google.com/drive/folders/1FQ5ynf6ihyrI7U9YpZ-AfGH9Qy2w0YE1?usp=sharing
+    active : ya
     fitur : aspekpajak
     type: PDF
     createdTime : 31/07/2019
@@ -73,8 +73,8 @@ data:
     topik: Versi Lengkap
   - id : 7
     title : Kendaraan Bermotor
-    url : 
-    active : tidak
+    url : https://drive.google.com/drive/folders/1uWDPMfFtFslXEUNILnGhJej30VvGRVss?usp=sharing
+    active : ya
     fitur : aspekpajak
     type: PDF
     createdTime : 31/07/2019
@@ -85,8 +85,8 @@ data:
     topik: Versi Lengkap
   - id : 8
     title : Penambangan
-    url : 
-    active : tidak
+    url : https://drive.google.com/drive/folders/1B8TmHJu54_PBbC26reasHQDqFY1SyIm-?usp=sharing
+    active : ya
     fitur : aspekpajak
     type: PDF
     createdTime : 31/07/2019
@@ -97,8 +97,8 @@ data:
     topik: Versi Lengkap
   - id : 9
     title : Pelayaran
-    url : 
-    active : tidak
+    url : https://drive.google.com/drive/folders/1FHkZaO0-dN_8h3v8Xc5e69TYi6Sizd8U?usp=sharing
+    active : ya
     fitur : aspekpajak
     type: PDF
     createdTime : 31/07/2019
@@ -109,8 +109,8 @@ data:
     topik: Versi Lengkap
   - id : 10
     title : Pengolahan Kayu
-    url : 
-    active : tidak
+    url : https://drive.google.com/drive/folders/1cQrH61BmzDmU0PH8NiJyQaCXLm-OaMfH?usp=sharing
+    active : ya
     fitur : aspekpajak
     type: PDF
     createdTime : 31/07/2019
