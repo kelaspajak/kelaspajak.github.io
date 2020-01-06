@@ -10,6 +10,7 @@ data:
     version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
+    img: coal.png
   - id : 2
     title : Emas
     url : https://drive.google.com/drive/folders/1nprNEOvURC_8f7685iMA8JOECm9jr5Uy?usp=sharing
@@ -104,6 +105,7 @@ data:
     version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
+    img: ship.png
   - id : 10
     title : Pengolahan Kayu
     url : https://drive.google.com/drive/folders/1cQrH61BmzDmU0PH8NiJyQaCXLm-OaMfH?usp=sharing
@@ -115,6 +117,7 @@ data:
     version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
+    img: deforestation.png
   - id : 11
     title : Perbankan
     url : 
@@ -182,6 +185,7 @@ data:
     version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
+    img: employees.png
   - id : 17
     title : Perdagangan Ritel
     url : https://drive.google.com/drive/folders/15VNHq-UncxGJ7u_n_eQv-kdWVt3wnDPe?usp=sharing
@@ -227,6 +231,7 @@ data:
     version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
+    img: single-bed.png
   - id : 21
     title : Industri Gula
     url : https://drive.google.com/drive/folders/197PQ5One6lix3y9-v_X5trq6j0msSD4B?usp=sharing
@@ -238,6 +243,7 @@ data:
     version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
+    img: sugar.png
   - id : 22
     title : Industri Kakao
     url : 
@@ -471,7 +477,7 @@ data:
     topik: Versi Lengkap
   - id : 43
     title : Logistik
-    url : 
+    url : https://drive.google.com/drive/folders/1gTF5KpIIcZNpXumhdpmex2F_EwxTqV4F?usp=sharing
     fitur : aspekpajak
     type: PDF
     createdTime : 31/07/2019
@@ -480,17 +486,19 @@ data:
     version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
+    img: trolley.png
   - id : 44
     title : Minyak dan Gas
-    url : 
+    url : https://drive.google.com/drive/folders/1Z_z45DOJ3YAwFHCMDN1GTOMS1PTKIIZu?usp=sharing
     fitur : aspekpajak
     type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
-    modifiedTime : 26/12/2019
+    modifiedTime : 06/01/2020
     topik: Versi Lengkap
+    img: oil-platform.png
   - id : 45
     title : Pabrik Kertas
     url : 
@@ -579,6 +587,7 @@ data:
     version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
+    img: sugar.png
   - id : 53
     title : Tembakau
     url : 
@@ -781,26 +790,28 @@ data:
     topik: Versi Lengkap
   - id : 71
     title : Industri Tahu Tempe
-    url : 
+    url : https://drive.google.com/drive/folders/1Wj0WlC1s1gIaA8asZyWftsxkSdmDJLEH?usp=sharing
     fitur : aspekpajak
     type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
-    modifiedTime : 26/12/2019
+    modifiedTime : 06/01/2019
     topik: Versi Lengkap
+    img: tofu.png
   - id : 72
     title : Bengkel
-    url : 
+    url : https://drive.google.com/drive/folders/1HFZsCcxnw6tYPEbJ89hXaSHO6vsQld4f?usp=sharing
     fitur : aspekpajak
     type: PDF
     createdTime : 31/07/2019
     description : 
     starred : no
     version : 1
-    modifiedTime : 26/12/2019
+    modifiedTime : 06/01/2019
     topik: Versi Lengkap
+    img: spring.png 
   - id : 73
     title : E-Commerce
     url : 

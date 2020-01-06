@@ -21,7 +21,7 @@ permalink: /fitur/aspekpajak/
     {% for titles in t %}
     {% if titles.topik != nil %}     
     <div class="col-md-6 mb-4 d-flex no-underline">
-        <div class="CircleBadge CircleBadge--small" style="background-color: #ffffff;">{% if titles.url %}<img class="CircleBadge-icon" alt="" src="/assets/icon/aspekpajak/{{titles.img}}">{% endif %} </div>
+        <div class="CircleBadge CircleBadge--small" style="background-color: #ffffff;">{% if titles.img %}<img class="CircleBadge-icon" alt="" src="/assets/icon/aspekpajak/{{titles.img}}">{% endif %} </div>
         <div class="px-3">
             <h4 class="h4">
             {% if titles.url != nil %}<a href="{{titles.url}}" target="_blank">{{titles.title}}</a><span class="tooltipped tooltipped-n" aria-label="aktif"> {% octicon verified height:16 class:"ml-1 text-green" %}</span>{% else %}{{titles.title}}<span class="tooltipped tooltipped-n" aria-label="tidak aktif">{% octicon issue-opened height:16 class:"ml-1 text-gray" %}</span> {%endif%}
