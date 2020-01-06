@@ -214,7 +214,26 @@ svg {
   margin-right: auto;
   margin-left: auto;
 }
+
+//untuk layout pages.html clear whitespace
 .MarketplaceBody h1, h2, h3, h4, h5, h6 {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
+}
+
+// Styles for fun
+// -------------------------------------------------
+
+@import 'https://fonts.googleapis.com/css?family=Comfortaa:300,700|Bungee+Shade|Josefin+Sans:400';
+
+$color-1: rgb(119, 156, 7);
+$color-2: adjust-hue($color-1, 120%);
+// Amount of steps to iterate through color mix
+$steps: 5;
+
+// Mix colors to go from $color-1 ro @color-2 with 9 total steps
+@for $i from 0 to $steps {
+	destroy:nth-of-type(#{$i + 1}) {
+		background: mix($color-1, $color-2, percentage($i / ($steps - 1)));
+	}
 }

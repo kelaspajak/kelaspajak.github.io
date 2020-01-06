@@ -19,12 +19,12 @@ layout: pages
     {% for titles in t %}
     {% if titles.topik != nil %}     
     <a href="{{titles.url}}" class="col-md-6 mb-4 d-flex no-underline">
-        <div class="CircleBadge CircleBadge--small" style="background-color: #ffffff;"><img class="CircleBadge-icon" alt="" src="https://avatars3.githubusercontent.com/ml/704?s=62&amp;v=4"></div>
+        <div class="CircleBadge CircleBadge--small" style="background-color: #ffffff;">{% if titles.url %}<img class="CircleBadge-icon" alt="" src="{{title.img}}">{% endif %} </div>
       <div class="px-3">
         <h4 class="h4">
-          {{titles.title}}{% octicon verified height:16 class:"ml-1 text-green tooltipped tooltipped-n" aria-label:"aktif" %}
+          {{titles.title}}{% if titles.active == "ya" %}{% octicon verified height:16 class:"ml-1 text-green tooltipped tooltipped-n" aria-label:"aktif" %}{% else %}{% octicon issue-opened height:16 class:"ml-1 text-gray tooltipped tooltipped-n" aria-label:"belum aktif" %} {%endif%}
         </h4>
-        <p class="text-gray-light lh-condensed mb-0 text-small">Automated code review for GitHub</p>
+        <p class="text-gray-light lh-condensed mb-0 text-small"> terakhir diupdate: {{ titles.modifiedTime}}</p>
       </div>
     </a>
     {% endif %}
