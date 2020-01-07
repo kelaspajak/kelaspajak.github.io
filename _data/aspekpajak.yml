@@ -1,13 +1,70 @@
 data:
+  - id : 88
+    title : Hotel
+    url : https://gum.co/pajakhotel/pajakresources
+    fitur : aspekpajak
+    createdTime : 31/08/2019
+    modifiedTime : 27/12/2019
+    topik: Versi Ringan
+    img: hotel.png
+  - id : 89
+    title : Distributor MLM
+    url : https://gumroad.com/l/distributormlm/pajakresources
+    fitur : aspekpajak
+    createdTime : 31/08/2019
+    modifiedTime : 07/01/2020
+    topik: Versi Ringan
+    img: networking.png
+  - id : 91
+    title : Profesi Konsultan
+    url : https://gum.co/konsultan/pajakresources
+    fitur : aspekpajak
+    createdTime : 31/08/2019
+    modifiedTime : 07/01/2020
+    topik: Versi Ringan
+    img: discussion.png
+  - id : 92
+    title : Dosen Guru
+    url : https://gum.co/dosen/pajakresources
+    fitur : aspekpajak
+    createdTime : 31/08/2019
+    modifiedTime : 07/01/2020
+    topik: Versi Ringan
+    img: professor.png
+  - id : 93
+    title : Pedagang Perantara/Makelar
+    url : https://gumroad.com/l/makelar/pajakresources
+    fitur : aspekpajak
+    createdTime : 31/08/2019
+    modifiedTime : 27/12/2019
+    topik: Versi Ringan
+  - id : 94
+    title : Pekerjaan Bebas
+    url : https://gum.co/Mnopq/pajakresources
+    fitur : aspekpajak
+    createdTime : 31/08/2019
+    modifiedTime : 27/12/2019
+    topik: Versi Ringan
+  - id : 95
+    title : Catering
+    url : https://gum.co/JJYcr/pajakresources
+    fitur : aspekpajak
+    createdTime : 31/08/2019
+    modifiedTime : 27/12/2019
+    topik: Versi Ringan
+  - id : 96
+    title : Bendaharawan Pemerintah
+    url : https://gum.co/qDLOj/Bukubendahara
+    fitur : aspekpajak
+    createdTime : 31/08/2019
+    modifiedTime : 27/12/2019
+    topik: Versi Ringan
+    img: bendahara.png
   - id : 1
     title : Batubara
     url : https://drive.google.com/drive/folders/1nprNEOvURC_8f7685iMA8JOECm9jr5Uy?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
     img: coal.png
@@ -15,11 +72,7 @@ data:
     title : Emas
     url : https://drive.google.com/drive/folders/1nprNEOvURC_8f7685iMA8JOECm9jr5Uy?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 29/12/2019
     topik: Versi Lengkap
     img: ingots.png
@@ -27,11 +80,7 @@ data:
     title : Farmasi
     url : https://drive.google.com/drive/folders/1P0BxNUJe3CLYsotuSGCIvkNokp2qCzrN?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 29/12/2019
     topik: Versi Lengkap
     img: medicine.png
@@ -39,11 +88,7 @@ data:
     title : Hotel
     url : https://drive.google.com/drive/folders/1vgAz1rYTBpYO-2r1RbaAU9ZKQ0CFW63s?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 30/12/2019
     topik: Versi Lengkap
     img: hotel.png
@@ -51,11 +96,7 @@ data:
     title : Pasar Modal dan Asuransi
     url : https://drive.google.com/drive/folders/1IDp5iEKBMlBlIPlEhsOE0UWTR3h5Taqw?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 30/12/2019
     topik: Versi Lengkap
     img: health-insurance.png
@@ -63,11 +104,7 @@ data:
     title : Bendaharawan
     url : https://drive.google.com/drive/folders/1FQ5ynf6ihyrI7U9YpZ-AfGH9Qy2w0YE1?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 31/12/2019
     topik: Versi Lengkap
     img: bendahara.png
@@ -75,22 +112,15 @@ data:
     title : Kendaraan Bermotor
     url : https://drive.google.com/drive/folders/1uWDPMfFtFslXEUNILnGhJej30VvGRVss?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
+    img: car.png
   - id : 8
     title : Penambangan
     url : https://drive.google.com/drive/folders/1B8TmHJu54_PBbC26reasHQDqFY1SyIm-?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
     img: digging.png
@@ -98,11 +128,7 @@ data:
     title : Pelayaran
     url : https://drive.google.com/drive/folders/1FHkZaO0-dN_8h3v8Xc5e69TYi6Sizd8U?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
     img: ship.png
@@ -110,11 +136,7 @@ data:
     title : Pengolahan Kayu
     url : https://drive.google.com/drive/folders/1cQrH61BmzDmU0PH8NiJyQaCXLm-OaMfH?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
     img: deforestation.png
@@ -122,44 +144,29 @@ data:
     title : Perbankan
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
   - id : 12
     title : Perdagangan Impor
     url : https://drive.google.com/drive/folders/1lc_0coS9wwFww0IHNfa92YyCDVd8vl-d?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
   - id : 13
     title : Perkebunan
     url : https://drive.google.com/drive/folders/1fhMY1ZtpOroA73ma15ORymEZHJKtufSs?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
+    img: tractor.png
   - id : 14
     title : Rumah Sakit
     url : https://drive.google.com/drive/folders/1pjEXf3lYea6V3wRrzZ7o5a1ypxq4tjXG?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
     img: hospital.png
@@ -167,22 +174,15 @@ data:
     title : Telekomunikasi
     url : https://drive.google.com/drive/folders/1cKrmt1HexXb-4ZREm7sbHUdS_iCj8msU?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
+    img: tower.png
   - id : 16
     title : WP Orang Pribadi
     url : https://drive.google.com/drive/folders/1FFFZZLhEXfYmk_u4Nw33Sfn3w1Otjqgl?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
     img: employees.png
@@ -190,33 +190,21 @@ data:
     title : Perdagangan Ritel
     url : https://drive.google.com/drive/folders/15VNHq-UncxGJ7u_n_eQv-kdWVt3wnDPe?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
   - id : 18
     title : Jasa Angkutan
     url : https://drive.google.com/drive/folders/15-oMzLsdguaXk-sKVQv2_HdgbgczNSbb?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/20209
     topik: Versi Lengkap
   - id : 19
     title : Barang Galian Bukan Logam
     url : https://drive.google.com/drive/folders/1ydC1oerjkOHoQE5dQiy_csunkPJDBgD5?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
     img: digging.png
@@ -224,11 +212,7 @@ data:
     title : Industri Furniture
     url : https://drive.google.com/drive/folders/1F3YVcGnWeDK0ym-pOKmWYBOz5JDnt4qH?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
     img: single-bed.png
@@ -236,11 +220,7 @@ data:
     title : Industri Gula
     url : https://drive.google.com/drive/folders/197PQ5One6lix3y9-v_X5trq6j0msSD4B?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
     img: sugar.png
@@ -248,242 +228,154 @@ data:
     title : Industri Kakao
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 23
     title : Industri Kelapa
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 24
     title : Industri Keramik
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 25
     title : Industri Kimia Plastik
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Pohon Industri
   - id : 26
     title : Industri Kopi
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 27
     title : Industri Makanan dan Minuman
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 28
     title : Industri Pengolahan Buah
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 29
     title : Industri Pengolahan Ikan Laut
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Pohon Industri
   - id : 30
     title : Industri Penyamakan Kulit
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Pohon Industri
   - id : 31
     title : Perdagangan Besar
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 32
     title : Industri Periklanan
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 33
     title : Industri Pupuk
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 34
     title : Industri Rokok
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 35
     title : Industri Sepeda
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 36
     title : Industri Susu
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 37
     title : Industri Tekstil
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 38
     title : Industri Tembakau
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 39
     title : Industri Logam Dasar
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 40
     title : Industri Rekaman
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 41
     title : Jasa Konstruksi
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 42
     title : Kelapa Sawit
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 43
     title : Logistik
     url : https://drive.google.com/drive/folders/1gTF5KpIIcZNpXumhdpmex2F_EwxTqV4F?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
     img: trolley.png
@@ -491,11 +383,7 @@ data:
     title : Minyak dan Gas
     url : https://drive.google.com/drive/folders/1Z_z45DOJ3YAwFHCMDN1GTOMS1PTKIIZu?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
     img: oil-platform.png
@@ -503,88 +391,56 @@ data:
     title : Pabrik Kertas
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 46
     title : Perdagangan Besar Mobil
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 47
     title : Hutan Industri
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 48
     title : Peternakan Unggas
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 49
     title : Koperasi
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 50
     title : Rumah Kost
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 51
     title : SPBU / Pom Bensin
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 52
     title : Tebu dan Gula
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
     img: sugar.png
@@ -592,22 +448,14 @@ data:
     title : Tembakau
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 54
     title : Industri Petrokimia
     url : https://drive.google.com/drive/folders/16TaJV05nIv_NA4FnhVn-IMYsZm1q4D3K?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
     img: chemistry.png
@@ -615,11 +463,7 @@ data:
     title : Industri Sepatu
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
     img: shoe.png
@@ -627,11 +471,7 @@ data:
     title : Industri Listrik
     url : https://drive.google.com/drive/folders/1Qm9YKv5kBYqgjUg18W98N8Bnn2CtEvyj?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
     img: listrik.png
@@ -639,66 +479,42 @@ data:
     title : Perikanan
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 58
     title : Reksadana
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 59
     title : Pelabuhan
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 60
     title : Agen LPG
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 61
     title : Real Estate
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 62
     title : Event Organizer
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 63
@@ -713,11 +529,7 @@ data:
     title : Notaris
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 65
@@ -732,22 +544,14 @@ data:
     title : Jasa Akomodasi
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 67
     title : Jasa Agen Perjalanan Wisata Travel
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 68
@@ -762,59 +566,40 @@ data:
     title : Partai Politik
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 70
     title : Kepailitan
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 71
     title : Industri Tahu Tempe
     url : https://drive.google.com/drive/folders/1Wj0WlC1s1gIaA8asZyWftsxkSdmDJLEH?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
-    modifiedTime : 06/01/2019
+    modifiedTime : 06/01/2020
     topik: Versi Lengkap
     img: tofu.png
   - id : 72
     title : Bengkel
     url : https://drive.google.com/drive/folders/1HFZsCcxnw6tYPEbJ89hXaSHO6vsQld4f?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
-    modifiedTime : 06/01/2019
+    modifiedTime : 06/01/2020
     topik: Versi Lengkap
     img: spring.png 
   - id : 73
     title : E-Commerce
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Mini Version
+    img: online.png
   - id : 74
     title : Industri Es Kristal
     url : https://drive.google.com/drive/folders/1ofyUtMZQuLIfQCPt8MGIhVoSeBWgANyl?usp=sharing
@@ -827,11 +612,7 @@ data:
     title : Orang Pribadi Apoteker
     url : https://drive.google.com/drive/folders/1daPDggpEBpPEuw9eAMNQokRIfyhpMHiG?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 06/01/2020
     topik: Versi Lengkap
     img: pills.png
@@ -839,77 +620,56 @@ data:
     title : Dana Pensiun
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Mini Version
+    img: pension.png
   - id : 77
-    title : Sewaw Alat Pesta
-    url : 
+    title : Sewa Alat Pesta
+    url : https://drive.google.com/drive/folders/1NT1M_AtpYsm1J7uiz2yWfye_03GPU0Yz?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
-    modifiedTime : 26/12/2019
+    modifiedTime : 07/01/2020
     topik: Mini Version
+    img: garland.png
   - id : 78
     title : Sewa Kendaraan
-    url : 
+    url : https://drive.google.com/drive/folders/1zhb9SmmzMPXcYbE160nG6s-lqKAseV4r?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
-    modifiedTime : 26/12/2019
+    modifiedTime : 07/01/2020
     topik: Mini Version
+    img: rent.png
   - id : 79
     title : Sewa Alat Berat
-    url : 
+    url : https://drive.google.com/drive/folders/1mMVdeB2bK2fD5I0d69Qpw9Rk-XZKtIky?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
-    modifiedTime : 26/12/2019
+    modifiedTime : 07/01/2020
     topik: Mini Version
+    img: excavators.png
   - id : 80
     title : Sewa Perkantoran
-    url : 
+    url : https://drive.google.com/drive/folders/1WwBODP_6OrSWLyMC8MW5mDxOBj4EBqg9?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
-    modifiedTime : 26/12/2019
+    modifiedTime : 07/01/2020
     topik: Mini Version
+    img: real-estate.png
   - id : 81
     title : MLM
-    url : 
+    url : https://drive.google.com/drive/folders/1RcbyigvWZgOjN0WAS6sw96czm_DYSH-x?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
-    modifiedTime : 26/12/2019
+    modifiedTime : 07/01/2010
     topik: Versi Lengkap
+    img: networking.png
   - id : 82
     title : Petugas Dinas Luar Asuransi (OP)
     url : https://drive.google.com/drive/folders/134uJGiO2br7ULb-ATcPcwausM-SaZlVl?usp=sharing
     fitur : aspekpajak
     type: Folder
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 31/12/2019
     topik: Mini Version
     file: 
@@ -941,18 +701,13 @@ data:
     title : UMKM
     url : 
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
   - id : 84
     title : Jasa Titip
     url : https://drive.google.com/drive/folders/1uPY7pPyqQ9sPXYXjcRZNsC7mN6LtruFa?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
     modifiedTime : 26/12/2019
     topik: Mini Version
@@ -969,111 +724,13 @@ data:
     title : BLU
     url : https://drive.google.com/drive/folders/18lQn4eri0D6--thffYP7kmZd8ASzvg12?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap 
   - id : 87
     title : Petani Pengepul
     url : https://drive.google.com/drive/folders/1-SPV5TkP9glKsIckAs0Az3Li-RsnN2lo?usp=sharing
     fitur : aspekpajak
-    type: PDF
     createdTime : 31/07/2019
-    description : 
-    starred : no
-    version : 1
     modifiedTime : 26/12/2019
     topik: Versi Lengkap
-  - id : 88
-    title : Hotel
-    url : https://gum.co/pajakhotel/pajakresources
-    fitur : aspekpajak
-    type: PDF
-    createdTime : 31/08/2019
-    description : 
-    starred : ya
-    version : 1
-    modifiedTime : 27/12/2019
-    topik: Versi Ringan
-    img: hotel.png
-  - id : 89
-    title : Distributor MLM
-    url : https://gumroad.com/l/distributormlm/pajakresources
-    fitur : aspekpajak
-    type: PDF
-    createdTime : 31/08/2019
-    description : 
-    starred : ya
-    version : 1
-    modifiedTime : 27/12/2019
-    topik: Versi Ringan
-  - id : 91
-    title : Profesi Konsultan
-    url : https://gum.co/konsultan/pajakresources
-    fitur : aspekpajak
-    type: PDF
-    createdTime : 31/08/2019
-    description : 
-    starred : ya
-    version : 1
-    modifiedTime : 27/12/2019
-    topik: Versi Ringan
-  - id : 92
-    title : Dosen Guru
-    url : https://gum.co/dosen/pajakresources
-    fitur : aspekpajak
-    type: PDF
-    createdTime : 31/08/2019
-    description : 
-    starred : ya
-    version : 1
-    modifiedTime : 27/12/2019
-    topik: Versi Ringan
-  - id : 93
-    title : Pedagang Perantara/Makelar
-    url : https://gumroad.com/l/makelar/pajakresources
-    fitur : aspekpajak
-    type: PDF
-    createdTime : 31/08/2019
-    description : 
-    starred : ya
-    version : 1
-    modifiedTime : 27/12/2019
-    topik: Versi Ringan
-  - id : 94
-    title : Pekerjaan Bebas
-    url : https://gum.co/Mnopq/pajakresources
-    fitur : aspekpajak
-    type: PDF
-    createdTime : 31/08/2019
-    description : 
-    starred : ya
-    version : 1
-    modifiedTime : 27/12/2019
-    topik: Versi Ringan
-  - id : 95
-    title : Catering
-    url : https://gum.co/JJYcr/pajakresources
-    fitur : aspekpajak
-    type: PDF
-    createdTime : 31/08/2019
-    description : 
-    starred : ya
-    version : 1
-    modifiedTime : 27/12/2019
-    topik: Versi Ringan
-  - id : 96
-    title : Bendaharawan Pemerintah
-    url : https://gum.co/qDLOj/Bukubendahara
-    fitur : aspekpajak
-    type: PDF
-    createdTime : 31/08/2019
-    description : 
-    starred : ya
-    version : 1
-    modifiedTime : 27/12/2019
-    topik: Versi Ringan
-    img: bendahara.png
