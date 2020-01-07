@@ -210,7 +210,6 @@ createdTime : 31/07/2019
 modifiedTime : 07/01/2010
 topik: Versi Lengkap
 img: networking.png
-
 id: 83
 title : UMKM
 url :
