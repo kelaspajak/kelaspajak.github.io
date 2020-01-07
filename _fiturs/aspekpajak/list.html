@@ -24,7 +24,7 @@ layout: pages
       <div class="px-3">
           <h4 class="h4">
           {% if titles.url != nil %}<a href="{{titles.url}}" target="_blank">{{titles.title}}</a><span class="tooltipped tooltipped-n" aria-label="aktif"> {% octicon verified height:16 class:"ml-1 text-green" %}</span>{% else %}{{titles.title}}<span class="tooltipped tooltipped-n" aria-label="tidak aktif">{% octicon issue-opened height:16 class:"ml-1 text-gray" %}</span> {%endif%}
-          </h4>
+          </h4> <p class="link-text-gray lh-condensed mb-0 text-small">{{titles.description}}</p>
           <p class="text-gray-light lh-condensed mb-0 text-small"> terakhir diupdate: {{ titles.modifiedTime}}</p>
       </div>
   </div>

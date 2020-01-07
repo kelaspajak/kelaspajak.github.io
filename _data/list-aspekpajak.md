@@ -210,39 +210,7 @@ createdTime : 31/07/2019
 modifiedTime : 07/01/2010
 topik: Versi Lengkap
 img: networking.png
-id: 82
-title : Petugas Dinas Luar Asuransi (OP)
-url : https://drive.google.com/drive/folders/134uJGiO2br7ULb-ATcPcwausM-SaZlVl?usp=sharing
-fitur : aspekpajak
-type: Folder
-createdTime : 31/07/2019
-modifiedTime : 31/12/2019
-topik: Mini Version
-file:
-id: 821
-title : Bagaimana Hitung PPh pada SPT Tahunan Agen Asuransi
-url : https://drive.google.com/file/d/1GMDakNuyzo-ZVhOqjW5cUGwkD6RtI2Ye/view?usp=sharing
-active : ya
-fitur : aspekpajak
-type: pdf
-createdTime : 31/07/2019
-description :
-starred : no
-version : 1
-modifiedTime : 31/12/2019
-topik: Mini Version
-id: 822
-title : Resume Profesi Petugas Dinas Luar Asuransi
-url : https://gumroad.com/l/iEmrn/pajakresources
-active : ya
-fitur : aspekpajak
-type: pdf
-createdTime : 31/07/2019
-description :
-starred : no
-version : 1
-modifiedTime : 31/12/2019
-topik: Mini Version
+
 id: 83
 title : UMKM
 url :
