@@ -52,8 +52,16 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
-
+  - jekyll-admin
 branch: master
 
 # Google Analytics
 google_analytics: UA-146778045-2
+
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
