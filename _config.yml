@@ -29,10 +29,18 @@ collections:
   fiturs:
     output: true
     permalink: /fitur/:path/
+  aspekpajaks:
+    output: true
+    permalink: /aspekpajak/:path/
 defaults:
   - scope:
       path: ""
       type: fiturs
+    values:
+      layout: pages
+  - scope:
+      path: ""
+      type: aspekpajaks
     values:
       layout: pages
 
