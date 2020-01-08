@@ -5,5 +5,5 @@ url: https://drive.google.com/file/d/16bHc10dFKU4TCgfibJ85EAqg5A9JsPMi/view?usp=
 fitur : aspekpajak
 createdTime : 07/01/2020
 modifiedTime : 07/01/2020
-topik: Versi Ringan
+topik: Non Industri
 ---
