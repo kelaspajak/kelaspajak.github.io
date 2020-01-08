@@ -43,3 +43,7 @@ var pageProperties = {
   octicons.alert
 toSVG: [Function] }
 </script>
+
+{% if jekyll.environment != 'development' %}
+{% include analytics.html %}
+{% endif %}
