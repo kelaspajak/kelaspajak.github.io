@@ -42,7 +42,7 @@ defaults:
       path: ""
       type: aspekpajaks
     values:
-      layout: pages
+      layout: detail
 
 plugins:
   - jekyll-mentions
