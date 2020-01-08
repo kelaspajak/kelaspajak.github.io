@@ -1,7 +1,7 @@
 ---
 id: 82
 title : Petugas Dinas Luar Asuransi
-url : https://drive.google.com/drive/folders/134uJGiO2br7ULb-ATcPcwausM-SaZlVl?usp=sharing
+linkurl: https://drive.google.com/drive/folders/134uJGiO2br7ULb-ATcPcwausM-SaZlVl?usp=sharing
 fitur : aspekpajak
 type: Folder
 createdTime : 31/07/2019

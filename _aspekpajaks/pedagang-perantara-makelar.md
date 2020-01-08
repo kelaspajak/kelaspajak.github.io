@@ -1,7 +1,7 @@
 ---
 id: 93
 title : Pedagang Perantara/Makelar
-url : https://gumroad.com/l/makelar/pajakresources
+linkurl: https://gumroad.com/l/makelar/pajakresources
 fitur : aspekpajak
 createdTime : 31/08/2019
 modifiedTime : 27/12/2019

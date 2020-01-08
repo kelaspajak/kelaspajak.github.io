@@ -1,7 +1,7 @@
 ---
 id : 94
 title : Pekerjaan Bebas
-url : https://gum.co/Mnopq/pajakresources
+linkurl: https://gum.co/Mnopq/pajakresources
 fitur : aspekpajak
 createdTime : 31/08/2019
 modifiedTime : 27/12/2019

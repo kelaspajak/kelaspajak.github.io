@@ -1,7 +1,7 @@
 ---
 id: 2
 title : Emas
-url : https://drive.google.com/drive/folders/1nprNEOvURC_8f7685iMA8JOECm9jr5Uy?usp=sharing
+linkurl: https://drive.google.com/drive/folders/1nprNEOvURC_8f7685iMA8JOECm9jr5Uy?usp=sharing
 fitur : aspekpajak
 createdTime : 31/07/2019
 modifiedTime : 29/12/2019

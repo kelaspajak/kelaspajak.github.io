@@ -1,7 +1,7 @@
 ---
 id: 95
 title : Catering
-url : https://gum.co/JJYcr/pajakresources
+linkurl: https://gum.co/JJYcr/pajakresources
 fitur : aspekpajak
 createdTime : 31/08/2019
 modifiedTime : 27/12/2019

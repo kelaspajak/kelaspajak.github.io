@@ -1,7 +1,7 @@
 ---
 id : 88
 title : Hotel
-url : https://gum.co/pajakhotel/pajakresources
+linkurl: https://gum.co/pajakhotel/pajakresources
 fitur : aspekpajak
 createdTime : 31/08/2019
 modifiedTime : 27/12/2019
