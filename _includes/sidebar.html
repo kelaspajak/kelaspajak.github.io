@@ -2,7 +2,7 @@
   <div class="toc-wrap">
     {% for item in site.data.navigation.docs %}
     {% unless item.url contains '/fitur/resume/' %}
-    <a class="d-block no-underline {% if item.url == page.url %}active {% else %}link-gray-dark {% endif %}" href="{{ item.url }}" {% if item.url contains 'faq-pajak-indonesia'  %}target="_blank"{% endif %}>
+    <a class="d-block no-underline {% if item.url == page.url %}active {% else %}link-gray-dark {% endif %}" href="{{ item.url }}" {% if item.url contains 'faq-pajak-indonesia'  %}target="_blank" onClick="ga('send', 'event', 'Category', 'Action', 'Label');"{% endif %}>
     {% endunless %}
     <h4 class="alt-h4" id="{{ item.id }}">
         {% if item.url contains 'faq-pajak-indonesia'  %}<span
