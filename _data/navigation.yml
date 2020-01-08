@@ -36,6 +36,15 @@ docs:
     price: 
     - rupiah: Rp25M
       masa: alltime
+    topik: 
+    - title: Versi Lengkap
+      description: Memuat aspek perpajakan ditiap proses produksi atau kegiatan, lengkap beserta penjelasan di tiap prosesnya 
+    - title: Versi Ringan
+      description: diperuntukkan untuk yang masih awam tentang perpajakan
+    - title: Mini Version
+      description: hanya memuat aspek perpajakan 
+    - title: Pohon Industri
+      description: Hanya proses produksi berupa flowchart
 
   - title: Tanya Jawab
     image: https://ghicons.github.com/assets/images/light/Collection.png

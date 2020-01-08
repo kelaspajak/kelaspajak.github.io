@@ -23,4 +23,6 @@ end
 
 gem 'rb-fsevent', '0.9.8' # See issue https://github.com/guard/listen/issues/431
 
+gem 'jekyll-admin', '~> 0.8.0'
+
 # Added at 2017-10-23 15:14:34 -0400 by jasonetcovitch:
