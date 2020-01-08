@@ -9,7 +9,6 @@ layout: pages
 <p class="text-small text-gray">total terdapat <span class="IssueLabel bg-green text-white">{{datas.size}}</span> aspek perpajakan per industri dengan status aktif</p>
 <p class="text-small text-gray">seluruh versi hanya dapat dilihat oleh peserta yang terdaftar, kecuali versi ringan. silakan <a href="https://t.me/lesssummer/" target="_blank" class="link-text-gray">kontak kami</a> untuk mendapatkan hak akses</p>
 
-
 {% assign topik = dot | where: 'topik', dot.topik | first %}
 {% assign topik_group = dot | where: "fitur", "aspekpajak" | group_by: 'topik' %}
 {% for topik in topik_group %}
