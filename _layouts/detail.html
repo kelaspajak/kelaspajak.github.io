@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="container-lg px-3 pb-6">
+  <div class="d-md-flex flex-md-row flex-md-row-reverse gutter-md-spacious">
+    <div class="col-md-9 markdown-body p-md-6 text-normal fully-width clearfix"  style="overflow: auto;">
+
+      {{ page.title }}
+      <p><a href="{{ page.linkurl }}">link</a></p>
+
+    </div>
+    {% include sidebar.html %}
+  </div>
+</div>
+{% comment %}
+<script src="/assets/js/anchor.min.js"></script>
+<script type="text/javascript">
+  anchors.options = {
+    placement: 'left',
+    class: 'text-gray no-underline'
+  };
+
+  anchors.add();
+  anchors.remove('.alt-h4');
+</script>
+{% endcomment %}
