@@ -64,3 +64,19 @@ branch: master
 
 # Google Analytics
 google_analytics: UA-146778045-2
+
+kup_order:
+  - Umum
+  - NPWP dan PKP
+  - SPT
+  - Pembukuan
+  - Pembayaran atau Penyetoran
+  - Pemeriksaan
+  - Penagihan Pajak
+  - Keberatan
+  - Banding, Gugatan, dan Peninjauan Kembali
+  - Sanksi, Penetapan dan Ketetapan Pajak
+  - Restitusi
+  - Imbalan Bunga
+  - Sunset policy
+  - Akses Informasi Keuangan
