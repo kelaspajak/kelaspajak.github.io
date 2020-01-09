@@ -1,7 +1,6 @@
 ---
 id: 50
 title: Perbedaan SPT masa PPN 1107, 1108, 1111
-linkurl: https://drive.google.com/open?id=1pxSdzbMHea2r8gSET1MzfF9NjYq5R-qqMtHUPXcH64w
 fitur: resume
 category: kup
 topik: SPT

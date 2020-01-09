@@ -31,11 +31,10 @@ label: bg-green
     {% endfor %}
     </ul>
 
-
     {% capture namatopik %}{{currentCat.name}}{% endcapture %}
     {% assign namesubtopik = site.kup | where: "topik", namatopik | group_by: 'subtopik' %}
     {% for subtop in namesubtopik %}
-        <h4 class="d-block mt-3 text-gray-light">{{ subtop.name }} </h4> 
+        <h4 class="d-block mt-3">{{ subtop.name }} </h4> 
         <ul>
             {% capture subtopik1 %}{{subtop.name}}{% endcapture %}
             {% assign titling = site.kup | where: "subtopik", subtopik1 %}
