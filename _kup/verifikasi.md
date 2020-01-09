@@ -1,7 +1,7 @@
 ---
 id: 11
 title: Verifikasi
-url:
+linkurl:
 fitur: resume
 category: kup
 topik: Umum
