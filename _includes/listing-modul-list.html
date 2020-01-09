@@ -1,8 +1,8 @@
-<!--untuk file list.html -->{% if item.linkurl != nil %}
+<!--untuk file list.html -->
 <li class="text-normal">
-    
+    {% if item.linkurl != nil %}
     <a href="{{ item.linkurl }}" target="_blank" class="tooltipped tooltipped-n" aria-label="File {{item.type}}">{{item.title}}</a>
-   {% comment %}{% else %}
-    <span class="tooltipped tooltipped-n text-gray-light" aria-label="File {{item.type}}">{{item.title}}</span>{% endcomment %}
-    
-</li>{% endif %}
+    {% else %}
+    <span class="tooltipped tooltipped-n text-gray-light" aria-label="File {{item.type}}">{{item.title}}</span>
+    {% endif %}
+</li>
