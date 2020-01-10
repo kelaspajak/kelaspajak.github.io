@@ -6,7 +6,7 @@ permalink: /fitur/aspekpajak/
 ---
 
 {% assign dot = site.aspekpajaks %}
-{% assign datas = dot | group_by: 'id' %}
+{% assign datas = dot | group_by: 'linkurl' %}
 <h1 class="h1-mktg mt-sm-2">Aspek Perpajakan Industri</h1>
 <p class="text-small text-gray">total terdapat <span class="IssueLabel bg-green text-white">{{datas.size}}</span> aspek perpajakan per industri dengan status aktif</p>
 <p class="text-small text-gray">seluruh versi hanya dapat dilihat oleh peserta yang terdaftar, kecuali versi ringan. silakan <a href="https://t.me/lesssummer/" target="_blank" class="link-text-gray">kontak kami</a> untuk mendapatkan hak akses</p>
