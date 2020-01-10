@@ -35,6 +35,11 @@ collections:
   kup:
     output: true
     permalink: /resume/:collection/:name
+
+include:
+  - _pages
+
+
 defaults:
   - scope:
       path: ""
