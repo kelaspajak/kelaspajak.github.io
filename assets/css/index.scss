@@ -237,3 +237,12 @@ $steps: 5;
 		background: mix($color-1, $color-2, percentage($i / ($steps - 1)));
 	}
 }
+
+//https://github.com/AllThingsSmitty/css-protips#use-the-lobotomized-owl-selector
+a[href]:not([class]) {
+  color: #008000;
+  text-decoration: underline;
+}
+br + br {
+  display: none;
+}
