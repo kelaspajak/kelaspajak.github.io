@@ -17,7 +17,7 @@ data:
   - title: Facebook Pages Diskusi Pajak
     icon: fab fa-facebook
     id: 4
-    description: Halaman Facebook yang berisi informasi penting terkait perpajakan> 6K
+    description: Halaman Facebook yang berisi informasi penting terkait perpajakan> 7.5K
     url: https://t.me/diskusipajak
   - title: Trello Team Diskusi Pajak
     icon: fab fa-trello
@@ -27,10 +27,10 @@ data:
   - title: Classroom 
     icon: fas fa-user-graduate
     id: 6
-    description: sudah ada 4 kelas, dan sudah penuh semua
+    description: kelas sudah penuh
     url: 404
   - title: Instagram kelaspajakwithless
     icon: fab fa-instagram
     id: 7
-    description: isi storynya adalah pekerjaan hari ini 
+    description: 
     url: https://instagram.com/kelaspajakwithless
