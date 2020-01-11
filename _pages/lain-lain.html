@@ -1,0 +1,37 @@
+---
+title: Lain-lain
+description: Kumpulan file untuk membantu analisa aspek perpajakan
+layout: pages
+permalink: /fitur/lain-lain/
+---
+
+{% assign dot = site.lainlain %}
+{% assign datas = dot | group_by: 'linkurl' %}
+<h1 class="h1-mktg mt-sm-2">Aspek Perpajakan Industri</h1>
+<p class="text-small text-gray">total terdapat <span class="IssueLabel bg-green text-white">{{datas.size}}</span> modul dengan status aktif</p>
+{% comment %}<p class="text-small text-gray">modul dengan kode <span class="IssueLabel bg-green text-white">free</span> dapat dibuka oleh semua orang. silakan <a href="https://t.me/lesssummer/" target="_blank" class="link-text-gray">kontak kami</a> untuk mendapatkan hak akses</p>{% endcomment %}
+
+{% assign topik_group = dot | where: "fitur", "aspekpajak" | group_by: 'topik' %}
+{% for topik in topik_group %}
+<h3 class="d-block">{{ topik.name }} </h3>
+
+<div class="d-md-flex flex-wrap mt-3">
+  {% capture namatopik %}{{ topik.name }}{% endcapture %}
+  {% assign sort1 = dot | where: "topik", namatopik | sort: "modifiedTime" %}
+  {% assign t = sort1 | sort: "linkurl" | reverse %}
+  {% for titles in t %}
+  {% if titles.topik != nil %}     
+  <div class="col-md-6 mb-4 d-flex no-underline">
+      <div class="CircleBadge CircleBadge--small" style="background-color: #ffffff;">{% if titles.img %}<img class="CircleBadge-icon" alt="" src="/assets/icon/aspekpajak/{{titles.img}}">{% endif %} </div>
+      <div class="px-3">
+          <h4 class="h4">
+          {% if titles.linkurl != nil %}<a href="{{titles.linkurl}}" target="_blank">{{titles.title}}</a><span class="tooltipped tooltipped-n" aria-label="aktif"> {% octicon verified height:16 class:"ml-1 text-green" %}</span>{% else %}{{titles.title}}<span class="tooltipped tooltipped-n" aria-label="tidak aktif">{% octicon issue-opened height:16 class:"ml-1 text-gray" %}</span> {%endif%}
+          </h4>
+          <p class="link-text-gray lh-condensed mb-0 f5">{% if titles.status %}<span class="IssueLabel bg-green text-white mr-1">free</span>{% endif %} {{titles.description}}</p>
+          <p class="text-gray-light lh-condensed mb-0 text-small"> terakhir diupdate: {{ titles.modifiedTime}}</p>
+      </div>
+  </div>
+  {% endif %}
+  {%endfor%}
+</div>
+{% endfor %}
