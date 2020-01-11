@@ -32,6 +32,9 @@ collections:
   aspekpajaks:
     output: true
     permalink: /aspekpajak/:path/
+  lainlain:
+    output: true
+    permalink: /:collection/:name
   kup:
     output: true
     permalink: /resume/:collection/:name
@@ -54,6 +57,11 @@ defaults:
   - scope:
       path: ""
       type: kup
+    values:
+      layout: detail
+  - scope:
+      path: ""
+      type: lainlain
     values:
       layout: detail
 

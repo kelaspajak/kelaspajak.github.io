@@ -46,6 +46,17 @@ docs:
     - title: Pohon Industri
       description: Hanya proses produksi berupa flowchart
 
+  - title: Lain-lain
+    image: https://ghicons.github.com/assets/images/light/Dependencies.png
+    images: Dependencies.png
+    id: lainlain
+ #   style: " style='opacity: 30%;'"
+    description: Kumpulan file untuk membantu analisa aspek perpajakan
+    url: /fitur/lain-lain/
+    active: true
+    price: 
+    - rupiah: Free
+    
   - title: Tanya Jawab
     image: https://ghicons.github.com/assets/images/light/Collection.png
     images: Collection.png
@@ -69,6 +80,9 @@ docs:
 #        url: /docs/resume-bea-meterai/
 #      - title: "Pengampunan Pajak"
 #        url: /docs/resume-pengampunan-pajak/
+
+
+
 
 pricing:
   - title: Tanya Jawab
