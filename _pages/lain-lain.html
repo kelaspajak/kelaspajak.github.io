@@ -7,7 +7,7 @@ permalink: /fitur/lain-lain/
 
 {% assign dot = site.lainlain %}
 {% assign datas = dot | group_by: 'linkurl' %}
-<h1 class="h1-mktg mt-sm-2">Aspek Perpajakan Industri</h1>
+<h1 class="h1-mktg mt-sm-2">{{page.title}}</h1>
 <p class="text-small text-gray">total terdapat <span class="IssueLabel bg-green text-white">{{datas.size}}</span> modul dengan status aktif</p>
 {% comment %}<p class="text-small text-gray">modul dengan kode <span class="IssueLabel bg-green text-white">free</span> dapat dibuka oleh semua orang. silakan <a href="https://t.me/lesssummer/" target="_blank" class="link-text-gray">kontak kami</a> untuk mendapatkan hak akses</p>{% endcomment %}
 
