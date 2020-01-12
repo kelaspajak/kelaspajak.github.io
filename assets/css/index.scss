@@ -233,7 +233,7 @@ $steps: 5;
 
 // Mix colors to go from $color-1 ro @color-2 with 9 total steps
 @for $i from 0 to $steps {
-	destroy:nth-of-type(#{$i + 1}) {
+	.destroy:nth-of-type(#{$i + 1}) {
 		background: mix($color-1, $color-2, percentage($i / ($steps - 1)));
 	}
 }
