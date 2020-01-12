@@ -63,7 +63,7 @@ docs:
     id: tanyajawab
  #   style: " style='opacity: 30%;'"
     description: Merupakan kumpulan tanya jawab yang sering ditanyakan untuk sementara menggunakan trello
-    url: https://trello.com/invite/b/xz52ztAa/afa00f9acd10cefd8a7c9b587276ef48/faq-pajak-indonesia
+    url: https://s.id/faq-pajak-indonesia
     active: true
     price: 
     - rupiah: Free
