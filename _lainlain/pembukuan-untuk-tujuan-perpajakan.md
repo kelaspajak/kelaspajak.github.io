@@ -1,7 +1,7 @@
 ---
 id: 160
 title : Pembukuan perpajakan
-linkurl: https://drive.google.com/file/d/1W4PhAsMPyJkvGlAjqvPVn03Ax_XNvG1U/view?usp=sharing
+linkurl: https://s.id/c25lJ
 fitur : lainlain
 createdTime : 10/01/2019
 modifiedTime : 10/01/2019

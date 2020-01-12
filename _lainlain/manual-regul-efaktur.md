@@ -1,7 +1,7 @@
 ---
 id: 101
 title: Manual Regul Efaktur
-linkurl: https://drive.google.com/file/d/1hALK8LPLiGo9H27UqSTv27T_-MHs5AkD/view?usp=sharing
+linkurl: https://s.id/c25i7
 fitur : lainlain
 createdTime : 12/01/2020
 modifiedTime : 12/01/2020
