@@ -1,6 +1,7 @@
 ---
 id: 103
 title: Pemberitahuan Ekspor Barang
+linkurl: https://kutt.it/rdIw43
 fitur : lainlain
 createdTime : 12/01/2020
 modifiedTime : 12/01/2020

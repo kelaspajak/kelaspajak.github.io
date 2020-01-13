@@ -1,6 +1,7 @@
 ---
 id: 102
 title: TLDDP ke Kawasan Bebas
+linkurl: https://kutt.it/uXI2px
 fitur : lainlain
 createdTime : 12/01/2020
 modifiedTime : 12/01/2020

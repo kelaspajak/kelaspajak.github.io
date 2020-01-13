@@ -1,7 +1,7 @@
 ---
-id: 102
-title: Dari dan ke Kawasan Berikat
-linkurl: https://kutt.it/ddifrU
+id: 110
+title: Daftar Kawasan Berikat
+linkurl: https://kutt.it/UWLreh
 fitur : lainlain
 createdTime : 12/01/2020
 modifiedTime : 12/01/2020

@@ -1,7 +1,7 @@
 ---
 id: 104
 title: Free Trade Zone
-linkurl: https://drive.google.com/file/d/1tP-deamRtqJN6Tj4xwPD0wAtoG8RsTC-/view?usp=sharing
+linkurl: https://kutt.it/ZYvL9z
 fitur : lainlain
 createdTime : 12/01/2020
 modifiedTime : 12/01/2020
