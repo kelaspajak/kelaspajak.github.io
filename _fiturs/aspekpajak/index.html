@@ -2,6 +2,7 @@
 title: Aspek Perpajakan
 description: Aspek Perpajakan per Industri, pohon industri, proses bisnis
 layout: pages
+screenshots: /assets/screenshot/aspekpajak.jpg
 permalink: /fitur/aspekpajak/
 ---
 
@@ -27,11 +28,11 @@ permalink: /fitur/aspekpajak/
       <div class="px-3">
           <h4 class="h4">
           {% if titles.linkurl != nil %}
-          {% if content == "" %}
-            <a href="{{titles.url}}" target="_blank">
+            <a href="{{titles.linkurl}}" target="_blank">{{titles.title}}</a>
+            <span class="tooltipped tooltipped-n" aria-label="aktif">{% octicon verified height:16 class:"ml-1 text-green" %}</span>
           {% else %}
-            <a href="{{titles.linkurl}}" target="_blank">
-          {% endif %}{{titles.title}}</a><span class="tooltipped tooltipped-n" aria-label="aktif"> {% octicon verified height:16 class:"ml-1 text-green" %}</span>{% else %}{{titles.title}}<span class="tooltipped tooltipped-n" aria-label="tidak aktif">{% octicon issue-opened height:16 class:"ml-1 text-gray" %}</span> {%endif%}
+            {{titles.title}}<span class="tooltipped tooltipped-n" aria-label="tidak aktif">{% octicon issue-opened height:16 class:"ml-1 text-gray" %}</span> 
+          {%endif%}
           </h4><p class="link-text-gray lh-condensed mb-0 f5">{{titles.description}}</p>
           <p class="text-gray-light lh-condensed mb-0 text-small"> terakhir diupdate: {{ titles.modifiedTime}}</p>
       </div>
