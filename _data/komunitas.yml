@@ -13,17 +13,17 @@ data:
     icon: fab fa-facebook
     id: 3
     description: diskusi langsung bersama praktisi pajak menggunakan aplikasi facebook dengan jumlah anggota > 6K
-    url: https://t.me/diskusipajak
+    url: https://www.facebook.com/groups/diskusipajak/
   - title: Facebook Pages Diskusi Pajak
     icon: fab fa-facebook
     id: 4
     description: Halaman Facebook yang berisi informasi penting terkait perpajakan> 7.5K
-    url: https://t.me/diskusipajak
+    url: https://www.facebook.com/diskusipajak/
   - title: Trello Team Diskusi Pajak
     icon: fab fa-trello
     id: 5
     description: ada 4 board FAQ Pajak Indonesia, Timeline pengerjaan perpajakan di perusahaan, Transfer Pricing, Belajar menemukan kesalahan laporan keuangan
-    url: https://s.id/trello-invite
+    url: https://kutt.it/6CMCd1
   - title: Classroom 
     icon: fas fa-user-graduate
     id: 6
@@ -33,4 +33,4 @@ data:
     icon: fab fa-instagram
     id: 7
     description: 
-    url: https://instagram.com/kelaspajakwithless
+    url: https://kutt.it/14O5us
