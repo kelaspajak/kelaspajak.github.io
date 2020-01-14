@@ -1,7 +1,7 @@
 ---
 id: 5
 title : Pasar Modal dan Asuransi
-linkurl: https://drive.google.com/drive/folders/1IDp5iEKBMlBlIPlEhsOE0UWTR3h5Taqw?usp=sharing
+linkurl: https://kutt.it/WmMVos
 fitur : aspekpajak
 createdTime : 31/07/2019
 modifiedTime : 30/12/2019

@@ -1,7 +1,7 @@
 ---
 id: 49
 title : Koperasi
-linkurl: 
+linkurl: https://kutt.it/fDaqJG
 fitur : aspekpajak
 createdTime : 31/07/2019
 modifiedTime : 26/12/2019

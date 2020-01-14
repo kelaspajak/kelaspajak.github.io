@@ -1,7 +1,7 @@
 ---
 id: 8
 title : Penambangan
-linkurl: https://drive.google.com/drive/folders/1B8TmHJu54_PBbC26reasHQDqFY1SyIm-?usp=sharing
+linkurl: https://kutt.it/kmpnhU
 fitur : aspekpajak
 createdTime : 31/07/2019
 modifiedTime : 06/01/2020

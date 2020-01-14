@@ -1,7 +1,7 @@
 ---
 id: 64
 title : Notaris
-linkurl: /aspekpajak/notaris/
+linkurl: https://kutt.it/FwqhLJ
 fitur : aspekpajak
 createdTime : 31/07/2019
 modifiedTime : 26/12/2019

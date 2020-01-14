@@ -1,7 +1,7 @@
 ---
 id: 56
 title : Industri Listrik
-linkurl: https://drive.google.com/drive/folders/1Qm9YKv5kBYqgjUg18W98N8Bnn2CtEvyj?usp=sharing
+linkurl: https://kutt.it/QjD1x2
 fitur : aspekpajak
 createdTime : 31/07/2019
 modifiedTime : 26/12/2019

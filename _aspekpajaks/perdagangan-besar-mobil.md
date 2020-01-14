@@ -1,7 +1,7 @@
 ---
 id: 46
 title : Perdagangan Besar Mobil
-linkurl: 
+linkurl: https://kutt.it/gkFlTs
 fitur : aspekpajak
 createdTime : 31/07/2019
 modifiedTime : 26/12/2019

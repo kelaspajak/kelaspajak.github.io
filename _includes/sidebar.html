@@ -5,7 +5,7 @@
     <a class="d-block no-underline {% if item.url == page.url %}active {% else %}link-gray-dark {% endif %}" href="{{ item.url }}" {% if item.url contains 'faq-pajak-indonesia'  %}target="_blank"  onClick="pageTracker._trackEvent('linkluar', 'Trello', 'faq-pajak-indonesia');"{% endif %}>
     {% endunless %}
     <h4 class="alt-h4" id="{{ item.id }}">
-        {% if item.url contains 'faq-pajak-indonesia'  %}
+        {% if item.id contains 'tanyajawab' %}
         <span class="v-align-middle bg-green rounded-1 text-white text-bold text-uppercase p-1 text-small" style="font-size: 10px !important;">Free</span>
         {% elsif item.id contains "lainlain"  %}
           <span class="v-align-middle rounded-1 text-uppercase text-bold p-1 text-small" style="font-size: 10px !important; background-color: #ffdf5d; color: #000000">Baru</span>
