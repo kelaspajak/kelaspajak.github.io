@@ -1,5 +1,4 @@
----
-id : 88
+---id : 88
 title : Hotel
 linkurl: https://gum.co/pajakhotel/pajakresources
 fitur : aspekpajak

@@ -8,9 +8,6 @@ modifiedTime : 14/01/2020
 topik: Versi Lengkap
 img: ashtray.png
 ---
-### Link 
-[link to drive](https://kutt.it/IPWPVz)
-
 ### Outline
 - Pohon industri berbasis tembakau
 - Roadmap industri pengolahan tembakau

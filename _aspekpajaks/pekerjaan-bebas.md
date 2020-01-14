@@ -1,5 +1,4 @@
----
-id : 94
+---id : 94
 title : Pekerjaan Bebas
 linkurl: https://gum.co/Mnopq/pajakresources
 fitur : aspekpajak
