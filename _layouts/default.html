@@ -38,8 +38,15 @@
   </head>
 
 <body class="height-full">
-
   {% include nav.html %}
+  {% if page.url == '/fitur/resume/kup/' %}{% assign kup = true %}{% endif %}
+  {% if kup %}
+  <div class="flash flash-full text-center flash-error">
+    <div class="container text-center">
+      {% octicon megaphone %} silakan menghubungi <a href="https://t.me/lesssummer/">less summer</a> untuk mengikuti kelas ini
+    </div>
+  </div>
+  {% endif %}
 
   {{ content }}
 
