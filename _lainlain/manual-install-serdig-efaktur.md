@@ -1,7 +1,7 @@
 ---
 id: 101
 title: Manual Serdig Efaktur
-linkurl: https://s.id/c25fR
+linkurl: https://kutt.it/xg4Myw
 fitur : lainlain
 createdTime : 12/01/2020
 modifiedTime : 12/01/2020

@@ -1,7 +1,7 @@
 ---
 id: 103
 title: Pengantar Hukum Pajak
-linkurl: https://s.id/c253z
+linkurl: https://kutt.it/SmnoyT
 fitur : lainlain
 createdTime : 13/01/2020
 modifiedTime : 13/01/2020

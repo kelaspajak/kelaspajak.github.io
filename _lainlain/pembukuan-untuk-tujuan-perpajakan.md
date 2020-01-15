@@ -1,7 +1,7 @@
 ---
 id: 160
 title : Pembukuan perpajakan
-linkurl: https://s.id/c25lJ
+linkurl: https://kutt.it/zrKgOl
 fitur : lainlain
 createdTime : 10/01/2019
 modifiedTime : 10/01/2019
