@@ -5,10 +5,7 @@ data:
     active: "tidak"
     fitur: resume
     category: pph
-    topik: Subjek Pajak
-    icon: far fa-file-word
-    type: word
-    tgl: 11 Desember 2019
+    status: ya
   - id: 2
     title: Subjek Pajak dan Bukan Subjek Pajak
     url: 
@@ -16,9 +13,6 @@ data:
     fitur: resume
     category: pph
     topik: Subjek Pajak
-    icon: far fa-file-word
-    type: word
-    tgl: 11 Desember 2019
   - id: 3
     title: Sisa Lebih yang Diterima oleh Badan atau Lembaga Nirlaba di Bidang Pendidikan
     url: 

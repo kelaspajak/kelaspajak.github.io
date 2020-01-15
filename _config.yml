@@ -105,5 +105,21 @@ kup_order:
 
 pph_order:
   - Subjek Pajak
-  - PPh Final Pasal 4 Ayat (2)
+  - Penghasilan
+  - Biaya Fiskal
+  - Pencatatan, Pembukuan
+  - Penghasilan atas Jenis Usaha Tertentu
+  - PPh Pasal 21
+  - PPh Pasal 22
   - PPh Pasal 23
+  - PPh Final Pasal 4 Ayat (2)
+  - PPh Pasal 15
+  - PPh Pasal 19
+  - PPh Pasal 24
+  - PPh Pasal 25
+
+ppn_order: 
+  - Umum
+  - Subjek PPN
+  - Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
+  
