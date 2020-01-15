@@ -14,7 +14,7 @@ permalink: /fitur/aspekpajak/
 
 {% assign topik_group = dot | where: "fitur", "aspekpajak" | group_by: 'topik' %}
 {% for topik in topik_group %}
-<h3 class="d-block">{{ topik.name }} {% if topik.name == "Versi Ringan" %}<span class="v-align-middle bg-green rounded-1 text-white text-bold text-uppercase p-1 text-small ml-1" style="font-size: 10px !important;">Free</span>{% endif %}</h3>
+<h3 class="d-block">{{ topik.name }}{% if topik.name == "Versi Ringan" %}<span class="v-align-middle bg-green rounded-1 text-white text-bold text-uppercase p-1 text-small ml-1" style="font-size: 10px !important;">Free</span>{% endif %}</h3>
 
 <div class="d-md-flex flex-wrap mt-3">
   {% assign content = page.content | strip_newlines %}
@@ -24,7 +24,9 @@ permalink: /fitur/aspekpajak/
   {% for titles in t %}
   {% if titles.topik != nil %}     
   <div class="col-md-6 mb-4 d-flex no-underline">
-      <div class="CircleBadge CircleBadge--small" style="background-color: #ffffff;">{% if titles.img %}<img class="CircleBadge-icon" alt="" src="/assets/icon/aspekpajak/{{titles.img}}">{% endif %} </div>
+    <div class="CircleBadge CircleBadge--small" style="background-color: #ffffff;">
+      <img class="CircleBadge-icon" alt="" src="/assets/icon/aspekpajak/{% if titles.img %}{{titles.img}}"{%else%}files-and-folders.png"{% endif %}>
+    </div>
       <div class="px-3">
           <h4 class="h4">
           {% if titles.linkurl != nil %}

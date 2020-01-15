@@ -14,7 +14,7 @@ permalink: /fitur/lain-lain/
 
 {% assign topik_group = dot | where: "fitur", "lainlain" | group_by: 'topik' %}
 {% for topik in topik_group %}
-<h3 class="d-block">{{ topik.name }} </h3>
+<h3 class="d-block mt-4 pb-2 border-bottom">{{ topik.name }} </h3>
 
 <div class="d-md-flex flex-wrap mt-3">
   {% capture namatopik %}{{ topik.name }}{% endcapture %}
@@ -22,13 +22,13 @@ permalink: /fitur/lain-lain/
   {% assign t = sort1 | sort: "linkurl" | reverse %}
   {% for titles in t %}
   {% if titles.topik != nil %}     
-  <div class="col-md-6 mb-4 d-flex no-underline">
-      <div class="CircleBadge CircleBadge--small" style="background-color: #ffffff;">{% if titles.img %}<img class="CircleBadge-icon" alt="" src="/assets/icon/lainlain/{{titles.img}}">
-        {% else %} <div class="circle p-3" style="background-color: #{{titles.color}};"></div>
-        {% endif %} </div>
+  <div class="col-md-6 mb-4 d-flex">
+      <div class="CircleBadge CircleBadge--small" style="background-color: #ffffff;">
+        <img class="CircleBadge-icon" alt="" src="/assets/icon/lainlain/{% if titles.img %}{{titles.img}}"{%else%}files-and-folders.png"{% endif %}>
+      </div>
       <div class="px-3">
           <h4 class="h4">
-          {% if titles.linkurl != nil %}<a href="{{titles.linkurl}}" target="_blank">{{titles.title}}</a><span class="tooltipped tooltipped-n" aria-label="aktif">{% octicon verified height:16 class:"ml-1 text-green" %}</span>{% else %}{{titles.title}}<span class="tooltipped tooltipped-n" aria-label="tidak aktif">{% octicon issue-opened height:16 class:"ml-1 text-gray" %}</span> {%endif%}
+          {% if titles.linkurl != nil %}<a href="{{titles.linkurl}}" target="_blank" class="no-underline">{{titles.title}}</a><span class="tooltipped tooltipped-n" aria-label="aktif">{% octicon verified height:16 class:"ml-1 text-green" %}</span>{% else %}{{titles.title}}<span class="tooltipped tooltipped-n" aria-label="tidak aktif">{% octicon issue-opened height:16 class:"ml-1 text-gray" %}</span> {%endif%}
           </h4>
           <p class="link-text-gray lh-condensed mb-0 f5">{% if titles.status %}<span class="IssueLabel bg-green text-white mr-1">free</span>{% endif %} {{titles.description}}</p>
           <p class="text-gray-light lh-condensed mb-0 text-small"> terakhir diupdate: {{ titles.modifiedTime}}</p>
