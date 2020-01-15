@@ -41,10 +41,13 @@
   {% include nav.html %}
   {% if page.url == '/fitur/resume/kup/' %}{% assign kup = true %}{% endif %}
   {% if kup %}
-  <div class="flash flash-full text-center flash-error">
-    <div class="container text-center">
-      {% octicon megaphone %} silakan menghubungi <a href="https://t.me/lesssummer/">less summer</a> untuk mengikuti kelas ini
-    </div>
+  <div id="pengumuman">  
+    <div class="flash text-center flash-success">
+      
+      {% octicon megaphone %} silakan menghubungi <a href="https://t.me/lesssummer/">less summer</a> untuk mengikuti materi ini <a href="javascript:closeit()" class="float-right">
+        {% octicon x %}
+      </a>
+    </div class="flash text-center flash-success">
   </div>
   {% endif %}
 
