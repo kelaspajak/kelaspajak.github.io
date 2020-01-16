@@ -246,3 +246,11 @@ a[href]:not([class]) {
 br + br {
   display: none;
 }
+
+//untuk button
+.bg-gradient-green {
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+.bg-gradient-yellow{
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
