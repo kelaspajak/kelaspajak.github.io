@@ -19,4 +19,28 @@ layout: null
   {% endif %}
   {% endif %}
   {% endfor %}
+  
+  {% for page in site.lainlain %}
+  {% if page.layout != nil %}
+  {% if page.layout != 'feed' %}
+  <url>
+    <loc>{{site.url}}{{ page.url | remove: 'index.html' }}</loc>
+    <lastmod>{{ page.modifiedTime | date_to_xmlschema }}</lastmod>
+    {% if page.priority %}<priority>{{page.priority}}</priority>{%endif%}
+  </url>
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+  
+  {% for page in site.kup %}
+  {% if page.layout != nil %}
+  {% if page.layout != 'feed' %}
+  <url>
+    <loc>{{site.url}}{{ page.url | remove: 'index.html' }}</loc>
+    <lastmod>{{ page.modifiedTime | date_to_xmlschema }}</lastmod>
+    {% if page.priority %}<priority>{{page.priority}}</priority>{%endif%}
+  </url>
+  {% endif %}
+  {% endif %}
+  {% endfor %}
 </urlset>
