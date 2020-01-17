@@ -26,12 +26,9 @@ sass:
     - node_modules
 
 collections:
-  fiturs:
-    output: true
-    permalink: /fitur/:path/
   docs:
     output: true
-    permalink: /aspekpajak/:path/
+    permalink: /fitur/:path/
 
 
 include:
@@ -39,11 +36,6 @@ include:
 
 
 defaults:
-  - scope:
-      path: ""
-      type: fiturs
-    values:
-      layout: pages
   - scope:
       path: ""
       type: docs

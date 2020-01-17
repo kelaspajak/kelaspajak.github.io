@@ -4,3 +4,6 @@
 [submodule "_docs/kup"]
 	path = _docs/kup
 	url = https://github.com/kelaspajak/kup.git
+[submodule "_docs/lainlain"]
+	path = _docs/lainlain
+	url = https://github.com/kelaspajak/lainlain.git
