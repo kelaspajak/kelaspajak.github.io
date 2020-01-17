@@ -1,3 +1,6 @@
-[submodule "_submodules/probot"]
-	path = _submodules/probot
-	url = https://github.com/probot/probot.git
+[submodule "_docs/aspekpajak"]
+	path = _docs/aspekpajak
+	url = https://github.com/kelaspajak/aspekpajak.git
+[submodule "_docs/kup"]
+	path = _docs/kup
+	url = https://github.com/kelaspajak/kup.git
