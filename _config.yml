@@ -29,18 +29,10 @@ collections:
   fiturs:
     output: true
     permalink: /fitur/:path/
-  aspekpajaks:
+  docs:
     output: true
     permalink: /aspekpajak/:path/
-  lainlain:
-    output: true
-    permalink: /:collection/:name
-  kup:
-    output: true
-    permalink: /resume/:collection/:name
-  pph:
-    output: true
-    permalink: /resume/:collection/:name
+
 
 include:
   - _pages
@@ -54,22 +46,7 @@ defaults:
       layout: pages
   - scope:
       path: ""
-      type: aspekpajaks
-    values:
-      layout: detail
-  - scope:
-      path: ""
-      type: kup
-    values:
-      layout: detail
-  - scope:
-      path: ""
-      type: pph
-    values:
-      layout: detail
-  - scope:
-      path: ""
-      type: lainlain
+      type: docs
     values:
       layout: detail
 
