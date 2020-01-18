@@ -4,7 +4,7 @@ docs:
     images: Documentation.png
     id: resume
     description: Resume UU Perpajakan sampai dengan aturan pelaksanaannya
-    url: /fitur/resume/
+    url: /fitur/resume/kup/
     children:
       - title: "KUP"
         id: kup

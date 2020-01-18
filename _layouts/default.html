@@ -28,19 +28,13 @@
   <meta property="twitter:image:width" content="100%" />
   <meta property="twitter:image:alt" content="{{ site.description }}" />
   <meta property="twitter:image:type" content="image/png" />
-
   <meta property="og:type" content="website" />
-
-  <!--<script defer src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js" charset="utf-8"></script>
-  <script defer src="/assets/js/office-hours.js" charset="utf-8"></script>
-  <script src="https://kit.fontawesome.com/01f1ddb776.js" crossorigin="anonymous"></script>-->
-
   </head>
 
 <body class="height-full">
   {% include nav.html %}
-  {% if page.url == '/fitur/resume/kup/' %}{% assign kup = true %}{% endif %}
-  {% if kup %}
+  {% if page.category == "Resume" %}{% assign buka = true %}{%else%}{% assign buka = false %}{% endif %}
+  {% if buka %}
   <div id="pengumuman">  
     <div class="flash text-center flash-success">
       
@@ -49,7 +43,7 @@
       </a>
     </div class="flash text-center flash-success">
   </div>
-  {% endif %}
+  {% endif%}
 
   {{ content }}
 

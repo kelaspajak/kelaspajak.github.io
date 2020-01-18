@@ -10,7 +10,7 @@
 {% endif %}
 
 {% assign docs_by_category = site.docs | where: "category", dataid | group_by: "topik" %}
-{% for cat in site.kup_order %}
+{% for cat in site.[dataid] %}
   {% assign currentCat = docs_by_category | where: 'name', cat | first %}
     <h3 class="d-block mt-2">{{ currentCat.name }} </h3>
     <ul class="mt-3">

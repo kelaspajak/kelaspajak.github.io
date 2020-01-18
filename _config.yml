@@ -56,7 +56,7 @@ branch: master
 google_analytics: UA-146778045-2
 
 #sort modul fitur/kup
-kup_order:
+kup:
   - Umum
   - NPWP dan PKP
   - SPT
@@ -72,7 +72,7 @@ kup_order:
   - Sunset policy
   - Akses Informasi Keuangan
 
-pph_order:
+pph:
   - Subjek Pajak
   - Penghasilan
   - Biaya Fiskal
@@ -87,7 +87,7 @@ pph_order:
   - PPh Pasal 24
   - PPh Pasal 25
 
-ppn_order: 
+ppn: 
   - Umum
   - Subjek PPN
   - Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
