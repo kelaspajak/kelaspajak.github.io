@@ -7,3 +7,9 @@
 [submodule "_docs/lainlain"]
 	path = _docs/lainlain
 	url = https://github.com/kelaspajak/lainlain.git
+[submodule "_docs/ppn"]
+	path = _docs/ppn
+	url = https://github.com/kelaspajak/ppn.git
+[submodule "_docs/pph"]
+	path = _docs/pph
+	url = https://github.com/kelaspajak/pph.git
