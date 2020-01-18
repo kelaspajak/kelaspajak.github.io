@@ -21,3 +21,12 @@ Type `ideos Webcasts Whitepapers`
 - git submodule add https://github.com/kelaspajak/kup.git
 - git submodule add https://github.com/kelaspajak/aspekpajak.git
 - git submodule add https://github.com/kelaspajak/lainlain.git
+
+```
+cd submodule_name
+git checkout master && git pull
+cd ..
+git add submodule_name
+git commit -m "updating submodule to latest"
+git push
+```
