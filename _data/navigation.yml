@@ -31,10 +31,11 @@ docs:
     images: Marketplace.png
     id: aspekpajak
     description: Aspek Perpajakan per Industri, pohon industri, proses bisnis
+    longdescription: seluruh versi hanya dapat dilihat oleh peserta yang terdaftar, kecuali versi ringan. silakan kontak kami untuk mendapatkan hak akses
     url: /fitur/aspekpajak/
     active: true
     price: 
-    - rupiah: Rp25M
+    - rupiah: Rp.0
       masa: alltime
     topik: 
     - title: Versi Lengkap
