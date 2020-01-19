@@ -29,9 +29,10 @@ git checkout master && git pull
 cd ..
 git add submodule_name
 git commit -m "updating submodule to latest"
-git push```
+git push
+```
 
-hasilnya 
+#### hasilnya 
 
 
 ```[submodule "_docs/aspekpajak"]
@@ -47,9 +48,9 @@ hasilnya
 
 ##### jika baru pertama kali dan isinya kosong maka
 
-``` git submodule update --init```
+`git submodule update --init`
 
 ##### untuk update data
-```git submodule sync --recursive```
+`git submodule sync --recursive`
 
 http://queirozf.com/entries/git-submodules-by-example#update-all-git-submodules-in-repo
