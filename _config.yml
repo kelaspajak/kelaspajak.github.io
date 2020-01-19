@@ -29,6 +29,7 @@ collections:
   docs:
     output: true
     permalink: /fitur/:path/
+    screenshots: /assets/screenshot/logos.jpg
 
 
 include:
