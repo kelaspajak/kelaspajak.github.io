@@ -45,9 +45,11 @@ hasilnya
 	url = https://github.com/kelaspajak/lainlain.git
 ```
 
-jika baru pertama kali dan isinya kosong maka
+##### jika baru pertama kali dan isinya kosong maka
 
 ``` git submodule update --init```
 
-untuk update data
+##### untuk update data
 ```git submodule sync --recursive```
+
+http://queirozf.com/entries/git-submodules-by-example#update-all-git-submodules-in-repo
