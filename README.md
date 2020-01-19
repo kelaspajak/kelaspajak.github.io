@@ -48,3 +48,6 @@ hasilnya
 jika baru pertama kali dan isinya kosong maka
 
 ``` git submodule update --init```
+
+untuk update data
+```git submodule sync --recursive```
