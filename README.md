@@ -35,7 +35,8 @@ git push
 #### hasilnya 
 
 
-```[submodule "_docs/aspekpajak"]
+```
+[submodule "_docs/aspekpajak"]
 	path = _docs/aspekpajak
 	url = https://github.com/kelaspajak/aspekpajak.git
 [submodule "_docs/kup"]
