@@ -14,3 +14,37 @@ Type `ideos Webcasts Whitepapers`
 
 #### icon
 - https://www.flaticon.com/free-icon/file_595496?term=file&page=1&position=29 file
+
+#### Submodule untuk fitur
+- cd _docs 
+- https://stackoverflow.com/questions/12898278/issue-with-adding-common-code-as-git-submodule-already-exists-in-the-index
+- git submodule add https://github.com/kelaspajak/kup.git
+- git submodule add https://github.com/kelaspajak/aspekpajak.git
+- git submodule add https://github.com/kelaspajak/lainlain.git
+- git submodule add https://github.com/kelaspajak/ppn.git
+- git submodule add https://github.com/kelaspajak/pph.git
+
+```cd submodule_name
+git checkout master && git pull
+cd ..
+git add submodule_name
+git commit -m "updating submodule to latest"
+git push```
+
+hasilnya 
+
+```
+[submodule "_docs/aspekpajak"]
+	path = _docs/aspekpajak
+	url = https://github.com/kelaspajak/aspekpajak.git
+[submodule "_docs/kup"]
+	path = _docs/kup
+	url = https://github.com/kelaspajak/kup.git
+[submodule "_docs/lainlain"]
+	path = _docs/lainlain
+	url = https://github.com/kelaspajak/lainlain.git
+```
+
+jika baru pertama kali dan isinya kosong maka
+
+``` git submodule update --init```
