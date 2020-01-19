@@ -1,5 +1,5 @@
 {% capture dataid %}{{page.dataid}}{%endcapture%}
-{% assign dot = site.docs| where: "category", dataid | group_by: 'linkurl' %}
+{% assign dot = site.docs | where: "category", dataid | group_by: 'linkurl' %}
 
 <div class="f6 Label Label--gray">{{page.category}}</div>
 <h1 class="h1-mktg mt-2">{{page.description}} </h1>
