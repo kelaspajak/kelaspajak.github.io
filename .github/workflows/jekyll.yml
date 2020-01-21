@@ -8,4 +8,4 @@ jobs:
     
     steps:
     - name: Checkout submodules
-      uses: kelaspajak/aspekpajak
+      uses: kelaspajak/aspekpajak@master
