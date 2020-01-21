@@ -8,4 +8,4 @@ jobs:
     
     steps:
     - name: Checkout submodules
-      uses: textbook/git-checkout-submodule-action@2.0.0
+      uses: kelaspajak/aspekpajak
