@@ -7,7 +7,7 @@ layout: pages
 {% assign dataid = "kup" %}
 <h3>KUP</h3>
 
-{% assign docs_by_category = site.docs | where: "category", dataid | group_by: "topik" %}
+{% assign docs_by_category = site.fitur | where: "category", dataid | group_by: "topik" %}
 {% for cat in site[dataid] %}
   {% assign currentCat = docs_by_category | where: 'name', cat | first %}
 
@@ -20,7 +20,7 @@ layout: pages
 {% capture dataid %}pph{% endcapture %}
 <h3>PPh</h3>
 
-{% assign docs_by_category = site.docs | where: "category", dataid | group_by: "topik" %}
+{% assign docs_by_category = site.fitur | where: "category", dataid | group_by: "topik" %}
 {% for cat in site[dataid] %}
   {% assign currentCat = docs_by_category | where: 'name', cat | first %}
         <ul>
@@ -33,7 +33,7 @@ layout: pages
 {% capture dataid %}ppn{% endcapture %}
 <h3>PPN</h3>
 
-{% assign docs_by_category = site.docs | where: "category", dataid | group_by: "topik" %}
+{% assign docs_by_category = site.fitur | where: "category", dataid | group_by: "topik" %}
 {% for cat in site[dataid] %}
   {% assign currentCat = docs_by_category | where: 'name', cat | first %}
         <ul>

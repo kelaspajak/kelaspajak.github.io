@@ -1,5 +1,5 @@
 {% capture dataid %}{{page.dataid}}{%endcapture%}
-{% assign dot = site.docs | where: "category", dataid | group_by: 'linkurl' %}
+{% assign dot = site.fitur | where: "category", dataid | group_by: 'linkurl' %}
 
 <div class="f6 Label Label--gray">{{page.category}}</div>
 <h1 class="h1-mktg mt-2">{{page.description}} </h1>
@@ -9,7 +9,7 @@
 <p class="text-small text-gray"><span class="IssueLabel {{page.label}} text-white">tutup</span> kelas ini masih dalam tahap penyempurnaan materi dan pembenahan basis data</p>
 {% endif %}
 
-{% assign docs_by_category = site.docs | where: "category", dataid | group_by: "topik" %}
+{% assign docs_by_category = site.fitur | where: "category", dataid | group_by: "topik" %}
 {% for cat in site.[dataid] %}
   {% assign currentCat = docs_by_category | where: 'name', cat | first %}
     <h3 class="d-block mt-2" id="{{ currentCat.name }}">{{ currentCat.name }}</h3>
@@ -23,12 +23,12 @@
     </ul>
 
     {% capture namatopik %}{{currentCat.name}}{% endcapture %}
-    {% assign namesubtopik = site.docs | where: "topik", namatopik | group_by: 'subtopik' %}
+    {% assign namesubtopik = site.fitur | where: "topik", namatopik | group_by: 'subtopik' %}
     {% for subtop in namesubtopik %}
         <h4 class="d-block mt-3">{{ subtop.name }} </h4> 
         <ul>
             {% capture subtopik1 %}{{subtop.name}}{% endcapture %}
-            {% assign titling = site.docs | where: "subtopik", subtopik1 %}
+            {% assign titling = site.fitur | where: "subtopik", subtopik1 %}
             {% assign titles= titling %}    
             {% for item in titles %}
             {% include listing-modul-list.html %}
