@@ -29,7 +29,7 @@ sass:
 collections:
   docs:
     output: true
-    permalink: /fitur/:path/
+    permalink: /fitur/:title:output_ext
     screenshots: /assets/screenshot/logos.jpg
 
 
