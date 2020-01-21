@@ -1,5 +1,5 @@
 <div class="d-md-flex flex-wrap mt-3">
-    {% assign sort1 = site.docs | where: "category", kup | sort: "modifiedTime" %}
+    {% assign sort1 = site.fitur | where: "category", kup | sort: "modifiedTime" %}
     {% assign t = sort1 | sort: "linkurl" | reverse %}
     {% for titles in t limit:8 %}
     {% if titles.topik != nil %}     

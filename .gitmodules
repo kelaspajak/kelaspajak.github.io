@@ -1,15 +1,3 @@
-[submodule "_docs/aspekpajak"]
-	path = _docs/aspekpajak
-	url = https://github.com/kelaspajak/aspekpajak.git
-[submodule "_docs/kup"]
-	path = _docs/kup
-	url = https://github.com/kelaspajak/kup.git
-[submodule "_docs/lainlain"]
-	path = _docs/lainlain
-	url = https://github.com/kelaspajak/lainlain.git
-[submodule "_docs/ppn"]
-	path = _docs/ppn
-	url = https://github.com/kelaspajak/ppn.git
-[submodule "_docs/pph"]
-	path = _docs/pph
-	url = https://github.com/kelaspajak/pph.git
+[submodule "_fitur/docs"]
+	path = _fitur/docs
+	url = https://github.com/kelaspajak/docs.git

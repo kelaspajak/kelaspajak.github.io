@@ -1,5 +1,5 @@
 {% capture dataid %}{{page.dataid}}{%endcapture%}
-{% assign dot = site.docs | where: "fitur", dataid | group_by: 'linkurl' %}
+{% assign dot = site.fitur | where: "fitur", dataid | group_by: 'linkurl' %}
 
 <h1 class="h1-mktg mt-2">{{page.title}} </h1>
 <p>{{page.description}} </p>
@@ -9,13 +9,13 @@
 <p class="text-small text-gray"><span class="IssueLabel {{page.label}} text-white">tutup</span> kelas ini masih dalam tahap penyempurnaan materi dan pembenahan basis data</p>
 {% endif %}
 
-{% assign docs_by_category = site.docs | where: "fitur", dataid | group_by: "topik" %}
+{% assign docs_by_category = site.fitur | where: "fitur", dataid | group_by: "topik" %}
 {% for cat in docs_by_category %}
 <h3 class="d-block mt-2">{{ cat.name }}{% if cat.name == "Versi Ringan" %}<span class="v-align-middle bg-gradient-green rounded-1 text-white text-bold text-uppercase p-1 text-small ml-1" style="font-size: 10px !important;">Free</span>{% endif %} </h3>
 
     <div class="d-md-flex flex-wrap mt-3">
         {% capture namatopik %}{{ cat.name }}{% endcapture %}
-        {% assign sort1 = site.docs | where: "topik", namatopik | sort: "modifiedTime" %}
+        {% assign sort1 = site.fitur | where: "topik", namatopik | sort: "modifiedTime" %}
         {% assign t = sort1 | sort: "linkurl" | reverse %}
         {% for titles in t %}
         {% if titles.topik != nil %}     

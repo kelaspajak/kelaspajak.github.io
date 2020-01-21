@@ -27,7 +27,7 @@ sass:
     - node_modules
 
 collections:
-  docs:
+  fitur:
     output: true
     permalink: /fitur/:title:output_ext
     screenshots: /assets/screenshot/logos.jpg
@@ -40,7 +40,7 @@ include:
 defaults:
   - scope:
       path: ""
-      type: docs
+      type: fitur
     values:
       layout: detail
 
