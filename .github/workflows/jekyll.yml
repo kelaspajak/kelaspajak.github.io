@@ -4,6 +4,8 @@ on: [push, pull_request]
 
 jobs:
   build:
+    runs-on: [ubuntu-latest]
+    
     steps:
     - name: Checkout submodules
       uses: textbook/git-checkout-submodule-action@2.0.0
