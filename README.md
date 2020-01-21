@@ -52,6 +52,8 @@ git push
 `git submodule update --init`
 
 ##### untuk update data
-`git submodule sync --recursive`
+git submodule update --init --recursive
+git submodule foreach --recursive git fetch
+git submodule foreach git merge origin master
 
-http://queirozf.com/entries/git-submodules-by-example#update-all-git-submodules-in-repo
+https://stackoverflow.com/questions/10168449/git-update-submodules-recursively
