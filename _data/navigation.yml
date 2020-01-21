@@ -18,6 +18,10 @@ docs:
         id: ppn
         url: /fitur/resume/ppn/
         description: "Pajak Pertambahan Nilai dan Pajak Penjualan Barang Mewah"
+      - title: "Efaktur"
+        id: efaktur
+        url: /fitur/resume/efaktur/
+        description: "Semua tentang efaktur beserta kode errornya"
 #      - title: "PBB"
 #        url: /fitur/resume/pbb/
 #      - title: "Bea Meterai"
