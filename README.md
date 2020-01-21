@@ -55,5 +55,9 @@ git push
 git submodule update --init --recursive
 git submodule foreach --recursive git fetch
 git submodule foreach git merge origin master
+git add .
+git commit -am "update submodule"
+git push origin master
+
 
 https://stackoverflow.com/questions/10168449/git-update-submodules-recursively
