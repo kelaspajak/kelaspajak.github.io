@@ -6,7 +6,7 @@ on:
       - releases/v3
   push:
     branches:
-      - dev
+      - master
 jobs:
   unit-tests:
     runs-on: ubuntu-latest
