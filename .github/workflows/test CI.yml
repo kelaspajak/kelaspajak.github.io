@@ -22,3 +22,5 @@ jobs:
         uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.kelaspajakwithless }} #required
+      - name: Rubocop checks
+        uses: gimenete/rubocop-action@1.0
