@@ -24,7 +24,7 @@
             <img class="CircleBadge-icon" alt="" src="/assets/icon/{{dataid}}/{% if titles.img %}{{titles.img}}{%else%}files-and-folders.png{% endif %}">
           </div>
             <div class="px-3">
-                <h4 class="h4">
+                <h4 class="h4" id="{{topik}}-{{titles.title}}">
                 {% if titles.linkurl != nil %}
                   <a href="{{titles.linkurl}}" target="_blank">{{titles.title}}</a>
                   <span class="tooltipped tooltipped-n" aria-label="aktif">{% octicon verified height:16 class:"ml-1 text-green" %}</span>
