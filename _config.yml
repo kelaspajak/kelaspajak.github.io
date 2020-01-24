@@ -1,0 +1,101 @@
+title: KelasPajakWithLess
+description: Mudahnya belajar perpajakan Indonesia
+permalink: pretty
+twitter_username: kelaspajakwith1
+instagram: kelaspajakwith
+
+repository: kelaspajak/kelaspajak.github.io
+encoding: UTF-8
+
+exclude:
+  - Gemfile*
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - node_modules
+  - _submodules
+  - script
+  - vendor
+  - .travis.yml
+  - ".git*"
+
+markdown: kramdown
+
+sass:
+  style: :compressed
+  sass_dir: _sass
+  load_paths:
+    - node_modules
+
+collections:
+  fitur:
+    output: true
+    permalink: /fitur/:title:output_ext
+    screenshots: /assets/screenshot/logos.jpg
+
+
+include:
+  - _pages
+
+
+defaults:
+  - scope:
+      path: ""
+      type: fitur
+    values:
+      layout: detail
+
+plugins:
+  - jekyll-mentions
+  - jekyll-octicons
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+branch: master
+
+# Google Analytics
+google_analytics: UA-146778045-2
+
+#sort modul fitur/kup
+kup:
+  - Umum
+  - NPWP dan PKP
+  - SPT
+  - Pembukuan
+  - Pembayaran atau Penyetoran
+  - Pemeriksaan
+  - Penagihan Pajak
+  - Keberatan
+  - Banding, Gugatan, dan Peninjauan Kembali
+  - Sanksi, Penetapan dan Ketetapan Pajak
+  - Restitusi
+  - Imbalan Bunga
+  - Sunset policy
+  - Akses Informasi Keuangan
+
+pph:
+  - Subjek Pajak
+  - Penghasilan
+  - Biaya Fiskal
+  - Pencatatan, Pembukuan
+  - Penghasilan atas Jenis Usaha Tertentu
+  - PPh Pasal 21
+  - PPh Pasal 22
+  - PPh Pasal 23
+  - PPh Final Pasal 4 Ayat (2)
+  - PPh Pasal 15
+  - PPh Pasal 19
+  - PPh Pasal 24
+  - PPh Pasal 25
+
+ppn: 
+  - Umum
+  - Subjek PPN
+  - Objek PPN (Pasal 4, Pasal 16C, Pasal 16D)
+  
+efaktur:
+ - error

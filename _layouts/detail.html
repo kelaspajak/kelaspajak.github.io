@@ -1,0 +1,31 @@
+---
+layout: default
+description: digunakan untuk halaman detail dari collection
+---
+<div class="container-lg px-3 pb-6">
+  <div class="d-md-flex flex-md-row flex-md-row-reverse gutter-md-spacious">
+    <div class="col-md-9 markdown-body p-md-6 text-normal fully-width clearfix"  style="overflow: auto;">
+
+      <h1 class="f00-light lh-condensed mb-3">
+        {{ page.title }}
+      </h1>
+      <h4 class="f3">Link ke drive</h4>
+      <p><a href="{{ page.linkurl }}">link</a></p>
+
+      <div>{{content}}</div>
+    </div>
+    {% include sidebar.html %}
+  </div>
+</div>
+{% comment %}
+<script src="/assets/js/anchor.min.js"></script>
+<script type="text/javascript">
+  anchors.options = {
+    placement: 'left',
+    class: 'text-gray no-underline'
+  };
+
+  anchors.add();
+  anchors.remove('.alt-h4');
+</script>
+{% endcomment %}

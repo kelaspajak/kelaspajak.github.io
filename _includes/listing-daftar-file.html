@@ -1,0 +1,7 @@
+<li class="text-normal">
+    {% if titles.active == "ya" %}
+    <a href="{{ titles.url }}" target="_blank" class="tooltipped tooltipped-n" aria-label="File {{titles.type}}, aktif: {{titles.active}}">{{titles.title}}</a>
+    {% else %}
+    <span class="tooltipped tooltipped-n" aria-label="tipe: {{titles.type}}, aktif: {{titles.active}}">{{titles.title}}</span>
+    {% endif %}
+</li>

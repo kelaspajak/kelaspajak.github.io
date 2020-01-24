@@ -1,0 +1,36 @@
+data:
+  - title: Grup Telegram Diskusi Kontribusi Wajib Kepada Negara
+    icon: fab fa-telegram
+    id: 1
+    description: diskusi langsung bersama praktisi pajak dengan jumlah anggota > 6K
+    url: https://t.me/diskusipajak
+  - title: Channel Telegram Kontribusi Wajib Kepada Negara
+    icon: fab fa-telegram
+    id: 2
+    description: Channel satu arah yang berisi informasi penting terkait perpajakan
+    url: https://t.me/tutorialpajak
+  - title: Grup Facebook Diskusi Pajak
+    icon: fab fa-facebook
+    id: 3
+    description: diskusi langsung bersama praktisi pajak menggunakan aplikasi facebook dengan jumlah anggota > 6K
+    url: https://www.facebook.com/groups/diskusipajak/
+  - title: Facebook Pages Diskusi Pajak
+    icon: fab fa-facebook
+    id: 4
+    description: Halaman Facebook yang berisi informasi penting terkait perpajakan> 7.5K
+    url: https://www.facebook.com/diskusipajak/
+  - title: Trello Team Diskusi Pajak
+    icon: fab fa-trello
+    id: 5
+    description: ada 4 board FAQ Pajak Indonesia, Timeline pengerjaan perpajakan di perusahaan, Transfer Pricing, Belajar menemukan kesalahan laporan keuangan
+    url: https://kutt.it/6CMCd1
+  - title: Classroom 
+    icon: fas fa-user-graduate
+    id: 6
+    description: kelas sudah penuh
+    url: 404
+  - title: Instagram kelaspajakwithless
+    icon: fab fa-instagram
+    id: 7
+    description: 
+    url: https://kutt.it/14O5us

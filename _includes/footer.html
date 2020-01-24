@@ -1,0 +1,55 @@
+<div class="text-center bg-footer-gradient">
+  <div class="text-gray py-5">
+    <div>
+      <p class="lh-condensed-ultra f4">
+        Dibuat dengan <img src="/assets/love.png" class="emoji">
+        ditambah <img src="/assets/cappuccino.png" class="emoji"></p> <a href="https://t.me/lesssummer">LessSummer</a></a>.
+      </p>
+      <p><img src="https://developers.google.com/drive/images/drive_app_badge.png"></p>
+    </div>
+  </div>
+</div>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>
+  $(function() {
+    //only create event tracking if ga has loaded
+    ga(function(){
+        $("a.link-black").click(function(e) {
+            var url = $(this).attr("href");
+
+            ga("send", "event", "outbound", "click", url, {"hitCallback":
+                function () {
+                    document.location = url;
+                }
+            });
+
+            e.preventDefault();
+        });
+    });
+});
+
+var pageProperties = {
+    url: "{{ titles.url }}",
+    title: "{{ titles.title | replace: '"', '\\"' }}",
+    scripts: [
+        {% for script in page.scripts %}
+        "{{ script }}",
+        {% endfor %}
+    ],
+};
+</script>
+<script>
+  var octicons = require("octicons")
+  octicons.alert
+toSVG: [Function] }
+</script>
+<script>
+  function closeit(){ 
+  document.getElementById("pengumuman").style.display = "none"; 
+} 
+</script>
+
+{% if jekyll.environment != 'development' %}
+{% include analytics.html %}
+{% endif %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>

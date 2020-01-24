@@ -1,0 +1,8 @@
+<!--untuk file index-detil.html -->
+<li class="text-normal">
+    {% if item.linkurl != nil %}
+    <a href="{{ item.linkurl }}" target="_blank" class="tooltipped tooltipped-n" aria-label="File {{item.type}}">{{item.title}}</a>
+    {% else %}
+    <span class="tooltipped tooltipped-n text-gray-light" aria-label="File {{item.type}}">{{item.title}}</span>
+    {% endif %}
+</li>

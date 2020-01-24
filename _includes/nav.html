@@ -1,0 +1,27 @@
+{% if page.url == '/' %}{% assign homepage = true %}{% endif %}
+
+<div class="bg-biru-linear">
+  <div class="container-lg px-3">
+    <div class="py-4 d-flex flex-justify-between">
+      <a href="/" class="no-underline text-header-light text-white d-flex flex-items-center">
+        <img class="mr-2 mt-n2" src="/assets/tiger-32.png" width="32" height="32" alt="{{ site.title }}">
+        <h1 class="h3 lh-default text-header-bold hide-sm">KelasPajak</h1>
+        <h1 class="h3 hide-sm lh-default text-header-light">WithLess
+        </h1>
+      </a>
+      <nav class="text-bold text-right v-align-middle">
+        {% comment %}
+        {% unless homepage %}
+        {% for fitur in site.data.navigation.docs %}
+        <a class="text-inherit px-2 d-inline-block" {{ fitur.style }} href="{{ fitur.url }}">{{ fitur.title }}
+        </a>
+        {% endfor %}
+        {%endunless%}
+        <a class="text-inherit px-2 d-inline-block" href="/pricing">Langganan</a>{% endcomment %}
+        <a class="text-inherit px-2 d-inline-block" href="/komunitas">
+          Komunitas
+        </a>
+      </nav>
+    </div>
+  </div>
+</div>
