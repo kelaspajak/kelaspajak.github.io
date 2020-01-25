@@ -17,3 +17,4 @@ jobs:
     - uses: actions/labeler@v2
       with:
         repo-token: "${{ secrets.kelaspajakwithless }}"
+    - uses: textbook/git-checkout-submodule-action@2.0.0
