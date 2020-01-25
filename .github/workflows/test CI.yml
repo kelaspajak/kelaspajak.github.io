@@ -12,17 +12,7 @@ jobs:
   unit-tests:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v1
+    - name: Checkout submodules
+      uses: textbook/git-checkout-submodule-action@2.0.0
 
-      - name: Install and Test
-        run: |
-          npm install
-          npm run-script test
-      - name: Uploade CodeCov Report
-        uses: codecov/codecov-action@v1
-        with:
-          token: ${{ secrets.kelaspajakwithless }} #required
-      - name: Bump Git Submodules
-        uses: domdere/git-submodule-action@0.0.1
 
