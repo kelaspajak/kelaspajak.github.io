@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem "github-pages", ">=177"
+gem 'jekyll-octicons'
 
 platforms :ruby_21 do
   gem "rb-inotify", "~> 0.9"
