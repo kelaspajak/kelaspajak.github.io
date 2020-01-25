@@ -1,18 +1,16 @@
-name: unit-tests
-on:
-  pull_request:
-    branches:
-      - dev
-      - releases/v3
-  push:
-    branches:
-      - master
-  
+name: Jekyll site CI
+
+on: [push]
+
 jobs:
-  unit-tests:
+  build:
+
     runs-on: ubuntu-latest
+
     steps:
-    - name: Checkout submodules
-      uses: textbook/git-checkout-submodule-action@2.0.0
-
-
+    - uses: actions/checkout@v2
+    - name: Build the site in the jekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
