@@ -1,6 +1,6 @@
 ---
 display_name: SPT
-short_description: semua tentang NPWP dan PKP
 topic: SPT
+topiccat: kup
 order: 3
 ---

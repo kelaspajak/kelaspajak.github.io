@@ -1,5 +1,6 @@
 ---
 display_name: Imbalan Bunga
 topic: Imbalan Bunga
-order: 11
+topiccat: kup
+order: 10
 ---

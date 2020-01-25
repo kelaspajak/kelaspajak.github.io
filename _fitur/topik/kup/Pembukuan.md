@@ -1,6 +1,6 @@
 ---
 display_name: Pembukuan
-short_description: Pembukuan dan Pencatatan
 topic: Pembukuan
+topiccat: kup
 order: 4
 ---

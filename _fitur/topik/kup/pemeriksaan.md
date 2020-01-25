@@ -1,6 +1,6 @@
 ---
 display_name: Pemeriksaan
-short_description: Pemeriksaan
 topic: Pemeriksaan
+topiccat: kup
 order: 6
 ---
