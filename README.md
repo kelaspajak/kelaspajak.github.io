@@ -47,3 +47,32 @@ git push origin master
 
 
 https://stackoverflow.com/questions/10168449/git-update-submodules-recursively
+
+
+#### Change topik to collection
+```
+---
+display_name: NPWP dan PKP
+short_description: semua tentang NPWP dan PKP
+topic: NPWP dan PKP
+order: 2
+---
+```
+
+
+kup:
+  - Umum
+  - NPWP dan PKP
+  - SPT
+  - Pembukuan
+  - Pembayaran atau Penyetoran
+  - Pemeriksaan
+  - Penagihan Pajak
+  - Keberatan
+  - Banding, Gugatan, dan Peninjauan Kembali
+  - Sanksi, Penetapan dan Ketetapan Pajak
+  - Restitusi
+  - Imbalan Bunga
+  - Sunset policy
+  - Akses Informasi Keuangan
+
