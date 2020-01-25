@@ -6,7 +6,7 @@ on:
       - releases/v3
   push:
     branches:
-      - dev
+      - master
 jobs:
   unit-tests:
     runs-on: ubuntu-latest
@@ -22,3 +22,6 @@ jobs:
         uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.kelaspajakwithless }} #required
+      - name: Bump Git Submodules
+        uses: domdere/git-submodule-action@0.0.1
+
