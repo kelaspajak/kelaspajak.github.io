@@ -1,3 +1,6 @@
 [submodule "_fitur/docs"]
 	path = _fitur/docs
 	url = https://github.com/kelaspajak/docs.git
+[submodule "_fitur/explorer"]
+	path = _fitur/explorer
+	url = https://github.com/kelaspajak/explorer.git
