@@ -24,7 +24,7 @@
     </ul>
 
     {% capture namatopik %}{{currentCat.name}}{% endcapture %}
-    {% assign namesubtopik = site.fitur | where: "topik", namatopik | group_by: 'subtopik' %}
+    {% assign namesubtopik = site.fitur | where: "topiccat", namatopik | group_by: 'subtopik' %}
     {% for subtop in namesubtopik %}
         <h4 class="d-block mt-3" id="{{ subtop.name }}">{{ subtop.name }}</h4> 
         <ul>
