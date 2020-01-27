@@ -46,3 +46,6 @@ git push origin master
 ```
 
 https://stackoverflow.com/questions/10168449/git-update-submodules-recursively
+
+#### permission denied
+chmod +x folder/file
