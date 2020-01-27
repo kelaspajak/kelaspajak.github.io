@@ -41,6 +41,19 @@ permalink: /
   </div>
 </div>
 
+<div class="container-lg">
+  <a class="text-decoration-none" href="{{ fitur.url }}">
+    <div class="row text-center">
+      {% for fitur in site.data.navigation.docs %}
+      <div class="col-lg-3">
+        <img src="/assets/{{fitur.images}}" height="64" class="d-block mx-md-auto mb-3 mx-auto" alt="{{ fitur.title }}">
+        <h2>{{ fitur.title }}</h2>
+        <p>{{ fitur.description }}</p>
+      </div><!-- /.col-lg-4 -->
+      {% endfor %}
+    </div>
+  </a>
+</div>
 {% comment %}
 <div class="container-lg p-responsive text-center py-4">
   <h2 class="h1-mktg lh-condensed mt-6 pt-md-4 mb-0">Resources Perpajakan</h2>
