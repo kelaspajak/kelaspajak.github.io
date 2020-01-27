@@ -1,0 +1,26 @@
+---
+---
+$marketing-font-path: "/assets/fonts/" !default;
+ @import "typhography-inter.scss";
+/*@import '@primer/css/core/index.scss';
+@import "@primer/css/product/index.scss";
+@import "@primer/css/marketing/index.scss";
+@import "pages/home.scss";
+@import "colors.scss";
+@import "markdown.scss";
+@import "anchor.scss"; */
+@import "bootswatch.scss";
+@import "variables.scss";
+
+
+/* untuk test 
+body * { background-color: rgba(255,0,0,.2); }
+body * * { background-color: rgba(0,255,0,.2); }
+body * * * { background-color: rgba(0,0,255,.2); }
+body * * * * { background-color: rgba(255,0,255,.2); }
+body * * * * * { background-color: rgba(0,255,255,.2); }
+body * * * * * * { background-color: rgba(255,255,0,.2); }
+body * * * * * * * { background-color: rgba(255,0,0,.2); }
+body * * * * * * * * { background-color: rgba(0,255,0,.2); }
+body * * * * * * * * * { background-color: rgba(0,0,255,.2); }
+*/
