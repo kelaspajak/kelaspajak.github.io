@@ -24,7 +24,7 @@ permalink: /
 
     <div class="d-md-flex text-md-center mt-6 flex-auto">
       {% for fitur in site.data.navigation.docs %}
-      <div class="col-md-4 px-md-3 mb-3 mx-auto" {{ fitur.style }}>
+      <div class="col-md-3 px-md-3 mb-3 mx-auto" {{ fitur.style }}>
         <a href="{{ fitur.url }}" class="no-underline muted-link bg-snowagain-gradient" {% if fitur.url contains 'faq-pajak-indonesia'  %}target="_blank"{% endif %} style="height:100%">
           <img src="/assets/{{fitur.images}}" height="64" class="d-block mx-md-auto mb-3 mx-auto"
             alt="{{ fitur.title }}">

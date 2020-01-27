@@ -6,7 +6,7 @@ gem 'bootstrap', '~> 4.4.1'
 
 platforms :ruby_21 do
   gem "rb-inotify", "~> 0.9"
-  gem "nokogiri",   "~> 1.9"
+  gem 'nokogiri', '~> 1.10', '>= 1.10.7'
 end
 
 group :test do
