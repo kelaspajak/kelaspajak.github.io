@@ -1,18 +1,234 @@
 ---
 ---
-/*$marketing-font-path: "/assets/fonts/" !default;
- @import "typhography-inter.scss";
+$marketing-font-path: "/assets/fonts/" !default;
+@import "typhography-inter.scss";
 @import '@primer/css/core/index.scss';
 @import "@primer/css/product/index.scss";
 @import "@primer/css/marketing/index.scss";
 @import "pages/home.scss";
 @import "colors.scss";
 @import "markdown.scss";
-@import "anchor.scss"; */
-@import "bootstrap//scss/bootstrap.scss";
+@import "anchor.scss";
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
 
-/* untuk test 
+.featurette {
+  padding-top: $spacer * 10;
+  padding-bottom: $spacer * 10;
+}
+
+.octicon {
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentColor;
+}
+
+code {
+  font-size: 14px;
+}
+
+/*
+ * Extend the footer to the bottom of the page,
+ * even if there’s not enough content to make the page scroll.
+ */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container-lg {
+  flex: 1;
+}
+
+#toc .toc-wrap {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.site-header {
+  text-align: center;
+  color: $blue-mktg !important;
+  -webkit-font-smoothing: antialiased;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+//untuk footer
+.bg-snowagain-gradient {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+ .bg-orange-linear {
+  background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+ }
+
+ //untuk halaman pricing
+ .bg-biru-linear {
+  color: #fff;
+  background: linear-gradient(90deg,#257bf9,#2426ca);
+}
+
+.link-black {
+  color: $black;
+}
+
+.hover-fade{
+  opacity: 0.6;
+}
+
+.hover-fade:hover {
+  opacity: 0.9;
+}
+
+.bg-orange {
+  background-color: $orange-400;
+}
+.text-header-light {
+  font-family: $font-mktg;
+  font-weight: $font-weight-light !important;
+}
+
+.text-header-bold {
+  font-family: $font-mktg;
+  font-weight: $font-weight-bold;
+}
+
+.text-header-medium {
+  font-family: $font-mktg;
+  font-weight: $font-weight-semibold;
+}
+
+//untuk footer
+.bg-footer-gradient {
+  background-image: linear-gradient(to top, #c8e1ff 0%, white 100%);
+}
+
+//untuk pages komunitas
+.bg-bankslate-gradient {
+  background-image: linear-gradient(to top, white 0%, #c8e1ff 100%);
+}
+
+body { 
+  font-family: 'Inter', sans-serif; 
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+@supports (font-variation-settings: normal) {
+  body { font-family: 'Inter', sans-serif; }
+}
+
+@media (min-width: 768px) {
+  .fully-width {
+    min-width: $width-md;
+  }
+}
+
+//twemoji
+img.emoji {
+  height: 1em;
+  width: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+}
+
+svg {
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+}
+
+//inter-ui settings pages pricing
+.font-inter-case {
+  font-feature-settings: 'case' 1;
+}
+
+.slashed-zero {
+  font-feature-settings: 'zero' 1;
+}
+
+.character-variant {
+  font-feature-settings: 'cv11' 1;
+}
+
+.tnum {
+  font-feature-settings: 'tnum' 1;
+}
+
+.hanging-icon-list li {
+  padding-left: 25px;
+  margin: 10px 0;
+  font-size: 14px;
+  list-style-type: none;
+}
+
+.repo-language-color {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.page-content {
+  padding-top: 20px;
+}
+
+.container {
+  width: 980px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+//untuk layout pages.html clear whitespace
+.MarketplaceBody h1, h2, h3, h4, h5, h6 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+// Styles for fun
+// -------------------------------------------------
+
+@import 'https://fonts.googleapis.com/css?family=Comfortaa:300,700|Bungee+Shade|Josefin+Sans:400';
+
+$color-1: rgb(119, 156, 7);
+$color-2: adjust-hue($color-1, 120%);
+// Amount of steps to iterate through color mix
+$steps: 5;
+
+// Mix colors to go from $color-1 ro @color-2 with 9 total steps
+@for $i from 0 to $steps {
+	.destroy:nth-of-type(#{$i + 1}) {
+		background: mix($color-1, $color-2, percentage($i / ($steps - 1)));
+	}
+}
+
+//https://github.com/AllThingsSmitty/css-protips#use-the-lobotomized-owl-selector
+a[href]:not([class]) {
+  color: #008000;
+  text-decoration: underline;
+}
+br + br {
+  display: none;
+}
+
+//untuk button
+.bg-gradient-green {
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+.bg-gradient-yellow{
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+/* untuk test
 body * { background-color: rgba(255,0,0,.2); }
 body * * { background-color: rgba(0,255,0,.2); }
 body * * * { background-color: rgba(0,0,255,.2); }
