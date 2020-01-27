@@ -15,8 +15,12 @@ git submodule update --init --recursive
 
 # ini tambahan sendiri
 echo "==> tambahan sendiri"
+echo "==> update semua submodules"
 git submodule foreach --recursive git fetch
 git submodule foreach git merge origin master
+echo "==>  add file"
 git add .
+echo "==> commit"
 git commit -am "update submodule"
+echo "==> push"
 git push origin master
