@@ -13,25 +13,32 @@ permalink: /
   </div>
 </div>
 
-<div class="container-lg">
-  <h2 class="h1-mktg lh-condensed mt-6 pt-md-4 mb-0">
-    Ada 4 fitur penting yang kami ditampilkan
-  </h2>
-  <p class="f3 text-gray col-md-8 mx-auto text-center">fitur ini merupakan fitur utama dalam mempelajari ilmu
-    perpajakan, yaitu resume, aspek pajak, lain-lain dan tanya jawab
-  </p>
+<div class="py-4 position-relative" style="z-index: 5;">
+  <div class="container-lg p-responsive text-center">
+    <h2 class="h1-mktg lh-condensed mt-6 pt-md-4 mb-0">
+      Ada 4 fitur penting yang kami ditampilkan
+    </h2>
+    <p class="f3 text-gray col-md-8 mx-auto text-center">fitur ini merupakan fitur utama dalam mempelajari ilmu
+      perpajakan, yaitu resume, aspek pajak, lain-lain dan tanya jawab
+    </p>
 
-  <a class="text-decoration-none" href="{{ fitur.url }}">
-    <div class="row text-center">
+    <div class="d-md-flex text-md-center mt-6 flex-auto">
       {% for fitur in site.data.navigation.docs %}
-      <div class="col-lg-3">
-        <img src="/assets/{{fitur.images}}" height="64" class="d-block mx-md-auto mb-3 mx-auto" alt="{{ fitur.title }}">
-        <h2>{{ fitur.title }}</h2>
-        <p>{{ fitur.description }}</p>
-      </div><!-- /.col-lg-4 -->
+      <div class="col-md-4 px-md-3 mb-3 mx-auto" {{ fitur.style }}>
+        <a href="{{ fitur.url }}" class="no-underline muted-link bg-snowagain-gradient" {% if fitur.url contains 'faq-pajak-indonesia'  %}target="_blank"{% endif %} style="height:100%">
+          <img src="/assets/{{fitur.images}}" height="64" class="d-block mx-md-auto mb-3 mx-auto"
+            alt="{{ fitur.title }}">
+          <h3 class="h3-mktg text-normal mb-1 text-center">
+            {{ fitur.title }}
+          </h3>
+          <p class="mb-4 text-gray text-center">
+            {{ fitur.description }}
+          </p>
+        </a>
+      </div>
       {% endfor %}
     </div>
-  </a>
+  </div>
 </div>
 
 {% comment %}
