@@ -33,7 +33,7 @@ sass:
 collections:
   fitur:
     output: true
-    permalink: /:path:output_ext
+    permalink: /:collection/:title:output_ext
     screenshots: /assets/screenshot/logos.jpg
 
 
