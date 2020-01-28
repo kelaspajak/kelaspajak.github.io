@@ -29,7 +29,7 @@
         <h4 class="d-block mt-3" id="{{ subtop.name }}">{{ subtop.name }}</h4> 
         <ul>
             {% capture subtopik1 %}{{subtop.name}}{% endcapture %}
-            {% assign titling = site.fitur | where: "subtopik", subtopik1 %}
+            {% assign titling = site.fitur | where: "subtopik", subtopik1 | sort: "order" %}
             {% assign titles= titling %}    
             {% for item in titles %}
             {% include listing-modul-list.html %}
