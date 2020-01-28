@@ -22,7 +22,7 @@ echo "==>  add file"
 git add .
 echo "==> commit"
 git commit -am "update submodule"
-echo "==> push"
+echo "==> push to submodule..........."
 
 git diff --quiet || {
   echo "===> Committing and pushing changes"
@@ -37,3 +37,4 @@ git diff --quiet || {
 
   git push $REPO HEAD:submodule
 }
+echo "==> selesai.........."

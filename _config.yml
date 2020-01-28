@@ -20,6 +20,7 @@ exclude:
   - vendor
   - .travis.yml
   - ".git*"
+  - bin
 
 markdown: kramdown
 
@@ -32,7 +33,7 @@ sass:
 collections:
   fitur:
     output: true
-    permalink: /fitur/:title:output_ext
+    permalink: /:path
     screenshots: /assets/screenshot/logos.jpg
 
 
