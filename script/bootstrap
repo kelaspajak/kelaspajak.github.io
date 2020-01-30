@@ -3,9 +3,16 @@
 set -e
 export CC=gcc
 
-echo "==> Installing gem dependencies…"
-which bundle || gem install bundle
-bundle check --path vendor/gems 2>&1 > /dev/null || {
-   time bundle install --binstubs bin --path vendor/gems
-}
+# echo "==> Installing gem dependencies…"
+# which bundle || gem install bundle
+# bundle check --path vendor/gems 2>&1 > /dev/null || {
+#    time bundle install --binstubs bin --path vendor/gems
+# }
 
+
+git submodule update --init --recursive
+git submodule foreach --recursive git fetch
+git submodule foreach git merge origin master
+git add .
+git commit -am "update submodule"
+git push origin master
