@@ -49,3 +49,27 @@ https://stackoverflow.com/questions/10168449/git-update-submodules-recursively
 
 #### permission denied
 chmod +x folder/file
+
+
+## Setting Docker
+
+.docker/config.json >> https://docs.docker.com/network/proxy/
+
+```
+{
+    "auths": {
+        "https://index.docker.io/v1/": {}
+    },
+    "credsStore": "desktop",
+    "stackOrchestrator": "swarm",
+    "proxies":
+    {
+      "default":
+      {
+        "httpProxy": "http://0.0.0.0:8080",
+        "httpsProxy": "http://0.0.0.0:8080",
+        "noProxy": ""
+      }
+    }
+   }
+```
