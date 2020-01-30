@@ -56,6 +56,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
+  - jekyll-postcss
 branch: master
 
 # Google Analytics
