@@ -11,7 +11,6 @@ group :jekyll_plugins do
   gem 'jekyll-readme-index'
   gem 'jekyll-mentions'
   gem 'jemoji'
-  gem 'jekyll-postcss'
 end
 
 group :scripts do
