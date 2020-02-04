@@ -228,6 +228,16 @@ br + br {
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
+/*
+     * LetterAvatar
+     * 
+     * Artur Heinze
+     * Create Letter avatar based on Initials
+     * based on https://gist.github.com/leecrossley/6027780
+     * codepen : https://codepen.io/arturheinze/pen/ZGvOMw
+     */
+.round { border-radius: 50%; }
+
 /* untuk test
 body * { background-color: rgba(255,0,0,.2); }
 body * * { background-color: rgba(0,255,0,.2); }

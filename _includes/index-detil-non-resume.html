@@ -21,9 +21,11 @@
         {% if titles.topik != nil %}     
         <div class="col-md-6 mb-4 d-flex no-underline">
           <div class="CircleBadge CircleBadge--small" style="background-color: #ffffff;">
-            
-            <img class="CircleBadge-icon" alt="" src="/assets/icon/{{dataid}}/{{titles.img}}{% if titles.img %}{%else%}none.png{% endif %}">
-            
+            {% if titles.img %}
+              <img class="CircleBadge-icon" alt="" src="/assets/icon/{{dataid}}/{{titles.img}}">
+            {%else%}
+              <img class="round" width="40" height="40" avatar="{{titles.title}}">
+            {% endif %}
           </div>
             <div class="px-3">
                 <h4 class="h4" id="{{titles.topik}}-{{titles.title}}">
