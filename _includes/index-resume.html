@@ -12,7 +12,9 @@
 {% assign top = site.fitur | where: "topiccat", dataid | sort: "order" %}
 {% for cat in top %}
   {% assign currentCat = docs_by_category | where: 'name', cat.topic | first %}
-    <h3 class="d-block mt-2" id="{{ currentCat.name }}">{{ currentCat.name }}</h3>
+    <h3 class="d-block mt-2" id="{{ currentCat.name }}">
+        {{ currentCat.name }}
+    </h3>
     
     <ul class="mt-3">
     {% for item in currentCat.items %}

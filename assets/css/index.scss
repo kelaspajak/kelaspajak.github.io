@@ -194,21 +194,14 @@ svg {
     margin-bottom: 0 !important;
 }
 
-// Styles for fun
-// -------------------------------------------------
+.markdown-body {
+  h3 {
+    margin-top: 3em;
+  }
 
-@import 'https://fonts.googleapis.com/css?family=Comfortaa:300,700|Bungee+Shade|Josefin+Sans:400';
-
-$color-1: rgb(119, 156, 7);
-$color-2: adjust-hue($color-1, 120%);
-// Amount of steps to iterate through color mix
-$steps: 5;
-
-// Mix colors to go from $color-1 ro @color-2 with 9 total steps
-@for $i from 0 to $steps {
-	.destroy:nth-of-type(#{$i + 1}) {
-		background: mix($color-1, $color-2, percentage($i / ($steps - 1)));
-	}
+  h4 {
+    margin-top: 1em;
+  }
 }
 
 //https://github.com/AllThingsSmitty/css-protips#use-the-lobotomized-owl-selector
