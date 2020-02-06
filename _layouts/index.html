@@ -5,15 +5,7 @@ description: digunakan untuk halaman index
 <div class="container-lg px-3 pb-6">
   <div class="d-md-flex flex-md-row flex-md-row-reverse gutter-md-spacious">
     <div class="col-md-9 markdown-body p-md-6 text-normal fully-width clearfix"  style="overflow: auto;">
-
-      {% if page.dataid contains "aspekpajak" %}
-        {% include index-aspekpajak.html %}
-      {% elsif page.dataid contains "lainlain" %}
-        {% include index-lainlain.html %}
-      {% else %}
-        {% include index-resume.html %}
-      {% endif %}
-
+        {% include index.html %}
     </div>
     {% include sidebar.html %}
   </div>

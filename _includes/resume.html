@@ -1,14 +1,3 @@
-{% capture dataid %}{{page.dataid}}{%endcapture%}
-{% assign dot = site.fitur | where: "category", dataid | group_by: 'linkurl' %}
-
-<div class="f6 Label Label--gray">{{page.category}}</div>
-<h1 class="h1-mktg mt-2">{{page.description}} </h1>
-{% if page.status == 'open' %}
-<p class="text-small text-gray">total terdapat <span class="Label {{page.label}} text-white">{{dot.size}}</span> file dengan status aktif dan masih berlaku </p>
-{% else %}
-<p class="text-small text-gray"><span class="IssueLabel {{page.label}} text-white">tutup</span> kelas ini masih dalam tahap penyempurnaan materi dan pembenahan basis data</p>
-{% endif %}
-{% assign docs_by_category = site.fitur | where: "category", dataid | group_by: "topik" %}
 {% assign top = site.fitur | where: "topiccat", dataid | sort: "order" %}
 {% for cat in top %}
   {% assign currentCat = docs_by_category | where: 'name', cat.topic | first %}
