@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Set up Node.js
+      uses: actions/setup-node@v1
+      with:
+         node-version: "${{ env.NODE }}"
     - uses: actions/checkout@v2
     - name: Build the site in the jekyll/builder container
       run: |
