@@ -2,7 +2,7 @@ data:
   - title: Grup Telegram Diskusi Kontribusi Wajib Kepada Negara
     icon: fab fa-telegram
     id: 1
-    description: diskusi langsung bersama praktisi pajak dengan jumlah anggota > 6K
+    description: diskusi langsung bersama praktisi pajak dengan jumlah anggota > 6.6K
     url: https://t.me/diskusipajak
   - title: Channel Telegram Kontribusi Wajib Kepada Negara
     icon: fab fa-telegram
@@ -12,12 +12,12 @@ data:
   - title: Grup Facebook Diskusi Pajak
     icon: fab fa-facebook
     id: 3
-    description: diskusi langsung bersama praktisi pajak menggunakan aplikasi facebook dengan jumlah anggota > 6K
+    description: diskusi langsung bersama praktisi pajak menggunakan aplikasi facebook dengan jumlah anggota > 8.2K
     url: https://www.facebook.com/groups/diskusipajak/
   - title: Facebook Pages Diskusi Pajak
     icon: fab fa-facebook
     id: 4
-    description: Halaman Facebook yang berisi informasi penting terkait perpajakan> 7.5K
+    description: Halaman Facebook yang berisi informasi penting terkait perpajakan
     url: https://www.facebook.com/diskusipajak/
   - title: Trello Team Diskusi Pajak
     icon: fab fa-trello
