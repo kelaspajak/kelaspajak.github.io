@@ -1,7 +1,11 @@
 {% capture dataid %}{{page.dataid}}{%endcapture%}
 {% assign dot = site.fitur | where: "category", dataid | group_by: 'linkurl' %}
 
-<div class="f6 Label Label--gray">{{dataid}}</div>
+{% if page.dataid contains "aspekpajak" or page.dataid contains "lainlain" %}
+
+{% else %}
+    <div class="f6 Label Label--gray">{{dataid}}</div>
+{% endif %}
 
 <h1 class="h1-mktg mt-2">{{page.description}} </h1>
 {% if page.status == 'open' %}
@@ -10,14 +14,11 @@
 <p class="text-small text-gray"><span class="IssueLabel {{page.label}} text-white">tutup</span> kelas ini masih dalam tahap penyempurnaan materi dan pembenahan basis data</p>
 {% endif %}
 
-
-{% if page.dataid contains "aspekpajak" %}
 {% assign docs_by_category = site.fitur | where: "category", dataid | group_by: "topik" %}
+{% if page.dataid contains "aspekpajak" %}
     {% include aspekpajak.html %}
 {% elsif page.dataid contains "lainlain" %}
-    {% assign docs_by_category = site.fitur | where: "fitur", dataid | group_by: "topik" %}
     {% include lainlain.html %}
 {% else %}
-{% assign docs_by_category = site.fitur | where: "category", dataid | group_by: "topik" %}
     {% include resume.html %}
 {% endif %}
