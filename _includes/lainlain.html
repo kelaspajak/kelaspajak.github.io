@@ -19,11 +19,18 @@
                 <h4 class="h4" id="{{titles.topik}}-{{titles.title}}">
                 {% if titles.linkurl != nil %}
                   <a href="{{titles.linkurl}}" target="_blank">{{titles.title}}</a>
+                  {% if title.price %}
+                    <span class="bg-gradient-green rounded-1 text-white text-bold text-uppercase p-1 text-small ml-1" style="font-size: 10px !important;">
+                        Free
+                    </span>
+                  {% endif %}
                   <span class="tooltipped tooltipped-n" aria-label="aktif">{% octicon verified height:16 class:"ml-1 text-green" %}</span>
                 {% else %}
                   {{titles.title}}<span class="tooltipped tooltipped-n" aria-label="tidak aktif">{% octicon issue-opened height:16 class:"ml-1 text-gray" %}</span> 
                 {%endif%}
-                </h4><p class="link-text-gray lh-condensed mb-0 f5">{{titles.description}}</p>
+                </h4>
+                <p class="text-gray-light lh-condensed mb-0 f6 css-truncate css-truncate-overflow">{{titles.description}}
+                </p>
                 <p class="text-gray-light lh-condensed mb-0 text-small"> terakhir diupdate: {{ titles.modifiedTime}}</p>
             </div>
         </div>
