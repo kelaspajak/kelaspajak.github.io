@@ -9,38 +9,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      with:
-        # Repository name with owner. For example, actions/checkout
-        # Default: ${{ github.repository }}
-        repository: 'kelaspajak/kelaspajak.github.io'
-
-        # The branch, tag or SHA to checkout. When checking out the repository that
-        # triggered a workflow, this defaults to the reference or SHA for that event.
-        # Otherwise, defaults to `master`.
-        ref: 'master'
-
-        # Auth token used to fetch the repository. The token is stored in the local git
-        # config, which enables your scripts to run authenticated git commands. The
-        # post-job step removes the token from the git config. [Learn more about creating
-        # and using encrypted secrets](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
-        # Default: ${{ github.token }}
-        token: 'kelaspajakwithless'
-
-        # Whether to persist the token in the git config
-        # Default: true
-        persist-credentials: 'true'
-
-        # Relative path under $GITHUB_WORKSPACE to place the repository
-        path: '$GITHUB_WORKSPACE'
-
-        # Whether to execute `git clean -ffdx && git reset --hard HEAD` before fetching
-        # Default: true
-        clean: 'true'
-
-        # Number of commits to fetch. 0 indicates all history.
-        # Default: 1
-        fetch-depth: '1'
-
-        # Whether to download Git-LFS files
-        # Default: false
-        lfs: 'false'
+    - name: Checkout submodules
+      shell: bash
+      run: |
+        auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+        git submodule sync --recursive
+        git
