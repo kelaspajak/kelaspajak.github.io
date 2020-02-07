@@ -1,7 +1,11 @@
 {% for cat in docs_by_category %}
-<h3 class="d-block mt-2" id="{{ cat.name }}">{{ cat.name }}{% if cat.name == "Versi Ringan" %}<span
-        class="v-align-middle bg-gradient-green rounded-1 text-white text-bold text-uppercase p-1 text-small ml-1"
-        style="font-size: 10px !important;">Free</span>{% endif %} </h3>
+<h3 class="d-block mt-2" id="{{ cat.name }}">{{ cat.name }}
+    {% if cat.name == "Versi Ringan" %}
+        <span class="bg-gradient-green rounded-1 text-white text-bold text-uppercase p-1 text-small ml-1" style="font-size: 10px !important;">
+            Free
+        </span>
+    {% endif %} 
+</h3>
 
 <div class="d-md-flex flex-wrap mt-3">
     {% capture namatopik %}{{ cat.name }}{% endcapture %}
@@ -28,7 +32,13 @@
                     aria-label="tidak aktif">{% octicon issue-opened height:16 class:"ml-1 text-gray" %}</span>
                 {%endif%}
             </h4>
-            <p class="link-text-gray lh-condensed mb-0 f5">{{titles.description}}</p>
+            <p class="text-gray-light lh-condensed mb-0 f6">{{titles.description}} 
+                {% if title.price %}
+                    <span class="bg-gradient-green rounded-1 text-white text-bold text-uppercase p-1 text-small ml-1" style="font-size: 10px !important;">
+                        Free
+                    </span>
+                {% endif %}
+            </p>
             <p class="text-gray-light lh-condensed mb-0 text-small"> terakhir diupdate: {{ titles.modifiedTime}}</p>
         </div>
     </div>
