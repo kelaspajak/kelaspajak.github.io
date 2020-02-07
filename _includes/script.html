@@ -3,23 +3,6 @@ description: untuk halaman javascript
 -->
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <script>
-  $(function() {
-    //only create event tracking if ga has loaded
-    ga(function(){
-        $("a.link-black").click(function(e) {
-            var url = $(this).attr("href");
-
-            ga("send", "event", "outbound", "click", url, {"hitCallback":
-                function () {
-                    document.location = url;
-                }
-            });
-
-            e.preventDefault();
-        });
-    });
-});
-
 var pageProperties = {
     url: "{{ titles.url }}",
     title: "{{ titles.title | replace: '"', '\\"' }}",

@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
   <!-- dedafult <meta name="viewport" content="width=device-width, initial-scale=1">-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/css/index.css?d={{ site.time | date: '%s' }}">
-  <link rel="stylesheet" href="/assets/css/syntax.css?d={{ site.time | date: '%s' }}">
+  {% if jekyll.environment != 'development' %}
+    <link rel="stylesheet" href="/assets/css/index.css?d={{ site.time | date: '%s' }}">
+    <link rel="stylesheet" href="/assets/css/syntax.css?d={{ site.time | date: '%s' }}">
+  {% else %}
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+  {% endif %}  
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   {% seo %}

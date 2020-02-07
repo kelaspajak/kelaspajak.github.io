@@ -9,7 +9,7 @@ permalink: /
     <p class="f4 text-gray col-md-8 mx-auto pb-3">
       {{ site.description}}
     </p>
-    <img src="/assets/ss-2.jpg" width="60%" class=" bg-white rounded-2 box-shadow-large p-0 d-block width-fit mx-auto">
+    <img src="/assets/ss-2.jpg" alt="{{ site.title }}width="60%" class=" bg-white rounded-2 box-shadow-large p-0 d-block width-fit mx-auto">
   </div>
 </div>
 
@@ -26,8 +26,7 @@ permalink: /
       {% for fitur in site.data.navigation.docs %}
       <div class="col-md-3 px-md-3 mb-3 mx-auto" {{ fitur.style }}>
         <a href="{{ fitur.url }}" class="no-underline muted-link bg-snowagain-gradient" {% if fitur.url contains 'faq-pajak-indonesia'  %}target="_blank"{% endif %} style="height:100%">
-          <img src="/assets/{{fitur.images}}" height="64" class="d-block mx-md-auto mb-3 mx-auto"
-            alt="{{ fitur.title }}">
+          <img src="/assets/{{fitur.images}}" height="64" class="d-block mx-md-auto mb-3 mx-auto" alt="{{ fitur.title }}">
           <h3 class="h3-mktg text-normal mb-1 text-center">
             {{ fitur.title }}
           </h3>

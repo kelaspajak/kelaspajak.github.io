@@ -1,7 +1,7 @@
 ---
 ---
 $marketing-font-path: "/assets/fonts/" !default;
-@import "typhography-inter.scss";
+//@import "typhography-inter.scss";
 @import '@primer/css/core/index.scss';
 @import "@primer/css/product/index.scss";
 @import "@primer/css/marketing/index.scss";
@@ -192,16 +192,6 @@ svg {
 .MarketplaceBody h1, h2, h3, h4, h5, h6 {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
-}
-
-.markdown-body {
-  h3 {
-    margin-top: 3em;
-  }
-
-  h4 {
-    margin-top: 1em;
-  }
 }
 
 //https://github.com/AllThingsSmitty/css-protips#use-the-lobotomized-owl-selector
