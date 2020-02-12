@@ -218,7 +218,7 @@ a.active  {
   background-image:linear-gradient(45deg, #fff000 0%, #feba02 100% );
 }
 
-.bg-gradient-green, .bg-gradient-yellow {
+.alt-h4 .bg-gradient-green,.alt-h4 .bg-gradient-yellow {
     /* clip hackery */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
