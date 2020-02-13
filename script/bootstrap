@@ -9,7 +9,7 @@ export CC=gcc
 #    time bundle install --binstubs bin --path vendor/gems
 # }
 
-
+echo "==> Getting submodule for docs…"
 git submodule update --init --recursive
 git submodule foreach --recursive git fetch
 git submodule foreach git merge origin master
