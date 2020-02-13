@@ -16,30 +16,3 @@ layout: pages
             </h4>
 
 {% endfor %}
-{% comment %}
-{% capture dataid %}pph{% endcapture %}
-<h3>PPh</h3>
-
-{% assign docs_by_category = site.fitur | where: "category", dataid | group_by: "topik" %}
-{% for cat in site[dataid] %}
-  {% assign currentCat = docs_by_category | where: 'name', cat | first %}
-        <ul>
-            <li class="text-normal">
-                {{ currentCat.name }}
-            </li>
-        </ul>
-{% endfor %}
-
-{% capture dataid %}ppn{% endcapture %}
-<h3>PPN</h3>
-
-{% assign docs_by_category = site.fitur | where: "category", dataid | group_by: "topik" %}
-{% for cat in site[dataid] %}
-  {% assign currentCat = docs_by_category | where: 'name', cat | first %}
-        <ul>
-            <li class="text-normal">
-                {{ currentCat.name }}
-            </li>
-        </ul>
-{% endfor %}
-{% endcomment %}

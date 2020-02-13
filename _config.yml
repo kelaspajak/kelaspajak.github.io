@@ -33,7 +33,7 @@ sass:
 collections:
   fitur:
     output: true
-    permalink: /:collection/:title:output_ext
+    permalink: /:collection/:path
     screenshots: /assets/screenshot/logos.jpg
 
 
@@ -56,7 +56,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
-  - jekyll-postcss
+  
 branch: master
 
 # Google Analytics

@@ -1,4 +1,4 @@
-jekyll:
+kelaspajak:
   image: pajakresources/kelaspajak:1.0
   command: bundle exec jekyll s --force_polling -H 0.0.0.0 -P 4000 --livereload
   ports:
