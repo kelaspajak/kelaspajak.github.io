@@ -15,16 +15,35 @@
     </ul>
 {% endfor %}
 
-
-{% for cat in site.data.resume-pph | group_by:"subfolder" %}
+{% assign items_grouped = site.data.resume-pph | group_by: "Category" | sort: "P#" %}
+{% for cat in items_grouped %}
     <h3 class="d-block mt-2" id="{{ cat.name }}">
         {{ cat.name }}
     </h3>
+   
     <ul class="mt-3">
         {% for item in cat.items %}
-        {% if item.subfolder != nil %}
-           {{ item.subfolder }}
-        {% endif %}
+        {% if item.topic != nil %}
+            {% else %}
+                {% include list-pph-json.html %}
+            {% endif %}
         {% endfor %}
-        </ul>
+    </ul>
+
+    {% comment %}
+    untuk yang memiliki topik
+    {% endcomment %}
+    {% capture category %}{{ cat.name }}{% endcapture %}
+    {% assign namesubtopik = site.data.resume-pph | where: "Category", category | group_by: 'topic' %}
+    {% for subtop in namesubtopik %}
+        <h4 class="d-block mt-3 mb-3" id="{{ subtop.name }}">{{ subtop.name }}</h4> 
+        <ul>
+            {% capture subtopik1 %}{{ subtop.name }}{% endcapture %}
+            {% assign titling = site.data.resume-pph | where: "topic", subtopik1 %}
+            {% assign titles= titling %}    
+            {% for item in titles %}
+            {% include list-pph-json.html %}
+            {%endfor%}
+        </ul>  
+    {%endfor%}
 {% endfor %}
