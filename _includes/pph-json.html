@@ -15,14 +15,16 @@
     </ul>
 {% endfor %}
 
-{% assign items_grouped = site.data.resume-pph | group_by: "Category" | sort: "P#" %}
-{% for cat in items_grouped %}
-    <h3 class="d-block mt-2" id="{{ cat.name }}">
-        {{ cat.name }}
+
+{% assign top = site.fitur | where: "topiccat", dataid | sort: "order" %}
+{% for cat in top %}
+    {% assign currentCat = site.data.resume-pph | where: "Category", top.name %}
+    <h3 class="d-block mt-2" id="{{ currentCat.name }}">
+        {{ currentCat.name }}
     </h3>
    
     <ul class="mt-3">
-        {% for item in cat.items %}
+        {% for item in currentCat.items %}
         {% if item.topic != nil %}
             {% else %}
                 {% include list-pph-json.html %}
