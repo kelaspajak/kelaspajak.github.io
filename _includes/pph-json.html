@@ -25,8 +25,9 @@
    
     <ul class="mt-3">
         {% assign list1 = cat.items | sort: 'P#' %}
+        
         {% for item in list1 %}
-        {% if item.topic != nil %}
+        {% if item.Topic != nil %}
             {% else %}
                 {% include list-pph-json.html %}
             {% endif %}
@@ -37,13 +38,13 @@
         topik
     {% endcomment %}
     {% capture category %}{{cat.name}}{% endcapture %}
-    {% assign topics = site.data.resume-pph | where: "Category", category | group_by: 'topic' | sort: "TopicSort" | reverse %}
+    {% assign topics = site.data.resume-pph | where: "Category", category | group_by: 'Topic' | sort: "SortTopic" | reverse %}
     {% for topic in topics %}
         <h4 class="d-block mt-3" id="{{ topic.name }}">{{ topic.name }} </h4> 
 
         <ul>
             {% capture subtopik1 %}{{topic.name}}{% endcapture %}
-            {% assign titles = site.data.resume-pph | where: "topic", subtopik1 | sort: "P#" %} 
+            {% assign titles = site.data.resume-pph | where: "Topic", subtopik1 | sort: "P#" %} 
             {% for item in titles %}
                 {% include list-pph-json.html %}
             {%endfor%}
