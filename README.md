@@ -1,4 +1,4 @@
-[![JavaScript Style Guide: Kelas Pajak With Less](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "Kelas Pajak With Less")
+[![JavaScript Style Guide: Kelas Pajak With Less](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/kelaspajak/kelaspajak.github.io "Kelas Pajak With Less")
 
 # kelaspajak.github.io
 Front matter di collection features:
