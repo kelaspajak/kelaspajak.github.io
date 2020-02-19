@@ -1,0 +1,54 @@
+{% assign top = site.fitur | where: "topiccat", dataid | sort: "order" %}
+{% for cat in top %}
+  {% assign currentCat = docs_by_category | where: 'name', cat.topic | first %}
+    <h3 class="d-block mt-2" id="{{ currentCat.name }}">
+        {{ currentCat.name }}
+    </h3>
+    
+    <ul class="mt-3">
+    {% for item in currentCat.items %}
+    {% if item.subtopik != nil %}
+        {% else %}
+            {% include listing-modul-list.html %}
+        {% endif %}
+    {% endfor %}
+    </ul>
+{% endfor %}
+
+
+{% assign currentCat = site.data.resume-pph | group_by: "Category" | sort: "SortCategory" | reverse %}
+{% for cat in currentCat %}
+    
+    <h3 class="d-block mt-2" id="{{ currentCat.name }}">
+        {{ cat.name }}
+    </h3>
+   
+    <ul class="mt-3">
+        {% assign list1 = cat.items | sort: 'P#' %}
+        
+        {% for item in list1 %}
+        {% if item.Topic != nil %}
+            {% else %}
+                {% include list-pph-json.html %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+    {% comment %}   
+        topik
+    {% endcomment %}
+    {% capture category %}{{cat.name}}{% endcapture %}
+    {% assign topics = site.data.resume-pph | where: "Category", category | group_by: 'Topic' | sort: "SortTopic" | reverse %}
+    {% for topic in topics %}
+        <h4 class="d-block mt-3" id="{{ topic.name }}">{{ topic.name }} </h4> 
+
+        <ul>
+            {% capture subtopik1 %}{{topic.name}}{% endcapture %}
+            {% assign titles = site.data.resume-pph | where: "Topic", subtopik1 | sort: "P#" %} 
+            {% for item in titles %}
+                {% include list-pph-json.html %}
+            {%endfor%}
+        </ul>  
+    {%endfor%}
+
+{% endfor %}

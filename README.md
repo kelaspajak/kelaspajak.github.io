@@ -77,3 +77,6 @@ chmod +x folder/file
 ## change drive to pdf
 - Before: http://docs.google.com/document/d/12345678/edit?usp=sharing
 - After: http://docs.google.com/document/d/12345678/export?format=pdf
+
+## Warna bagus untuk instagram
+background-color: rgb(237, 241, 245) >> whimsical.com
