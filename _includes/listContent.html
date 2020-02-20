@@ -36,7 +36,7 @@
         {% for item in listItems %}
         {% if item.Topic != nil %}
             {% else %}
-                {% include list-pph-json.html %}
+                {% include listItemCsv.html %}
             {% endif %}
         {% endfor %}
     </ul>
@@ -54,7 +54,7 @@
             {% capture subtopik1 %}{{topic.name}}{% endcapture %}
             {% assign titles = site.data[dataid] | where: "Topic", subtopik1 | sort: "P#" %} 
             {% for item in titles %}
-                {% include list-pph-json.html %}
+                {% include listItemCsv.html %}
             {%endfor%}
         </ul>  
     {%endfor%}
