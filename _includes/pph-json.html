@@ -1,3 +1,6 @@
+{% comment %}
+    membaca file md di collection fitur
+{% endcomment %}
 {% assign top = site.fitur | where: "topiccat", dataid | sort: "order" %}
 {% for cat in top %}
   {% assign currentCat = docs_by_category | where: 'name', cat.topic | first %}
@@ -15,18 +18,22 @@
     </ul>
 {% endfor %}
 
+<hr class="text-center" width="250px">
+{% comment %}
+    membaca file _data sesuai dengan dataid
+{% endcomment %}
 
-{% assign currentCat = site.data.resume-pph | group_by: "Category" | sort: "SortCategory" | reverse %}
-{% for cat in currentCat %}
+{% assign dataidCategory = site.data[dataid] | group_by: "Category" | sort: "SortCategory" | reverse %}
+{% for byIdCategory in dataidCategory %}
     
-    <h3 class="d-block mt-2" id="{{ currentCat.name }}">
-        {{ cat.name }}
+    <h3 class="d-block mt-2" id="{{ byIdCategory.name }}">
+        {{ byIdCategory.name }}
     </h3>
    
     <ul class="mt-3">
-        {% assign list1 = cat.items | sort: 'P#' %}
+        {% assign listItems = byIdCategory.items | sort: 'P#' %}
         
-        {% for item in list1 %}
+        {% for item in listItems %}
         {% if item.Topic != nil %}
             {% else %}
                 {% include list-pph-json.html %}
@@ -37,14 +44,15 @@
     {% comment %}   
         topik
     {% endcomment %}
-    {% capture category %}{{cat.name}}{% endcapture %}
-    {% assign topics = site.data.resume-pph | where: "Category", category | group_by: 'Topic' | sort: "SortTopic" | reverse %}
+
+    {% capture categoryName %}{{byIdCategory.name}}{% endcapture %}
+    {% assign topics = site.data[dataid] | where: "Category", categoryName | group_by: 'Topic' | sort: "SortTopic" | reverse %}
     {% for topic in topics %}
         <h4 class="d-block mt-3" id="{{ topic.name }}">{{ topic.name }} </h4> 
 
         <ul>
             {% capture subtopik1 %}{{topic.name}}{% endcapture %}
-            {% assign titles = site.data.resume-pph | where: "Topic", subtopik1 | sort: "P#" %} 
+            {% assign titles = site.data[dataid] | where: "Topic", subtopik1 | sort: "P#" %} 
             {% for item in titles %}
                 {% include list-pph-json.html %}
             {%endfor%}
