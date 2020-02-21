@@ -49,15 +49,16 @@
     {% assign topics = site.data[dataid] | where: "Category", categoryName | group_by: 'Topic' | sort: "SortTopic" | reverse %}
     {% for topic in topics %}
         {% if topic.name.size > 0 %}
-        <span class="State State--green State--small mr-2" id="{{topic.size}}.{{ topic.name }}">{{ topic.name }}</span>
-        <ul>
-            {% capture subtopik1 %}{{topic.name}}{% endcapture %}
-            {% assign titles = site.data[dataid] | where: "Topic", subtopik1 | sort: "P#" %} 
-            {% for item in titles %}
-                {% include listItemCsv.html %}
-            {%endfor%}
-        </ul> 
-        {% else %} {% endif %}
+            <span class="State State--green State--small mr-2" id="{{topic.size}}.{{ topic.name }}">{{ topic.name }}</span>
+            <ul>
+                {% capture subtopik1 %}{{topic.name}}{% endcapture %}
+                {% assign titles = site.data[dataid] | where: "Topic", subtopik1 | sort: "P#" %} 
+                {% for item in titles %}
+                    {% include listItemCsv.html %}
+                {%endfor%}
+            </ul> 
+        {% else %} 
+        {% endif %}
     {%endfor%}
 
 {% endfor %}
