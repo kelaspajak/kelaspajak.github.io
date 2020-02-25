@@ -23,42 +23,14 @@
     membaca file _data sesuai dengan dataid
 {% endcomment %}
 
-{% assign dataidCategory = site.data[dataid] | group_by: "Category" | sort: "SortCategory" | reverse %}
-{% for byIdCategory in dataidCategory %}
+{% assign dataidCategory = (site.data[dataid] | group_by: "Category" | sort: "SortCategory") | reverse %}
+{% assign sort = dataidCategory | reverse %}
+{% for byIdCategory in sort.items %}
     
-    <h3 class="d-block mt-2" id="{{ byIdCategory.name }}">
-        {{ byIdCategory.name }}
-    </h3>
+    <p class="d-block mt-2" id="{{ byIdCategory.name }}">
+        {{ byIdCategory.Category}}
+    </p>
    
-    <ul class="mt-3">
-        {% assign listItems = byIdCategory.items | sort: 'P#' %}
-        
-        {% for item in listItems %}
-        {% if item.Topic != nil %}
-            {% else %}
-                {% include listItemCsv.html %}
-            {% endif %}
-        {% endfor %}
-    </ul>
 
-    {% comment %}   
-        topik
-    {% endcomment %}
-
-    {% capture categoryName %}{{byIdCategory.name}}{% endcapture %}
-    {% assign topics = site.data[dataid] | where: "Category", categoryName | group_by: 'Topic' | sort: "SortTopic" | reverse %}
-    {% for topic in topics %}
-        {% if topic.name.size > 0 %}
-            <span class="State State--green State--small mr-2" id="{{topic.size}}.{{ topic.name }}">{{ topic.name }}</span>
-            <ul>
-                {% capture subtopik1 %}{{topic.name}}{% endcapture %}
-                {% assign titles = site.data[dataid] | where: "Topic", subtopik1 | sort: "P#" %} 
-                {% for item in titles %}
-                    {% include listItemCsv.html %}
-                {%endfor%}
-            </ul> 
-        {% else %} 
-        {% endif %}
-    {%endfor%}
 
 {% endfor %}
