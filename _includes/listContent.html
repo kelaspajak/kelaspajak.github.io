@@ -3,7 +3,7 @@
 {% endcomment %}
 {% assign top = site.fitur | where: "topiccat", dataid | sort: "order" %}
 {% for cat in top %}
-  {% assign currentCat = docs_by_category | where: 'name', cat.topic | first %}
+{% assign currentCat = docs_by_category | where: 'name', cat.topic | first %}
     <h3 class="d-block mt-2" id="{{ currentCat.name }}">
         {{ currentCat.name }}
     </h3>
