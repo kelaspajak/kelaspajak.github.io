@@ -2,26 +2,27 @@ docs:
   - title: Resume
     image: https://ghicons.github.com/assets/images/light/Documentation.png
     images: Documentation.png
+    emoji: ✍
     id: resume
     description: Resume UU Perpajakan sampai dengan aturan pelaksanaannya
-    url: /fitur/resume/kup/
+    url: /f/kup/
     children:
       - title: "KUP"
         id: kup
-        url: /fitur/resume/kup/
+        url: /f/kup/
         description: "Ketentuan Umum dan Tatacara Perpajakan"
       - title: "PPh"
         id: pph
-        url: /fitur/resume/pph/
+        url: /f/pph/
         description: "Pajak Penghasilan"
       - title: "PPN & PPn BM"
         id: ppn
-        url: /fitur/resume/ppn/
+        url: /f/ppn/
         description: "Pajak Pertambahan Nilai dan Pajak Penjualan Barang Mewah"
       - title: "Efaktur"
         id: efaktur
-        url: /fitur/resume/efaktur/
-        description: "Semua tentang efaktur beserta kode errornya"
+        url: /f/efaktur/
+        description: "Semua tentang efaktur"
 #      - title: "PBB"
 #        url: /fitur/resume/pbb/
 #      - title: "Bea Meterai"
@@ -33,10 +34,11 @@ docs:
   - title: Aspek Pajak Industri
     image: https://ghicons.github.com/assets/images/light/Marketplace.png
     images: Marketplace.png
+    emoji: 🏗
     id: aspekpajak
     description: Aspek Perpajakan per Industri, pohon industri, proses bisnis
     longdescription: seluruh versi hanya dapat dilihat oleh peserta yang terdaftar, kecuali versi ringan. silakan kontak kami untuk mendapatkan hak akses
-    url: /fitur/aspekpajak/
+    url: /f/aspekpajak/
     active: true
     price: 
     - rupiah: Rp.0
@@ -53,38 +55,72 @@ docs:
 
   - title: Lain-lain
     image: https://ghicons.github.com/assets/images/light/Dependencies.png
-    images: Dependencies.png
+    emoji: 🚧
     id: lainlain
  #   style: " style='opacity: 30%;'"
     description: Kumpulan file untuk membantu analisa aspek perpajakan
-    url: /fitur/lain-lain/
+    url: /f/lainlain/
     active: true
     price: 
     - rupiah: Free
     
   - title: Tanya Jawab
     image: https://ghicons.github.com/assets/images/light/Collection.png
-    images: Collection.png
+    emoji: 🔍
     id: tanyajawab
- #   style: " style='opacity: 30%;'"
-    description: Merupakan kumpulan tanya jawab yang sering ditanyakan untuk sementara menggunakan trello
+    description: Merupakan kumpulan tanya jawab yang sering ditanyakan, <code>untuk sementara menggunakan trello</code>
     url: https://kutt.it/Axmg40
     active: true
     price: 
     - rupiah: Free
-#    children:
-#      - title: "KUP"
-#        url: /docs/resume-kup/
-#      - title: "PPh"
-#        url: /docs/resume-pph/
-#      - title: "PPN & PPn BM"
-#        url: /docs/resume-ppn/
-#      - title: "PBB"
-#        url: /docs/resume-pbb/
-#      - title: "Bea Meterai"
-#        url: /docs/resume-bea-meterai/
-#      - title: "Pengampunan Pajak"
-#        url: /docs/resume-pengampunan-pajak/
+    children: 
+      - title: 👉 Link to trello
+        url: https://kutt.it/Axmg40
+  - title: Social
+    image: https://ghicons.github.com/assets/images/light/Collection.png
+    emoji: 💬
+    id: komunitas
+    description: kumpulan link komunitas
+    active: true
+    price: 
+    - rupiah: Free
+    children:
+      - title: Grup Telegram Diskusi Kontribusi Wajib Kepada Negara
+        icon: fab fa-telegram
+        id: 1
+        description: diskusi langsung bersama praktisi pajak dengan jumlah anggota > 6.6K
+        url: https://t.me/diskusipajak
+      - title: Channel Telegram Kontribusi Wajib Kepada Negara
+        icon: fab fa-telegram
+        id: 2
+        description: Channel satu arah yang berisi informasi penting terkait perpajakan
+        url: https://t.me/tutorialpajak
+      - title: Grup Facebook Diskusi Pajak
+        icon: fab fa-facebook
+        id: 3
+        description: diskusi langsung bersama praktisi pajak menggunakan aplikasi facebook dengan jumlah anggota > 8.2K
+        url: https://www.facebook.com/groups/diskusipajak/
+      - title: Facebook Pages Diskusi Pajak
+        icon: fab fa-facebook
+        id: 4
+        description: Halaman Facebook yang berisi informasi penting terkait perpajakan
+        url: https://www.facebook.com/diskusipajak/
+      - title: Trello Team Diskusi Pajak
+        icon: fab fa-trello
+        id: 5
+        description: ada 4 board FAQ Pajak Indonesia, Timeline pengerjaan perpajakan di perusahaan, Transfer Pricing, Belajar menemukan kesalahan laporan keuangan
+        url: https://kutt.it/6CMCd1
+      - title: Classroom 
+        icon: fas fa-user-graduate
+        id: 6
+        description: kelas sudah penuh
+        url: 404
+      - title: Instagram kelaspajakwithless
+        icon: fab fa-instagram
+        id: 7
+        description: 
+        url: https://kutt.it/14O5us
+
 
 
 
