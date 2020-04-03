@@ -7,6 +7,6 @@ fileid="1eI-MuK4bkh7ZFvC4w88xLsJ9Wmsf6Upp"
 filename="pph.csv"
 curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}" > /Users/akmal/Documents/GitHub/kelaspajak.github.io/_data/${filename}
 
-fileid="1zT5Cx_Cq64goD-P6Jbfss_S4Tr6TDRSF"
+fileid="1BY1R8FIbrV-BmmtDP6UzZjYKH4wGzYd8"
 filename="ppn.csv"
 curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}" > /Users/akmal/Documents/GitHub/kelaspajak.github.io/_data/${filename}

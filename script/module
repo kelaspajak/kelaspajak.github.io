@@ -8,6 +8,21 @@ echo "==> tambahan sendiri"
 echo "==> update semua submodules"
 git submodule foreach --recursive git fetch
 git submodule foreach git merge origin master
+
+echo "===> ambil file dari google drive"
+#!/bin/bash
+fileid="1qZ78V-QKtkuJJ2lhUikr7zzleWrDXsPY"
+filename="kup.csv"
+curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}" > /Users/akmal/Documents/GitHub/kelaspajak.github.io/_data/${filename}
+
+fileid="1eI-MuK4bkh7ZFvC4w88xLsJ9Wmsf6Upp"
+filename="pph.csv"
+curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}" > /Users/akmal/Documents/GitHub/kelaspajak.github.io/_data/${filename}
+
+fileid="1BY1R8FIbrV-BmmtDP6UzZjYKH4wGzYd8"
+filename="ppn.csv"
+curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}" > /Users/akmal/Documents/GitHub/kelaspajak.github.io/_data/${filename}
+
 echo "==>  add file"
 git add .
 echo "==> commit"
