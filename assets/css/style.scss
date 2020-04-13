@@ -1,55 +1,55 @@
 ---
 ---
-[data-theme="dark"] {
-    --headline: #fffffe;
-    --background: #0f0e17;
-    --paragraph: #a7a9be;
-    --button: #ff8906;
-    --button-text: #fffffe;
+[data-theme="14"] {
+    --headline-primary: #272343;
+    --background-primary: #fffffe;
+    --paragraph: #2d334a;
+    --paragraph-primary: #2d334a;
+    --button: #ffd803;
+    --button-text: #272343;
+    //card 
+    --sub-headline: #2d334a;
+    --card-background: #fffffe;
+    --card-heading:#272343;
+    --card-paragraph: #2d334a;
+    --card-tag-background: #bae8e8;
+    --card-tag-text: #272343;
+    --card-highlight: #bae8e8;
 
     //illustration
-    --stroke: black;
+    --stroke-primary: #272343;
     --main: #fffffe;
-    --highlight: #ff8906;
-    --secondary: #f25f4c;
-    --tertiary: #e53170;
+    --highlight-primary: #ffd803;
+    --secondary: #e3f6f5;
+    --tertiary: #bae8e8;
     --note: rgba(235, 236, 237, 0.3);
     --base-accent: #f5a623;
     --base-light-accent: #fbd469;
     --base-gradient: linear-gradient(90deg,var(--base-light-accent),var(--base-accent));
   }
 
-  [data-theme="hero"] {
-    --headline: #020826;
-    --background: #f9f4ef;
-    --paragraph: #716040;
-    --button: #8c7851;
-    --button-text: #fffffe;
-
-    //illustration
-    --stroke: #020826;
-    --main: #fffffe;
-    --highlight: #8c7851;
-    --secondary: #eaddcf;
-    --tertiary: #f25042;
-    --note: rgba(235, 236, 237, 0.3);
-    --base-accent: #f5a623;
-    --base-light-accent: #fbd469;
-    --base-gradient: linear-gradient(90deg,var(--base-light-accent),var(--base-accent));
-  }
-
+body {
+  background-color: var(--background-primary);
+}
 body::-webkit-scrollbar {
     width: 12px;               /* width of the entire scrollbar */
   }
   body::-webkit-scrollbar-track {
-    background: var(--background);        /* color of the tracking area */
+    background: var(--background-primary);        /* color of the tracking area */
   }
   body::-webkit-scrollbar-thumb {
-    background-color: var(--headline);    /* color of the scroll thumb */
+    background-color: var(--highlight-primary);    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid var(--stroke)  /* creates padding around scroll thumb */
+    border: 3px solid var(--stroke-primary);  /* creates padding around scroll thumb */
 }
 
+.text-logo {
+  color: var(--stroke-primary);
+}
+
+.text-icon-hero {
+  color: car(--stroke);
+}
   .markdown-body {
       font-size: 16px;  
   }
@@ -65,16 +65,19 @@ body::-webkit-scrollbar {
 .max-w-9xl {
     max-width: 60rem;
 }
-
-.text-headline-500 {
-    color: var(--headline);
+.text-paragraph-primary {
+  color: var(--paragraph-primary);
+}
+.text-headline-primary {
+    color: var(--headline-primary);
 }
 
-.text-highlight-500 {
-    color: var(--highlight);
+.text-highlight-primary {
+    color: var(--highlight-primary);
 }
-.text-tertiary-500 {
-  color: var(--tertiary);
+
+.font-emoji {
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Segoe UI Symbol", "Android Emoji", EmojiSymbols;
 }
 
 .font-sans {
@@ -91,7 +94,9 @@ body::-webkit-scrollbar {
     font-family: Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji !important;
 }
 .hover\:bg-list:hover {
-    background-color: var(--note);
+    //background-color: var(--note);
+    background-color: var(--card-highlight);
+    //opacity: 0.5;
     transition: background-color 1s ease-in-out;
     position: relative;
     left: -1px;
@@ -104,17 +109,14 @@ body::-webkit-scrollbar {
 }
 
 .bg-navbar {
-    //background-image: var(--base-gradient);
+    background-color: var(--card-background);
     //background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
     //background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
 }
 
-.font-emoji {
-    font-family: "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Segoe UI Symbol", "Android Emoji", EmojiSymbols;
-}
-
 .bg-note {
-  background: rgba(235, 236, 237, 0.3)
+  //background: var(--note);
+  background: var(--button);
 }
 
 .round { border-radius: 50%; }

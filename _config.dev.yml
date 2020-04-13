@@ -9,8 +9,6 @@ name: KelasPajakWithLess
 description: Web Developer from Somewhere
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
-
 #
 # Flags below are optional
 #
@@ -89,7 +87,7 @@ collections:
   fitur:
     output: true
     permalink: /fitur/:path
-    screenshots: /assets/screenshot/logos.jpg
+    screenshots: /assets/screenshot/logos.png
 
 
 include:
@@ -158,3 +156,9 @@ ppn:
   - Restitusi PPN
   - Perlakuan PPN atas Jenis Barang dan Jasa Tertentu
   - Impor BKP
+
+aspekpajak:
+  - Mini Version
+  - Versi Lengkap
+  - Versi Ringan
+  - Pohon Industri
