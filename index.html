@@ -22,7 +22,7 @@ description: fitur ini merupakan fitur utama dalam mempelajari ilmu perpajakan, 
     </div>
     {% if menu.children%}<ul class="list-none mb-4">{% for childmenu in menu.children %}
         <li class="hover:bg-list py-1 rounded focus:outline-none focus:underline">
-            <a href="{{ childmenu.url }}" class="no-underline border-0 border-b border-dotted border-indigo-800">{{ forloop.index0 | plus: 1 }}. {{ childmenu.title }} {% comment %}<span style="font-weight:600 mr-2">↓</span>{% endcomment %} </a>
+            <a href="{{ childmenu.url }}" class="no-underline border-0 border-b border-dotted">{{ forloop.index0 | plus: 1 }}. {{ childmenu.title }} {% comment %}<span style="font-weight:600 mr-2">↓</span>{% endcomment %} </a>
         </li>
         {% endfor %}
     </ul>
