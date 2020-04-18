@@ -16,7 +16,7 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   </head>
 
-  <body data-theme="17">
+  <body data-theme="light">
     <div>
       {% include navbar.html %}
     </div>
@@ -39,7 +39,8 @@
     </div>
     {% endcomment %}
     {% if jekyll.environment != 'development' %}
-    {% include analytics.html %}
+    {% include analytics.html %}    
     {% endif %}
+    {% include script.html %}
   </body>
 </html>

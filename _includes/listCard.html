@@ -1,13 +1,13 @@
 <a href="{{ item.linkurl }}" class="block group" target="_blank">
-    <figure class="flex shadow rounded p-2 bg-white hover:shadow-md" id="{{ item.title }}">
+    <figure class="flex shadow rounded p-2 bg-card hover:shadow-md border-card" id="{{ item.title }}">
       <div class="flex-shrink-0 relative rounded overflow-hidden transition transform duration-150 ease-in-out mr-4">
         {% if item.img %}<img class="h-10 w-10 rounded-full mx-auto" src="https://kelaspajak.github.io/assets/icon/{{ page.dataid }}/{{ item.img }}" alt="">
         {% else %} <img class="round" width="40" height="40" avatar="{{item.title}}">
         {% endif %}
       </div>
       <figcaption class="truncate">
-        <p class="text-sm leading-5 font-medium text-gray-900 truncate">{{ item.title }}</p>
-        <p class="text-xs leading-5 text-gray-400">{{ item.modifiedTime | date_to_long_string }}</p>
+        <p class="text-sm leading-5 font-medium text-card-headline truncate">{{ item.title }}</p>
+        <p class="text-xs leading-5 text-card-paragraph">{{ item.modifiedTime | date_to_long_string }}</p>
       </figcaption>
     </figure>
   </a>
