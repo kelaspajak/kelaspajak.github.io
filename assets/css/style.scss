@@ -1,6 +1,14 @@
 --- 
 --- 
 @import "theme";
+@import "markdown-body";
+
+.rainbox-text {
+  background: linear-gradient(53.13deg, #FFD33D 0%, #FB8532 19.02%, #EA4A5A 37.19%, #8A63D2 56.92%, #2188FF 79.93%, #34D058 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
 
 body {
   background-color: var(--background);
@@ -92,12 +100,6 @@ body::-webkit-scrollbar-thumb {
 
 .font-emoji {
   font-family: "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Segoe UI Symbol", "Android Emoji", EmojiSymbols;
-}
-
-.font-sans {
-  font-family: 'Lexend Deca', sans-serif !important;
-  -webkit-font-smoothing: subpixel-antialiased;
-  //#594a4e;
 }
 
 .font-work {
