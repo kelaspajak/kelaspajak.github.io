@@ -17,10 +17,17 @@ layout: default
       </h3>
       <ul class="list-none truncate text-headline-primary">
         {% for item in cat.items %}            
-        {% if item.Topic != nil %}
-        {% else %}
-          {% include listResume.html %}
-        {% endif %}
+          {% if item.Topic != nil %}
+          {% else %}
+            {% if item.Extension == "png" %}
+            <figure class="my-16">
+            <img class="bg-cover rounded-lg shadow-md" src="/assets/resume/{{ item.SortCategory }}.{{ item.Category }}-{{item.NoUr}}.{{ item.Document }}.{{ item.Extension }}">
+            <figcaption class="text-center text-sm">{{ item.Document }}</figcaption>
+            </figure>
+            {% else %}
+              {% include listResume.html %}
+            {% endif %}
+          {% endif %}
         {% endfor %}
       </ul>
       
@@ -34,7 +41,7 @@ layout: default
       </h4>
       <ul class="list-none">
         {% capture subtopik1 %}{{topic.name}}{% endcapture %}
-        {% assign titles = site.data[dataid] | where: "Topic", subtopik1 | sort: "P#" %}
+        {% assign titles = site.data[dataid] | where: "Topic", subtopik1 | sort: "NoUr" %}
         {% for item in titles %}
         {% include listResume.html content="pl-4"%}
         {% endfor %}
