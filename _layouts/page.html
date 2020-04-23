@@ -20,7 +20,10 @@ layout: default
           {% if item.Topic != nil %}
           {% else %}
             {% if item.Extension == "png" %}
-            <img class="my-16 bg-cover rounded-lg shadow-md" src="/assets/resume/{{ item.SortCategory }}.{{ item.Category }}-{{item.NoUr}}.{{ item.Document }}.{{ item.Extension }}">
+            <figure class="my-16">
+            <img class="bg-cover rounded-lg shadow-md" src="/assets/resume/{{ item.SortCategory }}.{{ item.Category }}-{{item.NoUr}}.{{ item.Document }}.{{ item.Extension }}">
+            <figcaption class="text-center text-sm">{{ item.Document }}</figcaption>
+            </figure>
             {% else %}
               {% include listResume.html %}
             {% endif %}
