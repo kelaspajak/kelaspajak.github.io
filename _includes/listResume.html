@@ -1,5 +1,5 @@
-<li class="{% if item.Extension =="2"%}bg-green-200 text-gray-900{% else %}text-headline-primary{% endif %} truncate hover:bg-list py-1 mt-1 rounded focus:outline-none focus:underline">
-    <a href="{{ item.url }}" class="no-underline truncate border-0 border-b border-dotted border-indigo-800" target="_blank" id="{{ item.Document }}">
+<li class="{% if item.Extension =="2"%}bg-green-200 text-gray-900{% elsif item.Extension =="1" %}text-headline-primary{% else %}text-gray-500{% endif %} truncate hover:bg-list py-1 mt-1 rounded focus:outline-none focus:underline">
+    <a href="{{ item.url }}" class="no-underline truncate border-0 border-b border-dotted" target="_blank" id="{{ item.Document }}">
         {{ item.Document }}
     </a>                  
 </li>
