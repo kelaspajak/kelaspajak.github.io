@@ -85,12 +85,17 @@ docs:
     price: 
     - rupiah: Free
     children:
-      - title: Grup Telegram Diskusi Kontribusi Wajib Kepada Negara
+      - title: Grup Telegram Diskusi Pajak
         icon: fab fa-telegram
         id: 1
         description: diskusi langsung bersama praktisi pajak dengan jumlah anggota > 6.6K
         url: https://t.me/diskusipajak
-      - title: Channel Telegram Kontribusi Wajib Kepada Negara
+      - title: Grup Telegram Diskusi Pajak Asistensi Bendahara
+        icon: fab fa-telegram
+        id: 8
+        description: diskusi langsung bersama praktisi pajak dengan jumlah anggota > 6.6K
+        url: https://t.me/diskusibendahara
+      - title: Channel Telegram Diskusi Pajak
         icon: fab fa-telegram
         id: 2
         description: Channel satu arah yang berisi informasi penting terkait perpajakan
