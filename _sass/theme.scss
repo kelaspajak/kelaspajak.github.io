@@ -1,0 +1,73 @@
+[data-theme="light"] {
+
+  //form section 
+  --background: #fffffe;
+  --headline: #00214d;
+  --sub-headline: #1b2d45;
+  --paragraph: #1b2d45;
+  --button: #00ebc7;
+  --button-text: #00214d;
+  --link: #ff8e3c;
+
+  //icon  or illustration
+  --icon-stroke: #00214d;
+  --icon-main: #fffffe;
+  --icon-highlight: #00ebc7;
+  --icon-secondary: #ff5470;
+  --icon-tertiary: #fde24f;
+
+  //card section
+  --card-background: #fffffe;
+  --card-headline: #00214d; 
+  --card-paragraph: #1b2d45;
+  --card-card-background: #f2f4f6;
+  --card-card-headline: #00214d; 
+  --card-card-paragraph: #1b2d45;
+  --card-tag-background: #fffffe;
+  --card-tag-text: #00214d;
+  --card-highlight: #ff5470; 
+
+
+  //form section
+  --form-input: #fffffe;
+  --label-placeholder: #00214d;
+  --form-button: #fde24f;
+  --form-button-text: #00214d;
+}
+
+[data-theme="dark"] {
+
+  //form section 
+  --background: #0f0e17;
+  --headline: #fffffe;
+  --paragraph: #a7a9be;
+  --button: #ff8906;
+  --button-text: #fffffe;
+
+
+  //icon  or illustration
+  --icon-stroke: black;
+  --icon-main: #fffffe;
+  --icon-highlight: #ff8906;
+  --icon-secondary: #f25f4c;
+  --icon-tertiary: #e53170;
+
+  //card section
+  --card-background: #0f0e17;
+  --card-headline: #fffffe; 
+  --card-paragraph: #a7a9be;
+  --card-card-background: #0f0e17;
+  --card-card-headline: #fffffe; 
+  --card-card-paragraph: #a7a9be;
+  --card-tag-background: #ff8906;
+  --card-tag-text: #fffffe;
+  --card-highlight: #e53170; 
+
+
+  //form section
+  --form-background: 
+  --form-input: #0f0e17;
+  --label-placeholder: ##fffffe;
+  --form-button: #e53170;
+  --form-button-text: #fffffe;
+}
