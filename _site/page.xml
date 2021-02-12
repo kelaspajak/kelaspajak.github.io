@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">    
+    <url>
+    <loc>/404.html</loc>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>/about/</loc>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>/f/aspekpajak/</loc>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>/f/efaktur/</loc>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>/f</loc>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>/</loc>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>/f/kup/</loc>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>/f/lainlain/</loc>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>/page.xml</loc>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>/f/pph/</loc>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>/f/ppn/</loc>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>/sitemap.xml</loc>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>/assets/css/style.css</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>
